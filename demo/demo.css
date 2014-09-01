@@ -1,0 +1,9 @@
+BODY {
+	margin: 0;
+	padding: 0;
+}
+
+.overall {
+	max-width: 900px;
+	margin: 0 auto;
+}
