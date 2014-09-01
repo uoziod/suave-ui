@@ -1,38 +1,20 @@
 $fontsDir: '../fonts/';
 
 
-// Open Sans (http://www.fontsquirrel.com/fonts/open-sans)
-
 @font-face {
-	font-family: 'Open Sans';
-	src: url($fontsDir + 'OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-	url($fontsDir + 'OpenSans-Regular-webfont.svg') format('svg'),
-	url($fontsDir + 'OpenSans-Regular-webfont.woff') format('woff'),
-	url($fontsDir + 'OpenSans-Regular-webfont.ttf') format('truetype');
+	font-family: 'Proxima Nova';
+	src: url($fontsDir + 'proxima-nova-regular.eot?#iefix') format('embedded-opentype'),
+	url($fontsDir + 'proxima-nova-regular.svg') format('svg'),
+	url($fontsDir + 'proxima-nova-regular.woff') format('woff'),
+	url($fontsDir + 'proxima-nova-regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Open Sans Bold';
-	src: url($fontsDir + 'OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-	url($fontsDir + 'OpenSans-Bold-webfont.svg') format('svg'),
-	url($fontsDir + 'OpenSans-Bold-webfont.woff') format('woff'),
-	url($fontsDir + 'OpenSans-Bold-webfont.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Open Sans Light';
-	src: url($fontsDir + 'OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
-	url($fontsDir + 'OpenSans-Light-webfont.svg') format('svg'),
-	url($fontsDir + 'OpenSans-Light-webfont.woff') format('woff'),
-	url($fontsDir + 'OpenSans-Light-webfont.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Open Sans Italic';
-	src: url($fontsDir + 'OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-	url($fontsDir + 'OpenSans-Italic-webfont.svg') format('svg'),
-	url($fontsDir + 'OpenSans-Italic-webfont.woff') format('woff'),
-	url($fontsDir + 'OpenSans-Italic-webfont.ttf') format('truetype');
+	font-family: 'Proxima Nova Bold';
+	src: url($fontsDir + 'proxima-nova-bold.eot?#iefix') format('embedded-opentype'),
+	url($fontsDir + 'proxima-nova-bold.svg') format('svg'),
+	url($fontsDir + 'proxima-nova-bold.woff') format('woff'),
+	url($fontsDir + 'proxima-nova-bold.ttf') format('truetype');
 }
 
 
