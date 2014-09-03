@@ -13,7 +13,9 @@ gulp.task('styles', function () {
 		.pipe(sass({
 			errLogToConsole: true
 		}))
-		.pipe(minifyCSS())
+		.pipe(minifyCSS({
+			keepSpecialComments: 0
+		}))
 		.pipe(rename('styles.min.css'))
 		.pipe(gulp.dest('build'));
 });

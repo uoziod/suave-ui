@@ -12,7 +12,7 @@
 					return $sce.trustAsHtml(html);
 				};
 
-				scope.value = '<span class="websymbol mr-nano">' + attrs.suIcon + '</span> ' + attrs.value;
+				scope.value = '<span class="mr-nano fa ' + attrs.suIcon + '"></span> ' + attrs.value;
 			}
 		};
 	}
@@ -29,7 +29,7 @@
 					return $sce.trustAsHtml(html);
 				};
 
-				scope.value = '<div class="icon websymbol">' + attrs.suIconCircle + '</div><div class="text">' + attrs.value + '</div>';
+				scope.value = '<div class="icon fa ' + attrs.suIconCircle + '"></div><div class="text">' + attrs.value + '</div>';
 			}
 		};
 	}
