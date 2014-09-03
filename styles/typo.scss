@@ -1,8 +1,7 @@
 $fontsDir: '../fonts/';
 
-
 @font-face {
-	font-family: 'Proxima Nova';
+	font-family: "Proxima Nova";
 	src: url($fontsDir + 'proxima-nova-regular.eot?#iefix') format('embedded-opentype'),
 	url($fontsDir + 'proxima-nova-regular.svg') format('svg'),
 	url($fontsDir + 'proxima-nova-regular.woff') format('woff'),
@@ -10,21 +9,23 @@ $fontsDir: '../fonts/';
 }
 
 @font-face {
-	font-family: 'Proxima Nova Bold';
+	font-family: "Proxima Nova Bold";
 	src: url($fontsDir + 'proxima-nova-bold.eot?#iefix') format('embedded-opentype'),
 	url($fontsDir + 'proxima-nova-bold.svg') format('svg'),
 	url($fontsDir + 'proxima-nova-bold.woff') format('woff'),
 	url($fontsDir + 'proxima-nova-bold.ttf') format('truetype');
 }
 
-
-// Web Symbols Liga (http://www.justbenice.ru/studio/websymbols/)
-
 @font-face {
-	font-family: 'Web Symbols Liga';
-	src: url($fontsDir + 'websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
-	url($fontsDir + 'websymbolsligaregular.svg') format('svg'),
-	url($fontsDir + 'websymbolsligaregular.woff') format('woff'),
-	url($fontsDir + 'websymbolsligaregular.ttf') format('truetype');
+	font-family: "Web Symbols Liga";
+	src: url($fontsDir + 'web-symbols-liga-regular.eot');
+	src: url($fontsDir + 'web-symbols-liga-regular.eot?#iefix') format('embedded-opentype'),
+	url($fontsDir + 'web-symbols-liga-regular.woff') format('woff'),
+	url($fontsDir + 'web-symbols-liga-regular.ttf') format('truetype'),
+	url($fontsDir + 'web-symbols-liga-regular.svg#WebSymbolsRegular') format('svg');
 }
 
+.websymbol {
+	font-family: "Web Symbols Liga";
+	text-rendering: optimizelegibility;
+}

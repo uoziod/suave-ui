@@ -1,2 +1,2 @@
-ng-strap
+suave-ui
 ========

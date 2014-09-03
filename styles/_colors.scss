@@ -1,0 +1,63 @@
+/**
+* Basic values
+*/
+
+$body-back: #fff;
+$text-def:  #333;
+$text-sec:  #666;
+
+
+
+/**
+* Basic color collection
+*/
+
+$c1: #fff;
+$c2: #fdfdfd;
+$c3: #eefcfd;
+$c4: #fffdbe;
+$c5: #e2e2e2;
+$c6: #ccc;
+$c7: #666;
+$c8: #565f64;
+$c9: #000;
+$c10: #d69744;
+$c11: #dc692a;
+$c12: #d1000a;
+$c13: #00a2c4;
+$c14: #57a5bb;
+$c15: #50808a;
+$c16: #6dac00;
+$c17: #8fc232;
+
+$basic-colors: $c1, $c2, $c3, $c4, $c5, $c6, $c7, $c8, $c9, $c10, $c11, $c12, $c13, $c14, $c15, $c16, $c17;
+
+@for $i from 0 to length($basic-colors) {
+	.c#{$i+1} {
+		color: nth($basic-colors, $i+1);
+	}
+}
+
+
+
+/**
+* Rulers
+*/
+
+$ruler-def:  #ddd;
+$ruler-dark: #666;
+
+
+
+/**
+* Buttons
+*/
+
+$buttons: (
+	'default'  #fcfcfc #e7e7e7 #565f64,
+	'positive' #85d800 #6eb400 #fff,
+	'negative' #e30030 #af0021 #fff,
+	'violet'   #989dbf #747aa4 #fff,
+	'black'    #606060 #212121 #fff,
+	'orange'   #fe7700 #e86300 #fff,
+);

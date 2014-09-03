@@ -1,0 +1,170 @@
+/**
+* Basic elements
+*/
+
+BODY {
+	font: 16px "Proxima Nova", sans-serif;
+	background: $body-back;
+	color: $text-def;
+	margin: 0;
+	padding: 0;
+	padding-top: 18px;
+}
+
+H1, H2, H3, H4, H5, STRONG {
+	font-family: "Proxima Nova Bold", sans-serif;
+	font-weight: bold;
+	letter-spacing: -0.03em;
+}
+
+H1, H2, H3, H4, H5, P {
+	margin: 0 0 18px;
+}
+
+H1 {
+	padding-bottom: 10px;
+	border-bottom: 4px solid;
+}
+
+
+
+/**
+* Secondary elements
+*/
+
+HR {
+	border: none;
+	border-top: 1px solid $ruler-def;
+	margin: 18px 0;
+
+	&.big {
+		border-top: 4px solid;
+	}
+
+	&.dark {
+		border-color: $ruler-dark;
+	}
+}
+
+
+
+/**
+* Shortcuts
+*/
+
+.clear-fix {
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+
+/**
+* Spacers
+*/
+
+.m-none {
+	margin-bottom: 0 !important;
+}
+
+.mt-none {
+	margin-top: 0 !important;
+}
+
+.m-nano {
+	margin-bottom: 5px !important;
+}
+
+.mt-nano {
+	margin-top: 5px !important;
+}
+
+.m-micro {
+	margin-bottom: 10px !important;
+}
+
+.mt-micro {
+	margin-top: 10px !important;
+}
+
+.mr-micro {
+	margin-right: 10px !important;
+}
+
+.m-small {
+	margin-bottom: 20px !important;
+}
+
+.mt-small {
+	margin-top: 20px !important;
+}
+
+.mr-small {
+	margin-right: 20px !important;
+}
+
+.m-normal {
+	margin-bottom: 30px !important;
+}
+
+.mt-normal {
+	margin-top: 30px !important;
+}
+
+.m-middle {
+	margin-bottom: 40px !important;
+}
+
+.mt-middle {
+	margin-top: 40px !important;
+}
+
+.m-big {
+	margin-bottom: 50px !important;
+}
+
+.mt-big {
+	margin-top: 50px !important;
+}
+
+.m-giant {
+	margin-bottom: 60px !important;
+}
+
+.mt-giant {
+	margin-top: 60px !important;
+}
+
+.ml-nano {
+	margin-left: 5px;
+}
+
+.ml-micro {
+	margin-left: 10px;
+}
+
+.mr-nano {
+	margin-right: 5px;
+}
+
+.mr-micro {
+	margin-right: 10px;
+}
+
+
+
+/**
+* Text
+*/
+
+P.small {
+	font-size: 14px;
+	line-height: 20px;
+}
