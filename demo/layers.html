@@ -45,7 +45,7 @@
 				<h3 class="m5">Some facts about layered elements:</h3>
 				<ul>
 					<li><strong>Layered elements</strong> (dropdowns and popups) could be nested</li>
-					<li>Nested layered elements creating tree</li>
+					<li>Nested layered elements are creating tree</li>
 					<li>Second click on opening layer element closes the layer</li>
 					<li>Any click outside top layer will close it</li>
 					<li>Element that opening layer is <strong>caller</strong></li>
@@ -75,7 +75,7 @@
 				</su-dropdown>
 
 				<su-dropdown anchor="dd1-3">
-					<p>Finally, this is dropdown <strong>dd1-2</strong></p>
+					<p>Finally, this is dropdown <strong>dd1-3</strong></p>
 				</su-dropdown>
 
 				<su-dropdown anchor="dd-tiny">
@@ -88,7 +88,7 @@
 
 	<div class="row">
 		<div class="box">
-			<hr class="clear-fix big"/>
+			<hr class="big"/>
 		</div>
 	</div>
 
@@ -101,7 +101,13 @@
 		<div class="col-4">
 			<div class="box">
 
+				<div class="fl">
+					<button su-target="p1">Click here to open popup <strong>p1</strong></button>
+				</div>
 
+				<su-popup anchor="p1">
+					Popup content
+				</su-popup>
 
 			</div>
 		</div>

@@ -10,7 +10,8 @@
 			if (self._layers.length > 0 && !searchInLayers({caller: e.target})) {
 				if (
 					!searchUpInTreeByElement(e.target) ||
-					!angular.equals(closestLayerFromElement(e.target), getTopLayer().element)
+					!angular.equals(closestLayerFromElement(e.target), getTopLayer().element) ||
+					e.target.className.search('su-popup') >= 0
 					) {
 					popLayer();
 				}
@@ -95,6 +96,8 @@
 
 			$element.visible = true;
 			$element.$apply();
+
+			setScrollState();
 		}
 
 		function popLayer () {
@@ -104,6 +107,16 @@
 			$element.$apply();
 
 			self._layers.pop();
+
+			setScrollState();
+		}
+
+		function setScrollState() {
+			if (getTopLayer() && getTopLayer().element[0].className.search('su-popup') >= 0) {
+				angular.element(document).find('body').addClass('no-scroll');
+			} else {
+				angular.element(document).find('body').removeClass('no-scroll');
+			}
 		}
 
 		return {
@@ -134,6 +147,20 @@
 	}
 
 	/* ngInject */
+	function popup (suLayers) {
+		return {
+			restrict: "E",
+			template: '<div class="su-popup" ng-class="{dn: !visible}"><div class="container" ng-transclude></div></div>',
+			transclude: true,
+			replace: true,
+			scope: true,
+			link: function (scope, element, attrs) {
+				suLayers.cacheElement(attrs.anchor, element);
+			}
+		};
+	}
+
+	/* ngInject */
 	function suTarget (suLayers) {
 		return {
 			restrict: "A",
@@ -150,6 +177,7 @@
 						suLayers.popLayer();
 					} else {
 						suLayers.addToLayers(attrs.suTarget, element);
+
 						if (element[0].offsetWidth < 50) {
 							angular.element(suLayers.getTopLayer().element).addClass('tinyWrap');
 						}
@@ -162,6 +190,7 @@
 	angular.module('su-layers', [])
 		.service('suLayers', layersService)
 		.directive('suDropdown', dropdown)
+		.directive('suPopup', popup)
 		.directive('suTarget', suTarget);
 
 })();

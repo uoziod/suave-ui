@@ -9,6 +9,10 @@ BODY {
 	margin: 0;
 	padding: 0;
 	padding-top: 18px;
+
+	&.no-scroll {
+		overflow: hidden;
+	}
 }
 
 A {
@@ -52,9 +56,10 @@ H3 {
 */
 
 HR {
+	clear: both;
 	border: none;
 	border-top: 1px solid $ruler-def;
-	margin: 18px 0;
+	margin: 25px 0;
 
 	&.big {
 		border-top: 4px solid;
