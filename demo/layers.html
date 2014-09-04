@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Layers</title>
+	<link rel="stylesheet" href="../build/styles.min.css"/>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+	<script src="../build/app.min.js"></script>
+	<script>
+		angular.element(document).ready(function() {
+			angular.bootstrap(document, ['suave-ui']);
+		});
+	</script>
+</head>
+<body>
+
+<div class="wrapper">
+
+	<div class="row">
+		<div class="box">
+			<h1>Layers</h1>
+		</div>
+	</div>
+
+	<div class="row m-giant">
+		<div class="col-edge-1">
+			<div class="box">
+				<h3>Dropdowns</h3>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="box">
+
+				<p>
+					<dropdown class="dropdown__default" caller="<a>Обычный дропдаун</a>">
+						Привет!
+					</dropdown>
+
+					|
+
+					<dropdown class="dropdown__big" caller="<a>Вложенные дропдауны</a>">
+						<dropdown class="dropdown__giant" caller="<a>Дропдаун в дропдауне</a>">
+							<dropdown class="dropdown__huge" caller="<a>Ещё один дропдаун в дропдауне</a>">
+								Кстати, кнопка &laquo;ESC&raquo; поочерёдно закрывает открытые слои.<br />
+								Здесь тоже <a popup-caller="popup-1">открытие попапа 1</a>.
+							</dropdown>
+						</dropdown>
+					</dropdown>
+				</p>
+
+				<p>
+					<dropdown caller="<a>!!!</a>">
+						Привет!
+					</dropdown>
+
+					&mdash; ширина элемента, открывающего дропдаун меньше 50px.
+				</p>
+
+			</div>
+		</div>
+		<div class="col-edge-1">
+			<div class="box">
+
+				<p class="fr">
+					<dropdown class="dropdown__huge" caller="<a>Отражён</a>">
+						Если правый край выпавшего дропдауна не помещается в ширину окна, он будет отражён по горизонтали. На о-о-о-оочень большом разрешении, скорее всего, будет выглядеть как обычный.
+					</dropdown>
+				</p>
+
+				<div class="clear-fix"></div>
+
+				<p class="fr">
+					<dropdown class="dropdown__huge" caller="<a>!!!</a>">
+						Ширина элемента, открывающего этот дропдаун тоже меньше 50px.
+					</dropdown>
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

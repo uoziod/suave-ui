@@ -1,4 +1,4 @@
-@import "colors";
+@import "vars";
 @import "mixins";
 
 @import "basics";
@@ -6,5 +6,4 @@
 @import "grid";
 @import "buttons";
 
-$fa-font-path: '../fonts/Font-Awesome/fonts';
-@import "../fonts/Font-Awesome/scss/font-awesome";
+@import "../components/fortawesome-font-awesome/css/font-awesome.css";

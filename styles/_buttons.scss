@@ -9,7 +9,7 @@ INPUT {
 * Button states
 */
 
-$state:     nth($buttons, 1);
+$state:      nth($buttons, 1);
 $first-c1:   nth($state, 2);
 $first-c2:   nth($state, 3);
 $first-text: nth($state, 4);

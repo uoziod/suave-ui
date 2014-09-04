@@ -2,7 +2,8 @@
 
 	angular.module('suave-ui', [
 		'su-grid',
-		'su-button'
+		'su-button',
+		'su-layers'
 	]);
 
 })();

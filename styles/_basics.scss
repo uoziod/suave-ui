@@ -24,6 +24,15 @@ H1, H2, H3, H4, H5, P {
 H1 {
 	padding-bottom: 10px;
 	border-bottom: 4px solid;
+	font-size: 30px;
+}
+
+H2 {
+	font-size: 22px;
+}
+
+H3 {
+	font-size: 18px;
 }
 
 
@@ -62,6 +71,10 @@ HR {
 
 .fr {
 	float: right;
+}
+
+.dn {
+	display: none;
 }
 
 
