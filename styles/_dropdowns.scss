@@ -1,4 +1,4 @@
-.dropdown {
+.su-dropdown {
 	background: $c1;
 	position: absolute;
 	z-index: 5;
@@ -33,5 +33,9 @@
 		z-index: 1;
 		margin-bottom: 0;
 		border-bottom-color: $c6;
+	}
+
+	:last-child {
+		margin-bottom: 0;
 	}
 }

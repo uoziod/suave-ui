@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Layers</title>
+	<title>Layered elements</title>
 	<link rel="stylesheet" href="../build/styles.min.css"/>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
 	<script src="../build/app.min.js"></script>
@@ -18,7 +18,7 @@
 
 	<div class="row">
 		<div class="box">
-			<h1>Layers</h1>
+			<h1>Layered elements</h1>
 		</div>
 	</div>
 
@@ -40,17 +40,17 @@
 				</div>
 
 				<su-dropdown anchor="dd1">
-					<p class="m5">This is dropdown <strong>container</strong></p>
+					<p class="m5">This is dropdown's <strong>dd1</strong> container</p>
 					<button su-target="dd1-1">Click here to open dropdown <strong>dd1-1</strong></button>
 				</su-dropdown>
 
 				<su-dropdown anchor="dd1-1">
-					<p class="m5">This is another dropdown <strong>container</strong></p>
+					<p class="m5">This is dropdown's <strong>dd1-1</strong> container</p>
 					<button su-target="dd1-2">Click here to open dropdown <strong>dd1-2</strong></button>
 				</su-dropdown>
 
 				<su-dropdown anchor="dd1-2">
-					This is dropdown container
+					This is dropdown's <strong>dd1-2</strong> container
 				</su-dropdown>
 
 			</div>
