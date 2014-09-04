@@ -7,12 +7,29 @@
 	z-index: 10;
 	background: transparentize($c0, .25);
 
-	.container {
+	.su-inner {
 		position: relative;
 		width: 710px;
 		margin: 50px auto;
 		background: #fff;
 		box-shadow: 0 0 0 10px rgba(0, 0, 0, .5);
 		border-radius: 5px;
+	}
+
+	.su-title {
+		padding: 18px 65px 15px 30px;
+		min-height: 30px;
+		line-height: 30px;
+		border-bottom: 1px solid #e0e0e0;
+
+		H2 {
+			margin: 0;
+		}
+	}
+
+	.su-container {
+		padding: 20px 30px;
+		border-radius: 5px;
+		background-color: $c2;
 	}
 }

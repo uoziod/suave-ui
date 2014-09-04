@@ -1,12 +1,13 @@
-var gulp       = require('gulp'),
-	concat     = require('gulp-concat'),
-	uglify     = require('gulp-uglify'),
-	ngAnnotate = require('gulp-ng-annotate'),
-	minifyCSS  = require('gulp-minify-css'),
-	sass       = require('gulp-sass'),
-	sourceMaps = require('gulp-sourcemaps'),
-	notify     = require('gulp-notify'),
-	rename     = require('gulp-rename');
+var gulp          = require('gulp'),
+	concat        = require('gulp-concat'),
+	uglify        = require('gulp-uglify'),
+	ngAnnotate    = require('gulp-ng-annotate'),
+	templateCache = require('gulp-angular-templatecache'),
+	minifyCSS     = require('gulp-minify-css'),
+	sass          = require('gulp-sass'),
+	sourceMaps    = require('gulp-sourcemaps'),
+	notify        = require('gulp-notify'),
+	rename        = require('gulp-rename');
 
 gulp.task('styles', function () {
 	gulp.src('styles/style.scss')
@@ -20,8 +21,17 @@ gulp.task('styles', function () {
 		.pipe(gulp.dest('build'));
 });
 
+gulp.task('templates', function () {
+	gulp.src('templates/**/*.tmpl')
+		.pipe(templateCache({
+			module: 'su-templates',
+			standalone: true
+		}))
+		.pipe(gulp.dest('scripts'));
+});
+
 gulp.task('scripts', function () {
-	gulp.src(['scripts/*.js', 'scripts/**/*.js'])
+	gulp.src(['scripts/**/*.js'])
 		.pipe(ngAnnotate()).on('error', notify.onError("Error: <%= error.message %>"))
 		.pipe(sourceMaps.init())
 			.pipe(concat('app'))
@@ -34,8 +44,9 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('watch', function () {
-	gulp.watch(['styles/*.scss', 'styles/**/*.scss'], ['styles']);
-	gulp.watch(['scripts/*.js', 'scripts/**/*.js'], ['scripts']);
+	gulp.watch(['styles/**/*.scss'], ['styles']);
+	gulp.watch(['templates/**/*.tmpl'], ['templates']);
+	gulp.watch(['scripts/**/*.js'], ['scripts']);
 });
 
-gulp.task('default', ['styles', 'scripts', 'watch']);
+gulp.task('default', ['styles', 'templates', 'scripts', 'watch']);

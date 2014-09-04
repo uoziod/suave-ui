@@ -133,10 +133,10 @@
 	}
 
 	/* ngInject */
-	function dropdown (suLayers) {
+	function dropdown ($templateCache, suLayers) {
 		return {
 			restrict: "E",
-			template: '<div class="su-dropdown" ng-class="{dn: !visible}"><span ng-transclude></span></div>',
+			template: $templateCache.get('dropdown.tmpl'),
 			transclude: true,
 			replace: true,
 			scope: true,
@@ -147,14 +147,15 @@
 	}
 
 	/* ngInject */
-	function popup (suLayers) {
+	function popup ($templateCache, suLayers) {
 		return {
 			restrict: "E",
-			template: '<div class="su-popup" ng-class="{dn: !visible}"><div class="container" ng-transclude></div></div>',
+			template: $templateCache.get('popup.tmpl'),
 			transclude: true,
 			replace: true,
 			scope: true,
 			link: function (scope, element, attrs) {
+				scope.config = JSON.parse(attrs.config);
 				suLayers.cacheElement(attrs.anchor, element);
 			}
 		};

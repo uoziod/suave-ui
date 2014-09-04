@@ -56,7 +56,7 @@
 
 				<h3 class="m5">Some more about dropdowns:</h3>
 				<ul>
-					<li>If dropdown callers's width is less then 50 pixels, dropdown's arrow is closer to edge.<br /><a su-target="dd-tiny">Rly??</a></li>
+					<li>If dropdown callers width is less then 50 pixels, dropdowns arrow is closer to edge.<br /><a su-target="dd-tiny">Rly??</a></li>
 				</ul>
 
 				<su-dropdown anchor="dd1">
@@ -105,7 +105,9 @@
 					<button su-target="p1">Click here to open popup <strong>p1</strong></button>
 				</div>
 
-				<su-popup anchor="p1">
+				<su-popup anchor="p1" config='{
+					"title": "Popup \&quot;p1\&quot;"
+				}'>
 					Popup content
 				</su-popup>
 

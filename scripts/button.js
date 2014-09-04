@@ -1,7 +1,7 @@
 (function() {
 
 	/* ngInject */
-	function suaveButtonIcon($sce) {
+	function buttonIcon($sce) {
 		return {
 			restrict: "A",
 			template: '<button><span ng-bind-html="renderHtml(value)"></span></button>',
@@ -12,13 +12,13 @@
 					return $sce.trustAsHtml(html);
 				};
 
-				scope.value = '<span class="mr-nano fa ' + attrs.suIcon + '"></span> ' + attrs.value;
+				scope.value = '<span class="mr5 fa ' + attrs.suIcon + '"></span> ' + attrs.value;
 			}
 		};
 	}
 
 	/* ngInject */
-	function suaveButtonIconInCircle($sce) {
+	function buttonIconInCircle($sce) {
 		return {
 			restrict: "A",
 			template: '<button class="circle"><span ng-bind-html="renderHtml(value)"></span></button>',
@@ -35,7 +35,7 @@
 	}
 
 	angular.module('su-button', [])
-		.directive('suIcon', suaveButtonIcon)
-		.directive('suIconCircle', suaveButtonIconInCircle);
+		.directive('suIcon', buttonIcon)
+		.directive('suIconCircle', buttonIconInCircle);
 
 })();
