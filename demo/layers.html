@@ -22,7 +22,7 @@
 		</div>
 	</div>
 
-	<div class="row m-giant">
+	<div class="row">
 		<div class="col-edge-1">
 			<div class="box">
 				<h3>Dropdowns</h3>
@@ -39,19 +39,69 @@
 					<button su-target="dd1">Click here to open dropdown <strong>dd1</strong></button>
 				</div>
 
+				<div class="clear-fix"></div>
+				<hr />
+
+				<h3 class="m5">Some facts about layered elements:</h3>
+				<ul>
+					<li><strong>Layered elements</strong> (dropdowns and popups) could be nested</li>
+					<li>Nested layered elements creating tree</li>
+					<li>Second click on opening layer element closes the layer</li>
+					<li>Any click outside top layer will close it</li>
+					<li>Element that opening layer is <strong>caller</strong></li>
+					<li><strong>Caller</strong> is any element that have <strong>su-target</strong> attribute</li>
+					<li>Any layered element should have an attribute <strong>anchor</strong>, that tells to <strong>caller</strong> what to display</li>
+					<li>Different callers can be open the same layered elements, <strong>but only if they are not nested by loop</strong></li>
+				</ul>
+
+				<h3 class="m5">Some more about dropdowns:</h3>
+				<ul>
+					<li>If dropdown callers's width is less then 50 pixels, dropdown's arrow is closer to edge.<br /><a su-target="dd-tiny">Rly??</a></li>
+				</ul>
+
 				<su-dropdown anchor="dd1">
-					<p class="m5">This is dropdown's <strong>dd1</strong> container</p>
-					<button su-target="dd1-1">Click here to open dropdown <strong>dd1-1</strong></button>
+					<p class="m5">This is dropdown <strong>dd1</strong></p>
+					<button class="positive" su-target="dd1-1">Click here to open dropdown <strong>dd1-1</strong></button>
 				</su-dropdown>
 
 				<su-dropdown anchor="dd1-1">
-					<p class="m5">This is dropdown's <strong>dd1-1</strong> container</p>
-					<button su-target="dd1-2">Click here to open dropdown <strong>dd1-2</strong></button>
+					<p class="m5">This is dropdown <strong>dd1-1</strong></p>
+					<button class="orange" su-target="dd1-2">Click here to open dropdown <strong>dd1-2</strong></button>
 				</su-dropdown>
 
 				<su-dropdown anchor="dd1-2">
-					This is dropdown's <strong>dd1-2</strong> container
+					<p class="m5">This is dropdown <strong>dd1-2</strong></p>
+					<button class="violet" su-target="dd1-3">Click here to open dropdown <strong>dd1-3</strong></button>
 				</su-dropdown>
+
+				<su-dropdown anchor="dd1-3">
+					<p>Finally, this is dropdown <strong>dd1-2</strong></p>
+				</su-dropdown>
+
+				<su-dropdown anchor="dd-tiny">
+					Yes
+				</su-dropdown>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="box">
+			<hr class="clear-fix big"/>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-edge-1">
+			<div class="box">
+				<h3>Popups</h3>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="box">
+
+
 
 			</div>
 		</div>

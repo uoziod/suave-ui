@@ -11,6 +11,16 @@ BODY {
 	padding-top: 18px;
 }
 
+A {
+	color: $c12;
+	text-decoration: none;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 H1, H2, H3, H4, H5, STRONG {
 	font-family: "Proxima Nova Bold", sans-serif;
 	font-weight: bold;
@@ -55,6 +65,22 @@ HR {
 	}
 }
 
+UL {
+	list-style: none;
+	margin: 0 0 18px;
+	padding: 0;
+
+	LI {
+		margin-left: 25px;
+
+		&:before {
+			position: absolute;
+			content: '—';
+			margin-left: -25px;
+		}
+	}
+}
+
 
 
 /**
@@ -73,13 +99,25 @@ HR {
 	float: right;
 }
 
+.c {
+	text-align: center;
+}
+
+.r {
+	text-align: right;
+}
+
+.l {
+	text-align: left;
+}
+
 
 
 /**
 * Spacers
 */
 
-@each $space in (0, 5, 10, 20, 30, 40, 50, 60) {
+@each $space in (0, 5, 10, 15, 18, 20, 30, 40, 50, 60) {
 	.m#{$space} {
 		margin-bottom: #{$space}px !important;
 	}

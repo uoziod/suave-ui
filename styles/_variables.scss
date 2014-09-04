@@ -12,6 +12,7 @@ $text-sec:  #666;
 * Basic color collection
 */
 
+$c0: #000;
 $c1: #fff;
 $c2: #fdfdfd;
 $c3: #eefcfd;
@@ -20,20 +21,19 @@ $c5: #e2e2e2;
 $c6: #ccc;
 $c7: #666;
 $c8: #565f64;
-$c9: #000;
-$c10: #d69744;
-$c11: #dc692a;
-$c12: #d1000a;
-$c13: #00a2c4;
-$c14: #57a5bb;
-$c15: #50808a;
-$c16: #6dac00;
-$c17: #8fc232;
+$c9: #d69744;
+$c10: #dc692a;
+$c11: #d1000a;
+$c12: #00a2c4;
+$c13: #57a5bb;
+$c14: #50808a;
+$c15: #6dac00;
+$c16: #8fc232;
 
-$basic-colors: $c1, $c2, $c3, $c4, $c5, $c6, $c7, $c8, $c9, $c10, $c11, $c12, $c13, $c14, $c15, $c16, $c17;
+$basic-colors: $c0, $c1, $c2, $c3, $c4, $c5, $c6, $c7, $c8, $c9, $c10, $c11, $c12, $c13, $c14, $c15, $c16;
 
 @for $i from 0 to length($basic-colors) {
-	.c#{$i+1} {
+	.c#{$i} {
 		color: nth($basic-colors, $i+1);
 	}
 }

@@ -1,6 +1,6 @@
 (function () {
 
-	function layers () {
+	function layersService () {
 		var self = this;
 
 		self._elements = [];
@@ -40,7 +40,7 @@
 				if (element.className.search('su-dropdown') >= 0 || element.className.search('su-popup') >= 0) {
 					return angular.element(element);
 				} else {
-					return closestLayerFromElement (angular.element(element).parent()[0])
+					return closestLayerFromElement(angular.element(element).parent()[0]);
 				}
 			} else {
 				return false;
@@ -50,7 +50,7 @@
 		function searchInLayers (request) {
 			var found = false;
 
-			angular.forEach(self._layers, function(item) {
+			angular.forEach(self._layers, function (item) {
 				if (request.id)
 					console.log(request.id, item.id);
 				if (
@@ -68,7 +68,7 @@
 		function searchUpInTreeByElement (element) {
 			var found = false;
 
-			angular.forEach(self._layers, function(item) {
+			angular.forEach(self._layers, function (item) {
 				if (!found && angular.equals(item.element, angular.element(element))) {
 					found = true;
 				}
@@ -143,15 +143,16 @@
 					e.stopPropagation();
 					e.preventDefault();
 
-					if (suLayers.getLayers().length === 0) {
-						suLayers.addToLayers(attrs.suTarget, element)
-					} else if (
-						element === suLayers.getTopLayer().caller ||
-						suLayers.searchInLayers({caller: element}) || !suLayers.searchUpInTreeByElement(element)
-						) {
+					if (suLayers.getLayers().length > 0 && (
+							element === suLayers.getTopLayer().caller ||
+							suLayers.searchInLayers({caller: element}) || !suLayers.searchUpInTreeByElement(element)
+						)) {
 						suLayers.popLayer();
 					} else {
 						suLayers.addToLayers(attrs.suTarget, element);
+						if (element[0].offsetWidth < 50) {
+							angular.element(suLayers.getTopLayer().element).addClass('tinyWrap');
+						}
 					}
 				});
 			}
@@ -159,7 +160,7 @@
 	}
 
 	angular.module('su-layers', [])
-		.service('suLayers', layers)
+		.service('suLayers', layersService)
 		.directive('suDropdown', dropdown)
 		.directive('suTarget', suTarget);
 

@@ -3,7 +3,6 @@
 	position: absolute;
 	z-index: 5;
 
-	min-width: 50px;
 	padding: 10px 15px;
 	margin: 10px 0;
 
@@ -12,7 +11,7 @@
 
 	border: 1px solid $c6;
 	border-radius: 2px;
-	box-shadow: 0 0 25px 0 lighten($c5, 5%);
+	box-shadow: 0 0 25px 0 transparentize($c0, .85);
 
 	&:before,
 	&:after {
@@ -37,5 +36,18 @@
 
 	:last-child {
 		margin-bottom: 0;
+	}
+
+	&.tinyWrap {
+		&:before,
+		&:after {
+			left: 8px;
+		}
+	}
+
+	@each $width in (200, 300, 400, 500, 600) {
+		&.w#{$width} {
+			min-width: #{$width}px;
+		}
 	}
 }
