@@ -1,9 +1,12 @@
-@import "vars";
+@import "variables";
 @import "mixins";
 
 @import "basics";
 @import "typo";
 @import "grid";
 @import "buttons";
+@import "dropdowns";
+
+@import "dominators"; // High priority properties
 
 @import "../components/fortawesome-font-awesome/css/font-awesome.css";

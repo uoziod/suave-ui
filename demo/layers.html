@@ -31,49 +31,27 @@
 		<div class="col-4">
 			<div class="box">
 
-				<p>
-					<dropdown class="dropdown__default" caller="<a>Обычный дропдаун</a>">
-						Привет!
-					</dropdown>
+				<div class="fl">
+					<button su-target="dd1">Click here to open dropdown <strong>dd1</strong></button>
+				</div>
 
-					|
+				<div class="fr">
+					<button su-target="dd1">Click here to open dropdown <strong>dd1</strong></button>
+				</div>
 
-					<dropdown class="dropdown__big" caller="<a>Вложенные дропдауны</a>">
-						<dropdown class="dropdown__giant" caller="<a>Дропдаун в дропдауне</a>">
-							<dropdown class="dropdown__huge" caller="<a>Ещё один дропдаун в дропдауне</a>">
-								Кстати, кнопка &laquo;ESC&raquo; поочерёдно закрывает открытые слои.<br />
-								Здесь тоже <a popup-caller="popup-1">открытие попапа 1</a>.
-							</dropdown>
-						</dropdown>
-					</dropdown>
-				</p>
+				<su-dropdown anchor="dd1">
+					<p class="m5">This is dropdown <strong>container</strong></p>
+					<button su-target="dd1-1">Click here to open dropdown <strong>dd1-1</strong></button>
+				</su-dropdown>
 
-				<p>
-					<dropdown caller="<a>!!!</a>">
-						Привет!
-					</dropdown>
+				<su-dropdown anchor="dd1-1">
+					<p class="m5">This is another dropdown <strong>container</strong></p>
+					<button su-target="dd1-2">Click here to open dropdown <strong>dd1-2</strong></button>
+				</su-dropdown>
 
-					&mdash; ширина элемента, открывающего дропдаун меньше 50px.
-				</p>
-
-			</div>
-		</div>
-		<div class="col-edge-1">
-			<div class="box">
-
-				<p class="fr">
-					<dropdown class="dropdown__huge" caller="<a>Отражён</a>">
-						Если правый край выпавшего дропдауна не помещается в ширину окна, он будет отражён по горизонтали. На о-о-о-оочень большом разрешении, скорее всего, будет выглядеть как обычный.
-					</dropdown>
-				</p>
-
-				<div class="clear-fix"></div>
-
-				<p class="fr">
-					<dropdown class="dropdown__huge" caller="<a>!!!</a>">
-						Ширина элемента, открывающего этот дропдаун тоже меньше 50px.
-					</dropdown>
-				</p>
+				<su-dropdown anchor="dd1-2">
+					This is dropdown container
+				</su-dropdown>
 
 			</div>
 		</div>
