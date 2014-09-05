@@ -1,6 +1,6 @@
 (function () {
 
-	function layersService () {
+	function suaveLayersService () {
 		var self = this;
 
 		self._elements = [];
@@ -86,18 +86,22 @@
 			var element = angular.element(self._elements[id]),
 				$element = element.scope();
 
-			self._layers.push({
-				id: id,
-				element: element,
-				caller: caller
-			});
+			if (element.length > 0) {
+				self._layers.push({
+					id: id,
+					element: element,
+					caller: caller
+				});
 
-			angular.element(caller).after(element);
+				angular.element(caller).after(element);
 
-			$element.visible = true;
-			$element.$apply();
+				$element.visible = true;
+				$element.$apply();
 
-			setScrollState();
+				setScrollState();
+			} else {
+				console.warn('Layered element with id "' + id + '" not found');
+			}
 		}
 
 		function popLayer () {
@@ -133,7 +137,7 @@
 	}
 
 	/* ngInject */
-	function dropdown ($templateCache, suLayers) {
+	function suaveDropdown ($templateCache, suLayers) {
 		return {
 			restrict: "E",
 			template: $templateCache.get('dropdown.tmpl'),
@@ -147,7 +151,7 @@
 	}
 
 	/* ngInject */
-	function popup ($templateCache, suLayers) {
+	function suavePopup ($templateCache, suLayers) {
 		return {
 			restrict: "E",
 			template: $templateCache.get('popup.tmpl'),
@@ -162,7 +166,7 @@
 	}
 
 	/* ngInject */
-	function suTarget (suLayers) {
+	function suaveTarget (suLayers) {
 		return {
 			restrict: "A",
 			scope: true,
@@ -189,9 +193,9 @@
 	}
 
 	angular.module('su-layers', [])
-		.service('suLayers', layersService)
-		.directive('suDropdown', dropdown)
-		.directive('suPopup', popup)
-		.directive('suTarget', suTarget);
+		.service('suLayers', suaveLayersService)
+		.directive('suDropdown', suaveDropdown)
+		.directive('suPopup', suavePopup)
+		.directive('suTarget', suaveTarget);
 
 })();

@@ -34,12 +34,9 @@ gulp.task('scripts', function () {
 	gulp.src(['scripts/**/*.js'])
 		.pipe(ngAnnotate()).on('error', notify.onError("Error: <%= error.message %>"))
 		.pipe(sourceMaps.init())
-			.pipe(concat('app'))
-			.pipe(uglify()).on('error', notify.onError("Error: <%= error.message %>"))
-		.pipe(sourceMaps.write())
-		.pipe(rename({
-			extname: ".min.js"
-		}))
+		.pipe(concat('app.min.js'))
+		.pipe(uglify()).on('error', notify.onError("Error: <%= error.message %>"))
+		.pipe(sourceMaps.write('./'))
 		.pipe(gulp.dest('build'));
 });
 

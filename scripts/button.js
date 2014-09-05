@@ -1,7 +1,7 @@
 (function() {
 
 	/* ngInject */
-	function buttonIcon($sce) {
+	function suaveButtonIcon($sce) {
 		return {
 			restrict: "A",
 			template: '<button><span ng-bind-html="renderHtml(value)"></span></button>',
@@ -18,7 +18,7 @@
 	}
 
 	/* ngInject */
-	function buttonIconInCircle($sce) {
+	function suaveButtonIconInCircle($sce) {
 		return {
 			restrict: "A",
 			template: '<button class="circle"><span ng-bind-html="renderHtml(value)"></span></button>',
@@ -35,7 +35,7 @@
 	}
 
 	angular.module('su-button', [])
-		.directive('suIcon', buttonIcon)
-		.directive('suIconCircle', buttonIconInCircle);
+		.directive('suIcon', suaveButtonIcon)
+		.directive('suIconCircle', suaveButtonIconInCircle);
 
 })();

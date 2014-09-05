@@ -1,6 +1,7 @@
 (function() {
 
-	function suaveGridGuidelines() {
+	/* ngInject */
+	function suaveGridGuidelines($templateCache) {
 		return {
 			restrict: "A",
 			link: function() {
@@ -9,18 +10,9 @@
 						this.gridState = !this.gridState;
 
 						if (this.gridState) {
-							document.getElementsByTagName('BODY')[0].innerHTML +=
-								'<div id="grid-guidelines"><div class="wrap">' +
-									'<div class="col-edge-1"><div class="box"><div class="inner"></div></div></div>' +
-									'<div class="col-1"><div class="box"><div class="inner"></div></div></div>' +
-									'<div class="col-1"><div class="box"><div class="inner"></div></div></div>' +
-									'<div class="col-1"><div class="box"><div class="inner"></div></div></div>' +
-									'<div class="col-1"><div class="box"><div class="inner"></div></div></div>' +
-									'<div class="col-edge-1"><div class="box"><div class="inner"></div></div></div>' +
-									'<div class="left-edge"></div><div class="right-edge"></div>' +
-								'</div></div>';
+							document.getElementsByTagName('BODY')[0].innerHTML += $templateCache.get('gridguide.tmpl');
 						} else {
-							document.getElementById('grid-guidelines').remove();
+							document.getElementById('su-gridguide').remove();
 						}
 					}
 				};
