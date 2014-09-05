@@ -6,6 +6,7 @@
 	left: 0;
 	z-index: 10;
 	background: transparentize($c0, .25);
+	overflow-y: auto;
 
 	.su-inner {
 		position: relative;
@@ -31,5 +32,9 @@
 		padding: 20px 30px;
 		border-radius: 5px;
 		background-color: $c2;
+
+		:last-child {
+			margin-bottom: 0;
+		}
 	}
 }

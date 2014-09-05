@@ -137,10 +137,10 @@
 	}
 
 	/* ngInject */
-	function suaveDropdown ($templateCache, suLayers) {
+	function suaveDropdown (suLayers) {
 		return {
 			restrict: "E",
-			template: $templateCache.get('dropdown.tmpl'),
+			templateUrl: 'dropdown.tmpl',
 			transclude: true,
 			replace: true,
 			scope: true,
@@ -151,15 +151,15 @@
 	}
 
 	/* ngInject */
-	function suavePopup ($templateCache, suLayers) {
+	function suavePopup (suLayers) {
 		return {
 			restrict: "E",
-			template: $templateCache.get('popup.tmpl'),
+			templateUrl: 'popup.tmpl',
 			transclude: true,
 			replace: true,
 			scope: true,
 			link: function (scope, element, attrs) {
-				scope.config = JSON.parse(attrs.config);
+				scope.config = attrs.config ? JSON.parse(attrs.config) : {};
 				suLayers.cacheElement(attrs.anchor, element);
 			}
 		};
