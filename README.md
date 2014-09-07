@@ -1,4 +1,4 @@
-# [Suave UI 0.1.0](uoziod.github.io/suave-ui)
+# [Suave UI 0.1.0](http://uoziod.github.io/suave-ui)
 ### UI Framework for AngularJS
 
 Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). This UI framework is designed for 
@@ -20,7 +20,7 @@ initialization via DI or *angular.bootstrap*.
         });
     </script>
 
-Then you can use **su-directives** right in your code. [Demo & Examples is available here](uoziod.github.io/suave-ui). 
+Then you can use **su-directives** right in your code. [Demo & Examples is available here](http://uoziod.github.io/suave-ui). 
 
 ## License
 - Suave UI is licensed under the MIT License
