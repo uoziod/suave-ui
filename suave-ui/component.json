@@ -1,0 +1,12 @@
+{
+	"name": "suave-ui",
+	"repo": "uoziod/suave-ui",
+	"description": "Suave UI",
+	"version": "0.0.1",
+	"keywords": [],
+	"dependencies": {
+		"FortAwesome/Font-Awesome": "*"
+	},
+	"development": {},
+	"license": "MIT"
+}

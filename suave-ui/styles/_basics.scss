@@ -1,0 +1,156 @@
+/**
+* Basic elements
+*/
+
+BODY {
+	font: 16px "Proxima Nova", sans-serif;
+	background: $body-back;
+	color: $text-def;
+	margin: 0;
+	padding: 0;
+	padding-top: 18px;
+
+	&.no-scroll {
+		overflow: hidden;
+	}
+}
+
+A {
+	color: $c12;
+	text-decoration: none;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+H1, H2, H3, H4, H5, STRONG {
+	font-family: "Proxima Nova Bold", sans-serif;
+	font-weight: bold;
+	letter-spacing: -0.03em;
+}
+
+H1, H2, H3, H4, H5, P {
+	margin: 0 0 18px;
+}
+
+H1 {
+	padding-bottom: 10px;
+	border-bottom: 4px solid;
+	font-size: 30px;
+}
+
+H2 {
+	font-size: 22px;
+}
+
+H3 {
+	font-size: 18px;
+}
+
+
+
+/**
+* Secondary elements
+*/
+
+HR {
+	clear: both;
+	border: none;
+	border-top: 1px solid $ruler-def;
+	margin: 25px 0;
+
+	&.big {
+		border-top: 4px solid;
+	}
+
+	&.dark {
+		border-color: $ruler-dark;
+	}
+}
+
+UL {
+	list-style: none;
+	margin: 0 0 18px;
+	padding: 0;
+
+	LI {
+		margin-left: 25px;
+
+		&:before {
+			position: absolute;
+			content: '—';
+			margin-left: -25px;
+		}
+	}
+}
+
+
+
+/**
+* Shortcuts
+*/
+
+.clear-fix {
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.ib {
+	display: inline-block;
+}
+
+.c {
+	text-align: center;
+}
+
+.r {
+	text-align: right;
+}
+
+.l {
+	text-align: left;
+}
+
+
+
+/**
+* Spacers
+*/
+
+@each $space in (0, 5, 10, 15, 18, 20, 30, 40, 50, 60) {
+	.m#{$space} {
+		margin-bottom: #{$space}px !important;
+	}
+
+	.mt#{$space} {
+		margin-top: #{$space}px !important;
+	}
+
+	.ml#{$space} {
+		margin-left: #{$space}px !important;
+	}
+
+	.mr#{$space} {
+		margin-right: #{$space}px !important;
+	}
+}
+
+
+
+/**
+* Text
+*/
+
+P.small {
+	font-size: 14px;
+	line-height: 20px;
+}

@@ -1,0 +1,53 @@
+.su-dropdown {
+	background: $c1;
+	position: absolute;
+	z-index: 5;
+
+	padding: 10px 15px;
+	margin: 10px 0;
+
+	font-size: 16px;
+	white-space: normal;
+
+	border: 1px solid $c6;
+	border-radius: 2px;
+	box-shadow: 0 0 25px 0 transparentize($c0, .85);
+
+	&:before,
+	&:after {
+		position: absolute;
+		z-index: 5;
+		bottom: 100%;
+		margin-bottom: -0.75px;
+		left: 20px;
+		content: '';
+		border: 10px solid;
+		border-bottom-color: $c1;
+		border-top-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+	}
+
+	&:before {
+		z-index: 1;
+		margin-bottom: 0;
+		border-bottom-color: $c6;
+	}
+
+	:last-child {
+		margin-bottom: 0;
+	}
+
+	&.tinyWrap {
+		&:before,
+		&:after {
+			left: 8px;
+		}
+	}
+
+	@each $width in (200, 300, 400, 500, 600) {
+		&.w#{$width} {
+			min-width: #{$width}px;
+		}
+	}
+}

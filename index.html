@@ -1,71 +1,703 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Suave UI by uoziod</title>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Suave UI</title>
+	<link rel="stylesheet" href="suave-ui/build/styles.min.css" />
+	<link rel="stylesheet" href="demo.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+	<script src="suave-ui/build/app.min.js"></script>
+	<script>
+		angular.element(document).ready(function() {
+			angular.bootstrap(document, ['suave-ui', 'demo-notifier']);
+		});
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Suave UI</h1>
-        <p>UI Framework for AngularJS</p>
+		angular.module('demo-notifier', ['suave-ui']).controller('DemoNotifierCtrl', function($scope, suNotifier) {
+			$scope.notify = function(text, config) {
+				var notifierId = suNotifier.push(text, config);
+				console.log('Notifier ' + notifierId + ' called');
+			}
+		});
+	</script>
+</head>
+<body su-grid ng-controller="DemoNotifierCtrl">
 
-        <p class="view"><a href="https://github.com/uoziod/suave-ui">View the Project on GitHub <small>uoziod/suave-ui</small></a></p>
+<div class="header">
+	<div class="wrapper">
+		<div class="box">
+			<h1>Suave UI</h1>
+			<p class="description">UI Framework for AngularJS</p>
+			<div class="download">
+				<a href="suave-ui-0.1.0.zip">
+					<span class="fa fa-arrow-down"></span>
+					Download version <strong>0.1.0</strong>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wrapper">
+
+	<div class="row">
+		<div class="box section-select">
+			<a ng-click="(section != 'grid') ? section='grid' : section=false"><h1>Grid</h1></a>
+		</div>
+	</div>
+
+	<div class="section" ng-class="{opened:section=='grid'}">
+		<div class="row">
+			<div class="col-edge-4">
+				<div class="box">
+					<p class="c11">Grid allows to divide whole content area width by sections. Width of one column is about 15%. Here is also padding between columns. First and last columns in row using with <strong>edge</strong> keyword in class-name.</p>
+				</div>
+			</div>
+			<div class="col-edge-2">
+				<div class="box">
+					<p class="small c11">You can enable and disable grid guidelines on this page by pressing <strong>Ctrl + Shift + ~</strong></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-edge-3 empty-edge-3">
+				<div class="box">
+					<p class="c11">If you want to use grid guidelines on specified page, just add <strong>su-grid</strong> to its <strong>&lt;body&gt;</strong>-tag, as it made here.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box">
+				<hr class="big">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-edge-2">
+				<div class="box">
+					<p>I woke up at the first glimmer of dawn. The sun was still under the horizon and the beach was lit with a strange blue light, both dark and bright at the same time. It was very beautiful and calm. Even the waves seemed to be breaking more quietly than usual.</p>
+				</div>
+			</div>
+			<div class="col-edge-4">
+				<div class="box">
+					<p>Maybe this stands up to repeating. On the Monday of my second week, I saw bugs struggling to fit a swinging door on the entrance to one of the storeroom huts. He was having trouble because he only had two hands, and he needed three: two to keep the door in place and a third to hammer a peg into the hinge. I watched him do this for a while, wondering whether to offer any help, and as I began walking over the hammer slipped from his grip. Instinctively, he moved to catch it, and the door also fell, bashing against his leg.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="row">
+				<div class="col-edge-1">
+					<div class="box">
+						<p>Не that</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1 empty-edge-1">
+					<div class="box">
+						<p>will not</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1 empty-edge-2">
+					<div class="box">
+						<p>when he may,</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1 empty-edge-3">
+					<div class="box">
+						<p>when he</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1 empty-edge-4">
+					<div class="box">
+						<p>will he</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1 empty-5">
+					<div class="box">
+						<p>shall have nay.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-edge-2">
+				<div class="box">
+					<p>The bar-room was now full of the boarders who had been dropping in the night previous, and whom I had not as yet had a good look at. They were nearly all whalemen; chief mates, and second mates, and third mates, and sea carpenters, and sea coopers, and sea blacksmiths, and harpooneers, and ship keepers; a brown and brawny company, with bosky beards; an unshorn, shaggy set, all wearing monkey jackets for morning gowns.</p>
+				</div>
+			</div>
+			<div class="col-1">
+				<div class="box">
+					<p>After examining one by one the different theories, rejecting all other suggestions, it becomes necessary to admit the existence of a marine animal of enormous power.</p>
+				</div>
+			</div>
+			<div class="col-1">
+				<div class="box">
+					<p>I was surprised at the coolness with which John avowed his knowledge of the island, and I own I was half-frightened when I saw him drawing nearer to myself.</p>
+				</div>
+			</div>
+			<div class="col-edge-2 ">
+				<div class="box">
+					<p>What a pursuit! No, I cannot describe the emotion that vibrated through me. Ned Land kept his post, harpoon in hand. Several times the animal let us gain upon it. &mdash; "We shall catch it! we shall catch it!" cried the Canadian. But just as he was going to strike, the cetacean stole away with a rapidity that could not be estimated at less than thirty miles an hour, and even during our maximum of speed, it bullied the frigate, going round and round it. A cry of fury broke from everyone!</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-edge-1 ">
+				<div class="box">
+					<p>No one took notice of me, only the bow oar saying, "Is that you, Jim? Keep your head down." But Silver, from the other boat, looked sharply over and called out to know if that were me; and from that moment I began to regret what I had done.</p>
+				</div>
+			</div>
+			<div class="col-1">
+				<div class="box">
+					<p>Near one o'clock in the morning, I was seized with dreadful fatigue. My limbs stiffened under the strain of violent cramp. Conseil was obliged to keep me up, and our preservation devolved on him alone.</p>
+				</div>
+			</div>
+			<div class="col-1 empty-2">
+				<div class="box">
+					<p>At last the speakers seemed to have paused and perhaps to have sat down, for not only did they cease to draw any nearer, but the birds themselves began to grow more quiet and to settle again to their places in the swamp.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-edge-3">
+				<div class="box">
+					<p>After some minutes, a loud hissing was heard. I felt the cold mount from my feet to my chest. Evidently from some part of the vessel they had, by means of a tap, given entrance to the water, which was invading us, and with which the room was soon filled. A second door cut in the side of the Nautilus then opened. We saw a faint light. In another instant our feet trod the bottom of the sea.</p>
+				</div>
+			</div>
+			<div class="col-edge-3 ">
+				<div class="box">
+					<p>All this time no one prolonged his voluntary task beyond the prescribed time. His task accomplished, each one handed in turn to his panting companions the apparatus that supplied him with life. Captain Nemo set the example, and submitted first to this severe discipline. When the time came, he gave up his apparatus to another and returned to the vitiated air on board, calm, unflinching, unmurmuring.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4 empty-edge-1">
+				<div class="box">
+					<p class="text">How I got on to the platform, I have no idea; perhaps the Canadian had carried me there. But I breathed, I inhaled the vivifying sea-air. My two companions were getting drunk with the fresh particles. The other unhappy men had been so long without food, that they could not with impunity indulge in the simplest aliments that were given them. We, on the contrary, had no end to restrain ourselves; we could draw this air freely into our lungs, and it was the breeze, the breeze alone, that filled us with this keen enjoyment.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-        <ul>
-          <li><a href="https://github.com/uoziod/suave-ui/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/uoziod/suave-ui/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/uoziod/suave-ui">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<div class="row">
+		<div class="box section-select">
+			<a ng-click="(section != 'layers') ? section='layers' : section=false"><h1>Layered elements</h1></a>
+		</div>
+	</div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+	<div class="section" ng-class="{opened:section=='layers'}">
+		<div class="row">
+			<div class="col-edge-1">
+				<div class="box">
+					<h3>Dropdowns</h3>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box">
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+					<div class="fl">
+						<button su-target="dd1">Click here to open dropdown <strong>dd1</strong></button>
+					</div>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+					<div class="fr">
+						<button su-target="dd1">Click here to open dropdown <strong>dd1</strong></button>
+					</div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+					<div class="clear-fix"></div>
+					<hr />
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+					<h3 class="m5">Some facts about layered elements:</h3>
+					<ul>
+						<li><strong>Layered elements</strong> (dropdowns and popups) could be nested</li>
+						<li>Nested layered elements are creating tree</li>
+						<li>Second click on opening layer element closes the layer</li>
+						<li>Any click outside top layer will close it</li>
+						<li>Element that opening layer is <strong>caller</strong></li>
+						<li><strong>Caller</strong> is any element that have <strong>su-target</strong> attribute</li>
+						<li>Any layered element should have an attribute <strong>anchor</strong>, that tells to <strong>caller</strong> what to display</li>
+						<li>Different callers can be open the same layered elements, <strong>but only if they are not nested by loop</strong></li>
+					</ul>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+					<h3 class="m5">Some more about dropdowns:</h3>
+					<ul>
+						<li>If dropdown callers width is less then 50 pixels, dropdowns arrow is closer to edge.<br /><a su-target="dd-tiny">Rly??</a></li>
+					</ul>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+					<su-dropdown anchor="dd1">
+						<p class="m5">This is dropdown <strong>dd1</strong></p>
+						<button class="positive" su-target="dd1-1">Click here to open dropdown <strong>dd1-1</strong></button>
+					</su-dropdown>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+					<su-dropdown anchor="dd1-1">
+						<p class="m5">This is dropdown <strong>dd1-1</strong></p>
+						<button class="orange" su-target="dd1-2">Click here to open dropdown <strong>dd1-2</strong></button>
+					</su-dropdown>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+					<su-dropdown anchor="dd1-2">
+						<p class="m5">This is dropdown <strong>dd1-2</strong></p>
+						<button class="violet" su-target="dd1-3">Click here to open dropdown <strong>dd1-3</strong></button>
+					</su-dropdown>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/uoziod">uoziod</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+					<su-dropdown anchor="dd1-3">
+						<p>Finally, this is dropdown <strong>dd1-3</strong></p>
+					</su-dropdown>
+
+					<su-dropdown anchor="dd-tiny">
+						Yes
+					</su-dropdown>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-edge-1">
+				<div class="box">
+					<h3>Popups</h3>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box">
+
+					<div class="fl mr10">
+						<button su-target="p1">Click here to open popup <strong>p1</strong></button>
+					</div>
+					<div class="fl mr10">
+						<button su-target="p2">Click here to open popup <strong>p2</strong>, with scrolling</button>
+					</div>
+
+					<su-popup anchor="p1" config='{
+						"title": "Popup \&quot;p1\&quot;"
+					}'>
+						Popup content
+					</su-popup>
+
+					<su-popup anchor="p2">
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+						<p>Popup content</p>
+					</su-popup>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="row">
+		<div class="box section-select">
+			<a ng-click="(section != 'buttons') ? section='buttons' : section=false"><h1>Buttons</h1></a>
+		</div>
+	</div>
+
+	<div class="section" ng-class="{opened:section=='buttons'}">
+		<div class="row">
+			<div class="col-edge-2">
+				<div class="box">
+					<p class="text">Default button</p>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big" /></div>
+					<div class="fl mr10"><input type="button" value="Button" /></div>
+					<div class="fl">Default</div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big hover" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="hover" /></div>
+					<div class="fl">Mouse over</div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big active" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="active" /></div>
+					<div class="fl">Active</div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big focus" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="focus" /></div>
+					<div class="fl">Focused</div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big loading" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="loading" /></div>
+					<div class="fl">Loading</div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big" disabled /></div>
+					<div class="fl mr10"><input type="button" value="Button" disabled /></div>
+					<div class="fl">Disabled</div>
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="box">
+					<p class="text">Positive action</p>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big positive" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="positive" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big positive hover" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="positive hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big positive active" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="positive active" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big positive focus" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="positive focus" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big positive loading" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="positive loading" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big positive" disabled /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="positive" disabled /></div>
+				</div>
+			</div>
+			<div class="col-edge-2">
+				<div class="box">
+					<p class="text">Negative action</p>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big negative" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="negative" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big negative hover" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="negative hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big negative active" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="negative active" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big negative focus" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="negative focus" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big negative loading" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="negative loading" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big negative" disabled /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="negative" disabled /></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear-fix m30"></div>
+
+		<div class="row">
+			<div class="col-edge-2">
+				<div class="box">
+					<p class="text">Violet</p>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big violet" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="violet" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big violet hover" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="violet hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big violet active" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="violet active" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big violet focus" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="violet focus" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big violet loading" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="violet loading" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big violet" disabled /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="violet" disabled /></div>
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="box">
+					<p class="text">Black</p>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big black" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="black" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big black hover" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="black hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big black active" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="black active" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big black focus" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="black focus" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big black loading" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="black loading" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big black" disabled /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="black" disabled /></div>
+				</div>
+			</div>
+			<div class="col-edge-2">
+				<div class="box">
+					<p class="text">Orange</p>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big orange" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="orange" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big orange hover" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="orange hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big orange active" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="orange active" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big orange focus" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="orange focus" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big orange loading" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="orange loading" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big orange" disabled /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="orange" disabled /></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear-fix m30"></div>
+
+		<div class="row">
+			<div class="col-edge-2">
+				<div class="box">
+					<p class="text">Buttons with icon</p>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big" /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big positive hover" /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="positive hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big negative hover" /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="negative hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big orange loading hover" /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="orange loading hover" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big" disabled /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" disabled /></div>
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="box">
+					<p class="text">Secondary buttons</p>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big secondary" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="secondary" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big secondary positive" /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="secondary positive" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big secondary negative" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="secondary negative" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big secondary violet" /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="secondary violet" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="big secondary black" /></div>
+					<div class="fl mr10"><input type="button" value="Button" class="secondary black" /></div>
+
+					<div class="clear-fix m10"></div>
+
+					<div class="fl mr10"><input type="button" value="Button" class="big secondary orange" /></div>
+					<div class="fl mr10"><input type="button" su-icon="fa-leaf" value="Button" class="secondary orange" /></div>
+				</div>
+			</div>
+			<div class="col-edge-2">
+				<div class="box">
+					<p class="text">Another buttons with icon</p>
+
+					<p><input type="button" su-icon-circle="fa-print" value="Print file..." /></p>
+
+					<p><input type="button" su-icon-circle="fa-print" value="Print file..." disabled /></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="row">
+		<div class="box section-select">
+			<a ng-click="(section != 'notifiers') ? section='notifiers' : section=false"><h1>Notifiers</h1></a>
+		</div>
+	</div>
+
+	<div class="section" ng-class="{opened:section=='notifiers'}">
+		<div class="row">
+			<div class="empty-edge-1 col-4">
+				<div class="box">
+					<p><strong>Notifier</strong> is a colorful stripe with text, that hangs on top part of the page. Notifier hangs on screen for <strong>5 seconds</strong>.</p>
+					<p>Notifiers can have the same colors that buttons have:</p>
+
+					<div class="c"><div class="ib">
+						<div class="fl mr10"><input type="button" value="Display positive notifier" class="positive" ng-click="notify('Positive notification sample', {color: 'positive'})" /></div>
+						<div class="fl mr10"><input type="button" value="Display negative notifier" class="negative" ng-click="notify('Negative notification sample', {color: 'negative'})" /></div>
+						<div class="fl"><input type="button" value="Display violet notifier" class="violet" ng-click="notify('Violet notification sample', {color: 'violet'})" /></div>
+					</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="clear-fix"></div>
+
+<div class="footer">
+	<div class="wrapper">
+		<div class="box">
+			<strong>Suave UI</strong> is licensed under the <a href="http://opensource.org/licenses/mit-license.html">MIT License</a><br />
+			<span class="fa fa-flag"></span> <a href="http://fontawesome.io">Font Awesome</a> is licensed under the <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>
+		</div>
+	</div>
+</div>
+
+</body>
 </html>
