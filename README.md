@@ -1,9 +1,9 @@
 # [Suave UI 0.1.1](http://uoziod.github.io/suave-ui)
 ### UI Framework for AngularJS
 
-Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). This UI framework is designed for 
-web-applications based on [AngularJS](http://angularjs.org). It consists of different useful stuff like content grid,
-buttons, popups, dropdowns and notifications.
+Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). Current UI framework is designed for 
+web-applications based on [AngularJS](http://angularjs.org). It consists of different useful stuff like content content
+grid, buttons, popups, dropdowns and snackbar (notifications).
 
 
 ## Components
