@@ -9,7 +9,7 @@ buttons, popups, dropdowns and notifications.
 
 ## Components
 
-All components are included into bundle-files and don't needed to be included separately.
+All components are included into bundle-files.
 
 - [Font Awesome](http://fontawesome.io/) using for icons.
 - [Animate.css](http://daneden.github.io/animate.css/) using for CSS-animations. 
