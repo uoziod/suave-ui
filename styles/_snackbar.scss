@@ -1,0 +1,34 @@
+#su-snackbars {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+
+	.su-snackbar {
+		margin: 5px 0;
+		line-height: 34px;
+		max-height: 35px;
+		box-shadow: 0 0 5px transparentize($c0, .7);
+
+		@include animation-prop(duration, .2s);
+		@include transition(max-height .2s);
+
+		&.slideUp {
+			max-height: 0;
+		}
+
+		@each $color in $controls {
+			$type:      nth($color, 1);
+			$this-c1:   nth($color, 2);
+			$this-c2:   nth($color, 3);
+			$this-text: nth($color, 4);
+
+			&.#{$type} {
+				@include gradient-v($this-c1, $this-c2);
+				color: $this-text;
+				text-align: center;
+			}
+		}
+	}
+}

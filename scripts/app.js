@@ -5,7 +5,7 @@
 		'su-grid',
 		'su-button',
 		'su-layers',
-		'su-notifier'
+		'su-snackbar'
 	]);
 
 })();

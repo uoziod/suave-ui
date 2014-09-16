@@ -52,8 +52,6 @@
 			var found = false;
 
 			angular.forEach(self._layers, function (item) {
-				if (request.id)
-					console.log(request.id, item.id);
 				if (
 					(!found && request.id && angular.equals(item.id, request.id)) ||
 					(!found && request.caller && angular.equals(item.caller, request.caller)) ||

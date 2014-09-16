@@ -16,9 +16,23 @@
 	background:         linear-gradient(top, $from 0%, $from 50%, $to 100%);
 }
 
-@mixin animation($properties) {
-	-webkit-animation: $properties;
-	   -moz-animation: $properties;
-	     -o-animation: $properties;
-	        animation: $properties;
+@mixin transition($value) {
+	-webkit-transition: $value;
+	   -moz-transition: $value;
+	     -o-transition: $value;
+	        transition: $value;
+}
+
+@mixin animation($value) {
+	-webkit-animation: $value;
+	   -moz-animation: $value;
+	     -o-animation: $value;
+	        animation: $value;
+}
+
+@mixin animation-prop($prop, $value) {
+	-webkit-animation-#{$prop}: $value;
+	   -moz-animation-#{$prop}: $value;
+	     -o-animation-#{$prop}: $value;
+	        animation-#{$prop}: $value;
 }
