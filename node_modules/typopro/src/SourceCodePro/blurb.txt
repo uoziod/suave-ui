@@ -1,9 +1,0 @@
-Name:       Source Code Pro
-Homepage:   https://github.com/adobe/source-code-pro
-Download:   https://github.com/adobe/source-code-pro
-Version:    1.017 (2013-01)
-License:    Open Font License 1.1
-Publisher:  Adobe
-Designer:   Paul D. Hunt
-Designed:   2012
-Derivation: none

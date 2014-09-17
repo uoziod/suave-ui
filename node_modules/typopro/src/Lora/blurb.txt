@@ -1,9 +1,0 @@
-Name:       Lora
-Homepage:   http://www.cyreal.org/2012/07/lora/
-Download:   http://www.cyreal.org/2012/07/lora/
-Version:    1.014
-License:    Open Font License 1.1
-Publisher:  Cyreal
-Designer:   Olga Karpushina
-Designed:   2011
-Derivation: none

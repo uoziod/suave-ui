@@ -1,9 +1,0 @@
-Name:       Clear Sans
-Homepage:   https://01.org/clear-sans
-Download:   https://01.org/sites/default/files/downloads/clearsans-1.00.zip
-Version:    1.00 (2013-11)
-License:    Apache License 2.0
-Publisher:  Intel Corporation
-Designer:   Darren Wilson
-Designed:   2013
-Derivation: none
