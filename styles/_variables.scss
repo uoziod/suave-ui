@@ -4,7 +4,6 @@
 
 $body-back: #fff;
 $text-def:  #333;
-$text-sec:  #666;
 
 
 
@@ -54,10 +53,10 @@ $ruler-dark: #666;
 
 
 /**
-* Control elements colors collection
+* Interaction elements color collection
 */
 
-$controls: (
+$interact: (
 	'default'  #fcfcfc #e7e7e7 #565f64,
 	'positive' #85d800 #6eb400 #fff,
 	'negative' #e30030 #af0021 #fff,
@@ -65,3 +64,15 @@ $controls: (
 	'black'    #606060 #212121 #fff,
 	'orange'   #fe7700 #e86300 #fff,
 );
+
+@each $item in $interact {
+	$this: unquote(nth($item, 1));
+	$this-c1: nth($item, 2);
+	$this-c2: nth($item, 3);
+	$this-text: nth($item, 4);
+
+	.interact-#{$this} {
+		@include gradient-v($this-c1, $this-c2);
+		color: $this-text;
+	}
+}

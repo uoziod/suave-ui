@@ -1,7 +1,8 @@
-@import "variables";
 @import "mixins";
+@import "variables";
 
 @import "basics";
+@import "miscellanious";
 
 @import "grid";
 @import "button";
@@ -9,7 +10,7 @@
 @import "popup";
 @import "snackbar";
 
-@import "abbreviations";
+@import "dominators"; // High priority definitions
 
 @import "../node_modules/font-awesome/css/font-awesome.css";
 @import "../node_modules/animate.css/animate.min.css";

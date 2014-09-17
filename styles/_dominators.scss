@@ -1,0 +1,62 @@
+/**
+* Abbreviations
+*/
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.ib {
+	display: inline-block;
+}
+
+.c {
+	text-align: center;
+}
+
+.r {
+	text-align: right;
+}
+
+.l {
+	text-align: left;
+}
+
+.dn {
+	display: none;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+
+
+/**
+* Spacers
+*/
+
+@each $space in (0, 5, 10, 15, 18, 20, 30, 40, 50, 60) {
+	.m#{$space} {
+		margin-bottom: #{$space}px !important;
+	}
+
+	.mt#{$space} {
+		margin-top: #{$space}px !important;
+	}
+
+	.ml#{$space} {
+		margin-left: #{$space}px !important;
+	}
+
+	.mr#{$space} {
+		margin-right: #{$space}px !important;
+	}
+}
+
+
+

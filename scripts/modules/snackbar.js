@@ -5,7 +5,7 @@
 	/* ngInject */
 	function suaveSnackbarService($templateCache, $compile, $rootScope, $timeout) {
 		if (!document.getElementById('su-snackbars')) {
-			document.getElementsByTagName('BODY')[0].innerHTML += '<div id="su-snackbars"></div>';
+			angular.element(document.getElementsByTagName('BODY')).append('<div id="su-snackbars"></div>');
 		}
 
 		var $snackbarsArea = document.getElementById('su-snackbars'),

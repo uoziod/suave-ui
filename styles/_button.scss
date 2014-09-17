@@ -9,7 +9,7 @@ INPUT {
 * Button states
 */
 
-$state:      nth($controls, 1);
+$state:      nth($interact, 1);
 $first-c1:   nth($state, 2);
 $first-c2:   nth($state, 3);
 $first-text: nth($state, 4);
@@ -95,8 +95,8 @@ INPUT[type="submit"] {
 * Other colors
 */
 
-@for $i from 2 through length($controls) {
-	$state: nth($controls, $i);
+@for $i from 2 through length($interact) {
+	$state: nth($interact, $i);
 	$this: unquote(nth($state, 1));
 	$this-c1: nth($state, 2);
 	$this-c2: nth($state, 3);

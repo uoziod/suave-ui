@@ -2,8 +2,8 @@
 ### UI Framework for AngularJS
 
 Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). Current UI framework is designed for 
-web-applications based on [AngularJS](http://angularjs.org). It consists of different useful stuff like content content
-grid, buttons, popups, dropdowns and snackbar (notifications).
+web-applications based on [AngularJS](http://angularjs.org). It consists of different useful stuff like content grid,
+buttons, popups, dropdowns and snackbars.
 
 <div align="center"><a href="http://uoziod.github.io/suave-ui"><img src="manual/images/demo.png" width="149" height="47" /></a></div>
 
@@ -12,13 +12,13 @@ grid, buttons, popups, dropdowns and snackbar (notifications).
 
 All components are included into bundle-files.
 
-- [Font Awesome 4.2.0](http://fontawesome.io/) provides for icons.
+- [Font Awesome 4.2.0](http://fontawesome.io/) provides icons.
 - [Animate.css 3.1.1](http://daneden.github.io/animate.css/) provides CSS-animations. 
 
 
 ## Usage
 
-To start using Suave UI you need to add CSS & JS bundle-files and include **suave-ui** angular-module into your web-app
+To start using Suave UI you had to add CSS & JS bundle-files and include **suave-ui** angular-module into your web-app
 initialization via DI or `angular.bootstrap`.
 
     <link rel="stylesheet" href="suave-ui/build/styles.min.css" />
@@ -31,10 +31,10 @@ initialization via DI or `angular.bootstrap`.
         });
     </script>
 
-Then you can use Suave UI public directives, services and styles right in your code. [Demo & Examples is available here](http://uoziod.github.io/suave-ui).
+Then you can use Suave UI directives, services and styles right in your code. [Demo & Examples is available here](http://uoziod.github.io/suave-ui).
 
 
-## <a name="manual"/>Users Manual
+## <a name="manual"/>[Users Manual](manual/index.md)
 
 - [Suave UI directives](manual/directives.md)
     - [suDropdown](manual/directives.md#suDropdown)
@@ -47,7 +47,8 @@ Then you can use Suave UI public directives, services and styles right in your c
     - [suSnackbar](manual/services.md#suSnackbar)
 - [Suave UI styles](manual/styles.md)
     - [Basic definitions](manual/styles.md#style-basic)
-    - [Control elements colors](manual/styles.md#style-controls-colors)
+    - [Basic colors](manual/styles.md#style-basic-colors)
+    - [Interaction elements colors](manual/styles.md#style-interaction-colors)
 
 
 ## License

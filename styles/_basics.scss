@@ -29,7 +29,7 @@ H1, H2, H3, H4, H5, STRONG {
 	font-weight: bold;
 }
 
-H1, H2, H3, H4, H5, P {
+H1, H2, H3, H4, H5, P, TABLE {
 	margin: 0 0 18px;
 }
 
@@ -45,6 +45,10 @@ H2 {
 
 H3 {
 	font-size: 18px;
+}
+
+H4 {
+	font-size: 16px;
 }
 
 
@@ -81,54 +85,5 @@ UL {
 			content: '—';
 			margin-left: -25px;
 		}
-	}
-}
-
-
-
-/**
-* Spacers
-*/
-
-@each $space in (0, 5, 10, 15, 18, 20, 30, 40, 50, 60) {
-	.m#{$space} {
-		margin-bottom: #{$space}px !important;
-	}
-
-	.mt#{$space} {
-		margin-top: #{$space}px !important;
-	}
-
-	.ml#{$space} {
-		margin-left: #{$space}px !important;
-	}
-
-	.mr#{$space} {
-		margin-right: #{$space}px !important;
-	}
-}
-
-
-
-/**
-* Miscellaneous
-*/
-
-P.small {
-	font-size: 14px;
-	line-height: 20px;
-}
-
-.code {
-	background: transparentize($c5, .7);
-	padding: 15px;
-	border: 1px dotted $c6;
-	border-left: none;
-	border-right: none;
-	overflow-x: auto;
-	font: 15px "Courier New" monospace;
-
-	strong {
-		font: bold 15px "Courier New" monospace;
 	}
 }

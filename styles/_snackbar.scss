@@ -8,7 +8,7 @@
 	.su-snackbar {
 		margin: 5px 0;
 		line-height: 34px;
-		max-height: 35px;
+		max-height: 34px;
 		box-shadow: 0 0 5px transparentize($c0, .7);
 
 		@include animation-prop(duration, .2s);
@@ -18,7 +18,7 @@
 			max-height: 0;
 		}
 
-		@each $color in $controls {
+		@each $color in $interact {
 			$type:      nth($color, 1);
 			$this-c1:   nth($color, 2);
 			$this-c2:   nth($color, 3);
