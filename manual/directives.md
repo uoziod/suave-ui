@@ -37,8 +37,8 @@ It's possible to see following rules visually thankfully `suGrid` directive that
 
 This directive using as attribute for button tags to add Font Awesome icon before the text.
 
-    <input su-icon="fa-leaf" type="button" value="Just button" />
-    <input su-icon="fa-check" type="submit" value="Complete" class="positive" />
+    <input type="button" su-icon="fa-leaf" value="Just button" />
+    <input type="submit" su-icon="fa-check" value="Complete" class="positive" />
 
 <img src="images/buttons.png" />
 
@@ -67,7 +67,7 @@ Possible `config` properties:
 - **title**. String. For popup title setting 
 - **noPadding**. Boolean. If true popup container will have no padding. Useful when inserting only 1 image inside popup.
 
-Usage example
+Usage example:
 
     <su-popup anchor="p1" config='{
         "title": "Popup title"

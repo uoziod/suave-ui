@@ -5,6 +5,8 @@ Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). Curren
 web-applications based on [AngularJS](http://angularjs.org). It consists of different useful stuff like content content
 grid, buttons, popups, dropdowns and snackbar (notifications).
 
+<center><a href="http://uoziod.github.io/suave-ui"><img src="manual/images/demo.png" /></a></center>
+
 
 ## Components
 
@@ -23,15 +25,13 @@ initialization via DI or `angular.bootstrap`.
     <script src="js/angular.min.js"></script>
     <script src="suave-ui/build/app.min.js"></script>
 
-    ...
-
     <script>
         angular.element(document).ready(function() {
             angular.bootstrap(document, ['my-application', 'suave-ui']);
         });
     </script>
 
-Then you can use Suave UI public directives and services right in your code. [Demo & Examples is available here](http://uoziod.github.io/suave-ui).
+Then you can use Suave UI public directives, services and styles right in your code. [Demo & Examples is available here](http://uoziod.github.io/suave-ui).
 
 
 ## <a name="manual"/>Users Manual
