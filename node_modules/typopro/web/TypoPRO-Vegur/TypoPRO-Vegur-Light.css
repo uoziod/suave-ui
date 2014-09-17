@@ -1,0 +1,15 @@
+
+/* TypoPRO Vegur Light */
+@font-face {
+    font-family:  'TypoPRO Vegur';
+    src:          url('TypoPRO-Vegur-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Vegur-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Vegur-Light.woff') format('woff'),
+                  url('TypoPRO-Vegur-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

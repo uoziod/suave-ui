@@ -1,0 +1,14 @@
+Name:       Latin Modern
+Homepage:   http://www.gust.org.pl/projects/e-foundry/latin-modern/
+Download:   http://www.gust.org.pl/projects/e-foundry/latin-modern/download/lm2.004otf.zip
+Version:    2.004
+License:    GUST Font License (GFL)
+Publisher:  GUST
+Designer:   Donald E. Knuth
+Designed:   2002
+Derivation: Computer Modern
+
+The Latin Modern fonts are derived from the famous Computer Modern fonts
+designed by Donald E. Knuth and described in Volume E of his Computers
+& Typesetting series. For TypoPRO the font set were reduced to the 10pt
+variants and named after their long font name.

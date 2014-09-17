@@ -1,0 +1,17 @@
+Name:       Charis SIL
+Homepage:   http://scripts.sil.org/charissilfont
+Download:   http://scripts.sil.org/cms/scripts/page.php?item_id=CharisSIL_download
+Version:    4.114 (2013-06)
+License:    Open Font License 1.1
+Publisher:  SIL International
+Designer:   SIL International
+Designed:   2006
+Derivation: Bitstream Charter
+
+Charis is similar to Bitstream Charter, one of the first fonts designed
+specifically for laser printers. It is highly readable and holds up
+well in less-than-ideal reproduction environments. It also has a full
+set of styles - regular, italic, bold, bold italic. Charis is a serif,
+proportionally-spaced font optimized for readability in long printed
+documents.
+

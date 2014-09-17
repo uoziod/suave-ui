@@ -1,0 +1,60 @@
+
+/* TypoPRO Delius-Regular */
+@font-face {
+    font-family:  'TypoPRO Delius';
+    src:          url('TypoPRO-Delius-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Delius-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Delius-Regular.woff') format('woff'),
+                  url('TypoPRO-Delius-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Delius Swash Caps */
+@font-face {
+    font-family:  'TypoPRO Delius Swash Caps';
+    src:          url('TypoPRO-DeliusSwashCaps-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-DeliusSwashCaps-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DeliusSwashCaps-Regular.woff') format('woff'),
+                  url('TypoPRO-DeliusSwashCaps-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+
+
+/* TypoPRO Delius Unicase Bold */
+@font-face {
+    font-family:  'TypoPRO Delius Unicase';
+    src:          url('TypoPRO-DeliusUnicase-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-DeliusUnicase-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DeliusUnicase-Bold.woff') format('woff'),
+                  url('TypoPRO-DeliusUnicase-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Delius Unicase */
+@font-face {
+    font-family:  'TypoPRO Delius Unicase';
+    src:          url('TypoPRO-DeliusUnicase-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-DeliusUnicase-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DeliusUnicase-Regular.woff') format('woff'),
+                  url('TypoPRO-DeliusUnicase-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

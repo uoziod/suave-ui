@@ -1,0 +1,15 @@
+
+/* TypoPRO Junction Regular */
+@font-face {
+    font-family:  'TypoPRO Junction';
+    src:          url('TypoPRO-Junction-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Junction-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Junction-Regular.woff') format('woff'),
+                  url('TypoPRO-Junction-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

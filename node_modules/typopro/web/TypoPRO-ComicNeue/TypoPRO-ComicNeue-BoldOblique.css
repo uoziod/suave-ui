@@ -1,0 +1,15 @@
+
+/* TypoPRO Comic Neue Bold Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-BoldOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-BoldOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-BoldOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-BoldOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  700;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

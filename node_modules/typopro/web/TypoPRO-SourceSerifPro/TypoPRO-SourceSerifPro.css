@@ -1,0 +1,45 @@
+
+/* TypoPRO Source Serif Pro Bold */
+@font-face {
+    font-family:  'TypoPRO Source Serif Pro';
+    src:          url('TypoPRO-SourceSerifPro-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceSerifPro-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceSerifPro-Bold.woff') format('woff'),
+                  url('TypoPRO-SourceSerifPro-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Source Serif Pro Regular */
+@font-face {
+    font-family:  'TypoPRO Source Serif Pro';
+    src:          url('TypoPRO-SourceSerifPro-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceSerifPro-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceSerifPro-Regular.woff') format('woff'),
+                  url('TypoPRO-SourceSerifPro-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Source Serif Pro Semibold Regular */
+@font-face {
+    font-family:  'TypoPRO Source Serif Pro';
+    src:          url('TypoPRO-SourceSerifPro-Semibold.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceSerifPro-Semibold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceSerifPro-Semibold.woff') format('woff'),
+                  url('TypoPRO-SourceSerifPro-Semibold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

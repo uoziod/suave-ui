@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreSchola-Bold */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Schola';
+    src:          url('TypoPRO-TeXGyreSchola-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreSchola-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreSchola-Bold.woff') format('woff'),
+                  url('TypoPRO-TeXGyreSchola-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Thin */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 150';
+    src:          url('TypoPRO-FiraSans-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Thin.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

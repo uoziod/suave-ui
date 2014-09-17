@@ -1,0 +1,240 @@
+
+/* TypoPRO Aileron Black */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Black.woff') format('woff'),
+                  url('TypoPRO-Aileron-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Black Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Bold */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Bold.woff') format('woff'),
+                  url('TypoPRO-Aileron-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Heavy */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Heavy.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Heavy.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Heavy.woff') format('woff'),
+                  url('TypoPRO-Aileron-Heavy.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Heavy Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-HeavyItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-HeavyItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-HeavyItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Italic.woff') format('woff'),
+                  url('TypoPRO-Aileron-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Light */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Light.woff') format('woff'),
+                  url('TypoPRO-Aileron-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Light Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Regular.woff') format('woff'),
+                  url('TypoPRO-Aileron-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron SemiBold */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-SemiBold.woff') format('woff'),
+                  url('TypoPRO-Aileron-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron SemiBold Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-SemiBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-SemiBoldItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-SemiBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Thin */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Thin.woff') format('woff'),
+                  url('TypoPRO-Aileron-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron Thin Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-ThinItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-ThinItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-ThinItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-ThinItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron UltraLight */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-UltraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-UltraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-UltraLight.woff') format('woff'),
+                  url('TypoPRO-Aileron-UltraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Aileron UltraLight Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-UltraLightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-UltraLightItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-UltraLightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

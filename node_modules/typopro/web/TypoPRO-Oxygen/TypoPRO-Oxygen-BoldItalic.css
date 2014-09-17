@@ -1,0 +1,15 @@
+
+/* TypoPRO Oxygen-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO Oxygen';
+    src:          url('TypoPRO-Oxygen-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oxygen-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oxygen-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Oxygen-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

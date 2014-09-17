@@ -1,0 +1,15 @@
+
+/* TypoPRO Overlock */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-Regular.woff') format('woff'),
+                  url('TypoPRO-Overlock-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

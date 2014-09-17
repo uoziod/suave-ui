@@ -1,0 +1,38 @@
+Name:       TeX Gyre
+Homepage:   http://www.gust.org.pl/projects/e-foundry/tex-gyre 
+Download:   http://www.gust.org.pl/projects/e-foundry/tex-gyre/whole/tg-2.005otf.zip
+Version:    2.005
+License:    GUST Font License (GFL)
+Publisher:  GUST
+Designer:   URW++
+Designed:   2006
+Derivation: various
+
+The TeX Gyre project started in 2006 and is an extensive remake and
+extension of the freely available 35 base PostScript fonts distributed
+with Ghostscript version 4.00.
+
+- TeX Gyre Adventor
+  based on URW Gothic L
+  resembling ITC Avant Garde Gothic (by Herb Lubalin and Tom Carnase, 1970)
+- TeX Gyre Bonum
+  based on URW Bookman L
+  resembling ITC Bookman (by Alexander Phemister, 1860, redesigned by Edward Benguiat, 1975)
+- TeX Gyre Chorus
+  based on URW Chancery L Medium Italic
+  resembling ITC Zapf Chancery (by Hermann Zapf, 1979)
+- TeX Gyre Cursor
+  based on URW Nimbus Mono L
+  resembling Courier (by Howard G. "Bud" Kettler, 1955, for IBM)
+- TeX Gyre Heros
+  based on URW Nimbus Sans L
+  resembling Helvetica (aka Swiss) (by Max Miedinger and Eduard Hoffmann, 1957, at Haas Type Foundry) 
+- TeX Gyre Pagella
+  based on URW Palladio L
+  resembling Palatino (by Hermann Zapf in the 1940's for the Stempel type foundry)
+- TeX Gyre Schola
+  based on URW Century Schoolbook L
+  resembling Century Schoolbook (by Morris Fuller Benton, 1919, for the American Type Founders)
+- TeX Gyre Termes
+  based on URW Nimbus Roman No9 L
+  resembling Times (new) Roman (by Stanley Morison, Starling Burgess, Victor Lardent for "The Times")

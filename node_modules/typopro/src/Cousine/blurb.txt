@@ -1,0 +1,16 @@
+Name:       Cousin
+Homepage:   http://www.fontsquirrel.com/fonts/cousine
+Download:   http://www.fontsquirrel.com/fonts/download/cousine
+Download:   http://www.google.com/fonts#UsePlace:use/Collection:Cousine
+Version:    2013
+License:    Apache License
+Publisher:  Ascender Fonts
+Designer:   Steve Matteson
+Designed:   2010
+Derivation: Courier New
+
+Cousine was designed by Steve Matteson as an innovative, refreshing sans serif
+design that is metrically compatible with Courier New. Cousine offers improved
+on-screen readability characteristics and the pan-European WGL character set
+and solves the needs of developers looking for width-compatible fonts to
+address document portability across platforms.

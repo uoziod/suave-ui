@@ -1,0 +1,15 @@
+
+/* TypoPRO Comic Neue Angular Bold */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-Bold.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  700;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,9 @@
+Name:       Journal
+Homepage:   http://www.fontsquirrel.com/fonts/Journal
+Download:   http://www.fontsquirrel.com/fonts/download/Journal
+Version:    1.0 (2008)
+License:    Free-To-Use
+Publisher:  Font Squirrel
+Designer:   Fontourist
+Designed:   2008
+Derivation: none

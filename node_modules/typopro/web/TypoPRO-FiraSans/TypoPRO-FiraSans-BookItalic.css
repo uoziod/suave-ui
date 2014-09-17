@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Book Italic */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 350';
+    src:          url('TypoPRO-FiraSans-BookItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-BookItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-BookItalic.woff') format('woff'),
+                  url('TypoPRO-FiraSans-BookItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

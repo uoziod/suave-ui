@@ -1,0 +1,15 @@
+
+/* TypoPRO Bebas Neue Book */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Book.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Book.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Book.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Book.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

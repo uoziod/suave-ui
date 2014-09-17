@@ -1,0 +1,15 @@
+
+/* TypoPRO Neuton Extralight */
+@font-face {
+    font-family:  'TypoPRO Neuton';
+    src:          url('TypoPRO-Neuton-Extralight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Neuton-Extralight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Neuton-Extralight.woff') format('woff'),
+                  url('TypoPRO-Neuton-Extralight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

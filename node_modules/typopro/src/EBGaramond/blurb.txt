@@ -1,0 +1,43 @@
+Name:       EB Garamond
+Homepage:   http://www.georgduffner.at/ebgaramond/
+Download:   https://github.com/georgd/EB-Garamond.git
+Version:    0.015d+ (2014-03-16)
+License:    Open Font License 1.1
+Publisher:  Georg Duffner
+Designer:   Georg Duffner
+Designed:   2010
+Derivation: Garamond
+
+Garamont’s fonts represent a milestone in the history of type design,
+a touchstone to which font designers have been returning ever since.
+EB Garamond is an open source project to create a revival of Claude
+Garamont’s famous humanist typeface from the mid-16th century.
+Its design reproduces the original by Claude Garamont: The source
+for the letterforms is a scan of a specimen known as the “Berner
+specimen”, which, composed in 1592 by Conrad Berner, son-in-law of
+Christian Egenolff and his successor at the Egenolff print office, shows
+Garamont’s roman and Granjon’s italic fonts at different sizes.
+Hence the name of this project: Egenolff-Berner Garamond.
+
+convert.sh
+------------------------------------------------------------------------------
+#!/bin/sh
+echo "$*"
+if [ $# -eq 4 ]; then
+    fontforge -c 'Open($1);MergeFeature($3);MergeFeature($4);Generate($2);Close();' "$@"
+elif [ $# -eq 3 ]; then
+    fontforge -c 'Open($1);MergeFeature($3);Generate($2);Close();' "$@"
+else
+    fontforge -c 'Open($1);Generate($2);Close();' "$@"
+fi
+------------------------------------------------------------------------------
+
+convert-all.sh
+------------------------------------------------------------------------------
+#!/bin/sh
+./convert.sh SFD/EBGaramond12-Bold.sfdir      EBGaramond-Bold.otf      featurefiles/12-Bold_features.fea
+./convert.sh SFD/EBGaramond12-Italic.sfdir    EBGaramond-Italic.otf    featurefiles/12-Italic_GPOS.fea  featurefiles/12-Italic_features.fea  
+./convert.sh SFD/EBGaramond12-Regular.sfdir   EBGaramond-Regular.otf   featurefiles/12-Regular_GPOS.fea featurefiles/12-Regular_features.fea 
+./convert.sh SFD/EBGaramond12-SC.sfdir        EBGaramond-SmallCaps.otf featurefiles/12-SC_features.fea
+------------------------------------------------------------------------------
+

@@ -1,0 +1,60 @@
+
+/* TypoPRO Cuprum Bold */
+@font-face {
+    font-family:  'TypoPRO Cuprum';
+    src:          url('TypoPRO-Cuprum-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cuprum-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cuprum-Bold.woff') format('woff'),
+                  url('TypoPRO-Cuprum-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Cuprum Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Cuprum';
+    src:          url('TypoPRO-Cuprum-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cuprum-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cuprum-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Cuprum-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Cuprum Italic */
+@font-face {
+    font-family:  'TypoPRO Cuprum';
+    src:          url('TypoPRO-Cuprum-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cuprum-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cuprum-Italic.woff') format('woff'),
+                  url('TypoPRO-Cuprum-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Cuprum */
+@font-face {
+    font-family:  'TypoPRO Cuprum';
+    src:          url('TypoPRO-Cuprum-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cuprum-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cuprum-Regular.woff') format('woff'),
+                  url('TypoPRO-Cuprum-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

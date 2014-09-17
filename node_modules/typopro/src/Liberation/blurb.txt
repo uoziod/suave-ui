@@ -1,0 +1,14 @@
+Name:       Liberation
+Homepage:   https://fedorahosted.org/liberation-fonts/
+Download:   https://fedorahosted.org/liberation-fonts/
+Version:    2.00.1 (2012)
+License:    Open Font License 1.1
+Publisher:  Fedora Project
+Designer:   Steve Matteson (Ascender Corp.)
+Designed:   2007
+Derivation: Times New Roman, Arial, Courier New
+
+The Liberation fonts are metrically compatible with Monotype
+Corporation's Arial, Arial Narrow, Times New Roman, and Courier New
+(respectively).
+

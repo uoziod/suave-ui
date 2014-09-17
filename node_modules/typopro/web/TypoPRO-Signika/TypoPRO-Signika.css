@@ -1,0 +1,60 @@
+
+/* TypoPRO Signika-Bold */
+@font-face {
+    font-family:  'TypoPRO Signika';
+    src:          url('TypoPRO-Signika-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Signika-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Signika-Bold.woff') format('woff'),
+                  url('TypoPRO-Signika-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Signika-Light */
+@font-face {
+    font-family:  'TypoPRO Signika';
+    src:          url('TypoPRO-Signika-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Signika-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Signika-Light.woff') format('woff'),
+                  url('TypoPRO-Signika-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Signika */
+@font-face {
+    font-family:  'TypoPRO Signika';
+    src:          url('TypoPRO-Signika-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Signika-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Signika-Regular.woff') format('woff'),
+                  url('TypoPRO-Signika-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Signika-Semibold */
+@font-face {
+    font-family:  'TypoPRO Signika';
+    src:          url('TypoPRO-Signika-Semibold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Signika-Semibold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Signika-Semibold.woff') format('woff'),
+                  url('TypoPRO-Signika-Semibold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

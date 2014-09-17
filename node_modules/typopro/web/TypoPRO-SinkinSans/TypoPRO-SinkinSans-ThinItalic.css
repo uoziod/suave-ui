@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 100 Thin Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ThinItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ThinItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ThinItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Ubuntu Mono Bold */
+@font-face {
+    font-family:  'TypoPRO Ubuntu Mono';
+    src:          url('TypoPRO-UbuntuMono-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-UbuntuMono-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-UbuntuMono-Bold.woff') format('woff'),
+                  url('TypoPRO-UbuntuMono-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

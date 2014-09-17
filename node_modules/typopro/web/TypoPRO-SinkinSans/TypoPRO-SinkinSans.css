@@ -1,0 +1,270 @@
+
+/* TypoPRO Sinkin Sans 800 Black */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Black.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 800 Black Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 700 Bold */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Bold.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 700 Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 900 X Black */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ExtraBlack.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ExtraBlack.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ExtraBlack.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 900 X Black Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ExtraBlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ExtraBlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ExtraBlackItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ExtraBlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 200 X Light */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 200 X Light Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ExtraLightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ExtraLightItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ExtraLightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 300 Light */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Light.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 300 Light Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-LightItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 500 Medium */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Medium.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 500 Medium Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 400 Regular */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Regular.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 400 Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-RegularItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-RegularItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-RegularItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-RegularItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 600 SemiBold */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-SemiBold.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 600 SemiBold Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-SemiBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-SemiBoldItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-SemiBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 100 Thin */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Thin.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Sinkin Sans 100 Thin Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ThinItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ThinItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ThinItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

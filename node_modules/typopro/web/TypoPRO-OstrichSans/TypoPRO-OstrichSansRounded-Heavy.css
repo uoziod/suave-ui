@@ -1,0 +1,15 @@
+
+/* TypoPRO Ostrich Sans Heavy */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Rounded';
+    src:          url('TypoPRO-OstrichSansRounded-Heavy.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansRounded-Heavy.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansRounded-Heavy.woff') format('woff'),
+                  url('TypoPRO-OstrichSansRounded-Heavy.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

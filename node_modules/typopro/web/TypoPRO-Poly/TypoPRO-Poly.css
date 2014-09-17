@@ -1,0 +1,30 @@
+
+/* TypoPRO Poly-Italic */
+@font-face {
+    font-family:  'TypoPRO Poly';
+    src:          url('TypoPRO-Poly-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Poly-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Poly-Italic.woff') format('woff'),
+                  url('TypoPRO-Poly-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Poly-Regular */
+@font-face {
+    font-family:  'TypoPRO Poly';
+    src:          url('TypoPRO-Poly-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Poly-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Poly-Regular.woff') format('woff'),
+                  url('TypoPRO-Poly-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

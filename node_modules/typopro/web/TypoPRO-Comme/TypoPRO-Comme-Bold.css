@@ -1,0 +1,15 @@
+
+/* TypoPRO Comme Bold */
+@font-face {
+    font-family:  'TypoPRO Comme';
+    src:          url('TypoPRO-Comme-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Comme-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Comme-Bold.woff') format('woff'),
+                  url('TypoPRO-Comme-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

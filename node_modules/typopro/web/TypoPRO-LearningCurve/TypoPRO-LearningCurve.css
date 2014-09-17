@@ -1,0 +1,30 @@
+
+/* TypoPRO Learning Curve Pro */
+@font-face {
+    font-family:  'TypoPRO Learning Curve Pro';
+    src:          url('TypoPRO-LearningCurve-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LearningCurve-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LearningCurve-Regular.woff') format('woff'),
+                  url('TypoPRO-LearningCurve-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Learning Curve Dashed Pro */
+@font-face {
+    font-family:  'TypoPRO Learning Curve Dashed Pro';
+    src:          url('TypoPRO-LearningCurveDashed-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LearningCurveDashed-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LearningCurveDashed-Regular.woff') format('woff'),
+                  url('TypoPRO-LearningCurveDashed-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

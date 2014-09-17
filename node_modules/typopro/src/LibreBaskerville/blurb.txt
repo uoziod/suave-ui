@@ -1,0 +1,14 @@
+Name:       Libre Baskerville
+Homepage:   http://www.impallari.com/projects/overview/libre-baskerville
+Download:   http://www.impallari.com/media/uploads/prosources/update-86-source.zip
+Version:    1.0 (86)
+License:    Open Font License 1.1
+Publisher:  Pablo Impallari
+Designer:   Pablo Impallari and Rodrigo Fuenzalida
+Designed:   2012
+Derivation: Baskerville
+
+Libre Baskerville is font optimized for web body text (typically
+16px). It's based on 1941 ATF Specimens, but it has a taller x-height,
+wider counters and minor contrast that allow it to work on small sizes
+in any screen.

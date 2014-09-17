@@ -1,0 +1,15 @@
+Name:       Chawp
+Homepage:   http://awpny.com/chawp/
+Download:   https://github.com/awp/chawp/archive/master.zip
+Version:    1.000 (2013)
+License:    Open Font License 1.1
+Publisher:  Ancient Wisdom Productions (AWP)
+Designer:   Tyler Finck
+Designed:   2013
+Derivation: none
+
+It started on the new, eight foot tall chalkboard column in our office,
+and now it’s digital. We’ve been in a playful mood lately, probably
+in an attempt to make up for the lack of sunlight (winter in central New
+York). This display font (all caps) supports several languages.
+

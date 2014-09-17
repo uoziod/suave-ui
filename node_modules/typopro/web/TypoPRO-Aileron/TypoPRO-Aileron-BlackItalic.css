@@ -1,0 +1,15 @@
+
+/* TypoPRO Aileron Black Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

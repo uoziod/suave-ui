@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Mono Light 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Mono Light';
+    src:          url('TypoPRO-LatinModernMonoLight-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernMonoLight-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernMonoLight-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernMonoLight-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

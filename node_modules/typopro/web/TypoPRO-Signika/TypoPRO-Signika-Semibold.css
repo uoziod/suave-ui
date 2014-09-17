@@ -1,0 +1,15 @@
+
+/* TypoPRO Signika-Semibold */
+@font-face {
+    font-family:  'TypoPRO Signika';
+    src:          url('TypoPRO-Signika-Semibold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Signika-Semibold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Signika-Semibold.woff') format('woff'),
+                  url('TypoPRO-Signika-Semibold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

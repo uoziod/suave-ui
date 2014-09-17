@@ -1,0 +1,16 @@
+Name:       Courgette
+Homepage:   http://sorkintype.com/fonts.html#cou
+Download:   http://code.google.com/p/googlefontdirectory/source/browse/courgette/?r=581d26fdfffeeff1f67f074ac12a7f65bdba8435
+Version:    1.002 (2012)
+License:    Open Font License 1.1
+Publisher:  Sorkin Type Co
+Designer:   Karolina Lach  
+Designed:   2012
+Derivation: none
+
+Courgette is a brushy medium to low contrast italic script. This kind of
+style traditionally used for display and unsuprisingly Courgette works
+well in display. However Courgette's is more versitile than that. Its
+carefully made forms mean that it also works well in smaller sizes and
+even in massed text. The Sorkin Type Logo is composed from glyphs in
+Courgette.

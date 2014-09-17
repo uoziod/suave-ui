@@ -1,0 +1,15 @@
+
+/* TypoPRO Ostrich Sans Inline */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Inline';
+    src:          url('TypoPRO-OstrichSansInline-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansInline-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansInline-Regular.woff') format('woff'),
+                  url('TypoPRO-OstrichSansInline-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Aileron Heavy */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Heavy.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Heavy.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Heavy.woff') format('woff'),
+                  url('TypoPRO-Aileron-Heavy.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

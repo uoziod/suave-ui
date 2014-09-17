@@ -1,0 +1,120 @@
+
+/* TypoPRO Ostrich Sans Black */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans';
+    src:          url('TypoPRO-OstrichSans-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSans-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSans-Black.woff') format('woff'),
+                  url('TypoPRO-OstrichSans-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Ostrich Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans';
+    src:          url('TypoPRO-OstrichSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSans-Bold.woff') format('woff'),
+                  url('TypoPRO-OstrichSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Ostrich Sans Light */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans';
+    src:          url('TypoPRO-OstrichSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSans-Light.woff') format('woff'),
+                  url('TypoPRO-OstrichSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Ostrich Sans Medium */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans';
+    src:          url('TypoPRO-OstrichSans-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSans-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSans-Medium.woff') format('woff'),
+                  url('TypoPRO-OstrichSans-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Ostrich Sans Inline Italic */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Inline';
+    src:          url('TypoPRO-OstrichSansInline-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansInline-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansInline-Italic.woff') format('woff'),
+                  url('TypoPRO-OstrichSansInline-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Ostrich Sans Inline */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Inline';
+    src:          url('TypoPRO-OstrichSansInline-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansInline-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansInline-Regular.woff') format('woff'),
+                  url('TypoPRO-OstrichSansInline-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Ostrich Sans Heavy */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Rounded';
+    src:          url('TypoPRO-OstrichSansRounded-Heavy.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansRounded-Heavy.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansRounded-Heavy.woff') format('woff'),
+                  url('TypoPRO-OstrichSansRounded-Heavy.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Ostrich Sans Rounded Medium */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Rounded';
+    src:          url('TypoPRO-OstrichSansRounded-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansRounded-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansRounded-Medium.woff') format('woff'),
+                  url('TypoPRO-OstrichSansRounded-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

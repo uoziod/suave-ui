@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 900 X Black Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ExtraBlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ExtraBlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ExtraBlackItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ExtraBlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

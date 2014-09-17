@@ -1,0 +1,60 @@
+
+/* TypoPRO Lora Bold */
+@font-face {
+    font-family:  'TypoPRO Lora';
+    src:          url('TypoPRO-Lora-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Lora-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Lora-Bold.woff') format('woff'),
+                  url('TypoPRO-Lora-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Lora Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Lora';
+    src:          url('TypoPRO-Lora-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Lora-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Lora-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Lora-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Lora Italic */
+@font-face {
+    font-family:  'TypoPRO Lora';
+    src:          url('TypoPRO-Lora-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Lora-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Lora-Italic.woff') format('woff'),
+                  url('TypoPRO-Lora-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Lora */
+@font-face {
+    font-family:  'TypoPRO Lora';
+    src:          url('TypoPRO-Lora-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Lora-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Lora-Regular.woff') format('woff'),
+                  url('TypoPRO-Lora-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

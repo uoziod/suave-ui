@@ -1,0 +1,9 @@
+Name:       Yanone Kaffeesatz
+Homepage:   http://www.yanone.de/typedesign/kaffeesatz/
+Download:   http://www.yanone.de/typedesign/kaffeesatz/YanoneKaffeesatz.zip
+Version:    1.002 (2010)
+License:    Open Font License 1.1
+Publisher:  Jan Gerner (Yanone)
+Designer:   Jan Gerner (Yanone)
+Designed:   2004
+Derivation: none

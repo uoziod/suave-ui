@@ -1,0 +1,15 @@
+
+/* TypoPRO Cousine Italic */
+@font-face {
+    font-family:  'TypoPRO Cousine';
+    src:          url('TypoPRO-Cousine-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cousine-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cousine-Italic.woff') format('woff'),
+                  url('TypoPRO-Cousine-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

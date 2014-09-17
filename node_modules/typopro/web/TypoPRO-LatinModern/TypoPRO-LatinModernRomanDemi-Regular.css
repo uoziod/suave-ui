@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Roman Demi 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Roman Demi';
+    src:          url('TypoPRO-LatinModernRomanDemi-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernRomanDemi-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernRomanDemi-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernRomanDemi-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

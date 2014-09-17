@@ -17,7 +17,7 @@ optional parameter is configuration object.
 
 Possible values:
 
-- color: [Control elements color](styles.md#style-controls) value
+- color: [Control elements color](styles.md#style-controls-colors) value
 - timeout: time in milliseconds after which the item will disappear
 
 Usage example:

@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Mono Light Cond 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Mono Light';
+    src:          url('TypoPRO-LatinModernMonoLightCond-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernMonoLightCond-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernMonoLightCond-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernMonoLightCond-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

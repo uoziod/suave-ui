@@ -1,0 +1,15 @@
+
+/* TypoPRO Comic Relief */
+@font-face {
+    font-family:  'TypoPRO Comic Relief';
+    src:          url('TypoPRO-ComicRelief-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicRelief-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicRelief-Regular.woff') format('woff'),
+                  url('TypoPRO-ComicRelief-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

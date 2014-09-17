@@ -1,0 +1,15 @@
+
+/* TypoPRO Ostrich Sans Rounded Medium */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Rounded';
+    src:          url('TypoPRO-OstrichSansRounded-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansRounded-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansRounded-Medium.woff') format('woff'),
+                  url('TypoPRO-OstrichSansRounded-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

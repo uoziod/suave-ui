@@ -1,0 +1,15 @@
+
+/* TypoPRO Poetsen One */
+@font-face {
+    font-family:  'TypoPRO Poetsen';
+    src:          url('TypoPRO-Poetsen-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Poetsen-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Poetsen-Regular.woff') format('woff'),
+                  url('TypoPRO-Poetsen-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

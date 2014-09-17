@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Sans 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Sans';
+    src:          url('TypoPRO-LatinModernSans-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernSans-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernSans-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernSans-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

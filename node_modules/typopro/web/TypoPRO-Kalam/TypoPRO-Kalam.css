@@ -1,0 +1,45 @@
+
+/* TypoPRO Kalam Bold */
+@font-face {
+    font-family:  'TypoPRO Kalam';
+    src:          url('TypoPRO-Kalam-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Kalam-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Kalam-Bold.woff') format('woff'),
+                  url('TypoPRO-Kalam-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Kalam Light */
+@font-face {
+    font-family:  'TypoPRO Kalam';
+    src:          url('TypoPRO-Kalam-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Kalam-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Kalam-Light.woff') format('woff'),
+                  url('TypoPRO-Kalam-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Kalam */
+@font-face {
+    font-family:  'TypoPRO Kalam';
+    src:          url('TypoPRO-Kalam-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Kalam-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Kalam-Regular.woff') format('woff'),
+                  url('TypoPRO-Kalam-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,45 @@
+
+/* TypoPRO Junction Bold */
+@font-face {
+    font-family:  'TypoPRO Junction';
+    src:          url('TypoPRO-Junction-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Junction-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Junction-Bold.woff') format('woff'),
+                  url('TypoPRO-Junction-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Junction Light */
+@font-face {
+    font-family:  'TypoPRO Junction';
+    src:          url('TypoPRO-Junction-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Junction-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Junction-Light.woff') format('woff'),
+                  url('TypoPRO-Junction-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Junction Regular */
+@font-face {
+    font-family:  'TypoPRO Junction';
+    src:          url('TypoPRO-Junction-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Junction-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Junction-Regular.woff') format('woff'),
+                  url('TypoPRO-Junction-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

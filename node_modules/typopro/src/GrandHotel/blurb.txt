@@ -1,0 +1,15 @@
+Name:       Grand Hotel
+Homepage:   http://www.astigmatic.com/
+Download:   http://www.fontsquirrel.com/fonts/download/grand-hotel
+Version:    001.00 (2012)
+License:    Open Font License 1.1
+Publisher:  Astigmatic
+Designer:   Brian J. Bonislawsky, Jim Lyles
+Designed:   2012
+Derivation: none
+
+Grand Hotel finds its inspiration from the title screen of the 1937
+film “Cafe Metropole” starring Tyrone Power. This condensed upright
+connecting script has a classic vibe to it. It has a wonderful weight
+to it that feels subtly tied to Holiday and Bakery themed designs, even
+though it can work outside that genre.

@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans ExtraBold */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-ExtraBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-ExtraBold.woff') format('woff'),
+                  url('TypoPRO-FiraSans-ExtraBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

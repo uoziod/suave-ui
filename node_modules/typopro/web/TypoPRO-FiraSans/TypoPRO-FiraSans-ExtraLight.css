@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 250';
+    src:          url('TypoPRO-FiraSans-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-FiraSans-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Ostrich Sans Light */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans';
+    src:          url('TypoPRO-OstrichSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSans-Light.woff') format('woff'),
+                  url('TypoPRO-OstrichSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

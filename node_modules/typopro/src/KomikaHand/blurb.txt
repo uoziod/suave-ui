@@ -1,0 +1,9 @@
+Name:       Komika Hand
+Homepage:   http://www.fontsquirrel.com/fonts/Komika-Hand
+Download:   http://www.fontsquirrel.com/fonts/Komika-Hand
+Version:    1.00
+License:    Free-To-Use
+Publisher:  Apostrophic Labs
+Designer:   Apostrophic Labs
+Designed:   2009
+Derivation: none

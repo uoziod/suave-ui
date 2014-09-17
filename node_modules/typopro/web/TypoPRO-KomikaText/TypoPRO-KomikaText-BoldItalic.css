@@ -1,0 +1,15 @@
+
+/* TypoPRO Komika Text Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Komika Text';
+    src:          url('TypoPRO-KomikaText-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-KomikaText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-KomikaText-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-KomikaText-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

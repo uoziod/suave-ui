@@ -1,0 +1,60 @@
+
+/* TypoPRO Charis SIL Bold */
+@font-face {
+    font-family:  'TypoPRO Charis SIL';
+    src:          url('TypoPRO-CharisSIL-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-CharisSIL-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CharisSIL-Bold.woff') format('woff'),
+                  url('TypoPRO-CharisSIL-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Charis SIL Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Charis SIL';
+    src:          url('TypoPRO-CharisSIL-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-CharisSIL-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CharisSIL-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-CharisSIL-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Charis SIL Italic */
+@font-face {
+    font-family:  'TypoPRO Charis SIL';
+    src:          url('TypoPRO-CharisSIL-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-CharisSIL-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CharisSIL-Italic.woff') format('woff'),
+                  url('TypoPRO-CharisSIL-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Charis SIL */
+@font-face {
+    font-family:  'TypoPRO Charis SIL';
+    src:          url('TypoPRO-CharisSIL-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-CharisSIL-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CharisSIL-Regular.woff') format('woff'),
+                  url('TypoPRO-CharisSIL-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

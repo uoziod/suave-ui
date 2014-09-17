@@ -1,0 +1,9 @@
+Name:       Damion
+Homepage:   http://www.fontsc.com/font/damion
+Download:   http://www.fontsc.com/font/damion
+Version:    1.000 (2011)
+License:    Open Font License 1.1
+Publisher:  Vernon Adams
+Designer:   Vernon Adams
+Designed:   2011
+Derivation: none

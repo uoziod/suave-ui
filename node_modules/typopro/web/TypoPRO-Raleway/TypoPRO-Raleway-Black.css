@@ -1,0 +1,15 @@
+
+/* TypoPRO Raleway Black */
+@font-face {
+    font-family:  'TypoPRO Raleway';
+    src:          url('TypoPRO-Raleway-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-Raleway-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Raleway-Black.woff') format('woff'),
+                  url('TypoPRO-Raleway-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Bitter Bold */
+@font-face {
+    font-family:  'TypoPRO Bitter';
+    src:          url('TypoPRO-Bitter-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bitter-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bitter-Bold.woff') format('woff'),
+                  url('TypoPRO-Bitter-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

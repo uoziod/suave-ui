@@ -1,0 +1,16 @@
+Name:       Ostrich Sans
+Homepage:   https://www.theleagueofmoveabletype.com/ostrich-sans
+Download:   https://www.theleagueofmoveabletype.com/ostrich-sans/download
+Version:    1.001
+License:    Open Font License 1.1
+Publisher:  The League of Moveable Type
+Designer:   Tyler Finck
+Designed:   2011
+Derivation: none
+
+A gorgeous modern sans-serif with a very long neck. With a whole slew of
+styles & weights: Dashed (thin), Rounded (medium), Ultra light, Normal,
+Bold (race track style double lines) and Black.
+
+[ATTENTION: TypoPRO renamed OstrichSans-Heavy.otf to OstrichSansRounded-Heavy.otf]
+

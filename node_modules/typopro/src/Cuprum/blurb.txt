@@ -1,0 +1,10 @@
+Name:       Curpum
+Homepage:   http://www.jovanny.ru/
+Download:   http://jovanny.ru/fonts/Cuprum_typefamily.zip
+Version:    ?
+License:    Open Font License 1.1
+Publisher:  Jovanny Lemonad
+Designer:   Jovanny Lemonad
+Designed:   ?
+Derivation: none
+

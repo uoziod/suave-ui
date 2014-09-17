@@ -1,0 +1,14 @@
+Name:       Dosis
+Homepage:   http://www.impallari.com/dosis
+Download:   http://www.impallari.com/media/releases/dosis-v1.7.zip
+Version:    1.7 (2012)
+License:    Open Font License 1.1
+Publisher:  Pablo Impallari
+Designer:   Edgar Tolentino and Pablo Impallari
+Designed:   2010
+Derivation: none
+
+Dosis is a very simple, rounded, sans serif family. The lighter weights
+are minimalist. The bolder weights have more personality. The medium
+weight is nice and balanced. The overall result is a family that's clean
+and modern, and can express a wide range of voices & feelings.

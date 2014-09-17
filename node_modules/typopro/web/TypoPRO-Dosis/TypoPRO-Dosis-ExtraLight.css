@@ -1,0 +1,15 @@
+
+/* TypoPRO Dosis ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-Dosis-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Bold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

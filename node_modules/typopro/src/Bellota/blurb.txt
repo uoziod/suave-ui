@@ -1,0 +1,16 @@
+Name:       Bellota
+Homepage:   http://www.pixilate.com/font/bellota/
+Download:   http://openfontlibrary.org/en/font/bellota
+Version:    2013-07 (2013-07)
+License:    Open Font License
+Publisher:  Kemie Guaida
+Designer:   Kemie Guaida
+Designed:   2013
+Derivation: Snippet
+
+Based on the font "Snippet" by Gesine Todt, Bellota is an ornamented,
+low contrast sans-serif. It’s just cute enough! It comes in six
+variations: regular, italic, light, light italic, bold & bold italic.
+It has stylistic alternates and ligatures available through OpenType
+features.
+

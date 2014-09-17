@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreCursor-Regular */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Cursor';
+    src:          url('TypoPRO-TeXGyreCursor-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreCursor-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreCursor-Regular.woff') format('woff'),
+                  url('TypoPRO-TeXGyreCursor-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

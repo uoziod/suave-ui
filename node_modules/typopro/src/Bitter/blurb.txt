@@ -1,0 +1,10 @@
+Name:       Bitter
+Homepage:   http://www.huertatipografica.com/fonts/bitter-ht
+Download:   http://www.huertatipografica.com/fonts/bitter-ht
+Version:    1.300
+License:    Open Font License 1.1
+Publisher:  Huerta Tipográfica
+Designer:   Sol Matas
+Designed:   2010
+Derivation: none
+

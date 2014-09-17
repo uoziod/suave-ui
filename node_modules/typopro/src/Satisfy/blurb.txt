@@ -1,0 +1,9 @@
+Name:       Satisfy
+Homepage:   http://www.fontsc.com/font/satisfy
+Download:   http://www.fontsc.com/font/satisfy
+Version:    1.000 (2011)
+License:    Apache
+Publisher:  Sideshow
+Designer:   Sideshow
+Designed:   2011
+Derivation: none

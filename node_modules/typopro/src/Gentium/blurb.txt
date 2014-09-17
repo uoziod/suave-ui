@@ -1,0 +1,9 @@
+Name:       Gentium Basic & Gentium Book Basic
+Homepage:   http://scripts.sil.org/Gentium_basic
+Download:   http://scripts.sil.org/Gentium_basic
+Version:    1.102 (2013-12)
+License:    Open Font License 1.1
+Publisher:  SIL International
+Designer:   Victor Gaultney
+Designed:   2003
+Derivation: none

@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Code Pro Black */
+@font-face {
+    font-family:  'TypoPRO Source Code Pro';
+    src:          url('TypoPRO-SourceCodePro-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceCodePro-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceCodePro-Black.woff') format('woff'),
+                  url('TypoPRO-SourceCodePro-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

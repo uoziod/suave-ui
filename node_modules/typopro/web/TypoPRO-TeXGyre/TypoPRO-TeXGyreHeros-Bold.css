@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreHeros-Bold */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Heros';
+    src:          url('TypoPRO-TeXGyreHeros-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreHeros-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreHeros-Bold.woff') format('woff'),
+                  url('TypoPRO-TeXGyreHeros-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

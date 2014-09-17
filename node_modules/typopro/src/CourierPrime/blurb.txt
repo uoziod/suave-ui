@@ -1,0 +1,9 @@
+Name:       Courier Prime
+Homepage:   http://quoteunquoteapps.com/courierprime/
+Download:   http://quoteunquoteapps.com/downloads/courier-prime.zip
+Version:    1.203
+License:    Open Font License 1.1
+Publisher:  Quote-Unquote Apps
+Designer:   Alan Dague-Greene
+Designed:   2013
+Derivation: Courier

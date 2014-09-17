@@ -1,0 +1,15 @@
+
+/* TypoPRO Comic Neue Angular Light */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-Light.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Medium */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-Roboto-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Roboto-Medium.woff') format('woff'),
+                  url('TypoPRO-Roboto-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

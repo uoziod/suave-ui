@@ -1,0 +1,9 @@
+Name:       Pacifico
+Homepage:   https://github.com/vernnobile/PacificoFont
+Download:   https://github.com/vernnobile/PacificoFont/archive/master.zip
+Version:    2014
+License:    Open Font License 1.1
+Publisher:  Vernon Adams
+Designer:   Vernon Adams 
+Designed:   2012
+Derivation: none

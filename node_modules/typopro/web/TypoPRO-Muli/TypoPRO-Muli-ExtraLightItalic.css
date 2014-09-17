@@ -1,0 +1,15 @@
+
+/* TypoPRO Muli Extra-Light Italic */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-ExtraLightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-ExtraLightItalic.woff') format('woff'),
+                  url('TypoPRO-Muli-ExtraLightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

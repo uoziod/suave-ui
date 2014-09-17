@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya Sans SC Medium Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Ostrich Sans Inline Italic */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans Inline';
+    src:          url('TypoPRO-OstrichSansInline-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSansInline-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSansInline-Italic.woff') format('woff'),
+                  url('TypoPRO-OstrichSansInline-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

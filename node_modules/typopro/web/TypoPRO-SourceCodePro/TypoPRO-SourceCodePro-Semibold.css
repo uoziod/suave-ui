@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Code Pro Semibold */
+@font-face {
+    font-family:  'TypoPRO Source Code Pro';
+    src:          url('TypoPRO-SourceCodePro-Semibold.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceCodePro-Semibold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceCodePro-Semibold.woff') format('woff'),
+                  url('TypoPRO-SourceCodePro-Semibold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

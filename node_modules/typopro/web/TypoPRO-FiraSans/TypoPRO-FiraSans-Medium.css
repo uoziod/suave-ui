@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Medium */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Medium.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,9 @@
+Name:       Patua One
+Homepage:   http://www.fontsquirrel.com/fonts/patua-one
+Download:   http://www.fontsquirrel.com/fonts/patua-one
+Version:    1.002
+License:    Open Font License
+Publisher:  LatinoType
+Designer:   LatinoType
+Designed:   2011
+Derivation: none

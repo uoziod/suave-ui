@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Sans Pro Semibold */
+@font-face {
+    font-family:  'TypoPRO Source Sans Pro';
+    src:          url('TypoPRO-SourceSansPro-Semibold.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceSansPro-Semibold.woff') format('woff'),
+                  url('TypoPRO-SourceSansPro-Semibold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

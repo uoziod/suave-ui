@@ -1,0 +1,15 @@
+
+/* TypoPRO Oswald RegularItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-RegularItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-RegularItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-RegularItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-RegularItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

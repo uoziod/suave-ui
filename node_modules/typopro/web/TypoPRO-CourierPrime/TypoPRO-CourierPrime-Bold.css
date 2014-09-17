@@ -1,0 +1,15 @@
+
+/* TypoPRO Courier Prime */
+@font-face {
+    font-family:  'TypoPRO Courier Prime';
+    src:          url('TypoPRO-CourierPrime-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-CourierPrime-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CourierPrime-Bold.woff') format('woff'),
+                  url('TypoPRO-CourierPrime-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

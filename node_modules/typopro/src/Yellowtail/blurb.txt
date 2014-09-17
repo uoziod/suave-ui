@@ -1,0 +1,15 @@
+Name:       Yellowtail
+Homepage:   http://www.astigmatic.com/
+Download:   http://www.fontsquirrel.com/fonts/yellowtail
+Version:    1.000
+License:    Apache 2.0
+Publisher:  Astigmatic
+Designer:   Brian J. Bonislawsky, Jim Lyles
+Designed:   2012
+Derivation: none
+
+Yellowtail is an old school flavored flat brush script typeface of
+medium weight. Its mix of connecting and non-connecting letterforms lend
+to its unique look and legibility. Yellowtail nods to classic 1930's
+typestyles like Gillies Gothic & Kaufmann, yet has the loose visual
+cadence of sign painter scripts.

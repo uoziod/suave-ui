@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-Regular.woff') format('woff'),
+                  url('TypoPRO-Alegreya-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

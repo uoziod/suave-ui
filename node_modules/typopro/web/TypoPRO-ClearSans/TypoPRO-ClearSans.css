@@ -1,0 +1,120 @@
+
+/* TypoPRO Clear Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-Bold.woff') format('woff'),
+                  url('TypoPRO-ClearSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Clear Sans Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-ClearSans-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Clear Sans Italic */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-Italic.woff') format('woff'),
+                  url('TypoPRO-ClearSans-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Clear Sans Light */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-Light.woff') format('woff'),
+                  url('TypoPRO-ClearSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Clear Sans Medium */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-Medium.woff') format('woff'),
+                  url('TypoPRO-ClearSans-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Clear Sans Medium Italic */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-ClearSans-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Clear Sans */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-Regular.woff') format('woff'),
+                  url('TypoPRO-ClearSans-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Clear Sans Thin */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-Thin.woff') format('woff'),
+                  url('TypoPRO-ClearSans-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

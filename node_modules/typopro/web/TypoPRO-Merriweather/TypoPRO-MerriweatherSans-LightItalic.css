@@ -1,0 +1,15 @@
+
+/* TypoPRO Merriweather Sans Light Italic */
+@font-face {
+    font-family:  'TypoPRO Merriweather Sans';
+    src:          url('TypoPRO-MerriweatherSans-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-MerriweatherSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-MerriweatherSans-LightItalic.woff') format('woff'),
+                  url('TypoPRO-MerriweatherSans-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

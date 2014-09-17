@@ -1,0 +1,120 @@
+
+/* TypoPRO Amble Bold */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-Bold.woff') format('woff'),
+                  url('TypoPRO-Amble-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Amble Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Amble-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Amble Italic */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-Italic.woff') format('woff'),
+                  url('TypoPRO-Amble-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Amble Lt */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-Light.woff') format('woff'),
+                  url('TypoPRO-Amble-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Amble LtCn */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-LightCondensed.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-LightCondensed.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-LightCondensed.woff') format('woff'),
+                  url('TypoPRO-Amble-LightCondensed.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Amble LtCn */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-LightCondensedItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-LightCondensedItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-LightCondensedItalic.woff') format('woff'),
+                  url('TypoPRO-Amble-LightCondensedItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Amble Lt */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Amble-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Amble Regular */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-Regular.woff') format('woff'),
+                  url('TypoPRO-Amble-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

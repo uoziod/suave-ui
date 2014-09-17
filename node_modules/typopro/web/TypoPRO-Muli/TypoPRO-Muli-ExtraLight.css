@@ -1,0 +1,15 @@
+
+/* TypoPRO Muli ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-Muli-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

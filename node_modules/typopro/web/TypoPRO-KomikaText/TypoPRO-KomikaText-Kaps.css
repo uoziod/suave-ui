@@ -1,0 +1,15 @@
+
+/* TypoPRO Komika Text Kaps */
+@font-face {
+    font-family:  'TypoPRO Komika Text';
+    src:          url('TypoPRO-KomikaText-Kaps.eot');
+    src:          local('*'),
+                  url('TypoPRO-KomikaText-Kaps.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-KomikaText-Kaps.woff') format('woff'),
+                  url('TypoPRO-KomikaText-Kaps.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+

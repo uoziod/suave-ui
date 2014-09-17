@@ -1,0 +1,15 @@
+
+/* TypoPRO Dosis Light */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-Light.woff') format('woff'),
+                  url('TypoPRO-Dosis-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

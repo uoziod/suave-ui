@@ -1,0 +1,17 @@
+Name:       Raleway
+Homepage:   https://www.theleagueofmoveabletype.com/raleway
+Homepage:   http://www.impallari.com/projects/overview/matt-mcinerneys-raleway-family
+Download:   http://www.impallari.com/media/uploads/prosources/update-100-source.zip
+Version:    3.0 (100) (2013)
+License:    Open Font License 1.1
+Publisher:  Pablo Impallari
+Designer:   Matt McInerney, Pablo Impallari
+Designed:   2011
+Derivation: none
+
+Raleway is an elegant sans-serif typeface, designed by Matt McInerney,
+initially in a single Thin weight. It is a display face that features
+both old style and lining numerals, standard and discretionary
+ligatures, a pretty complete set of diacritics, as well as stylistic
+alternates inspired by more geometric sans-serif typefaces than it's
+neo-grotesque inspired default character set.

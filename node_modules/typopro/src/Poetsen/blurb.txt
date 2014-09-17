@@ -1,0 +1,15 @@
+Name:       Poetsen
+Homepage:   http://www.impallari.com/projects/overview/poetsen
+Download:   http://www.impallari.com/media/uploads/commentsources/comment-241-source.zip
+Version:    1.1 (2012-11)
+License:    Open Font License 1.1
+Publisher:  Pablo Impallari
+Designer:   Pablo Impallari
+Designed:   2012
+Derivation: none
+
+Inspired by the hand painted signs in supermarkets, and the roman
+structures of the classical alphabets. Poetsen is a display font, but
+it's not just intended to be used on big straight to the eye titles,
+since it has a large x-heigth it can be used on short paragraphs in
+relatively small bodies of text.

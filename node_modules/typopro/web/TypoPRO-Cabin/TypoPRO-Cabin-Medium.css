@@ -1,0 +1,15 @@
+
+/* TypoPRO Cabin-Medium */
+@font-face {
+    font-family:  'TypoPRO Cabin';
+    src:          url('TypoPRO-Cabin-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cabin-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cabin-Medium.woff') format('woff'),
+                  url('TypoPRO-Cabin-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

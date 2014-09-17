@@ -1,0 +1,13 @@
+Name:       Kingthings Petrock
+Homepage:   http://www.kingthingsfonts.co.uk/fonts/fonts.htm
+Download:   http://www.kingthingsfonts.co.uk/fonts/fonts.htm
+Version:    2.0 (2009)
+License:    Free-To-Use (Kingthings EULA)
+Publisher:  Kevin King
+Designer:   Kevin King
+Designed:   2006
+Derivation: none
+
+This is based on letterforms found in a small city Church in Exeter -
+St Petrock's, and is from a display case about bell ringing. A lovely
+simple labelling hand.

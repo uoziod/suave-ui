@@ -1,0 +1,15 @@
+
+/* TypoPRO Amble Regular */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-Regular.woff') format('woff'),
+                  url('TypoPRO-Amble-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

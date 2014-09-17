@@ -1,0 +1,13 @@
+Name:       Learning Curve
+Homepage:   http://www.bvfonts.com/fonts/details.php?id=76
+Download:   http://www.bvfonts.com/fonts/win/learning_curve.zip
+Version:    1.000 (2007)
+License:    BV Fonts Freeware
+Publisher:  BV Fonts
+Designer:   Jess Latham (Blue Vinyl Fonts)
+Designed:   2000
+Derivation: none
+
+This font mimics traditional cursive lettering practice worksheets but
+is more modernized and a style that I developed from my own handwriting.
+What I like most about this font is that it looks like a robot made it.

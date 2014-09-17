@@ -1,0 +1,15 @@
+
+/* TypoPRO Delius-Regular */
+@font-face {
+    font-family:  'TypoPRO Delius';
+    src:          url('TypoPRO-Delius-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Delius-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Delius-Regular.woff') format('woff'),
+                  url('TypoPRO-Delius-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,10 @@
+Name:       Merriweather
+Homepage:   http://sorkintype.com/fonts.html
+Download:   http://www.google.com/fonts#UsePlace:use/Collection:Merriweather
+Download:   http://www.google.com/fonts#UsePlace:use/Collection:Merriweather+Sans
+Version:    1.003 (2013)
+License:    Open Font License 1.1
+Publisher:  Sorkin Type Co
+Designer:   Eben Sorkin
+Designed:   2011
+Derivation: none

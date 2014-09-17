@@ -1,0 +1,27 @@
+Name:       Poly
+Homepage:   http://www.google.com/fonts/specimen/Poly
+Download:   http://www.google.com/fonts/specimen/Poly
+Version:    1.001
+License:    Open Font License 1.1
+Publisher:  Google Fonts  
+Designer:   Jos Nicolás Silva Schwarzenberg
+Designed:   2010
+Derivation: none
+
+"Poly was my final project for the postgraduate certificate in typeface
+design (University of Buenos Aires). Poly was originally designed for
+aglutinative languages, (which is why it's wide) specifically a South
+American indigenous language (Wayuunaiki). I paid a lot of attention
+to the "diacritics zone" to harmonize and unclutter the upper zones of
+the lowercase letters. Poly is a medium contrast serif font. With short
+ascenders and a very high x-height, Poly is efficient in small sizes.
+Thanks to its careful balance between the x-height and glyph widths,
+it allows more economy and legibility than standard web serifs, even
+in small sizes. The agglutinative language for which it was designed
+contains very long words. The goal was to develop a typeface that would
+tolerate cramped tracking and that would increase the number of letters
+on a single line. Poly is a Unicode typeface family that supports Open
+Type features and languages that use the Latin script and its variants.
+Poly was selected for the II Ibero-american Design Biennal, Madrid and
+it was also selected by SomaDesign for the list of Better Google Fonts."
+

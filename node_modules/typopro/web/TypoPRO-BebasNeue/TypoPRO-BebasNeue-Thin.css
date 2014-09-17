@@ -1,0 +1,15 @@
+
+/* TypoPRO Bebas Neue Thin */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Thin.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

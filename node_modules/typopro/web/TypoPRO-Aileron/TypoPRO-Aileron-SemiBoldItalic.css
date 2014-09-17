@@ -1,0 +1,15 @@
+
+/* TypoPRO Aileron SemiBold Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-SemiBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-SemiBoldItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-SemiBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

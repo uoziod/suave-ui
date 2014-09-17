@@ -1,0 +1,60 @@
+
+/* TypoPRO Yanone Kaffeesatz Bold */
+@font-face {
+    font-family:  'TypoPRO Yanone Kaffeesatz';
+    src:          url('TypoPRO-YanoneKaffeesatz-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-YanoneKaffeesatz-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-YanoneKaffeesatz-Bold.woff') format('woff'),
+                  url('TypoPRO-YanoneKaffeesatz-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Yanone Kaffeesatz Light */
+@font-face {
+    font-family:  'TypoPRO Yanone Kaffeesatz';
+    src:          url('TypoPRO-YanoneKaffeesatz-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-YanoneKaffeesatz-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-YanoneKaffeesatz-Light.woff') format('woff'),
+                  url('TypoPRO-YanoneKaffeesatz-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Yanone Kaffeesatz Regular */
+@font-face {
+    font-family:  'TypoPRO Yanone Kaffeesatz';
+    src:          url('TypoPRO-YanoneKaffeesatz-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-YanoneKaffeesatz-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-YanoneKaffeesatz-Regular.woff') format('woff'),
+                  url('TypoPRO-YanoneKaffeesatz-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Yanone Kaffeesatz Thin */
+@font-face {
+    font-family:  'TypoPRO Yanone Kaffeesatz';
+    src:          url('TypoPRO-YanoneKaffeesatz-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-YanoneKaffeesatz-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-YanoneKaffeesatz-Thin.woff') format('woff'),
+                  url('TypoPRO-YanoneKaffeesatz-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

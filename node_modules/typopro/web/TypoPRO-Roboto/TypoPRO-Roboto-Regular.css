@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Regular */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-Roboto-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Roboto-Regular.woff') format('woff'),
+                  url('TypoPRO-Roboto-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

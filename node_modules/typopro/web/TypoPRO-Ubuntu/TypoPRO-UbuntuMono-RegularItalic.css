@@ -1,0 +1,15 @@
+
+/* TypoPRO Ubuntu Mono Italic */
+@font-face {
+    font-family:  'TypoPRO Ubuntu Mono';
+    src:          url('TypoPRO-UbuntuMono-RegularItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-UbuntuMono-RegularItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-UbuntuMono-RegularItalic.woff') format('woff'),
+                  url('TypoPRO-UbuntuMono-RegularItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

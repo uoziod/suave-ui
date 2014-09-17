@@ -1,0 +1,15 @@
+
+/* TypoPRO Oswald Heavy */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-Heavy.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-Heavy.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-Heavy.woff') format('woff'),
+                  url('TypoPRO-Oswald-Heavy.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

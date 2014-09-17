@@ -1,0 +1,15 @@
+
+/* TypoPRO Charis SIL Bold */
+@font-face {
+    font-family:  'TypoPRO Charis SIL';
+    src:          url('TypoPRO-CharisSIL-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-CharisSIL-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CharisSIL-Bold.woff') format('woff'),
+                  url('TypoPRO-CharisSIL-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

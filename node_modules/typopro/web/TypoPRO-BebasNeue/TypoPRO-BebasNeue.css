@@ -1,0 +1,75 @@
+
+/* TypoPRO Bebas Neue Bold */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Bold.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bebas Neue Book */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Book.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Book.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Book.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Book.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bebas Neue Light */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Light.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bebas Neue Regular */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Regular.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bebas Neue Thin */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Thin.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

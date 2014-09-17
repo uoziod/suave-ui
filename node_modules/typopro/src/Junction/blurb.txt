@@ -1,0 +1,11 @@
+Name:       Junction
+Homepage:   http://www.theleagueofmoveabletype.com/junction
+Download:   https://github.com/theleagueof/junction
+Version:    1.056
+License:    Open Font License 1.1
+Publisher:  The League of Moveable Type
+Designer:   Caroline Hadilaksono & Tyler Finck
+Designed:   2011
+Derivation: none
+
+Junction is a a humanist sans-serif.

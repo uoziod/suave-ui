@@ -1,0 +1,9 @@
+Name:       To Be Continued...
+Homepage:   https://glyphobet.net/typography/#tobecontinued
+Download:   https://glyphobet.net/typography/downloads/tobecontinued.zip
+Version:    2009
+License:    Open Font License 1.1
+Publisher:  Matt Chisholm
+Designer:   Matt Chisholm
+Designed:   1996
+Derivation: "Graffiti"

@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Hair */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-Hair.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Hair.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Hair.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Hair.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

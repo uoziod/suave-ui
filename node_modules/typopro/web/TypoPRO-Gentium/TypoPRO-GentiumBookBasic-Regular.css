@@ -1,0 +1,15 @@
+
+/* TypoPRO Gentium Book Basic */
+@font-face {
+    font-family:  'TypoPRO Gentium Book Basic';
+    src:          url('TypoPRO-GentiumBookBasic-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-GentiumBookBasic-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-GentiumBookBasic-Regular.woff') format('woff'),
+                  url('TypoPRO-GentiumBookBasic-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

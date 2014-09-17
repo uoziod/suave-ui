@@ -1,0 +1,19 @@
+Name:       Crete Round
+Homepage:   http://www.type-together.com/Crete
+Download:   http://www.fontsquirrel.com/fonts/download/crete-round
+Version:    1.001
+License:    Open Font License 1.1
+Publisher:  Type Together
+Designer:   Type Together
+Designed:   2011
+Derivation: Crete
+
+Crete Round is a warm slab serif providing a hint of softness to
+texts. It started as a tailored version of the original Crete fonts
+- http://www.type-together.com/Crete - created specially to serve
+as corporate typeface for the type design competition Letter2 -
+http://www.letter2.org Crete Round is more independent from the original
+with modified terminals and serifs to create two new fonts that deliver
+a more contemporary and functional appearance. The tall x-height, low
+contrast and sturdy slabs prove to be surprisingly efficient for web
+use.

@@ -1,0 +1,9 @@
+Name:       DejaVu
+Homepage:   http://www.marksimonson.com/fonts/view/anonymous-pro
+Download:   http://www.marksimonson.com/fonts/view/anonymous-pro
+Version:    1.002 (2010-09)
+License:    Open Font License 1.1
+Publisher:  Mark Simonson
+Designer:   Mark Simonson
+Designed:   2009
+Derivation: none

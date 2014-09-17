@@ -1,0 +1,15 @@
+
+/* TypoPRO Clear Sans */
+@font-face {
+    font-family:  'TypoPRO Clear Sans';
+    src:          url('TypoPRO-ClearSans-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ClearSans-Regular.woff') format('woff'),
+                  url('TypoPRO-ClearSans-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

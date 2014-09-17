@@ -1,0 +1,15 @@
+
+/* TypoPRO Raleway ExtraBold */
+@font-face {
+    font-family:  'TypoPRO Raleway';
+    src:          url('TypoPRO-Raleway-ExtraBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Raleway-ExtraBold.woff') format('woff'),
+                  url('TypoPRO-Raleway-ExtraBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

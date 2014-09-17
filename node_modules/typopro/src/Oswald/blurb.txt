@@ -1,0 +1,16 @@
+Name:       Oswald
+Homepage:   http://oswaldfont.com/
+Download:   https://github.com/vernnobile/OswaldFont/archive/master.zip
+Version:    3.0 (2013)
+License:    Open Font License 1.1
+Publisher:  Vernon Adams
+Designer:   Vernon Adams
+Designed:   2012
+Derivation: Franklyn Gothic, Alternate Gothic, News Gothic
+
+Oswald is a reworking of the classic gothic typeface style historically
+represented by designs such as 'Franklyn Gothic', 'Alternate Gothic', 'News
+Gothic' and more. The characters of Oswald have been re-drawn and reformed to
+better fit the pixel grid of standard digital screens. Oswald is designed to
+be used freely across the internet by web browsers on desktop computers,
+laptops and mobile devices.

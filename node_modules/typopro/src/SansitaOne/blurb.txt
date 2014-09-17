@@ -1,0 +1,13 @@
+Name:       Sansita One
+Homepage:   http://omnibus-type.com/
+Download:   http://www.google.com/fonts/download?kit=cZwCY69NTf4wdp7LLVbtOIfD-WQWLbF4rYwcBGowFYY
+Version:    1.001
+License:    Open Font License
+Publisher:  Omnibus-Type
+Designer:   Omnibus-Type
+Designed:   2011
+Derivation: none
+
+Sansita is a tasty font. The flavor of Sansita's lowercase explores the
+relationship between typography and calligraphy. The elegance of Sansita's
+uppercase makes this an excellent choice for packaging and branding.

@@ -1,0 +1,15 @@
+Name:       Aleo
+Homepage:   http://fontfabric.com/aleo-free-font/
+Download:   http://fontfabric.com/aleo-free-font/
+Version:    1.000
+License:    Open Font License 1.1
+Publisher:  Font Fabric
+Designer:   Alessio Laiso
+Designed:   2013
+Derivation: none
+
+Aleo is a contemporary typeface designed as the slab serif companion to
+the Lato font by Łukasz Dziedzic. Aleo has semi-rounded details and
+a sleek structure, giving it a strong personality while still keeping
+readability high. The family comprises six styles: three weights (light,
+regular and bold) with corresponding true italics.

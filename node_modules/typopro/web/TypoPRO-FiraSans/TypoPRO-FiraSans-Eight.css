@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Eight */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 75';
+    src:          url('TypoPRO-FiraSans-Eight.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Eight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Eight.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Eight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

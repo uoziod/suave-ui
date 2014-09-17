@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans UltraLight */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-UltraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-UltraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-UltraLight.woff') format('woff'),
+                  url('TypoPRO-FiraSans-UltraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

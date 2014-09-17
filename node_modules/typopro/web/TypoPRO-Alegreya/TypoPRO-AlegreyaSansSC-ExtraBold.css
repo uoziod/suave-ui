@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya Sans SC ExtraBold */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-ExtraBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

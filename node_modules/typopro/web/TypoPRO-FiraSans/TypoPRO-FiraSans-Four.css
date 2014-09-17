@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Four */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 50';
+    src:          url('TypoPRO-FiraSans-Four.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Four.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Four.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Four.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

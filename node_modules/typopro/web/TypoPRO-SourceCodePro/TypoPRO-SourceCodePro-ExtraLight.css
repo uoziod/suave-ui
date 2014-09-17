@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Code Pro ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Source Code Pro';
+    src:          url('TypoPRO-SourceCodePro-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceCodePro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceCodePro-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-SourceCodePro-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

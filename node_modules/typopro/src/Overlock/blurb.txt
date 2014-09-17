@@ -1,0 +1,17 @@
+Name:       Overlock
+Homepage:   http://www.fontsquirrel.com/fonts/overlock
+Download:   http://www.fontsquirrel.com/fonts/download/overlock
+Version:    1.001
+License:    Open Font License 1.1
+Publisher:  Font Squirrel
+Designer:   Dario Manuel Muhafara
+Designed:   2006
+Derivation: none
+
+The Overlock typeface family was selected by the Letras Latinas Biennal
+in 2006. The initial idea of this typeface was to simulate the Overlock
+sewing technique. The special thing about these forms is the warm
+feeling that they give to your text, because of the particular rounded
+glyph shapes that emerge. As a result, the Overlock typeface family is
+great for titles and short texts in magazine style layouts.
+

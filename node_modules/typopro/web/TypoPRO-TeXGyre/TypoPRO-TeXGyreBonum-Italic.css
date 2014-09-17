@@ -1,0 +1,15 @@
+
+/* TypoPRO TeX Gyre Bonum */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Bonum';
+    src:          url('TypoPRO-TeXGyreBonum-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreBonum-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreBonum-Italic.woff') format('woff'),
+                  url('TypoPRO-TeXGyreBonum-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

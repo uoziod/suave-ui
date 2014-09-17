@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Book */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 350';
+    src:          url('TypoPRO-FiraSans-Book.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Book.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Book.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

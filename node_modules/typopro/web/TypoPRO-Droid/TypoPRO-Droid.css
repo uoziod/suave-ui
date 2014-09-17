@@ -1,0 +1,105 @@
+
+/* TypoPRO Droid Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Droid Sans';
+    src:          url('TypoPRO-DroidSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSans-Bold.woff') format('woff'),
+                  url('TypoPRO-DroidSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Droid Sans */
+@font-face {
+    font-family:  'TypoPRO Droid Sans';
+    src:          url('TypoPRO-DroidSans-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSans-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSans-Regular.woff') format('woff'),
+                  url('TypoPRO-DroidSans-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Droid Sans Mono */
+@font-face {
+    font-family:  'TypoPRO Droid Sans Mono';
+    src:          url('TypoPRO-DroidSansMono-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSansMono-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSansMono-Regular.woff') format('woff'),
+                  url('TypoPRO-DroidSansMono-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Droid Serif Bold */
+@font-face {
+    font-family:  'TypoPRO Droid Serif';
+    src:          url('TypoPRO-DroidSerif-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSerif-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSerif-Bold.woff') format('woff'),
+                  url('TypoPRO-DroidSerif-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Droid Serif Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Droid Serif';
+    src:          url('TypoPRO-DroidSerif-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSerif-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-DroidSerif-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Droid Serif Italic */
+@font-face {
+    font-family:  'TypoPRO Droid Serif';
+    src:          url('TypoPRO-DroidSerif-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSerif-Italic.woff') format('woff'),
+                  url('TypoPRO-DroidSerif-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Droid Serif */
+@font-face {
+    font-family:  'TypoPRO Droid Serif';
+    src:          url('TypoPRO-DroidSerif-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSerif-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSerif-Regular.woff') format('woff'),
+                  url('TypoPRO-DroidSerif-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

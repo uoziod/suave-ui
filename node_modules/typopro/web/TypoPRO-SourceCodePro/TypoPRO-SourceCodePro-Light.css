@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Code Pro Light */
+@font-face {
+    font-family:  'TypoPRO Source Code Pro';
+    src:          url('TypoPRO-SourceCodePro-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceCodePro-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceCodePro-Light.woff') format('woff'),
+                  url('TypoPRO-SourceCodePro-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

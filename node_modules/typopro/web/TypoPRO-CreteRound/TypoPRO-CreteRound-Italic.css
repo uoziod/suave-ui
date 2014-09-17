@@ -1,0 +1,15 @@
+
+/* TypoPRO Crete Round Italic */
+@font-face {
+    font-family:  'TypoPRO Crete Round';
+    src:          url('TypoPRO-CreteRound-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-CreteRound-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CreteRound-Italic.woff') format('woff'),
+                  url('TypoPRO-CreteRound-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

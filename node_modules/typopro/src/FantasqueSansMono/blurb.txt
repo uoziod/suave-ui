@@ -1,0 +1,13 @@
+Name:       Fantasque Sans Mono
+Homepage:   https://github.com/belluzj/fantasque-sans
+Download:   http://openfontlibrary.org/en/font/fantasque-sans-mono
+Version:    1.6.5 (2014-07)
+License:    Open Font License
+Publisher:  Jany Bell
+Designer:   Jany Bell
+Designed:   2013
+Derivation: Inconsolate, Monaco
+
+A programming font, designed with functionality in mind, and with some
+wibbly-wobbly handwriting-like fuzziness that makes it unassumingly
+cool.

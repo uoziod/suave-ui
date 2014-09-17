@@ -1,0 +1,15 @@
+
+/* TypoPRO Kingthings Petrock */
+@font-face {
+    font-family:  'TypoPRO Kingthings Petrock';
+    src:          url('TypoPRO-KingthingsPetrock-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-KingthingsPetrock-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-KingthingsPetrock-Regular.woff') format('woff'),
+                  url('TypoPRO-KingthingsPetrock-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

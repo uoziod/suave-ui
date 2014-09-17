@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans ExtraLight Italic */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 250';
+    src:          url('TypoPRO-FiraSans-ExtraLightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-ExtraLightItalic.woff') format('woff'),
+                  url('TypoPRO-FiraSans-ExtraLightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

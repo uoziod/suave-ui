@@ -12,8 +12,9 @@ grid, buttons, popups, dropdowns and snackbar (notifications).
 
 All components are included into bundle-files.
 
-- [Font Awesome](http://fontawesome.io/) using for icons.
-- [Animate.css](http://daneden.github.io/animate.css/) using for CSS-animations. 
+- [TypoPRO 2.2.3](http://typopro.org/) provides fonts collection.
+- [Font Awesome 4.2.0](http://fontawesome.io/) provides for icons.
+- [Animate.css 3.1.1](http://daneden.github.io/animate.css/) provides CSS-animations. 
 
 
 ## Usage
@@ -47,11 +48,12 @@ Then you can use Suave UI public directives, services and styles right in your c
     - [suSnackbar](manual/services.md#suSnackbar)
 - [Suave UI styles](manual/styles.md)
     - [Basic definitions](manual/styles.md#style-basic)
-    - [Control elements colors](manual/styles.md#style-controls)
+    - [Control elements colors](manual/styles.md#style-controls-colors)
 
 
 ## License
 
 - **Suave UI** is licensed under the MIT License
-- [Font Awesome](http://fontawesome.io/) font is licensed under the SIL OFL 1.1
-- [Animate.css](http://daneden.github.io/animate.css/) is licensed under MIT License
+- [TypoPRO](http://typopro.org/) – all font families are distributed under very liberal Open Source licenses, either MIT License, Apache License, Open Font License or Public Domain.
+- [Font Awesome](http://fontawesome.io/) font is licensed under the SIL OFL 1.1.
+- [Animate.css](http://daneden.github.io/animate.css/) is licensed under MIT License.

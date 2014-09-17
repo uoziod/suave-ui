@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 200 X Light */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

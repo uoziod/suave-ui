@@ -1,0 +1,15 @@
+
+/* TypoPRO Liberation Mono */
+@font-face {
+    font-family:  'TypoPRO Liberation Mono';
+    src:          url('TypoPRO-LiberationMono-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LiberationMono-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LiberationMono-Regular.woff') format('woff'),
+                  url('TypoPRO-LiberationMono-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

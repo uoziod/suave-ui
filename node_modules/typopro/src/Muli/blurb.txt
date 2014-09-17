@@ -1,0 +1,12 @@
+Name:       Muli
+Homepage:   https://github.com/vernnobile/MuliFont
+Download:   https://github.com/vernnobile/MuliFont/archive/master.zip
+Version:    2.0 (2014-02)
+License:    Open Font License 1.1
+Publisher:  Vernon Adams
+Designer:   Vernon Adams
+Designed:   2012
+Derivation: none
+
+Muli is a minimalist Sans Serif. Muli is designed mainly for use as a
+display font but is useable as a text font, too.

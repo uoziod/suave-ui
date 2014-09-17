@@ -36,3 +36,21 @@
 	     -o-animation-#{$prop}: $value;
 	        animation-#{$prop}: $value;
 }
+
+@mixin keyframes($name) {
+	@-webkit-keyframes #{$name} {
+		@content
+	}
+
+	@-moz-keyframes #{$name} {
+		@content
+	}
+
+	@-o-keyframes #{$name} {
+		@content
+	}
+
+	@keyframes #{$name} {
+		@content
+	}
+}

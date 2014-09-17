@@ -1,0 +1,15 @@
+
+/* TypoPRO Bellota Light Italic */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Bellota-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

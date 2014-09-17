@@ -1,0 +1,10 @@
+Name:       Lekton
+Homepage:   http://www.fontsquirrel.com/fonts/lekton
+Download:   http://www.fontsquirrel.com/fonts/lekton
+Version:    2013-06
+License:    Open Font License
+Publisher:  Open Handset Alliance, Google
+Designer:   Accademia di Belle Arti di Urbino
+Designed:   2008
+Derivation: none
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Pompiere  */
+@font-face {
+    font-family:  'TypoPRO Pompiere';
+    src:          url('TypoPRO-Pompiere-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Pompiere-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Pompiere-Regular.woff') format('woff'),
+                  url('TypoPRO-Pompiere-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

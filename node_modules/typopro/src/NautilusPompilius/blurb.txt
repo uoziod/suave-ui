@@ -1,0 +1,9 @@
+Name:       Nautilus Pompilius
+Homepage:   http://nautilustype.com/
+Download:   http://nautilustype.com/
+Version:    1.000
+License:    Open Font License 1.1
+Publisher:  Punk You Brands
+Designer:   Punk You Brands 
+Designed:   2013?
+Derivation: none

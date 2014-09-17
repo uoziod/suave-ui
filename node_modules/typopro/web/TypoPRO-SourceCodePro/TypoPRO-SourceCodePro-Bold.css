@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Code Pro Bold */
+@font-face {
+    font-family:  'TypoPRO Source Code Pro';
+    src:          url('TypoPRO-SourceCodePro-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceCodePro-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceCodePro-Bold.woff') format('woff'),
+                  url('TypoPRO-SourceCodePro-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,14 @@
+Name:       Rosario
+Homepage:   http://omnibus-type.com/
+Download:   http://www.google.com/fonts/download?kit=Fl8GJPV1aS2Rzf0v-pFTbqCWcynf_cDxXwCLxiixG1c
+Version:    1.003
+License:    Open Font License
+Publisher:  Omnibus-Type
+Designer:   Omnibus-Type
+Designed:   2011
+Derivation: none
+
+Rosario is a classic semiserif typeface, weak contrast and smooth
+endings. Produced carefully, nice and elegant, ideal for magazines and
+academic journals. Rosario is the name of the city where the designer
+lives.

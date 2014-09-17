@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Sans Pro Black Italic */
+@font-face {
+    font-family:  'TypoPRO Source Sans Pro';
+    src:          url('TypoPRO-SourceSansPro-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceSansPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceSansPro-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-SourceSansPro-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

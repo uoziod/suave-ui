@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya SC Black */
+@font-face {
+    font-family:  'TypoPRO Alegreya SC';
+    src:          url('TypoPRO-AlegreyaSC-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSC-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSC-Black.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSC-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

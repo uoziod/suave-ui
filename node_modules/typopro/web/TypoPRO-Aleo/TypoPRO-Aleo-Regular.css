@@ -1,0 +1,15 @@
+
+/* TypoPRO Aleo Regular */
+@font-face {
+    font-family:  'TypoPRO Aleo';
+    src:          url('TypoPRO-Aleo-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aleo-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aleo-Regular.woff') format('woff'),
+                  url('TypoPRO-Aleo-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

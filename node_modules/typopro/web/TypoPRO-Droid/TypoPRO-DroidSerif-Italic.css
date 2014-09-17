@@ -1,0 +1,15 @@
+
+/* TypoPRO Droid Serif Italic */
+@font-face {
+    font-family:  'TypoPRO Droid Serif';
+    src:          url('TypoPRO-DroidSerif-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSerif-Italic.woff') format('woff'),
+                  url('TypoPRO-DroidSerif-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

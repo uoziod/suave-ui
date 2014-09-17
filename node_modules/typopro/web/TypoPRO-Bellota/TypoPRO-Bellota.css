@@ -1,0 +1,90 @@
+
+/* TypoPRO Bellota Bold */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-Bold.woff') format('woff'),
+                  url('TypoPRO-Bellota-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bellota Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Bellota-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bellota Light */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-Light.woff') format('woff'),
+                  url('TypoPRO-Bellota-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bellota Light Italic */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Bellota-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bellota */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-Regular.woff') format('woff'),
+                  url('TypoPRO-Bellota-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Bellota Italic */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-RegularItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-RegularItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-RegularItalic.woff') format('woff'),
+                  url('TypoPRO-Bellota-RegularItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

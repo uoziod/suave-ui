@@ -1,0 +1,9 @@
+Name:       Pompiere
+Homepage:   http://sorkintype.com/fonts.html
+Download:   http://www.fontsquirrel.com/fonts/pompiere
+Version:    1.001 (2011)
+License:    Open Font License 1.1
+Publisher:  Sorkin Type Co
+Designer:   Eben Sorkin
+Designed:   2011
+Derivation: none

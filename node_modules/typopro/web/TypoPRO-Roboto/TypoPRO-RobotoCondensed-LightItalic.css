@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Condensed Light Italic */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-RobotoCondensed-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-RobotoCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-RobotoCondensed-LightItalic.woff') format('woff'),
+                  url('TypoPRO-RobotoCondensed-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

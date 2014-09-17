@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Two */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 25';
+    src:          url('TypoPRO-FiraSans-Two.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Two.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Two.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Two.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Merriweather Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Merriweather Sans';
+    src:          url('TypoPRO-MerriweatherSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-MerriweatherSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-MerriweatherSans-Bold.woff') format('woff'),
+                  url('TypoPRO-MerriweatherSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Crete Round */
+@font-face {
+    font-family:  'TypoPRO Crete Round';
+    src:          url('TypoPRO-CreteRound-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-CreteRound-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CreteRound-Regular.woff') format('woff'),
+                  url('TypoPRO-CreteRound-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

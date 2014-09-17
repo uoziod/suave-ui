@@ -1,0 +1,15 @@
+Name:       Amble
+Homepage:   http://www.fontsquirrel.com/fonts/amble
+Download:   http://www.fontsquirrel.com/fonts/amble
+Version:    1.0000 (2009)
+License:    Apache
+Publisher:  Sun Microsystems
+Designer:   Christian Robertson (Punchcut)
+Designed:   2009
+Derivation: none
+
+Amble was designed by Punchcut. In 2010 Sun Microsystems licensed it for
+inclusion in their JavaFX SDK for mobile handsets and released it under
+a liberal Apache License. Amble is a highly legible screen-optimized
+sans-serif font family. Amble is like a slightly more open version of
+Verdana and has a very distinct "K" character.

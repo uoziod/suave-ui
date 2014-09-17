@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Sans Pro Black */
+@font-face {
+    font-family:  'TypoPRO Source Sans Pro';
+    src:          url('TypoPRO-SourceSansPro-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceSansPro-Black.woff') format('woff'),
+                  url('TypoPRO-SourceSansPro-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

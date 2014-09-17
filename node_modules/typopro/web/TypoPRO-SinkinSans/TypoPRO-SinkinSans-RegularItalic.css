@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 400 Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-RegularItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-RegularItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-RegularItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-RegularItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Sans Quot 8 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Sans Quotation';
+    src:          url('TypoPRO-LatinModernSansQuotation-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernSansQuotation-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernSansQuotation-Bold.woff') format('woff'),
+                  url('TypoPRO-LatinModernSansQuotation-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Amble Lt */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Amble-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

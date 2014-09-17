@@ -1,0 +1,13 @@
+Name:       Comic Relief
+Homepage:   http://loudifier.com/comic-relief/
+Download:   https://dl.dropbox.com/u/56493902/loudifier/comicrelief.zip
+Version:    1.1 (2013-11-19)
+License:    Open Font License 1.1
+Publisher:  Loudifier
+Designer:   Jeff Davis
+Designed:   2013
+Derivation: Comic Sans MS
+
+Comic Relief is a typeface designed to be metrically equivalent to the
+popular Comic Sans MS. Comic Relief can be used in place of Comic Sans
+MS without having to move, resize, or reset any part of the copy.

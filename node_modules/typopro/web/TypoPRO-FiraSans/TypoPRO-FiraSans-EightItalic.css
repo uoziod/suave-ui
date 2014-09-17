@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Eight Italic */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 75';
+    src:          url('TypoPRO-FiraSans-EightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-EightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-EightItalic.woff') format('woff'),
+                  url('TypoPRO-FiraSans-EightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

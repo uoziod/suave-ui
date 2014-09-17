@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyrePagella-Regular */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Pagella';
+    src:          url('TypoPRO-TeXGyrePagella-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyrePagella-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyrePagella-Regular.woff') format('woff'),
+                  url('TypoPRO-TeXGyrePagella-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

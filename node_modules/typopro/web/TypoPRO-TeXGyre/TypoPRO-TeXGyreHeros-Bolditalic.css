@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreHeros-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Heros';
+    src:          url('TypoPRO-TeXGyreHeros-Bolditalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreHeros-Bolditalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreHeros-Bolditalic.woff') format('woff'),
+                  url('TypoPRO-TeXGyreHeros-Bolditalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

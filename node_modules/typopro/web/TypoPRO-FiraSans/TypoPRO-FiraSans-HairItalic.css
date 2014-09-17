@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Hair Italic */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-HairItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-HairItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-HairItalic.woff') format('woff'),
+                  url('TypoPRO-FiraSans-HairItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Liberation Serif Italic */
+@font-face {
+    font-family:  'TypoPRO Liberation Serif';
+    src:          url('TypoPRO-LiberationSerif-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-LiberationSerif-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LiberationSerif-Italic.woff') format('woff'),
+                  url('TypoPRO-LiberationSerif-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

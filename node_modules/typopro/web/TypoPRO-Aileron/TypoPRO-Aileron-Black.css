@@ -1,0 +1,15 @@
+
+/* TypoPRO Aileron Black */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-Black.woff') format('woff'),
+                  url('TypoPRO-Aileron-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

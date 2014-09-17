@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Slab Light */
+@font-face {
+    font-family:  'TypoPRO Roboto Slab';
+    src:          url('TypoPRO-RobotoSlab-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-RobotoSlab-Light.woff') format('woff'),
+                  url('TypoPRO-RobotoSlab-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

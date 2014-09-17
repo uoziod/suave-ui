@@ -1,0 +1,23 @@
+Name:       Sinkin Sans
+Homepage:   http://www.k-type.com/fonts/sinkin-sans/
+Download:   http://www.k-type.com/freefonts/SINKIN_SANS_FAMILY.zip
+Version:    1.1
+License:    Apache
+Publisher:  K-Type
+Designer:   Keith Bates
+Designed:   2014
+Derivation: none
+
+Sinkin Sans is a simple, pleasant, luxuriously proportioned and easy to
+read sans-serif, supplied in all 9 standard web weights, 100 to 900,
+plus italics, so the face is a comprehensive illustration of the CSS web
+font numerical scale.
+
+Sinkin Sans is designed with tiny, inconspicuous notches that sink
+into verticals at the intersections of strokes, adding highlights to
+congested corners. The incisions make right angles appear sharper and
+improve definition in more intricate characters.
+
+Sinkin Sans was created to be the web font for the 2014 K-Type site
+redesign.
+

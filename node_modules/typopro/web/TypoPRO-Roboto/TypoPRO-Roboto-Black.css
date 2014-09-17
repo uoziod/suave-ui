@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Black */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-Roboto-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-Roboto-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Roboto-Black.woff') format('woff'),
+                  url('TypoPRO-Roboto-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

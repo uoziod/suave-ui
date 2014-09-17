@@ -1,0 +1,12 @@
+Name:       Oxygen
+Homepage:   https://projects.kde.org/projects/playground/artwork/oxygen-fonts/repository
+Download:   http://www.fontsquirrel.com/fonts/oxygen
+Version:    0.4
+License:    Open Font License 1.1
+Publisher:  KDE
+Designer:   Vernon Adams
+Designed:   2011
+Derivation: none
+
+Oxygen was designed for the Oxygen Project to give a visual refresh to
+the KDE Plasma Workspaces.

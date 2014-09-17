@@ -1,0 +1,15 @@
+
+/* TypoPRO Signika-Light */
+@font-face {
+    font-family:  'TypoPRO Signika';
+    src:          url('TypoPRO-Signika-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Signika-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Signika-Light.woff') format('woff'),
+                  url('TypoPRO-Signika-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

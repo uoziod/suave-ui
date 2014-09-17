@@ -1,0 +1,15 @@
+
+/* TypoPRO Liberation Mono Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Liberation Mono';
+    src:          url('TypoPRO-LiberationMono-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-LiberationMono-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LiberationMono-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-LiberationMono-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

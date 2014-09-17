@@ -1,0 +1,13 @@
+Name:       Kalam
+Homepage:   http://www.google.com/fonts/specimen/Kalam
+Download:   http://www.google.com/fonts#UsePlace:use/Collection:Kalam
+Version:    1.200
+License:    Open Font License
+Publisher:  Indian Type Foundry
+Designer:   Lipi Raval, Jonny Pinhorn
+Designed:   2014
+Derivation: none
+
+Kalam is a handwriting-style typeface supporting the Devanagari and
+Latin scripts. This is an Open Source font family first published by the
+Indian Type Foundry in 2014.

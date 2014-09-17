@@ -1,0 +1,15 @@
+
+/* TypoPRO Cousine Bold */
+@font-face {
+    font-family:  'TypoPRO Cousine';
+    src:          url('TypoPRO-Cousine-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cousine-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cousine-Bold.woff') format('woff'),
+                  url('TypoPRO-Cousine-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

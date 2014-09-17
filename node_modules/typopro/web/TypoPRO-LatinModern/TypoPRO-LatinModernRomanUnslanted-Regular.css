@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Roman Unslanted 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Roman Unslanted';
+    src:          url('TypoPRO-LatinModernRomanUnslanted-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernRomanUnslanted-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernRomanUnslanted-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernRomanUnslanted-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

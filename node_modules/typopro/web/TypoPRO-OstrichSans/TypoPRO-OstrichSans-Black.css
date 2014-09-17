@@ -1,0 +1,15 @@
+
+/* TypoPRO Ostrich Sans Black */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans';
+    src:          url('TypoPRO-OstrichSans-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSans-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSans-Black.woff') format('woff'),
+                  url('TypoPRO-OstrichSans-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

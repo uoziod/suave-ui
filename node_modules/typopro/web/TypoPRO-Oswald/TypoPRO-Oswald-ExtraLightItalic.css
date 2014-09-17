@@ -1,0 +1,15 @@
+
+/* TypoPRO Oswald Extra-LightItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-ExtraLightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-ExtraLightItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-ExtraLightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

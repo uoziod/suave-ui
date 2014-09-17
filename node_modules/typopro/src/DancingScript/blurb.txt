@@ -1,0 +1,16 @@
+Name:       Dancing Script
+Homepage:   http://www.impallari.com/dancing
+Download:   http://www.impallari.com/media/releases/dancing-script-v1.2.zip
+Version:    1.2 (2011)
+License:    Open Font License 1.1
+Publisher:  Pablo Impallari
+Designer:   Pablo Impallari and Igino Marini
+Designed:   2011
+Derivation: none
+
+Dancing Script is a lively casual script where the letters bounce
+and change size slightly. Caps are big, and go below the baseline.
+References popular scripts typefaces from the 50's. It relates to Murray
+Hill (Emil Klumpp. 1956) in his weight distribution, and to Mistral
+(Roger Excoffon. 1953) in his lively bouncing effect. Use it when you
+want a friendly, informal and spontaneous look.

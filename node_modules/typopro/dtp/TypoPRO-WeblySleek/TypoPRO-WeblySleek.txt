@@ -1,0 +1,13 @@
+Name:       Webly Sleek
+Homepage:   http://www.dafont.com/weblysleek-ui.font
+Download:   http://img.dafont.com/dl/?f=weblysleek_ui
+Version:    2012
+License:    Public Domain
+Publisher:  dafont.com
+Designer:   Mat Douglas
+Designed:   2012
+Derivation: Segoe UI
+
+"This font was created for UI Webdesign layouts"
+
+Public Domain

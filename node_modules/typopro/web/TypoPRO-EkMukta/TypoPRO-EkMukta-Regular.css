@@ -1,0 +1,15 @@
+
+/* TypoPRO Ek Mukta Regular */
+@font-face {
+    font-family:  'TypoPRO Ek Mukta';
+    src:          url('TypoPRO-EkMukta-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-EkMukta-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-EkMukta-Regular.woff') format('woff'),
+                  url('TypoPRO-EkMukta-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

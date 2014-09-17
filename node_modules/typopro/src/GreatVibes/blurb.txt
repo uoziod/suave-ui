@@ -1,0 +1,12 @@
+Name:       Great Vibes
+Homepage:   http://www.typesetit.com/fonts.html
+Download:   http://www.fontsquirrel.com/fonts/download/great-vibes
+Version:    1.001
+License:    Open Font License 1.1
+Publisher:  TypeSETit
+Designer:   Robert E. Leuschke
+Designed:   2012
+Derivation: none
+
+Great Vibes is a beautifully flowing connecting script. It has cleanly
+looping ascenders and descenders as well as elegant uppercase forms.

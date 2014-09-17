@@ -1,0 +1,15 @@
+
+/* TypoPRO Cabin-SemiBold */
+@font-face {
+    font-family:  'TypoPRO Cabin';
+    src:          url('TypoPRO-Cabin-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cabin-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cabin-SemiBold.woff') format('woff'),
+                  url('TypoPRO-Cabin-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

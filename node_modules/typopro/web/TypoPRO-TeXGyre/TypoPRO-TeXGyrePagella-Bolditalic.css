@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyrePagella-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Pagella';
+    src:          url('TypoPRO-TeXGyrePagella-Bolditalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyrePagella-Bolditalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyrePagella-Bolditalic.woff') format('woff'),
+                  url('TypoPRO-TeXGyrePagella-Bolditalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

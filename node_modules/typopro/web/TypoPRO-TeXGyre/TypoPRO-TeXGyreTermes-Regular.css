@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreTermes-Regular */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Termes';
+    src:          url('TypoPRO-TeXGyreTermes-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreTermes-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreTermes-Regular.woff') format('woff'),
+                  url('TypoPRO-TeXGyreTermes-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

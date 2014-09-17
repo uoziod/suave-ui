@@ -1,0 +1,15 @@
+
+/* TypoPRO Oswald BoldItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

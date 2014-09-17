@@ -1,0 +1,15 @@
+
+/* TypoPRO Merriweather Sans Light */
+@font-face {
+    font-family:  'TypoPRO Merriweather Sans';
+    src:          url('TypoPRO-MerriweatherSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-MerriweatherSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-MerriweatherSans-Light.woff') format('woff'),
+                  url('TypoPRO-MerriweatherSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

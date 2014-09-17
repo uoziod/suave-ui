@@ -1,0 +1,15 @@
+
+/* TypoPRO Aleo Light Italic */
+@font-face {
+    font-family:  'TypoPRO Aleo';
+    src:          url('TypoPRO-Aleo-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aleo-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aleo-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Aleo-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

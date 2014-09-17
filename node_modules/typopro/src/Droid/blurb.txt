@@ -1,0 +1,16 @@
+Name:       Droid
+Homepage:   http://www.droidfonts.com/
+Download:   https://github.com/android/platform_frameworks_base/archive/master.zip
+Version:    1.00
+License:    Apache License 2.0
+Publisher:  Open Handset Alliance, Google
+Designer:   Steve Metteson (Ascender)
+Designed:   2006
+Derivation: Andalé Mono (for Droid Sans Mono)
+
+Droid is a font family first released in 2007 and created by Ascender
+Corporation for use by the Open Handset Alliance platform Android. The
+fonts are intended for use on the small screens of mobile handsets and
+were designed by Steve Matteson of Ascender Corporation. The name was
+derived from the Open Handset Alliance platform name Android.
+

@@ -1,0 +1,150 @@
+
+/* TypoPRO Muli Bold */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-Bold.woff') format('woff'),
+                  url('TypoPRO-Muli-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Muli-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-Muli-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli Extra-Light Italic */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-ExtraLightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-ExtraLightItalic.woff') format('woff'),
+                  url('TypoPRO-Muli-ExtraLightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli Italic */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-Italic.woff') format('woff'),
+                  url('TypoPRO-Muli-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli Light */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-Light.woff') format('woff'),
+                  url('TypoPRO-Muli-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli Light Italic */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Muli-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-Regular.woff') format('woff'),
+                  url('TypoPRO-Muli-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli SemiBold */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-SemiBold.woff') format('woff'),
+                  url('TypoPRO-Muli-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Muli Semi-Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-SemiBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-SemiBoldItalic.woff') format('woff'),
+                  url('TypoPRO-Muli-SemiBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

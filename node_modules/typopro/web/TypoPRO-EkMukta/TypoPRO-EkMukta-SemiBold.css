@@ -1,0 +1,15 @@
+
+/* TypoPRO Ek Mukta SemiBold */
+@font-face {
+    font-family:  'TypoPRO Ek Mukta';
+    src:          url('TypoPRO-EkMukta-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-EkMukta-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-EkMukta-SemiBold.woff') format('woff'),
+                  url('TypoPRO-EkMukta-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

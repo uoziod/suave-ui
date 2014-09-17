@@ -1,0 +1,15 @@
+
+/* TypoPRO Droid Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Droid Sans';
+    src:          url('TypoPRO-DroidSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSans-Bold.woff') format('woff'),
+                  url('TypoPRO-DroidSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Four Italic */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 50';
+    src:          url('TypoPRO-FiraSans-FourItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-FourItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-FourItalic.woff') format('woff'),
+                  url('TypoPRO-FiraSans-FourItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

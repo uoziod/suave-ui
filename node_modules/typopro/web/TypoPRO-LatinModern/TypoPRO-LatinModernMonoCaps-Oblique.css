@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Mono Caps 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Mono Caps';
+    src:          url('TypoPRO-LatinModernMonoCaps-Oblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernMonoCaps-Oblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernMonoCaps-Oblique.woff') format('woff'),
+                  url('TypoPRO-LatinModernMonoCaps-Oblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+

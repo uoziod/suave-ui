@@ -11,7 +11,7 @@
     - [suSnackbar](services.md#suSnackbar)
 - [Suave UI styles](styles.md)
     - [Basic definitions](styles.md#style-basic)
-    - [Control elements colors](styles.md#style-controls)
+    - [Control elements colors](styles.md#style-controls-colors)
 
 
 [&laquo; Back to README.md](../README.md)

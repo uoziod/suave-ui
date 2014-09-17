@@ -1,0 +1,105 @@
+
+/* TypoPRO Overlock-Black */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-Black.woff') format('woff'),
+                  url('TypoPRO-Overlock-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Overlock-BlackItalic */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-Overlock-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Overlock-Bold */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-Bold.woff') format('woff'),
+                  url('TypoPRO-Overlock-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Overlock-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Overlock-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Overlock-Italic */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-Italic.woff') format('woff'),
+                  url('TypoPRO-Overlock-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Overlock */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-Regular.woff') format('woff'),
+                  url('TypoPRO-Overlock-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Overlock SC */
+@font-face {
+    font-family:  'TypoPRO Overlock SC';
+    src:          url('TypoPRO-OverlockSC-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-OverlockSC-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OverlockSC-Regular.woff') format('woff'),
+                  url('TypoPRO-OverlockSC-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

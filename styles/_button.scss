@@ -32,7 +32,7 @@ INPUT[type="submit"] {
 		text-shadow: 0 1px 0 lighten($first-text, 100%);
 		padding: 1px 15px 1px;
 		border-radius: 2px;
-		font: 14px "Proxima Nova";
+		font: 14px "TypoPRO Clear Sans";
 		line-height: 29px;
 	}
 
@@ -161,7 +161,7 @@ BUTTON.circle {
 	padding: 0;
 	color: $c0;
 	box-shadow: none;
-	font: 17px "Proxima Nova Bold";
+	font: bold 17px "TypoPRO Clear Sans";
 	line-height: 50px;
 
 	.icon {
@@ -226,25 +226,10 @@ BUTTON.circle {
 
 
 /**
-* Keyframes
+* Animation
 */
 
-@-webkit-keyframes loading {
-	0% { background-position: 0 0; }
-	100% { background-position: 20px 0; }
-}
-
-@-moz-keyframes loading {
-	0% { background-position: 0 0; }
-	100% { background-position: 20px 0; }
-}
-
-@-o-keyframes loading {
-	0% { background-position: 0 0; }
-	100% { background-position: 20px 0; }
-}
-
-@keyframes loading {
-	0% { background-position: 0 0; }
+@include keyframes(loading) {
+	0%   { background-position: 0 0; }
 	100% { background-position: 20px 0; }
 }

@@ -1,0 +1,15 @@
+
+/* TypoPRO Satisfy */
+@font-face {
+    font-family:  'TypoPRO Satisfy';
+    src:          url('TypoPRO-Satisfy-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Satisfy-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Satisfy-Regular.woff') format('woff'),
+                  url('TypoPRO-Satisfy-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
