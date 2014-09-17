@@ -5,7 +5,7 @@ Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). Curren
 web-applications based on [AngularJS](http://angularjs.org). It consists of different useful stuff like content content
 grid, buttons, popups, dropdowns and snackbar (notifications).
 
-<center><a href="http://uoziod.github.io/suave-ui"><img src="manual/images/demo.png" /></a></center>
+<div align="center"><a href="http://uoziod.github.io/suave-ui"><img src="manual/images/demo.png" /></a></div>
 
 
 ## Components
