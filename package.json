@@ -24,7 +24,6 @@
     "gulp-rename": "~1.2.0",
     "gulp-sass": "~0.7.3",
     "gulp-sourcemaps": "~1.1.4",
-    "gulp-uglify": "~1.0.1",
-    "typopro": "^2.2.3"
+    "gulp-uglify": "~1.0.1"
   }
 }

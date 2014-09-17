@@ -3,7 +3,7 @@
 */
 
 BODY {
-	font: 16px "TypoPRO Clear Sans", sans-serif;
+	font: 16px sans-serif;
 	background: $body-back;
 	color: $text-def;
 	margin: 0;
@@ -26,9 +26,7 @@ A {
 }
 
 H1, H2, H3, H4, H5, STRONG {
-	font-family: "TypoPRO Clear Sans", sans-serif;
 	font-weight: bold;
-	letter-spacing: -0.03em;
 }
 
 H1, H2, H3, H4, H5, P {
@@ -89,40 +87,6 @@ UL {
 
 
 /**
-* Shortcuts
-*/
-
-.clear-fix {
-	clear: both;
-}
-
-.fl {
-	float: left;
-}
-
-.fr {
-	float: right;
-}
-
-.ib {
-	display: inline-block;
-}
-
-.c {
-	text-align: center;
-}
-
-.r {
-	text-align: right;
-}
-
-.l {
-	text-align: left;
-}
-
-
-
-/**
 * Spacers
 */
 
@@ -147,7 +111,7 @@ UL {
 
 
 /**
-* Text
+* Miscellaneous
 */
 
 P.small {
@@ -158,9 +122,13 @@ P.small {
 .code {
 	background: transparentize($c5, .7);
 	padding: 15px;
-	font: bold 15px "Courier New", serif;
 	border: 1px dotted $c6;
 	border-left: none;
 	border-right: none;
 	overflow-x: auto;
+	font: 15px "Courier New" monospace;
+
+	strong {
+		font: bold 15px "Courier New" monospace;
+	}
 }

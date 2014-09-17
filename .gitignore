@@ -1,10 +1,7 @@
 /.idea/
 
+# Missing Node Modules
 /node_modules/*/
 !/node_modules/animate.css/
 !/node_modules/font-awesome/
-!/node_modules/typopro/
-/node_modules/typopro/dtp/
-/node_modules/typopro/etc/
-/node_modules/typopro/src/
 /node_modules/*/node_modules
