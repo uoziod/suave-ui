@@ -1,0 +1,62 @@
+<div class="row">
+	<div class="box">
+		<h1>
+			<a href="#/index#sections"><i class="fa fa-home"></i></a>
+			Snackbar
+		</h1>
+	</div>
+</div>
+
+<div class="row">
+	<div class="empty-edge-1 col-4">
+		<div class="box">
+			<p><strong>Snackbar</strong> is a colorful stripe with text that hangs on top part of the page. Snackbar
+				hangs on screen for <strong>5 seconds</strong>, but it's default value that could be changed. Snackbar
+				will not disappear if mouse is over it.</p>
+
+			<p>Snackbars can have the same colors that buttons have:</p>
+
+			<div class="c">
+				<div class="ib">
+					<div class="fl mr10"><input type="button" value="Show positive snackbar" class="positive" ng-click="notify('Positive snackbar sample', {color: 'positive'})" /></div>
+					<div class="fl mr10"><input type="button" value="Show negative snackbar" class="negative" ng-click="notify('Negative snackbar sample', {color: 'negative'})" /></div>
+					<div class="fl"><input type="button" value="Show violet snackbar" class="violet" ng-click="notify('Violet snackbar sample that hangs on 10 seconds', {color: 'violet', timeout: 10000})" /></div>
+				</div>
+			</div>
+
+			<p class="mt15"><strong>suSnackbar</strong> service have public method <strong>push</strong> that allows to
+				add snackbar to queue in any specific moment. First parameter of this method is displaying text. Second
+				optional parameter is configuration object.</p>
+
+			<h4>Possible properties of this configuration object:</h4>
+
+			<table>
+				<tr>
+					<th>Property</th>
+					<th>Mission</th>
+				</tr>
+				<tr class="even">
+					<td>color</td>
+					<td>Any value from <a href="#/basics#interaction">interaction elements color collection</a></td>
+				</tr>
+				<tr class="odd">
+					<td>timeout</td>
+					<td>Time in milliseconds after which the snackbar disappears</td>
+				</tr>
+			</table>
+
+			<h3>Usage example</h3>
+
+			<div class="code">
+				yourApp.controller('YourController', function($scope, <strong>suSnackbar</strong>) {<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;$scope.$on('someEvent', function() {<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>suSnackbar.push</strong>('Positive snackbar sample', {<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: positive,<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timeout: 10000<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;});<br/>
+				});<br/>
+			</div>
+		</div>
+	</div>
+</div>

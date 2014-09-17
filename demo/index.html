@@ -1,0 +1,72 @@
+<div class="row">
+	<div class="col-edge-1">
+		<div class="box">
+			<strong>What is this?</strong>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="box">
+			<p>This framework is inspired by <a href="https://github.com/tansky/actiguide">Actiguide</a>.</p>
+			<p><strong>Suave UI</strong> is designed for web-applications based on <a href="http://angularjs.org">AngularJS</a>. It consists of different useful stuff like content grid, buttons, popups, dropdowns and snackbars.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-edge-1">
+		<div class="box">
+			<strong>Components</strong>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="box">
+			<p>All components are included into bundle-files.</p>
+			<ul>
+				<li><a href="http://fontawesome.io/">Font Awesome 4.2.0</a> provides icons</li>
+				<li><a href="http://daneden.github.io/animate.css/">Animate.css 3.1.1</a> provides CSS-animations.</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-edge-1">
+		<div class="box">
+			<strong>Usage</strong>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="box">
+			<p>To start using Suave UI you had to add CSS & JS bundle-files and include <strong>suave-ui</strong> angular-module into your web-app initialization via DI or <em>angular.bootstrap</em>.</p>
+			<p class="code">
+				&lt;link rel="stylesheet" href="suave-ui/build/styles.min.css" /&gt;<br />
+				&lt;script src="js/angular.min.js"&gt;&lt;/script&gt;<br />
+				&lt;script src="suave-ui/build/app.min.js"&gt;&lt;/script&gt;<br />
+				<br />
+				&lt;script&gt;<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;angular.element(document).ready(function() {<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.bootstrap(document, ['my-application', 'suave-ui']);<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;});<br />
+				&lt;/script&gt;<br />
+			</p>
+			<p>Then you can use Suave UI directives, services and styles right in your code.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row" id="sections">
+	<div class="col-edge-1">
+		<div class="box">
+			<strong>Demo sections</strong>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="box">
+			<a class="demo-button interact-positive" href="#/basics#top">Basics</a>
+			<a class="demo-button interact-violet" href="#/grid#top">Grid</a>
+			<a class="demo-button interact-orange" href="#/button#top">Button</a>
+			<a class="demo-button interact-negative" href="#/layers#top">Layered elements</a>
+			<a class="demo-button interact-black" href="#/snackbar#top">Snackbar</a>
+		</div>
+	</div>
+</div>
