@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya Sans ExtraBold */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-ExtraBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-ExtraBold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-ExtraBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

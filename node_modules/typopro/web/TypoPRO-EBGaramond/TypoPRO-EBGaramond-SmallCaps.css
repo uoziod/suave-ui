@@ -1,0 +1,15 @@
+
+/* TypoPRO EB Garamond 12 SC */
+@font-face {
+    font-family:  'TypoPRO EB Garamond Caps';
+    src:          url('TypoPRO-EBGaramond-SmallCaps.eot');
+    src:          local('*'),
+                  url('TypoPRO-EBGaramond-SmallCaps.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-EBGaramond-SmallCaps.woff') format('woff'),
+                  url('TypoPRO-EBGaramond-SmallCaps.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+

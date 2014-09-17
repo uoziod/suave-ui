@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Mono */
+@font-face {
+    font-family:  'TypoPRO Fira Mono';
+    src:          url('TypoPRO-FiraMono-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraMono-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraMono-Regular.woff') format('woff'),
+                  url('TypoPRO-FiraMono-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 600 SemiBold Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-SemiBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-SemiBoldItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-SemiBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Condensed Light */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-RobotoCondensed-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-RobotoCondensed-Light.woff') format('woff'),
+                  url('TypoPRO-RobotoCondensed-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

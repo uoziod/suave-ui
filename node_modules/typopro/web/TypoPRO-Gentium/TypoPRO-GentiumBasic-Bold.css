@@ -1,0 +1,15 @@
+
+/* TypoPRO Gentium Basic Bold */
+@font-face {
+    font-family:  'TypoPRO Gentium Basic';
+    src:          url('TypoPRO-GentiumBasic-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-GentiumBasic-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-GentiumBasic-Bold.woff') format('woff'),
+                  url('TypoPRO-GentiumBasic-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

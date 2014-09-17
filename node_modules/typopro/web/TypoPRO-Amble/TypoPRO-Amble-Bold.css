@@ -1,0 +1,15 @@
+
+/* TypoPRO Amble Bold */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-Bold.woff') format('woff'),
+                  url('TypoPRO-Amble-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

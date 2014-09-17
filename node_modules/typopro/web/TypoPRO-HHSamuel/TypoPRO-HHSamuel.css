@@ -1,0 +1,15 @@
+
+/* TypoPRO H.H. Samuel */
+@font-face {
+    font-family:  'TypoPRO H.H. Samuel';
+    src:          url('TypoPRO-HHSamuel-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-HHSamuel-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-HHSamuel-Regular.woff') format('woff'),
+                  url('TypoPRO-HHSamuel-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

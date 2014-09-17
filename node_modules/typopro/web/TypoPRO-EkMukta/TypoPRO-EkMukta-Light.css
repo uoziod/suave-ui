@@ -1,0 +1,15 @@
+
+/* TypoPRO Ek Mukta Light */
+@font-face {
+    font-family:  'TypoPRO Ek Mukta';
+    src:          url('TypoPRO-EkMukta-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-EkMukta-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-EkMukta-Light.woff') format('woff'),
+                  url('TypoPRO-EkMukta-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

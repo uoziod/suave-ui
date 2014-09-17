@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Slab Bold */
+@font-face {
+    font-family:  'TypoPRO Roboto Slab';
+    src:          url('TypoPRO-RobotoSlab-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-RobotoSlab-Bold.woff') format('woff'),
+                  url('TypoPRO-RobotoSlab-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

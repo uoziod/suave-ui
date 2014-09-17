@@ -1,0 +1,15 @@
+
+/* TypoPRO Source Serif Pro Regular */
+@font-face {
+    font-family:  'TypoPRO Source Serif Pro';
+    src:          url('TypoPRO-SourceSerifPro-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-SourceSerifPro-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SourceSerifPro-Regular.woff') format('woff'),
+                  url('TypoPRO-SourceSerifPro-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Heavy */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-Heavy.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Heavy.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Heavy.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Heavy.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

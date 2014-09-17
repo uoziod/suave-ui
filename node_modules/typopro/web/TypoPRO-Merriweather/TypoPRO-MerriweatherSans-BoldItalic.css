@@ -1,0 +1,15 @@
+
+/* TypoPRO Merriweather Sans Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Merriweather Sans';
+    src:          url('TypoPRO-MerriweatherSans-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-MerriweatherSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-MerriweatherSans-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-MerriweatherSans-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

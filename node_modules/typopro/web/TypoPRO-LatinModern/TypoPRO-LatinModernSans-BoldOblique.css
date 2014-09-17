@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Sans 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Sans';
+    src:          url('TypoPRO-LatinModernSans-BoldOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernSans-BoldOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernSans-BoldOblique.woff') format('woff'),
+                  url('TypoPRO-LatinModernSans-BoldOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

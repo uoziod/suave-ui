@@ -1,0 +1,15 @@
+
+/* TypoPRO Lobster Two Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Lobster Two';
+    src:          url('TypoPRO-LobsterTwo-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-LobsterTwo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LobsterTwo-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-LobsterTwo-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

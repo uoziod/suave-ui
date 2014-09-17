@@ -1,0 +1,15 @@
+
+/* TypoPRO Fantasque Sans Mono Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Fantasque Sans Mono';
+    src:          url('TypoPRO-FantasqueSansMono-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FantasqueSansMono-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FantasqueSansMono-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-FantasqueSansMono-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

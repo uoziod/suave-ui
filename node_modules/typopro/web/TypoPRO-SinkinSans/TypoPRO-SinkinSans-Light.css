@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 300 Light */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Light.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

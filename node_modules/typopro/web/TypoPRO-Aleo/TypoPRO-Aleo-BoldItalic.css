@@ -1,0 +1,15 @@
+
+/* TypoPRO Aleo Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Aleo';
+    src:          url('TypoPRO-Aleo-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aleo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aleo-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Aleo-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

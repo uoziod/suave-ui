@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreSchola-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Schola';
+    src:          url('TypoPRO-TeXGyreSchola-Bolditalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreSchola-Bolditalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreSchola-Bolditalic.woff') format('woff'),
+                  url('TypoPRO-TeXGyreSchola-Bolditalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Ultra Italic */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 950';
+    src:          url('TypoPRO-FiraSans-UltraItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-UltraItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-UltraItalic.woff') format('woff'),
+                  url('TypoPRO-FiraSans-UltraItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

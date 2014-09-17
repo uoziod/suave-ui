@@ -1,0 +1,15 @@
+
+/* TypoPRO Dosis Medium */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-Medium.woff') format('woff'),
+                  url('TypoPRO-Dosis-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

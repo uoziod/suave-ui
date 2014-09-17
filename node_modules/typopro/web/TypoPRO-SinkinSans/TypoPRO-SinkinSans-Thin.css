@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 100 Thin */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Thin.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  100;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

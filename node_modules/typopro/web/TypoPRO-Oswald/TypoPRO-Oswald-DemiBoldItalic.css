@@ -1,0 +1,15 @@
+
+/* TypoPRO Oswald Demi-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-DemiBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-DemiBoldItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-DemiBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

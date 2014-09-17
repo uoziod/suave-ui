@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Roman Slanted 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Roman Slant';
+    src:          url('TypoPRO-LatinModernRomanSlant-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernRomanSlant-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernRomanSlant-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernRomanSlant-Regular.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

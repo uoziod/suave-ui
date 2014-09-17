@@ -1,0 +1,15 @@
+
+/* TypoPRO Veteran Typewriter */
+@font-face {
+    font-family:  'TypoPRO Veteran Typewriter';
+    src:          url('TypoPRO-VeteranTypewriter-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-VeteranTypewriter-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-VeteranTypewriter-Regular.woff') format('woff'),
+                  url('TypoPRO-VeteranTypewriter-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Raleway ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Raleway';
+    src:          url('TypoPRO-Raleway-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Raleway-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-Raleway-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

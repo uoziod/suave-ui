@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Medium Italic */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-FiraSans-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

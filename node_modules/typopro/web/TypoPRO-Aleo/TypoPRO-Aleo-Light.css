@@ -1,0 +1,15 @@
+
+/* TypoPRO Aleo Light */
+@font-face {
+    font-family:  'TypoPRO Aleo';
+    src:          url('TypoPRO-Aleo-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aleo-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aleo-Light.woff') format('woff'),
+                  url('TypoPRO-Aleo-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

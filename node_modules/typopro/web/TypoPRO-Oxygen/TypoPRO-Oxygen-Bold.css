@@ -1,0 +1,15 @@
+
+/* TypoPRO Oxygen-Bold */
+@font-face {
+    font-family:  'TypoPRO Oxygen';
+    src:          url('TypoPRO-Oxygen-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oxygen-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oxygen-Bold.woff') format('woff'),
+                  url('TypoPRO-Oxygen-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

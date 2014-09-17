@@ -1,0 +1,75 @@
+
+/* TypoPRO Oxygen-Bold */
+@font-face {
+    font-family:  'TypoPRO Oxygen';
+    src:          url('TypoPRO-Oxygen-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oxygen-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oxygen-Bold.woff') format('woff'),
+                  url('TypoPRO-Oxygen-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oxygen-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO Oxygen';
+    src:          url('TypoPRO-Oxygen-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oxygen-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oxygen-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Oxygen-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oxygen-Italic */
+@font-face {
+    font-family:  'TypoPRO Oxygen';
+    src:          url('TypoPRO-Oxygen-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oxygen-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oxygen-Italic.woff') format('woff'),
+                  url('TypoPRO-Oxygen-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oxygen */
+@font-face {
+    font-family:  'TypoPRO Oxygen';
+    src:          url('TypoPRO-Oxygen-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oxygen-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oxygen-Regular.woff') format('woff'),
+                  url('TypoPRO-Oxygen-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oxygen Mono */
+@font-face {
+    font-family:  'TypoPRO Oxygen Mono';
+    src:          url('TypoPRO-OxygenMono-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-OxygenMono-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OxygenMono-Regular.woff') format('woff'),
+                  url('TypoPRO-OxygenMono-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

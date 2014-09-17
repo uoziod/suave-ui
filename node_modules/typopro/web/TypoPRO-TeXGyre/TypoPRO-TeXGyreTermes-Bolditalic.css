@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreTermes-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Termes';
+    src:          url('TypoPRO-TeXGyreTermes-Bolditalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreTermes-Bolditalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreTermes-Bolditalic.woff') format('woff'),
+                  url('TypoPRO-TeXGyreTermes-Bolditalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

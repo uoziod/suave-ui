@@ -1,0 +1,15 @@
+
+/* TypoPRO Comic Neue Light Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-LightOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-LightOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-LightOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-LightOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

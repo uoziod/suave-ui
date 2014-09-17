@@ -1,0 +1,15 @@
+
+/* TypoPRO Oswald Bold */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-Bold.woff') format('woff'),
+                  url('TypoPRO-Oswald-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

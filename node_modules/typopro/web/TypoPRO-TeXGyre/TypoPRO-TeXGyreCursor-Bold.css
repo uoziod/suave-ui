@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreCursor-Bold */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Cursor';
+    src:          url('TypoPRO-TeXGyreCursor-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreCursor-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreCursor-Bold.woff') format('woff'),
+                  url('TypoPRO-TeXGyreCursor-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

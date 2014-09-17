@@ -1,0 +1,15 @@
+
+/* TypoPRO Comic Neue Bold */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-Bold.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  700;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

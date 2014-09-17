@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Ultra */
+@font-face {
+    font-family:  'TypoPRO Fira Sans 950';
+    src:          url('TypoPRO-FiraSans-Ultra.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Ultra.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Ultra.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Ultra.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

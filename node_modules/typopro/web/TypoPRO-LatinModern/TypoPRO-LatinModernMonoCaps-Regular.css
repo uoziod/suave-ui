@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Mono Caps 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Mono Caps';
+    src:          url('TypoPRO-LatinModernMonoCaps-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernMonoCaps-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernMonoCaps-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernMonoCaps-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+

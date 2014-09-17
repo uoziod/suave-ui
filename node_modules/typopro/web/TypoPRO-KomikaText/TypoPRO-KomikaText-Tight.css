@@ -1,0 +1,15 @@
+
+/* TypoPRO Komika Text Tight */
+@font-face {
+    font-family:  'TypoPRO Komika Text';
+    src:          url('TypoPRO-KomikaText-Tight.eot');
+    src:          local('*'),
+                  url('TypoPRO-KomikaText-Tight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-KomikaText-Tight.woff') format('woff'),
+                  url('TypoPRO-KomikaText-Tight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

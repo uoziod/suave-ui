@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans Light */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-Light.woff') format('woff'),
+                  url('TypoPRO-FiraSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

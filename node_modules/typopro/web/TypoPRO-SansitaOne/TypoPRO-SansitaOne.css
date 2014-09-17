@@ -1,0 +1,15 @@
+
+/* TypoPRO Sansita One */
+@font-face {
+    font-family:  'TypoPRO Sansita One';
+    src:          url('TypoPRO-SansitaOne-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-SansitaOne-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SansitaOne-Regular.woff') format('woff'),
+                  url('TypoPRO-SansitaOne-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya Sans Light */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Light.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

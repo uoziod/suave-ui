@@ -1,0 +1,15 @@
+
+/* TypoPRO EB Garamond 12 Bold */
+@font-face {
+    font-family:  'TypoPRO EB Garamond';
+    src:          url('TypoPRO-EBGaramond-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-EBGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-EBGaramond-Bold.woff') format('woff'),
+                  url('TypoPRO-EBGaramond-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

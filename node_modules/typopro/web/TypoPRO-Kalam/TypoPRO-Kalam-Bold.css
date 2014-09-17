@@ -1,0 +1,15 @@
+
+/* TypoPRO Kalam Bold */
+@font-face {
+    font-family:  'TypoPRO Kalam';
+    src:          url('TypoPRO-Kalam-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Kalam-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Kalam-Bold.woff') format('woff'),
+                  url('TypoPRO-Kalam-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

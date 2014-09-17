@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Roman Dunhill 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Roman Dunhill';
+    src:          url('TypoPRO-LatinModernRomanDunhill-Oblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernRomanDunhill-Oblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernRomanDunhill-Oblique.woff') format('woff'),
+                  url('TypoPRO-LatinModernRomanDunhill-Oblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

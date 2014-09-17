@@ -1,0 +1,60 @@
+
+/* TypoPRO Rosario Bold */
+@font-face {
+    font-family:  'TypoPRO Rosario';
+    src:          url('TypoPRO-Rosario-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Rosario-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Rosario-Bold.woff') format('woff'),
+                  url('TypoPRO-Rosario-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Rosario Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Rosario';
+    src:          url('TypoPRO-Rosario-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Rosario-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Rosario-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Rosario-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Rosario Italic */
+@font-face {
+    font-family:  'TypoPRO Rosario';
+    src:          url('TypoPRO-Rosario-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Rosario-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Rosario-Italic.woff') format('woff'),
+                  url('TypoPRO-Rosario-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Rosario Regular */
+@font-face {
+    font-family:  'TypoPRO Rosario';
+    src:          url('TypoPRO-Rosario-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Rosario-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Rosario-Regular.woff') format('woff'),
+                  url('TypoPRO-Rosario-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

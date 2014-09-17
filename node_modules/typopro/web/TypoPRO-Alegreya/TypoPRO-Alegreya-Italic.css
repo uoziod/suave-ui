@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-Italic.woff') format('woff'),
+                  url('TypoPRO-Alegreya-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

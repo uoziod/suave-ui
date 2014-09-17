@@ -1,0 +1,15 @@
+
+/* TypoPRO Bellota Bold */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-Bold.woff') format('woff'),
+                  url('TypoPRO-Bellota-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

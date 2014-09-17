@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreAdventor-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Adventor';
+    src:          url('TypoPRO-TeXGyreAdventor-Bolditalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreAdventor-Bolditalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreAdventor-Bolditalic.woff') format('woff'),
+                  url('TypoPRO-TeXGyreAdventor-Bolditalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

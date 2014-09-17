@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreChorus-MediumItalic */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Chorus';
+    src:          url('TypoPRO-TeXGyreChorus-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreChorus-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreChorus-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-TeXGyreChorus-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Kalam Light */
+@font-face {
+    font-family:  'TypoPRO Kalam';
+    src:          url('TypoPRO-Kalam-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Kalam-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Kalam-Light.woff') format('woff'),
+                  url('TypoPRO-Kalam-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

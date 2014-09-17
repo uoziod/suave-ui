@@ -1,0 +1,45 @@
+
+/* TypoPRO Lekton-Bold */
+@font-face {
+    font-family:  'TypoPRO Lekton';
+    src:          url('TypoPRO-Lekton-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Lekton-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Lekton-Bold.woff') format('woff'),
+                  url('TypoPRO-Lekton-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Lekton-Italic */
+@font-face {
+    font-family:  'TypoPRO Lekton';
+    src:          url('TypoPRO-Lekton-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Lekton-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Lekton-Italic.woff') format('woff'),
+                  url('TypoPRO-Lekton-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Lekton */
+@font-face {
+    font-family:  'TypoPRO Lekton';
+    src:          url('TypoPRO-Lekton-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Lekton-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Lekton-Regular.woff') format('woff'),
+                  url('TypoPRO-Lekton-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

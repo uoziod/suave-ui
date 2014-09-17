@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 700 Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

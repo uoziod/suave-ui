@@ -1,0 +1,15 @@
+
+/* TypoPRO Ubuntu Light */
+@font-face {
+    font-family:  'TypoPRO Ubuntu';
+    src:          url('TypoPRO-Ubuntu-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Ubuntu-Light.woff') format('woff'),
+                  url('TypoPRO-Ubuntu-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Bellota Light */
+@font-face {
+    font-family:  'TypoPRO Bellota';
+    src:          url('TypoPRO-Bellota-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Bellota-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Bellota-Light.woff') format('woff'),
+                  url('TypoPRO-Bellota-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

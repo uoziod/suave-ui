@@ -1,0 +1,15 @@
+
+/* TypoPRO Alegreya Sans Thin Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-ThinItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-ThinItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-ThinItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

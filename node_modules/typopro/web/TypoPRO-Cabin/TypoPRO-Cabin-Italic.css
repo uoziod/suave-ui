@@ -1,0 +1,15 @@
+
+/* TypoPRO Cabin-Italic */
+@font-face {
+    font-family:  'TypoPRO Cabin';
+    src:          url('TypoPRO-Cabin-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cabin-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cabin-Italic.woff') format('woff'),
+                  url('TypoPRO-Cabin-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

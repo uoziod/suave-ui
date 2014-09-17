@@ -1,0 +1,15 @@
+
+/* TypoPRO Cuprum Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Cuprum';
+    src:          url('TypoPRO-Cuprum-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Cuprum-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Cuprum-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Cuprum-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

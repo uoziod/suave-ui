@@ -1,0 +1,15 @@
+
+/* TypoPRO Delius Swash Caps */
+@font-face {
+    font-family:  'TypoPRO Delius Swash Caps';
+    src:          url('TypoPRO-DeliusSwashCaps-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-DeliusSwashCaps-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DeliusSwashCaps-Regular.woff') format('woff'),
+                  url('TypoPRO-DeliusSwashCaps-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+

@@ -1,0 +1,210 @@
+
+/* TypoPRO Oswald Bold */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-Bold.woff') format('woff'),
+                  url('TypoPRO-Oswald-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald BoldItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald DemiBold */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-DemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-DemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-DemiBold.woff') format('woff'),
+                  url('TypoPRO-Oswald-DemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald Demi-BoldItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-DemiBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-DemiBoldItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-DemiBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-Oswald-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald Extra-LightItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-ExtraLightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-ExtraLightItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-ExtraLightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald Heavy */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-Heavy.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-Heavy.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-Heavy.woff') format('woff'),
+                  url('TypoPRO-Oswald-Heavy.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald HeavyItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-HeavyItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-HeavyItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-HeavyItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald Light */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-Light.woff') format('woff'),
+                  url('TypoPRO-Oswald-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald LightItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald Medium */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-Medium.woff') format('woff'),
+                  url('TypoPRO-Oswald-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald MediumItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald Regular */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-Regular.woff') format('woff'),
+                  url('TypoPRO-Oswald-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Oswald RegularItalic */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-RegularItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-RegularItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-RegularItalic.woff') format('woff'),
+                  url('TypoPRO-Oswald-RegularItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

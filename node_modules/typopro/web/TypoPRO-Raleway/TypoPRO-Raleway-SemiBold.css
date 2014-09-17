@@ -1,0 +1,15 @@
+
+/* TypoPRO Raleway SemiBold */
+@font-face {
+    font-family:  'TypoPRO Raleway';
+    src:          url('TypoPRO-Raleway-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Raleway-SemiBold.woff') format('woff'),
+                  url('TypoPRO-Raleway-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Sans SemiBold */
+@font-face {
+    font-family:  'TypoPRO Fira Sans';
+    src:          url('TypoPRO-FiraSans-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraSans-SemiBold.woff') format('woff'),
+                  url('TypoPRO-FiraSans-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Mono Prop Light 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Mono Proportional Light';
+    src:          url('TypoPRO-LatinModernMonoPropLight-BoldOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernMonoPropLight-BoldOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernMonoPropLight-BoldOblique.woff') format('woff'),
+                  url('TypoPRO-LatinModernMonoPropLight-BoldOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

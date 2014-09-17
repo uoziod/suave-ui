@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Sans Demi Cond 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Sans Demi';
+    src:          url('TypoPRO-LatinModernSansDemiCond-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernSansDemiCond-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernSansDemiCond-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernSansDemiCond-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

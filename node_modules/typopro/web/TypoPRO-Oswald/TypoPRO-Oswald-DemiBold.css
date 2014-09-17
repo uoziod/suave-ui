@@ -1,0 +1,15 @@
+
+/* TypoPRO Oswald DemiBold */
+@font-face {
+    font-family:  'TypoPRO Oswald';
+    src:          url('TypoPRO-Oswald-DemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oswald-DemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oswald-DemiBold.woff') format('woff'),
+                  url('TypoPRO-Oswald-DemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

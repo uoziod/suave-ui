@@ -1,0 +1,15 @@
+
+/* TypoPRO Signika */
+@font-face {
+    font-family:  'TypoPRO Signika';
+    src:          url('TypoPRO-Signika-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Signika-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Signika-Regular.woff') format('woff'),
+                  url('TypoPRO-Signika-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

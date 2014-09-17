@@ -1,0 +1,15 @@
+
+/* TypoPRO Amble Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Amble-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Light Italic */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-Roboto-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Roboto-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Roboto-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Komika Text Kaps Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Komika Text';
+    src:          url('TypoPRO-KomikaText-KapsBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-KomikaText-KapsBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-KomikaText-KapsBoldItalic.woff') format('woff'),
+                  url('TypoPRO-KomikaText-KapsBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Ubuntu Light Italic */
+@font-face {
+    font-family:  'TypoPRO Ubuntu';
+    src:          url('TypoPRO-Ubuntu-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Ubuntu-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Ubuntu-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Ubuntu-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

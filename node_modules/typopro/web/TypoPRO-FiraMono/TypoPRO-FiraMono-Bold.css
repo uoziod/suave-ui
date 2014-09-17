@@ -1,0 +1,15 @@
+
+/* TypoPRO Fira Mono Bold */
+@font-face {
+    font-family:  'TypoPRO Fira Mono';
+    src:          url('TypoPRO-FiraMono-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-FiraMono-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FiraMono-Bold.woff') format('woff'),
+                  url('TypoPRO-FiraMono-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

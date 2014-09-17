@@ -1,0 +1,15 @@
+
+/* TypoPRO EB Garamond 12 Italic */
+@font-face {
+    font-family:  'TypoPRO EB Garamond';
+    src:          url('TypoPRO-EBGaramond-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-EBGaramond-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-EBGaramond-Italic.woff') format('woff'),
+                  url('TypoPRO-EBGaramond-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

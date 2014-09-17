@@ -1,0 +1,600 @@
+
+/* TypoPRO Alegreya Black */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-Black.woff') format('woff'),
+                  url('TypoPRO-Alegreya-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Black Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-Alegreya-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Bold */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-Bold.woff') format('woff'),
+                  url('TypoPRO-Alegreya-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-Alegreya-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-Italic.woff') format('woff'),
+                  url('TypoPRO-Alegreya-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya */
+@font-face {
+    font-family:  'TypoPRO Alegreya';
+    src:          url('TypoPRO-Alegreya-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Alegreya-Regular.woff') format('woff'),
+                  url('TypoPRO-Alegreya-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya SC Black */
+@font-face {
+    font-family:  'TypoPRO Alegreya SC';
+    src:          url('TypoPRO-AlegreyaSC-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSC-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSC-Black.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSC-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya SC Black Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya SC';
+    src:          url('TypoPRO-AlegreyaSC-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSC-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSC-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSC-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya SC Bold */
+@font-face {
+    font-family:  'TypoPRO Alegreya SC';
+    src:          url('TypoPRO-AlegreyaSC-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSC-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSC-Bold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSC-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya SC Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya SC';
+    src:          url('TypoPRO-AlegreyaSC-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSC-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSC-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya SC Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya SC';
+    src:          url('TypoPRO-AlegreyaSC-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSC-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSC-Italic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSC-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya SC */
+@font-face {
+    font-family:  'TypoPRO Alegreya SC';
+    src:          url('TypoPRO-AlegreyaSC-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSC-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSC-Regular.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSC-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Black */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Black.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Black Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Bold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans ExtraBold */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-ExtraBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-ExtraBold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-ExtraBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans ExtraBold Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-ExtraBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-ExtraBoldItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-ExtraBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Italic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Light */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Light.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Light Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-LightItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Medium */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Medium.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Medium Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Regular.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Thin */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-Thin.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans Thin Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans';
+    src:          url('TypoPRO-AlegreyaSans-ThinItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSans-ThinItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSans-ThinItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Black */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-Black.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-Black.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-Black.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-Black.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Black Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-BlackItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-BlackItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-BlackItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-BlackItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Bold */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-Bold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC ExtraBold */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-ExtraBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBold.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC ExtraBold Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-ExtraBoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBoldItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-ExtraBoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-Italic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Light */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-Light.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Light Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-LightItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Medium */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-Medium.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Medium Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-MediumItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-MediumItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-MediumItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-Regular.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Thin */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-Thin.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-Thin.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-Thin.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-Thin.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Alegreya Sans SC Thin Italic */
+@font-face {
+    font-family:  'TypoPRO Alegreya Sans SC';
+    src:          url('TypoPRO-AlegreyaSansSC-ThinItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AlegreyaSansSC-ThinItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AlegreyaSansSC-ThinItalic.woff') format('woff'),
+                  url('TypoPRO-AlegreyaSansSC-ThinItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

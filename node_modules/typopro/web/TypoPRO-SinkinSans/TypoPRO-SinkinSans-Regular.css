@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 400 Regular */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Regular.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

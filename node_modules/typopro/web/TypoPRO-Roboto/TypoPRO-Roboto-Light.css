@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Light */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-Roboto-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Roboto-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Roboto-Light.woff') format('woff'),
+                  url('TypoPRO-Roboto-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,19 @@
+Name:       Comic Neue
+Homepage:   http://comicneue.com/
+Download:   http://comicneue.com/comic-neue.zip
+Version:    2014
+License:    Public Domain
+Publisher:  Craig Rozynski
+Designer:   Craig Rozynski
+Designed:   2014
+Derivation: Comic Sans
+
+Comic Sans wasn’t designed to be the world’s most ubiquitous casual
+typeface. Comic Neue aspires to be the casual script choice for everyone
+including the typographically savvy. The squashed, wonky, and weird
+glyphs of Comic Sans have been beaten into shape while maintaining the
+honesty that made Comic Sans so popular. It's perfect as a display face,
+for marking up comments, and writing passive aggressive office memos.
+
+
+Public Domain

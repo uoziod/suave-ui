@@ -1,0 +1,15 @@
+
+/* TypoPRO Overlock-Italic */
+@font-face {
+    font-family:  'TypoPRO Overlock';
+    src:          url('TypoPRO-Overlock-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Overlock-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Overlock-Italic.woff') format('woff'),
+                  url('TypoPRO-Overlock-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

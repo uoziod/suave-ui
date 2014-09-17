@@ -1,0 +1,15 @@
+
+/* TypoPRO Oxygen */
+@font-face {
+    font-family:  'TypoPRO Oxygen';
+    src:          url('TypoPRO-Oxygen-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Oxygen-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Oxygen-Regular.woff') format('woff'),
+                  url('TypoPRO-Oxygen-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

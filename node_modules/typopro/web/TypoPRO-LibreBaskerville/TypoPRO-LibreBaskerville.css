@@ -1,0 +1,45 @@
+
+/* TypoPRO Libre Baskerville Bold */
+@font-face {
+    font-family:  'TypoPRO Libre Baskerville';
+    src:          url('TypoPRO-LibreBaskerville-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-LibreBaskerville-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LibreBaskerville-Bold.woff') format('woff'),
+                  url('TypoPRO-LibreBaskerville-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Libre Baskerville Italic */
+@font-face {
+    font-family:  'TypoPRO Libre Baskerville';
+    src:          url('TypoPRO-LibreBaskerville-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-LibreBaskerville-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LibreBaskerville-Italic.woff') format('woff'),
+                  url('TypoPRO-LibreBaskerville-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Libre Baskerville */
+@font-face {
+    font-family:  'TypoPRO Libre Baskerville';
+    src:          url('TypoPRO-LibreBaskerville-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LibreBaskerville-Regular.woff') format('woff'),
+                  url('TypoPRO-LibreBaskerville-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Bebas Neue Light */
+@font-face {
+    font-family:  'TypoPRO Bebas Neue';
+    src:          url('TypoPRO-BebasNeue-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-BebasNeue-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-BebasNeue-Light.woff') format('woff'),
+                  url('TypoPRO-BebasNeue-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

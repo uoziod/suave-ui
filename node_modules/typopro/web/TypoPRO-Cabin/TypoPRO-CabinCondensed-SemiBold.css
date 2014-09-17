@@ -1,0 +1,15 @@
+
+/* TypoPRO Cabin Condensed SemiBold */
+@font-face {
+    font-family:  'TypoPRO Cabin';
+    src:          url('TypoPRO-CabinCondensed-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-CabinCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-CabinCondensed-SemiBold.woff') format('woff'),
+                  url('TypoPRO-CabinCondensed-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

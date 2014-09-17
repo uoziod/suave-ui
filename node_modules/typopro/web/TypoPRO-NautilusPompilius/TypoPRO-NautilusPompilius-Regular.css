@@ -1,0 +1,15 @@
+
+/* TypoPRO Nautilus Pompilius */
+@font-face {
+    font-family:  'TypoPRO Nautilus Pompilius';
+    src:          url('TypoPRO-NautilusPompilius-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-NautilusPompilius-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-NautilusPompilius-Regular.woff') format('woff'),
+                  url('TypoPRO-NautilusPompilius-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

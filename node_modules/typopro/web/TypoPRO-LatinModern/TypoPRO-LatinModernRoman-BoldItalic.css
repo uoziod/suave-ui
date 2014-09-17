@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Roman 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Roman';
+    src:          url('TypoPRO-LatinModernRoman-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernRoman-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernRoman-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-LatinModernRoman-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

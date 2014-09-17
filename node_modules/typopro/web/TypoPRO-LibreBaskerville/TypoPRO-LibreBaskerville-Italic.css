@@ -1,0 +1,15 @@
+
+/* TypoPRO Libre Baskerville Italic */
+@font-face {
+    font-family:  'TypoPRO Libre Baskerville';
+    src:          url('TypoPRO-LibreBaskerville-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-LibreBaskerville-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LibreBaskerville-Italic.woff') format('woff'),
+                  url('TypoPRO-LibreBaskerville-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

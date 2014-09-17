@@ -1,0 +1,15 @@
+
+/* TypoPRO Dosis Book */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-Book.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-Book.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-Book.woff') format('woff'),
+                  url('TypoPRO-Dosis-Book.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

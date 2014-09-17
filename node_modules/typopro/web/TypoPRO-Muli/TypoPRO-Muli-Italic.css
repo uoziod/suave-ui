@@ -1,0 +1,15 @@
+
+/* TypoPRO Muli Italic */
+@font-face {
+    font-family:  'TypoPRO Muli';
+    src:          url('TypoPRO-Muli-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Muli-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Muli-Italic.woff') format('woff'),
+                  url('TypoPRO-Muli-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

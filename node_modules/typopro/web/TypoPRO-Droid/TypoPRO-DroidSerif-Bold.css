@@ -1,0 +1,15 @@
+
+/* TypoPRO Droid Serif Bold */
+@font-face {
+    font-family:  'TypoPRO Droid Serif';
+    src:          url('TypoPRO-DroidSerif-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-DroidSerif-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-DroidSerif-Bold.woff') format('woff'),
+                  url('TypoPRO-DroidSerif-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

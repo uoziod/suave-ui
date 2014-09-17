@@ -1,0 +1,15 @@
+
+/* TypoPRO LM Mono Slanted 10 */
+@font-face {
+    font-family:  'TypoPRO Latin Modern Mono Slant';
+    src:          url('TypoPRO-LatinModernMonoSlant-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-LatinModernMonoSlant-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-LatinModernMonoSlant-Regular.woff') format('woff'),
+                  url('TypoPRO-LatinModernMonoSlant-Regular.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

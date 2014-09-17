@@ -1,0 +1,15 @@
+
+/* TypoPRO Raleway Italic */
+@font-face {
+    font-family:  'TypoPRO Raleway';
+    src:          url('TypoPRO-Raleway-Regular-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Raleway-Regular-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Raleway-Regular-Italic.woff') format('woff'),
+                  url('TypoPRO-Raleway-Regular-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

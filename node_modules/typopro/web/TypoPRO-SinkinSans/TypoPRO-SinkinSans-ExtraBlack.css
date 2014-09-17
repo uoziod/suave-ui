@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 900 X Black */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-ExtraBlack.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-ExtraBlack.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-ExtraBlack.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  900;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

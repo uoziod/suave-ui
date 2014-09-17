@@ -1,0 +1,180 @@
+
+/* TypoPRO Comic Neue Bold */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-Bold.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  700;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Bold Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-BoldOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-BoldOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-BoldOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-BoldOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  700;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Light */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-Light.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Light Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-LightOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-LightOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-LightOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-LightOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Regular */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-Regular.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue';
+    src:          url('TypoPRO-ComicNeue-RegularOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeue-RegularOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeue-RegularOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeue-RegularOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Angular Bold */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-Bold.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  700;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Angular Bold Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-BoldOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-BoldOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-BoldOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-BoldOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  700;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Angular Light */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-Light.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Angular Light Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-LightOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-LightOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-LightOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-LightOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Angular Regular */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-Regular.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Comic Neue Angular Oblique */
+@font-face {
+    font-family:  'TypoPRO Comic Neue Angular';
+    src:          url('TypoPRO-ComicNeueAngular-RegularOblique.eot');
+    src:          local('*'),
+                  url('TypoPRO-ComicNeueAngular-RegularOblique.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-ComicNeueAngular-RegularOblique.woff') format('woff'),
+                  url('TypoPRO-ComicNeueAngular-RegularOblique.ttf') format('truetype');
+    font-style:   oblique;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

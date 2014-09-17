@@ -1,0 +1,15 @@
+
+/* TypoPRO Amble LtCn */
+@font-face {
+    font-family:  'TypoPRO Amble';
+    src:          url('TypoPRO-Amble-LightCondensed.eot');
+    src:          local('*'),
+                  url('TypoPRO-Amble-LightCondensed.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Amble-LightCondensed.woff') format('woff'),
+                  url('TypoPRO-Amble-LightCondensed.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

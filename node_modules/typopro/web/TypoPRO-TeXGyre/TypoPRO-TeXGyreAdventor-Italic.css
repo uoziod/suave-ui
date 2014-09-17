@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreAdventor-Italic */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Adventor';
+    src:          url('TypoPRO-TeXGyreAdventor-Italic.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreAdventor-Italic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreAdventor-Italic.woff') format('woff'),
+                  url('TypoPRO-TeXGyreAdventor-Italic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

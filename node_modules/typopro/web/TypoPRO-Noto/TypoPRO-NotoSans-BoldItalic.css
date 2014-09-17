@@ -1,0 +1,15 @@
+
+/* TypoPRO Noto Sans Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Noto Sans';
+    src:          url('TypoPRO-NotoSans-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-NotoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-NotoSans-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-NotoSans-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

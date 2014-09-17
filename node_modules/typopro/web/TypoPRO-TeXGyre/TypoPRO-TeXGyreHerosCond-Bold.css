@@ -1,0 +1,15 @@
+
+/* TypoPRO TeXGyreHerosCn */
+@font-face {
+    font-family:  'TypoPRO TeX Gyre Heros';
+    src:          url('TypoPRO-TeXGyreHerosCond-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-TeXGyreHerosCond-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-TeXGyreHerosCond-Bold.woff') format('woff'),
+                  url('TypoPRO-TeXGyreHerosCond-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

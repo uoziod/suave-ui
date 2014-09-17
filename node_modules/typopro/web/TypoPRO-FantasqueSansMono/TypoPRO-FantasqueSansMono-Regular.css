@@ -1,0 +1,15 @@
+
+/* TypoPRO Fantasque Sans Mono Regular */
+@font-face {
+    font-family:  'TypoPRO Fantasque Sans Mono';
+    src:          url('TypoPRO-FantasqueSansMono-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-FantasqueSansMono-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-FantasqueSansMono-Regular.woff') format('woff'),
+                  url('TypoPRO-FantasqueSansMono-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

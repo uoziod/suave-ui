@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 500 Medium */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-Medium.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

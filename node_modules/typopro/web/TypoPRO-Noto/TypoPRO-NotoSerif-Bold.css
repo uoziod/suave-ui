@@ -1,0 +1,15 @@
+
+/* TypoPRO Noto Serif Bold */
+@font-face {
+    font-family:  'TypoPRO Noto Serif';
+    src:          url('TypoPRO-NotoSerif-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-NotoSerif-Bold.woff') format('woff'),
+                  url('TypoPRO-NotoSerif-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

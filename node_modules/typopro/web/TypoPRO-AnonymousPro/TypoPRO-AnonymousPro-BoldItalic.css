@@ -1,0 +1,15 @@
+
+/* TypoPRO Anonymous Pro Bold Italic */
+@font-face {
+    font-family:  'TypoPRO Anonymous Pro';
+    src:          url('TypoPRO-AnonymousPro-BoldItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-AnonymousPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-AnonymousPro-BoldItalic.woff') format('woff'),
+                  url('TypoPRO-AnonymousPro-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

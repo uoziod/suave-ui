@@ -1,0 +1,15 @@
+
+/* TypoPRO Roboto Condensed Bold */
+@font-face {
+    font-family:  'TypoPRO Roboto';
+    src:          url('TypoPRO-RobotoCondensed-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-RobotoCondensed-Bold.woff') format('woff'),
+                  url('TypoPRO-RobotoCondensed-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: condensed;
+    font-variant: normal;
+}
+

@@ -1,0 +1,15 @@
+
+/* TypoPRO Sinkin Sans 300 Light Italic */
+@font-face {
+    font-family:  'TypoPRO Sinkin Sans';
+    src:          url('TypoPRO-SinkinSans-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-SinkinSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-SinkinSans-LightItalic.woff') format('woff'),
+                  url('TypoPRO-SinkinSans-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

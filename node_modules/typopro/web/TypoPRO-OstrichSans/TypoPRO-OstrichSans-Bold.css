@@ -1,0 +1,15 @@
+
+/* TypoPRO Ostrich Sans Bold */
+@font-face {
+    font-family:  'TypoPRO Ostrich Sans';
+    src:          url('TypoPRO-OstrichSans-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-OstrichSans-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-OstrichSans-Bold.woff') format('woff'),
+                  url('TypoPRO-OstrichSans-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

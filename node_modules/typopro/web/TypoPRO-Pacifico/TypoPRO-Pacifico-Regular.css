@@ -1,0 +1,15 @@
+
+/* TypoPRO Pacifico */
+@font-face {
+    font-family:  'TypoPRO Pacifico';
+    src:          url('TypoPRO-Pacifico-Regular.eot');
+    src:          local('*'),
+                  url('TypoPRO-Pacifico-Regular.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Pacifico-Regular.woff') format('woff'),
+                  url('TypoPRO-Pacifico-Regular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

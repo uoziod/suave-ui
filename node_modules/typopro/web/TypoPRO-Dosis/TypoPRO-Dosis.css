@@ -1,0 +1,105 @@
+
+/* TypoPRO Dosis Bold */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-Bold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-Bold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-Bold.woff') format('woff'),
+                  url('TypoPRO-Dosis-Bold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Dosis Book */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-Book.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-Book.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-Book.woff') format('woff'),
+                  url('TypoPRO-Dosis-Book.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Dosis ExtraBold */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-ExtraBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-ExtraBold.woff') format('woff'),
+                  url('TypoPRO-Dosis-ExtraBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  800;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Dosis ExtraLight */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-ExtraLight.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-ExtraLight.woff') format('woff'),
+                  url('TypoPRO-Dosis-ExtraLight.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  200;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Dosis Light */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-Light.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-Light.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-Light.woff') format('woff'),
+                  url('TypoPRO-Dosis-Light.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Dosis Medium */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-Medium.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-Medium.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-Medium.woff') format('woff'),
+                  url('TypoPRO-Dosis-Medium.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  500;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* TypoPRO Dosis SemiBold */
+@font-face {
+    font-family:  'TypoPRO Dosis';
+    src:          url('TypoPRO-Dosis-SemiBold.eot');
+    src:          local('*'),
+                  url('TypoPRO-Dosis-SemiBold.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Dosis-SemiBold.woff') format('woff'),
+                  url('TypoPRO-Dosis-SemiBold.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  600;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

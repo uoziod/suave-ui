@@ -1,0 +1,15 @@
+
+/* TypoPRO Aileron Light Italic */
+@font-face {
+    font-family:  'TypoPRO Aileron';
+    src:          url('TypoPRO-Aileron-LightItalic.eot');
+    src:          local('*'),
+                  url('TypoPRO-Aileron-LightItalic.eot?#iefix') format('embedded-opentype'),
+                  url('TypoPRO-Aileron-LightItalic.woff') format('woff'),
+                  url('TypoPRO-Aileron-LightItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  300;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
