@@ -54,5 +54,5 @@ Then you can use Suave UI directives, services and styles right in your code. [D
 ## License
 
 - **Suave UI** is licensed under the MIT License
-- [Font Awesome](http://fontawesome.io/) font is licensed under the SIL OFL 1.1.
-- [Animate.css](http://daneden.github.io/animate.css/) is licensed under MIT License.
+- [Font Awesome](http://fontawesome.io/) font is licensed under the SIL OFL 1.1
+- [Animate.css](http://daneden.github.io/animate.css/) is licensed under MIT License
