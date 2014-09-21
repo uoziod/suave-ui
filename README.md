@@ -1,4 +1,4 @@
-# [Suave UI 0.1.1](http://uoziod.github.io/suave-ui)
+# [Suave UI 0.1.2](http://uoziod.github.io/suave-ui)
 ### UI Framework for AngularJS
 
 Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). Current UI framework is designed for 
