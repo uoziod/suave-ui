@@ -1,12 +1,23 @@
 (function () {
 
-	function suaveLayersService () {
+	/* ngInject */
+	function suaveLayersService ($rootScope, $document) {
 		var self = this;
 
 		self._elements = [];
 		self._layers = [];
 
-		angular.element(document).on('click', function (e) {
+		$rootScope.$on('$routeChangeStart', function() {
+			self._layers = [];
+		});
+
+		$document.on('keydown', function (e) {
+			if (e && e.keyCode === 27) {
+				popLayer();
+			}
+		});
+
+			angular.element(document).on('click', function (e) {
 			if (self._layers.length > 0 && !searchInLayers({caller: e.target})) {
 				if (
 					!searchUpInTreeByElement(e.target) ||
@@ -103,14 +114,16 @@
 		}
 
 		function popLayer () {
-			var $element = angular.element(getTopLayer().element).scope();
+			if (self._layers.length > 0) {
+				var $element = angular.element(getTopLayer().element).scope();
 
-			$element.visible = false;
-			$element.$apply();
+				$element.visible = false;
+				$element.$apply();
 
-			self._layers.pop();
+				self._layers.pop();
 
-			setScrollState();
+				setScrollState();
+			}
 		}
 
 		function setScrollState() {

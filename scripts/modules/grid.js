@@ -1,21 +1,21 @@
 (function () {
 
 	/* ngInject */
-	function suaveGridGuidelines ($templateCache) {
+	function suaveGridGuidelines ($templateCache, $document) {
 		return {
 			restrict: "A",
 			link: function () {
-				document.onkeydown = function (e) {
-					if (e && 192 === e.keyCode && e.shiftKey && e.ctrlKey) {
+				$document.on('keydown', function (e) {
+					if (e && e.keyCode === 192 && e.shiftKey && e.ctrlKey) {
 						this.gridState = !this.gridState;
 
 						if (this.gridState) {
-							document.getElementsByTagName('BODY')[0].innerHTML += $templateCache.get('grid-guidelines.tmpl');
+							angular.element(document.getElementsByTagName('BODY')).append($templateCache.get('grid-guidelines.tmpl'));
 						} else {
-							document.getElementById('su-gridguide').remove();
+							angular.element(document.getElementById('su-gridguide')).remove();
 						}
 					}
-				};
+				});
 			}
 		};
 	}
