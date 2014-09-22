@@ -1,4 +1,4 @@
-# [Suave UI 0.1.2](http://uoziod.github.io/suave-ui)
+# [Suave UI 0.2.0](http://uoziod.github.io/suave-ui)
 ### UI Framework for AngularJS
 
 Suave UI is inspired by [Actiguide](https://github.com/tansky/actiguide). Current UI framework is designed for 
@@ -40,7 +40,6 @@ Then you can use Suave UI directives, services and styles right in your code. [D
     - [suDropdown](manual/directives.md#suDropdown)
     - [suGrid](manual/directives.md#suGrid)
     - [suIcon](manual/directives.md#suIcon)
-    - [suIconCircle](manual/directives.md#suIconCircle)
     - [suPopup](manual/directives.md#suPopup)
     - [suTarget](manual/directives.md#suTarget)
 - [Suave UI services](manual/services.md)

@@ -3,7 +3,6 @@
 - [suDropdown](#suDropdown)
 - [suGrid](#suGrid)
 - [suIcon](#suIcon)
-- [suIconCircle](#suIconCircle)
 - [suPopup](#suPopup)
 - [suTarget](#suTarget)
 
@@ -42,18 +41,11 @@ This directive using as attribute for button tags to add Font Awesome icon befor
 
 <img src="images/buttons.png" />
 
-See also: [suIconCircle](#suIconCircle)
+You can use alternative button style. Just add `button-type="circle"` into element declaration: 
 
-
-### <a name="suIconCircle"/>suIconCircle
-
-Another one directive to create buttons with icon from Font Awesome.
-
-    <input type="button" su-icon-circle="fa-print" value="Print file..." />
+    <input type="button" su-icon="fa-print" button-type="circle" value="Print file..." />
 
 <img src="images/button-circle.png" />
-
-See also: [suIcon](#suIcon)
 
 
 ### <a name="suPopup"/>suPopup
