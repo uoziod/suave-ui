@@ -24,7 +24,7 @@
 			$this-c2:   nth($color, 3);
 			$this-text: nth($color, 4);
 
-			&.#{$type} {
+			&.su-#{$type} {
 				@include gradient-v($this-c1, $this-c2);
 				color: $this-text;
 				text-align: center;

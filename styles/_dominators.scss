@@ -56,6 +56,22 @@
 	.mr#{$space} {
 		margin-right: #{$space}px !important;
 	}
+
+	.p#{$space} {
+		padding-bottom: #{$space}px !important;
+	}
+
+	.pt#{$space} {
+		padding-top: #{$space}px !important;
+	}
+
+	.pl#{$space} {
+		padding-left: #{$space}px !important;
+	}
+
+	.pr#{$space} {
+		padding-right: #{$space}px !important;
+	}
 }
 
 

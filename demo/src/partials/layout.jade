@@ -1,0 +1,44 @@
+doctype html
+html(lang="en", ng-app="demo")
+  block vars
+  head
+    if pageTitle
+      title Suave UI &mdash; #{pageTitle}
+    else
+      title Suave UI Demo
+    link(rel="icon", href="favicon.ico", type="image/x-icon")
+    link(rel="stylesheet", href="../build/styles.min.css")
+    link(rel="stylesheet", href="styles.min.css")
+    link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/default.min.css")
+    script(src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js")
+    script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js")
+    script(src="../build/app.min.js")
+    script(src="js/demo.js")
+
+body(su-grid, ng-controller="demoController")
+  header
+    div(class="wrapper p0")
+      div(class="row")
+        div(class="box")
+          include header
+
+  div(class="subheader")
+    include subheader
+
+  div(class="wrapper")
+    div(class="row")
+      div(class="col-edge-2")
+        div(class="box")
+          include sidebar
+      div(class="col-edge-4")
+        div(class="box")
+          section
+            block content
+
+  div(class="clear-fix")
+
+  footer
+    div(class="wrapper p0")
+      div(class="row")
+        div(class="box")
+          include footer

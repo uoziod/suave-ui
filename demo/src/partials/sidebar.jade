@@ -1,0 +1,16 @@
+div(class="su-frame su-negative")
+  ul
+    each item in menu
+      li
+        if item.page == page
+          = item.title
+        else
+          a(href="#{item.page}.html")= item.title
+        if item.sub
+          ul
+            each subItem in item.sub
+              li
+                if subItem.page == page
+                  = subItem.title
+                else
+                  a(href="#{subItem.page}.html")= subItem.title

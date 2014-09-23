@@ -9,7 +9,7 @@
 			link: function (scope, element, attrs) {
 				scope.value = attrs.value;
 				scope.icon = attrs.suIcon || false;
-				scope.type = attrs.buttonType || false;
+				scope.type = attrs.buttonType ? 'su-' + attrs.buttonType : false;
 			}
 		};
 	}

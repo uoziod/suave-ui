@@ -1,0 +1,22 @@
+{
+	"menu": [
+		{
+			"page": "index",
+			"title": "Home",
+			"sub": [
+				{
+					"page": "directives",
+					"title": "Directives"
+				},
+				{
+					"page": "snackbar",
+					"title": "Snackbar"
+				}
+			]
+		},
+		{
+			"page": "colors",
+			"title": "Colors"
+		}
+	]
+}

@@ -11,7 +11,7 @@
 		var $snackbarsArea = document.getElementById('su-snackbars'),
 			snackbarIndex = 0;
 
-		function push(text, config) {
+		function push(text, config, callback) {
 			var templateInstance = angular.copy($templateCache.get('snackbar.tmpl')),
 				compileLink = $compile(templateInstance),
 				$scope = $rootScope.$new(true),
@@ -24,6 +24,8 @@
 			if (!config.color) {
 				config.color = 'default';
 			}
+
+			config.color = 'su-' + config.color;
 
 			$scope.id = 'su-snackbar-' + snackbarIndex;
 			$scope.text = text;
@@ -48,6 +50,10 @@
 
 					$timeout(function () {
 						angular.element(item).remove();
+
+						if (typeof callback === "function") {
+							callback();
+						}
 					}, ANIMATION_SPEED);
 				}, config.timeout || 5000);
 			}
