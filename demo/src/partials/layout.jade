@@ -8,37 +8,28 @@ html(lang="en", ng-app="demo")
       title Suave UI Demo
     link(rel="icon", href="favicon.ico", type="image/x-icon")
     link(rel="stylesheet", href="../build/styles.min.css")
-    link(rel="stylesheet", href="styles.min.css")
+    link(rel="stylesheet", href="res/styles.min.css")
     link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/default.min.css")
     script(src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js")
     script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js")
     script(src="../build/app.min.js")
-    script(src="js/demo.js")
+    script(src="res/demo.js")
 
 body(su-grid, ng-controller="demoController")
   header
-    div(class="wrapper p0")
-      div(class="row")
-        div(class="box")
-          include header
+    div(class="su-wrapper su-p0")
+      div(class="su-box")
+        include header
 
   div(class="subheader")
     include subheader
 
-  div(class="wrapper")
-    div(class="row")
-      div(class="col-edge-2")
-        div(class="box")
-          include sidebar
-      div(class="col-edge-4")
-        div(class="box")
-          section
-            block content
+  div(class="su-wrapper su-p0")
+    block content
 
-  div(class="clear-fix")
+  div(class="su-clear")
 
   footer
-    div(class="wrapper p0")
-      div(class="row")
-        div(class="box")
-          include footer
+    div(class="su-wrapper su-p0")
+      div(class="su-box")
+        include footer

@@ -102,7 +102,7 @@ INPUT[type="submit"] {
 	$this-c2: nth($state, 3);
 	$this-text: nth($state, 4);
 
-	BUTTON.su-#{$this},
+	BUTTON.#{$this},
 	INPUT[type="button"].su-#{$this},
 	INPUT[type="submit"].su-#{$this} {
 		&.secondary {

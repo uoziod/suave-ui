@@ -38,7 +38,7 @@
 		margin-bottom: 0;
 	}
 
-	&.tinyWrap {
+	&.su-tiny-wrap {
 		&:before,
 		&:after {
 			left: 8px;
@@ -46,7 +46,7 @@
 	}
 
 	@each $width in (200, 300, 400, 500, 600) {
-		&.w#{$width} {
+		&.su-w#{$width} {
 			min-width: #{$width}px;
 		}
 	}

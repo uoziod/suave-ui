@@ -54,7 +54,7 @@ gulp.task('demo-styles', function() {
 			keepSpecialComments: 0
 		}))
 		.pipe(rename('styles.min.css'))
-		.pipe(gulp.dest('./demo'));
+		.pipe(gulp.dest('./demo/res'));
 });
 
 gulp.task('watch', function () {

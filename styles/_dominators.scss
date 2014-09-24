@@ -2,35 +2,35 @@
 * Abbreviations
 */
 
-.fl {
+.su-fl {
 	float: left;
 }
 
-.fr {
+.su-fr {
 	float: right;
 }
 
-.ib {
+.su-ib {
 	display: inline-block;
 }
 
-.c {
+.su-c {
 	text-align: center;
 }
 
-.r {
+.su-r {
 	text-align: right;
 }
 
-.l {
+.su-l {
 	text-align: left;
 }
 
-.dn {
+.su-dn {
 	display: none;
 }
 
-.clear-fix {
+.su-clear {
 	clear: both;
 }
 
@@ -41,35 +41,35 @@
 */
 
 @each $space in (0, 5, 10, 15, 18, 20, 30, 40, 50, 60) {
-	.m#{$space} {
+	.su-m#{$space} {
 		margin-bottom: #{$space}px !important;
 	}
 
-	.mt#{$space} {
+	.su-mt#{$space} {
 		margin-top: #{$space}px !important;
 	}
 
-	.ml#{$space} {
+	.su-ml#{$space} {
 		margin-left: #{$space}px !important;
 	}
 
-	.mr#{$space} {
+	.su-mr#{$space} {
 		margin-right: #{$space}px !important;
 	}
 
-	.p#{$space} {
+	.su-p#{$space} {
 		padding-bottom: #{$space}px !important;
 	}
 
-	.pt#{$space} {
+	.su-pt#{$space} {
 		padding-top: #{$space}px !important;
 	}
 
-	.pl#{$space} {
+	.su-pl#{$space} {
 		padding-left: #{$space}px !important;
 	}
 
-	.pr#{$space} {
+	.su-pr#{$space} {
 		padding-right: #{$space}px !important;
 	}
 }

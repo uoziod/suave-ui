@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 * {
 	font-family: "Open Sans", sans-serif;
@@ -8,6 +8,20 @@ BODY {
 	margin: 0;
 	padding: 0;
 	font-size: 15px;
+}
+
+P.su-big {
+	font-weight: 300;
+
+	STRONG {
+		font-weight: 400;
+	}
+}
+
+UL {
+	margin: 0;
+	list-style: none;
+	padding: 0;
 }
 
 HEADER,
@@ -83,27 +97,140 @@ FOOTER {
 	padding: 20px 0;
 	font-size: 10px;
 
-	.box > * {
+	.su-box > * {
 		margin-bottom: 0;
 	}
 }
 
 .subheader {
-	margin-bottom: 45px;
-	padding: 10px 0 9px;
-	height: 20px;
-	background: transparentize(#f6f6f6, .7);
-	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	margin: 1px 0 36px;
+	height: 42px;
+	background: #fbfbfb;
+	border-bottom: 1px solid #ccc;
+
+	.buttons {
+		margin-top: 11px;
+	}
+}
+
+.menu {
+	LI {
+		margin: 0 20px 0 0;
+		float: left;
+
+		A {
+			display: block;
+			height: 43px;
+			line-height: 43px;
+
+			&:hover {
+				text-decoration: none;
+				color: darken(#00a2c4, 10);
+			}
+
+			&.active {
+				color: #080808;
+			}
+		}
+
+		&:before {
+			content: none;
+		}
+
+		.sub {
+			display: none;
+			position: absolute;
+			z-index: 1;
+
+			margin: -1px 0 0 -15px;
+			padding: 0 14px 5px;
+
+			background: #fbfbfb;
+
+			border: 1px solid #ccc;
+			border-top: none;
+			border-radius: 2px;
+
+			LI {
+				float: none;
+				margin: 0;
+
+				A {
+					height: auto;
+					line-height: 26px;
+				}
+
+				&:first-child A {
+					border-top: 1px solid transparentize(#ccc, .7);
+				}
+			}
+		}
+
+		&:hover {
+			.sub {
+				display: block;
+			}
+		}
+	}
+}
+
+.tiles {
+	margin: 20px 0 30px;
+
+	LI {
+		display: inline-block;
+		width: 33.33%;
+		text-align: center;
+		margin: 0;
+
+		$tileColor: #00a2c4;
+		@for $i from 1 through 21 {
+			&:nth-child(#{$i}) A { background: darken($tileColor, ($i * 2)); }
+		}
+
+		A {
+			display: block;
+			color: transparentize(#fff, .1);
+			font-weight: 300;
+			font-size: 30px;
+			text-decoration: none;
+			line-height: 110px;
+
+			SPAN {
+				margin-right: 10px;
+			}
+
+			&:hover {
+				color: #fff;
+				background: darken($tileColor, 20);
+			}
+		}
+
+		&:before {
+			content: none;
+		}
+	}
 }
 
 SECTION :last-child {
 	margin-bottom: 0;
 }
 
+.hljs {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
 CODE {
 	&, & * {
 		font-family: "Courier New", Courier, monospace;
-		font-size: 14px;
+	}
+
+	&.inline {
+		background: #f0f0f0;
+		padding: 0 2px;
+		border: 1px solid #ddd;
+		border-radius: 3px;
 	}
 
 	STRONG {
@@ -111,7 +238,8 @@ CODE {
 	}
 
 	.hljs-keyword,
-	.hljs-built_in {
+	.hljs-built_in,
+	.hljs-title {
 		font-weight: normal;
 	}
 }
