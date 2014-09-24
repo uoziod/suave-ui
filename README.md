@@ -3,7 +3,7 @@
 
 Suave UI is designed for web-applications based on [AngularJS](http://angularjs.org). It consists of CSS definitions, directives and services that helps build UI quick and efficiently.
 
-<div align="center"><a href="http://uoziod.github.io/suave-ui"><img src="manual/images/demo.png" width="385" height="113" /></a></div>
+<div align="center"><a href="http://uoziod.github.io/suave-ui"><img src="https://api.monosnap.com/image/download?id=HMjCJgaZ5celPSjGKTCFpBoO3b4DKw" width="385" height="113" /></a></div>
 
 
 ## Components
