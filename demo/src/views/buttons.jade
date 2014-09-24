@@ -5,43 +5,215 @@ block vars
   - pageTitle = 'Buttons'
 
 block content
-  div(class="row box")
+  div(class="su-row su-box")
     h1 Buttons
 
-  div(class="row")
-    div(class="col-edge-2"): div(class="box")
+    p Buttons are in Interaction Elements group, so they can apply <a href="colors.html#interaction">corresponding colors</a>.
+
+  div(class="su-row su-mt30")
+    div(class="su-col-edge-2"): div(class="su-box")
+      h3 Default button
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big")
       div(class="su-fl su-mr10"): input(type="button", value="Button")
+      div(class="su-fl su-mr10"): | Default
       div(class="su-clear su-m10")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-hover")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-hover")
+      div(class="su-fl su-mr10"): | Mouse over
       div(class="su-clear su-m10")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-active")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-active")
+      div(class="su-fl su-mr10"): | Active
       div(class="su-clear su-m10")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-focus")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-focus")
+      div(class="su-fl su-mr10"): | Focused
       div(class="su-clear su-m10")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-loading")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-loading")
+      div(class="su-fl su-mr10"): | Loading
       div(class="su-clear su-m10")
       div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big", disabled)
       div(class="su-fl su-mr10"): input(type="button", value="Button", disabled)
-    div(class="col-2"): div(class="box")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big")
-      div(class="su-fl su-mr10"): input(type="button", value="Button")
+      div(class="su-fl su-mr10"): | Disabled
+
+    div(class="su-col-2"): div(class="su-box")
+      h3 Positive action
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-positive")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-positive")
       div(class="su-clear su-m10")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-hover")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-hover")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-positive su-hover")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-positive su-hover")
       div(class="su-clear su-m10")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-active")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-active")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-positive su-active")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-positive su-active")
       div(class="su-clear su-m10")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-focus")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-focus")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-positive su-focus")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-positive su-focus")
       div(class="su-clear su-m10")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-loading")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-loading")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-positive su-loading")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-positive su-loading")
       div(class="su-clear su-m10")
-      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big", disabled)
-      div(class="su-fl su-mr10"): input(type="button", value="Button", disabled)
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-positive", disabled)
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-positive", disabled)
+
+    div(class="su-col-edge-2"): div(class="su-box")
+      h3 Negative action
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-negative")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-negative")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-negative su-hover")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-negative su-hover")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-negative su-active")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-negative su-active")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-negative su-focus")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-negative su-focus")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-negative su-loading")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-negative su-loading")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-negative", disabled)
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-negative", disabled)
+
+  div(class="su-clear")
+
+  div(class="su-row su-mt30")
+    div(class="su-col-edge-2"): div(class="su-box")
+      h3 Violet
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-violet")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-violet")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-violet su-hover")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-violet su-hover")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-violet su-active")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-violet su-active")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-violet su-focus")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-violet su-focus")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-violet su-loading")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-violet su-loading")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-violet", disabled)
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-violet" disabled)
+
+    div(class="su-col-2"): div(class="su-box")
+      h3 Black
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-black")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-black")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-black su-hover")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-black su-hover")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-black su-active")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-black su-active")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-black su-focus")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-black su-focus")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-black su-loading")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-black su-loading")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-black", disabled)
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-black", disabled)
+
+    div(class="su-col-edge-2"): div(class="su-box")
+      h3 Orange
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-orange")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-orange")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-orange su-hover")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-orange su-hover")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-orange su-active")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-orange su-active")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-orange su-focus")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-orange su-focus")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-orange su-loading")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-orange su-loading")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-orange", disabled)
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-orange", disabled)
+
+  div(class="su-clear")
+
+  div(class="su-row su-mt30")
+    div(class="su-col-edge-2"): div(class="su-box")
+      h3 Buttons with icon
+      pre: code(class="html")
+        | &lt;input su-icon="la-leaf" /&gt;
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big su-positive")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-positive")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big su-negative")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-negative")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big su-orange su-loading")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-orange su-loading")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big", disabled)
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", disabled)
+
+    div(class="su-col-2"): div(class="su-box")
+      h3 Secondary buttons
+      pre: code(class="html")
+        | &lt;input class="su-secondary" /&gt;
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big su-secondary")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-secondary")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-secondary su-positive")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-secondary su-positive")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big su-secondary su-negative")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-secondary su-negative")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-secondary su-violet")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-secondary su-violet")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-big su-secondary su-black")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-secondary su-black")
+      div(class="su-clear su-m10")
+      div(class="su-fl su-mr10"): input(type="button", value="Button", class="su-big su-secondary su-orange")
+      div(class="su-fl su-mr10"): input(type="button", su-icon="fa-leaf", value="Button", class="su-secondary su-orange")
+
+    div(class="su-col-edge-2"): div(class="su-box")
+      h3 Another buttons with icon
+      pre: code(class="html")
+        | &lt;input su-icon="fa-print" button-type="circle" /&gt;
+      p: input(type="button", su-icon="fa-print", button-type="circle", value="Print file...")
+      p: input(type="button", su-icon="fa-print", button-type="circle", value="Print file...", disabled)
+
+  div(class="su-clear")
+
+  div(class="su-row su-box su-mt30")
+    h2 Buttons group
+
+  div(class="su-row")
+    div(class="su-col-edge-3"): div(class="su-box")
+      pre: code(class="html")
+        | &lt;div class="su-button-group"&gt;
+        |     &lt;button&gt;Button one&lt;/button&gt;
+        |     &lt;button&gt;Button two&lt;/button&gt;
+        |     &lt;button&gt;Button three&lt;/button&gt;
+        | &lt;/div&gt;
+
+    div(class="su-col-edge-3"): div(class="su-box")
+      div(class="su-button-group")
+        input(type="button", value="Button one", class="su-big")
+        input(type="button", value="Button two", class="su-big")
+        input(type="button", value="Button three", class="su-big")
+
+      div(class="su-clear su-m10")
+
+      div(class="su-button-group")
+        input(type="button", value="Button one")
+        input(type="button", value="Button two")
+        input(type="button", value="Button three")

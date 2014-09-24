@@ -17,6 +17,10 @@ $first-text: nth($state, 4);
 BUTTON,
 INPUT[type="button"],
 INPUT[type="submit"] {
+	.su-icon {
+		margin-right: 5px;
+	}
+
 	&.su-secondary {
 		background: $c1;
 		color: $c6;
@@ -102,10 +106,10 @@ INPUT[type="submit"] {
 	$this-c2: nth($state, 3);
 	$this-text: nth($state, 4);
 
-	BUTTON.#{$this},
+	BUTTON.su-#{$this},
 	INPUT[type="button"].su-#{$this},
 	INPUT[type="submit"].su-#{$this} {
-		&.secondary {
+		&.su-secondary {
 			background: $c1;
 			color: $c6;
 			text-shadow: none;
@@ -165,7 +169,7 @@ BUTTON.su-circle {
 	font-weight: bold;
 	line-height: 50px;
 
-	.icon {
+	.su-icon {
 		@include gradient-v-half-bottom($first-c1, $first-c2);
 		display: inline-block;
 		vertical-align: middle;
@@ -179,31 +183,31 @@ BUTTON.su-circle {
 		line-height: 48px;
 	}
 
-	.text {
+	.su-text {
 		display: inline-block;
 		vertical-align: middle;
 		padding: 1px 0;
 	}
 
 	&:hover {
-		.icon {
+		.su-icon {
 			@include gradient-v($first-c1, $first-c2);
 		}
 	}
 
-	&.focus, &:focus {
-		.icon {
+	&.su-focus, &:focus {
+		.su-icon {
 			border-color: darken($first-c2, 30%);
 		}
 	}
 
-	&.active, &:active {
-		.icon {
+	&.su-active, &:active {
+		.su-icon {
 			background: darken($first-c1, 2%);
 			box-shadow: inset 3px 3px 5px -2px darken($first-c2, 10%);
 		}
 
-		.icon, .text {
+		.su-icon, .su-text {
 			padding: 2px 0 0;
 		}
 	}
@@ -212,15 +216,45 @@ BUTTON.su-circle {
 		background: none !important;
 		border: none !important;
 
-		.icon {
+		.su-icon {
 			background: $first-c2 !important;
 			box-shadow: none;
 		}
 
-		.icon, .text {
+		.su-icon, .su-text {
 			color: lighten($first-text, 15%);
 			text-shadow: none;
 			padding: 1px 0 !important;
+		}
+	}
+}
+
+
+/**
+* Group
+*/
+
+.su-button-group {
+	BUTTON,
+	INPUT[type="button"],
+	INPUT[type="submit"] {
+		float: left;
+		border-radius: 0;
+
+		&:first-child {
+			border-radius: 2px 0 0 2px;
+		}
+
+		&:last-child {
+			border-radius: 0 2px 2px 0;
+		}
+
+		&:not(:first-child) {
+			border-left: none;
+		}
+
+		&.su-focus, &:focus {
+			border-color: $c6;
 		}
 	}
 }
