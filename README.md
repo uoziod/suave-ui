@@ -8,7 +8,7 @@ Suave UI is designed for web-applications based on [AngularJS](http://angularjs.
 
 ## Components
 
-All these components are included into bundle-files. So you don't need to include them separately to use all them force.
+All these components are included in bundle-files. So you don't need to include them separately to use all them force.
 
 - [Font Awesome 4.2.0](http://fontawesome.io/) provides icons.
 - [Animate.css 3.1.1](http://daneden.github.io/animate.css/) provides CSS-animations. 

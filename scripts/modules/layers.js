@@ -156,7 +156,7 @@
 			replace: true,
 			scope: true,
 			link: function (scope, element, attrs) {
-				suLayers.cacheElement(attrs.anchor, element);
+				suLayers.cacheElement(attrs.suAnchor, element);
 			}
 		};
 	}
@@ -171,7 +171,7 @@
 			scope: true,
 			link: function (scope, element, attrs) {
 				scope.config = attrs.config ? JSON.parse(attrs.config) : {};
-				suLayers.cacheElement(attrs.anchor, element);
+				suLayers.cacheElement(attrs.suAnchor, element);
 			}
 		};
 	}
