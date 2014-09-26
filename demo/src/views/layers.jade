@@ -13,8 +13,11 @@ block content
       h3 Dropdowns
 
     div(class="su-col-4"): div(class="su-box")
-      div(class="su-fl su-mr10"): button(su-target="dd1") Open dropdown
-      div(class="su-fl su-mr10"): button(su-target="dd1") Open same dropdown
+      p Some words about dropdowns...
+
+      div(class="su-c"): div(class="su-ib")
+        div(class="su-fl su-mr10"): button(su-target="dd1") Open dropdown
+        div(class="su-fl su-mr10"): button(su-target="dd1") Open same dropdown
 
       div(class="su-clear su-m20")
 
@@ -29,6 +32,15 @@ block content
         div(class="su-fl su-mr10"): button(su-target="dd4", class="su-negative") Open dropdown dd4
       su-dropdown(su-anchor="dd4", class="su-w300")
         p This is dropdown <strong>dd4</strong>
+
+      pre: code(class="language-markup")
+        | &lt;input type="button" su-target="identifier" value="Open dropdown" /&gt;
+        | &lt;input type="button" su-target="identifier" value="Open same dropdown" /&gt;
+        | &nbsp;
+        | &lt;su-dropdown su-anchor="identifier"&gt;
+        | &nbsp;&nbsp;&nbsp;&nbsp;This is dropdown dd1
+        | &nbsp;&nbsp;&nbsp;&nbsp;...
+        | &lt;/su-dropdown&gt;
 
       h3 Some facts about layered elements:
 
@@ -50,9 +62,79 @@ block content
       su-dropdown(su-anchor="dd-small")
         p Yes!
 
+  div(class="su-row su-box")
+    hr
+
   div(class="su-row")
     div(class="su-col-edge-1"): div(class="su-box")
       h3 Popups
 
     div(class="su-col-4"): div(class="su-box")
-      p 123
+      p Some words about popups...
+
+      div(class="su-c"): div(class="su-ib")
+        div(class="su-fl su-mr10"): button(su-target="p1") Open popup
+        div(class="su-fl su-mr10"): button(su-target="p2") Open popup with scrolling
+
+      div(class="su-clear su-m20")
+
+      pre: code(class="language-markup")
+        | &lt;input type="button" su-target="identifier" value="Open popup"
+        | &nbsp;&nbsp;&nbsp;&nbsp;config='{"title": "Popup title"}' /&gt;
+        | &nbsp;
+        | &lt;su-popup su-anchor="identifier"&gt;
+        | &nbsp;&nbsp;&nbsp;&nbsp;Popup content
+        | &lt;/su-popup&gt;
+
+      su-popup(su-anchor="p1", su-config='{"title": "Popup title"}')
+        p Popup content
+
+      su-popup(su-anchor="p2")
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll

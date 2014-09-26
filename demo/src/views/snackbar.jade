@@ -26,14 +26,14 @@ block content
 
     p Usage example:
 
-    pre: code(class="javascript")
+    pre: code(class="language-javascript")
       | yourApp.controller('YourController', function($scope, <strong>suSnackbar</strong>) {
       |     $scope.$on('someEvent', function() {
       |         suSnackbar.push('Positive snackbar sample', {
       |             color: "positive",
       |             timeout: 10000
       |         }, function() {
-      |             console.log('Do this when snackbar will disappear');
+      |             console.log('Do this when snackbar disappears');
       |         });
       |     });
       | });

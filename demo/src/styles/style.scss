@@ -218,30 +218,25 @@ SECTION :last-child {
 	margin-bottom: 0;
 }
 
-.hljs {
+PRE {
 	border: 1px solid #ddd;
 	border-radius: 3px;
 }
 
-CODE {
-	&, & * {
+code[class*="language-"],
+pre[class*="language-"] {
+	margin: 0 0 18px;
+
+	* {
 		font-family: "Courier New", Courier, monospace;
+		line-height: 120%;
 	}
+}
 
-	&.inline {
-		background: #f0f0f0;
-		padding: 0 2px;
-		border: 1px solid #ddd;
-		border-radius: 3px;
-	}
-
-	STRONG {
-		font-weight: bold;
-	}
-
-	.hljs-keyword,
-	.hljs-built_in,
-	.hljs-title {
-		font-weight: normal;
-	}
+CODE.inline {
+	font-family: "Courier New", Courier, monospace;
+	background: #f0f0f0;
+	padding: 0 2px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
 }

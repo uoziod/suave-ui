@@ -170,7 +170,7 @@
 			replace: true,
 			scope: true,
 			link: function (scope, element, attrs) {
-				scope.config = attrs.config ? JSON.parse(attrs.config) : {};
+				scope.config = attrs.suConfig ? JSON.parse(attrs.suConfig) : {};
 				suLayers.cacheElement(attrs.suAnchor, element);
 			}
 		};
