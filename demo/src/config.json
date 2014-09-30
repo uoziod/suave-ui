@@ -1,0 +1,40 @@
+{
+	"version": "0.2.0",
+	"menu": [
+		{
+			"page": "index",
+			"title": "Home"
+		},
+		{
+			"title": "Directives & Services",
+			"sub": [
+				{
+					"page": "grid",
+					"title": "Grid"
+				},
+				{
+					"page": "layers",
+					"title": "Layered Elements"
+				},
+				{
+					"page": "snackbar",
+					"title": "Snackbar"
+				}
+			]
+		},
+		{
+			"page": "styles",
+			"title": "Styles",
+			"sub": [
+				{
+					"page": "colors",
+					"title": "Colors"
+				},
+				{
+					"page": "buttons",
+					"title": "Buttons"
+				}
+			]
+		}
+	]
+}

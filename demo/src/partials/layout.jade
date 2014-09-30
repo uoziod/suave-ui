@@ -1,0 +1,35 @@
+doctype html
+html(lang="en", ng-app="demo")
+  block vars
+  head
+    if pageTitle
+      title Suave UI &mdash; #{pageTitle}
+    else
+      title Suave UI Demo
+    link(rel="icon", href="favicon.ico", type="image/x-icon")
+    link(rel="stylesheet", href="res/prism.css")
+    link(rel="stylesheet", href="../build/styles.min.css")
+    link(rel="stylesheet", href="res/styles.min.css")
+    script(src="res/prism.js")
+    script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js")
+    script(src="../build/app.min.js")
+    script(src="res/demo.js")
+
+body(su-grid, ng-controller="demoController")
+  header
+    div(class="su-wrapper su-p0")
+      div(class="su-box")
+        include header
+
+  div(class="subheader")
+    include subheader
+
+  div(class="su-wrapper su-p0")
+    block content
+
+  div(class="su-clear")
+
+  footer
+    div(class="su-wrapper su-p0")
+      div(class="su-box")
+        include footer

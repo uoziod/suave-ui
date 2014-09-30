@@ -1,0 +1,39 @@
+extends ../partials/layout.jade
+
+block vars
+  - page = 'snackbar'
+  - pageTitle = 'Snackbar'
+
+block content
+  div(class="su-col-edge-1"): div(class="su-box")
+    h1 Snackbar
+
+  div(class="su-col-4"): div(class="su-box")
+    p(class="su-big") <strong>Snackbar</strong> is a colorful stripe with text that hangs on top of the page. Snackbar hangs for <strong>5 seconds</strong>, but this timeout could be changed. Snackbar will not disappear if mouse is over it.
+    p Snackbars are in Interaction Elements group, so they can apply <a href="colors.html#interaction">corresponding colors</a>.
+
+    h2 Examples
+
+    div(class="su-c"): div(class="su-ib")
+      div(class="su-fl su-mr10")
+        button(class="su-positive", ng-click="notify('Positive snackbar example', {color: 'positive'})") Show positive snackbar
+      div(class="su-fl su-mr10")
+        button(class="su-negative", ng-click="notify('Negative snackbar example', {color: 'negative'})") Show positive snackbar
+      div(class="su-fl su-mr10")
+        button(class="su-black", ng-click="notify('Black snackbar example that hangs on 10 seconds', {color: 'black', timeout: 10000})") Show black snackbar
+
+    div(class="su-clear su-m20")
+
+    p Usage example:
+
+    pre: code(class="language-javascript")
+      | yourApp.controller('YourController', function($scope, <strong>suSnackbar</strong>) {
+      |     $scope.$on('someEvent', function() {
+      |         suSnackbar.push('Positive snackbar sample', {
+      |             color: "positive",
+      |             timeout: 10000
+      |         }, function() {
+      |             console.log('Do this when snackbar disappears');
+      |         });
+      |     });
+      | });
