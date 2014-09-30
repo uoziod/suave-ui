@@ -13,6 +13,10 @@
 					"title": "Grid"
 				},
 				{
+					"page": "layers",
+					"title": "Layered Elements"
+				},
+				{
 					"page": "snackbar",
 					"title": "Snackbar"
 				}

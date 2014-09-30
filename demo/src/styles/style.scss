@@ -252,3 +252,18 @@ CODE.inline {
 	border: 1px solid #ddd;
 	border-radius: 3px;
 }
+
+.color-item,
+.color-item-wide {
+	float: left;
+	line-height: 80px;
+	text-align: center;
+}
+
+.color-item {
+	width: 11%;
+}
+
+.color-item-wide {
+	width: 33.33%;
+}
