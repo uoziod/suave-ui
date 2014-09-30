@@ -18,15 +18,17 @@ All these components are included in bundle-files. So you don't need to include 
 
 To begin use Suave UI you had to add CSS & JS bundle-files and include `suave-ui` angular-module into your web-app initialization via Dependency Injection or `angular.bootstrap`.
 
-    <link rel="stylesheet" href="suave-ui/build/styles.min.css" />
-    <script src="js/angular.min.js"></script>
-    <script src="suave-ui/build/app.min.js"></script>
+```html
+<link rel="stylesheet" href="suave-ui/build/styles.min.css" />
+<script src="js/angular.min.js"></script>
+<script src="suave-ui/build/app.min.js"></script>
 
-    <script>
-        angular.element(document).ready(function() {
-            angular.bootstrap(document, ['my-application', 'suave-ui']);
-        });
-    </script>
+<script>
+    angular.element(document).ready(function() {
+        angular.bootstrap(document, ['my-application', 'suave-ui']);
+    });
+</script>
+```
 
 Then you can use Suave directives, services and styles right in your code. [Demo & Examples is available here](http://uoziod.github.io/suave-ui).
 

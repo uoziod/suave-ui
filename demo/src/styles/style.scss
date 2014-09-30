@@ -117,6 +117,7 @@ FOOTER {
 	LI {
 		margin: 0 20px 0 0;
 		float: left;
+		position: relative;
 
 		A {
 			display: block;
@@ -132,6 +133,14 @@ FOOTER {
 			&.active {
 				color: #080808;
 			}
+
+			&.no-link {
+				color: #838383;
+			}
+
+			&.no-link:hover {
+				color: #5C5C5C;
+			}
 		}
 
 		&:before {
@@ -145,6 +154,7 @@ FOOTER {
 
 			margin: -1px 0 0 -15px;
 			padding: 0 14px 5px;
+			min-width: 100%;
 
 			background: #fbfbfb;
 
@@ -164,6 +174,7 @@ FOOTER {
 
 				&:first-child A {
 					border-top: 1px solid transparentize(#ccc, .7);
+					padding-top: 4px;
 				}
 			}
 		}

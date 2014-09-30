@@ -3,11 +3,14 @@
 	"menu": [
 		{
 			"page": "index",
-			"title": "Home",
+			"title": "Home"
+		},
+		{
+			"title": "Directives & Services",
 			"sub": [
 				{
-					"page": "directives",
-					"title": "Directives"
+					"page": "grid",
+					"title": "Grid"
 				},
 				{
 					"page": "snackbar",
@@ -22,10 +25,6 @@
 				{
 					"page": "colors",
 					"title": "Colors"
-				},
-				{
-					"page": "grid",
-					"title": "Grid"
 				},
 				{
 					"page": "buttons",

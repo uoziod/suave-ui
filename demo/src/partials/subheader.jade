@@ -7,8 +7,10 @@ div(class="su-wrapper")
           li
             if item.page == page
               a(href="#{item.page}.html", class="active")= item.title
-            else
+            else if item.page
               a(href="#{item.page}.html")= item.title
+            else
+              a(class="no-link") #{item.title}
             if item.sub
               ul(class="sub")
                 each subItem in item.sub
