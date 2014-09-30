@@ -1,4 +1,5 @@
 /.idea/
+.DS_Store
 
 # Missing Node Modules
 /node_modules/*/

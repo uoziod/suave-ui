@@ -1,83 +1,8 @@
 <!doctype html>
-<html lang="en" ng-app="demo">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Button</title>
-	<link rel="stylesheet" href="build/styles.min.css"/>
-	<link rel="stylesheet" href="demo/demo.css" />
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.js"></script>
-	<script src="build/app.min.js"></script>
-	<script>
-		angular.module('demo', ['ngRoute', 'suave-ui'])
-			.config(function($routeProvider) {
-				$routeProvider
-					.when('/index', {
-						templateUrl: 'demo/index.html'
-					})
-					.when('/basics', {
-						templateUrl: 'demo/basics.html'
-					})
-					.when('/button', {
-						templateUrl: 'demo/button.html'
-					})
-					.when('/layers', {
-						templateUrl: 'demo/layers.html'
-					})
-					.when('/snackbar', {
-						templateUrl: 'demo/snackbar.html',
-						controller: 'SnackbarController'
-					})
-					.when('/grid', {
-						templateUrl: 'demo/grid.html'
-					})
-					.otherwise({
-						redirectTo : '/index'
-					});
-			})
-			.controller('SnackbarController', function($scope, $location, $anchorScroll, suSnackbar) {
-				$scope.notify = function(text, config) {
-					var snackbarId = suSnackbar.push(text, config);
-					console.log('Snackbar ' + snackbarId + ' called');
-				};
-			});
-	</script>
+	<title>Suave UI</title>
+	<meta http-equiv="refresh" content="0; url=demo/" />
 </head>
-<body su-grid>
-
-<div class="demo-header">
-	<h1>Suave UI</h1>
-	<h2>UI Framework for AngularJS</h2>
-	<p>Current version &mdash; <strong>0.1.2</strong></p>
-
-	<div class="buttons">
-		<a href="https://github.com/uoziod/suave-ui" class="button"><span class="fa fa-github"></span> Project on Github</a>
-		<a href="https://github.com/uoziod/suave-ui/archive/master.zip" class="button"><span class="fa fa-download"></span> Download .zip</a>
-	</div>
-</div>
-
-<div class="wrapper m0 no-padding">
-	<hr />
-</div>
-
-<div class="wrapper mt0 no-padding">
-	<div id="top" ng-view autoscroll></div>
-
-	<div class="clear-fix"></div>
-</div>
-
-<div class="wrapper mt0 no-padding">
-	<hr />
-</div>
-
-<div class="demo-footer">
-	<p>
-		&copy; Semyon Vyskubov, 2014<br />
-		<strong>Suave UI</strong> is licensed under MIT License<br />
-		<a href="http://fontawesome.io/">Font Awesome</a> font is licensed under the SIL OFL 1.1<br />
-		<a href="http://daneden.github.io/animate.css/">Animate.css</a> is licensed under MIT License
-	</p>
-</div>
-
-</body>
 </html>

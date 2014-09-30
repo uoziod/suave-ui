@@ -1,4 +1,4 @@
-<div class="su-popup" ng-class="{dn: !visible, 'no-title': !config.title, 'no-padding': config.noPadding, 'w-sidebar': config.menu}">
+<div class="su-popup" ng-class="{'su-dn': !visible}">
 	<div class="su-inner">
 		<div ng-if="config.title" class="su-title"><h2>{{config.title}}</h2></div>
 		<div class="su-container" ng-transclude></div>

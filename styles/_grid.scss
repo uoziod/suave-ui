@@ -2,7 +2,7 @@
 * Grid
 */
 
-.wrapper {
+.su-wrapper {
 	clear: both;
 	margin: 0 auto;
 	max-width: 1150px;
@@ -10,103 +10,103 @@
 	padding: 0 30px 30px;
 }
 
-.row {
+.su-row {
 	clear: both;
 	display: block;
 	margin: 0 auto;
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5,
-.col-edge-1, .col-edge-2, .col-edge-3, .col-edge-4, .col-edge-5 {
+.su-col-1, .su-col-2, .su-col-3, .su-col-4, .su-col-5,
+.su-col-edge-1, .su-col-edge-2, .su-col-edge-3, .su-col-edge-4, .su-col-edge-5 {
 	display: inline;
 	float: left;
 }
 
-.col-1 {
+.su-col-1 {
 	width: 16%;
 }
 
-.col-edge-1 {
+.su-col-edge-1 {
 	width: 18%;
 }
 
-.col-2 {
+.su-col-2 {
 	width: 32%;
 }
 
-.col-edge-2 {
+.su-col-edge-2 {
 	width: 34%;
 }
 
-.col-3 {
+.su-col-3 {
 	width: 48%;
 }
 
-.col-edge-3 {
+.su-col-edge-3 {
 	width: 50%;
 }
 
-.col-4 {
+.su-col-4 {
 	width: 64%;
 }
 
-.col-edge-4 {
+.su-col-edge-4 {
 	width: 66%;
 }
 
-.col-5 {
+.su-col-5 {
 	width: 82%;
 }
 
-.col-edge-5 {
+.su-col-edge-5 {
 	width: 84%;
 }
 
-.col-6 {
+.su-col-6 {
 	width: 100%;
 }
 
-.empty-1 {
+.su-empty-1 {
 	padding-left: 16%;
 }
 
-.empty-edge-1 {
+.su-empty-edge-1 {
 	padding-left: 18%;
 }
 
-.empty-2 {
+.su-empty-2 {
 	padding-left: 32%;
 }
 
-.empty-edge-2 {
+.su-empty-edge-2 {
 	padding-left: 34%;
 }
 
-.empty-3 {
+.su-empty-3 {
 	padding-left: 48%;
 }
 
-.empty-edge-3 {
+.su-empty-edge-3 {
 	padding-left: 50%;
 }
 
-.empty-4 {
+.su-empty-4 {
 	padding-left: 64%;
 }
 
-.empty-edge-4 {
+.su-empty-edge-4 {
 	padding-left: 66%;
 }
 
-.empty-5 {
+.su-empty-5 {
 	padding-left: 82%;
 }
 
-.empty-edge-5 {
+.su-empty-edge-5 {
 	padding-left: 84%;
 }
 
-.box {
+.su-box {
 	margin: 0 5px;
 	padding: 0 15px;
 }
@@ -128,7 +128,7 @@
 		height: 100%;
 	}
 
-	.wrap {
+	.su-wrap {
 		max-width: 1150px;
 		min-width: 929px;
 		margin: 0 auto;
@@ -136,30 +136,30 @@
 		position: relative;
 	}
 
-	.box {
+	.su-box {
 		background: #717171;
 		opacity: .25;
 	}
 
-	.inner {
+	.su-inner {
 		background: #EFEFEF;
 		opacity: .5;
 		width: 100%;
 	}
 
-	.left-edge,
-	.right-edge {
+	.su-left-edge,
+	.su-right-edge {
 		position: absolute;
 		background: #717171;
 		width: 35px;
 		opacity: .25;
 	}
 
-	.left-edge {
+	.su-left-edge {
 		left: 0;
 	}
 
-	.right-edge {
+	.su-right-edge {
 		right: 0;
 	}
 }

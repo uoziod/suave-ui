@@ -17,7 +17,7 @@
 			}
 		});
 
-			angular.element(document).on('click', function (e) {
+		angular.element(document).on('click', function (e) {
 			if (self._layers.length > 0 && !searchInLayers({caller: e.target})) {
 				if (
 					!searchUpInTreeByElement(e.target) ||
@@ -156,7 +156,7 @@
 			replace: true,
 			scope: true,
 			link: function (scope, element, attrs) {
-				suLayers.cacheElement(attrs.anchor, element);
+				suLayers.cacheElement(attrs.suAnchor, element);
 			}
 		};
 	}
@@ -170,8 +170,8 @@
 			replace: true,
 			scope: true,
 			link: function (scope, element, attrs) {
-				scope.config = attrs.config ? JSON.parse(attrs.config) : {};
-				suLayers.cacheElement(attrs.anchor, element);
+				scope.config = attrs.suConfig ? JSON.parse(attrs.suConfig) : {};
+				suLayers.cacheElement(attrs.suAnchor, element);
 			}
 		};
 	}
@@ -195,7 +195,8 @@
 						suLayers.addToLayers(attrs.suTarget, element);
 
 						if (element[0].offsetWidth < 50) {
-							angular.element(suLayers.getTopLayer().element).addClass('tinyWrap');
+							// TODO: use scope property instead of "addClass"
+							angular.element(suLayers.getTopLayer().element).addClass('su-tiny-wrap');
 						}
 					}
 				});

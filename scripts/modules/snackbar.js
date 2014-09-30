@@ -11,11 +11,11 @@
 		var $snackbarsArea = document.getElementById('su-snackbars'),
 			snackbarIndex = 0;
 
-		function push(text, config) {
+		function push(text, config, callback) {
 			var templateInstance = angular.copy($templateCache.get('snackbar.tmpl')),
 				compileLink = $compile(templateInstance),
 				$scope = $rootScope.$new(true),
-				promise;
+				timeout;
 
 			if (!config) {
 				config = {};
@@ -25,16 +25,20 @@
 				config.color = 'default';
 			}
 
-			$scope.id = 'su-snackbar-' + snackbarIndex;
-			$scope.text = text;
-			$scope.config = config;
+			config.color = 'su-' + config.color;
+
+			angular.extend($scope, {
+				id: 'su-snackbar-' + snackbarIndex,
+				text: text,
+				config: config
+			});
 
 			var item = compileLink($scope);
 			angular.element($snackbarsArea).append(item);
 
 			item
 				.on('mouseover', function () {
-					$timeout.cancel(promise);
+					$timeout.cancel(timeout);
 				})
 				.on('mouseout', function () {
 					initItemRemoval();
@@ -43,11 +47,15 @@
 			initItemRemoval();
 
 			function initItemRemoval() {
-				promise = $timeout(function () {
-					angular.element(item).addClass('animated fadeOutUp slideUp');
+				timeout = $timeout(function () {
+					angular.element(item).addClass('animated fadeOutUp slide-up');
 
 					$timeout(function () {
 						angular.element(item).remove();
+
+						if (typeof callback === "function") {
+							callback();
+						}
 					}, ANIMATION_SPEED);
 				}, config.timeout || 5000);
 			}

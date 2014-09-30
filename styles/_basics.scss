@@ -29,13 +29,11 @@ H1, H2, H3, H4, H5, STRONG {
 	font-weight: bold;
 }
 
-H1, H2, H3, H4, H5, P, TABLE {
+H1, H2, H3, H4, H5, P, TABLE, PRE {
 	margin: 0 0 18px;
 }
 
 H1 {
-	padding-bottom: 10px;
-	border-bottom: 4px solid;
 	font-size: 30px;
 }
 
@@ -51,10 +49,18 @@ H4 {
 	font-size: 16px;
 }
 
+&.su-big {
+	font-size: 18px;
+}
+
+&.su-small {
+	font-size: 13px;
+}
+
 
 
 /**
-* Secondary elements
+* Features
 */
 
 HR {
@@ -63,27 +69,34 @@ HR {
 	border-top: 1px solid $ruler-def;
 	margin: 25px 0;
 
-	&.big {
+	&.su-big {
 		border-top: 4px solid;
 	}
 
-	&.dark {
+	&.su-dark {
 		border-color: $ruler-dark;
 	}
 }
 
 UL {
-	list-style: none;
-	margin: 0 0 18px;
-	padding: 0;
+	&.su-dash {
+		list-style: none;
+		margin: 0 0 18px;
+		padding: 0;
 
-	LI {
-		margin-left: 25px;
+		UL {
+			margin-left: 25px;
+		}
 
-		&:before {
-			position: absolute;
-			content: '—';
-			margin-left: -25px;
+		LI {
+			margin-left: 25px;
+
+			&:before {
+				position: absolute;
+				z-index: 0;
+				content: '—';
+				margin-left: -25px;
+			}
 		}
 	}
 }

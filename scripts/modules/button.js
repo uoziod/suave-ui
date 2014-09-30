@@ -1,41 +1,20 @@
 (function () {
 
-	/* ngInject */
-	function suaveButtonIcon ($sce) {
+	function suaveButtonIcon () {
 		return {
 			restrict: "A",
-			template: '<button><span ng-bind-html="renderHtml(value)"></span></button>',
+			templateUrl: 'button.tmpl',
 			replace: true,
 			scope: true,
 			link: function (scope, element, attrs) {
-				scope.renderHtml = function (html) {
-					return $sce.trustAsHtml(html);
-				};
-
-				scope.value = '<span class="mr5 fa ' + attrs.suIcon + '"></span> ' + attrs.value;
-			}
-		};
-	}
-
-	/* ngInject */
-	function suaveButtonIconInCircle ($sce) {
-		return {
-			restrict: "A",
-			template: '<button class="circle"><span ng-bind-html="renderHtml(value)"></span></button>',
-			replace: true,
-			scope: true,
-			link: function (scope, element, attrs) {
-				scope.renderHtml = function (html) {
-					return $sce.trustAsHtml(html);
-				};
-
-				scope.value = '<div class="icon fa ' + attrs.suIconCircle + '"></div><div class="text">' + attrs.value + '</div>';
+				scope.value = attrs.value;
+				scope.icon = attrs.suIcon || false;
+				scope.type = attrs.buttonType ? 'su-' + attrs.buttonType : false;
 			}
 		};
 	}
 
 	angular.module('su-button', [])
-		.directive('suIcon', suaveButtonIcon)
-		.directive('suIconCircle', suaveButtonIconInCircle);
+		.directive('suIcon', suaveButtonIcon);
 
 })();
