@@ -1,8 +1,10 @@
 .su-frame {
 	border: 1px solid $c6;
 	border-radius: 5px;
-	padding: 20px 30px;
 	box-shadow: 0 2px 3px transparentize($c5, .1);
+
+	padding: 20px 30px;
+	margin: 0 0 18px;
 
 	@each $item in $interact {
 		$this: unquote(nth($item, 1));
@@ -24,7 +26,6 @@
 
 	& > :last-child {
 		margin-bottom: 0;
-		padding-bottom: 0;
 
 		*:last-child {
 			margin-bottom: 0;

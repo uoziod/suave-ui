@@ -237,6 +237,7 @@ PRE {
 code[class*="language-"],
 pre[class*="language-"] {
 	margin: 0 0 18px;
+	background: #f6f6f6;
 
 	* {
 		font-family: "Courier New", Courier, monospace;
@@ -246,7 +247,7 @@ pre[class*="language-"] {
 
 CODE.inline {
 	font-family: "Courier New", Courier, monospace;
-	background: #f0f0f0;
+	background: #f6f6f6;
 	padding: 0 2px;
 	border: 1px solid #ddd;
 	border-radius: 3px;

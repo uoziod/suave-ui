@@ -24,7 +24,7 @@ To begin use Suave UI you had to add CSS & JS bundle-files and include `suave-ui
 <script src="suave-ui/build/app.min.js"></script>
 
 <script>
-    angular.element(document).ready(function() {
+    angular.element(document).ready(function () {
         angular.bootstrap(document, ['my-application', 'suave-ui']);
     });
 </script>

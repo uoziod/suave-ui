@@ -7,5 +7,3 @@ angular.module('demo', ['suave-ui'])
 			console.log('-> Snackbar ' + snackbarId + ' opened');
 		};
 	});
-
-hljs.initHighlightingOnLoad();

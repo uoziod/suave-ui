@@ -14,7 +14,7 @@
 		@include animation-prop(duration, .2s);
 		@include transition(max-height .2s);
 
-		&.slideUp {
+		&.slide-up {
 			max-height: 0;
 		}
 
