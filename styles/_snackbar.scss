@@ -6,6 +6,8 @@
 	height: 0;
 
 	.su-snackbar {
+		position: relative;
+
 		margin: 5px 0;
 		line-height: 34px;
 		max-height: 34px;
@@ -14,7 +16,12 @@
 		@include animation-prop(duration, .2s);
 		@include transition(max-height .2s);
 
-		&.slide-up {
+		.su-close {
+			position: absolute;
+			right: 10px;
+		}
+
+		&.su-slide-up {
 			max-height: 0;
 		}
 
@@ -28,6 +35,10 @@
 				@include gradient-v($this-c1, $this-c2);
 				color: $this-text;
 				text-align: center;
+
+				& A {
+					color: $this-text;
+				}
 			}
 		}
 	}

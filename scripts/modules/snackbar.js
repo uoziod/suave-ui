@@ -36,6 +36,18 @@
 			var item = compileLink($scope);
 			angular.element($snackbarsArea).append(item);
 
+			$scope.close = function() {
+				angular.element(item).addClass('animated fadeOutUp su-slide-up');
+
+				if (typeof callback === "function") {
+					callback();
+				}
+
+				$timeout(function () {
+					angular.element(item).remove();
+				}, ANIMATION_SPEED);
+			};
+
 			item
 				.on('mouseover', function () {
 					$timeout.cancel(timeout);
@@ -47,17 +59,7 @@
 			initItemRemoval();
 
 			function initItemRemoval() {
-				timeout = $timeout(function () {
-					angular.element(item).addClass('animated fadeOutUp slide-up');
-
-					$timeout(function () {
-						angular.element(item).remove();
-
-						if (typeof callback === "function") {
-							callback();
-						}
-					}, ANIMATION_SPEED);
-				}, config.timeout || 5000);
+				timeout = $timeout($scope.close, config.timeout || 5000);
 			}
 
 			$timeout(function () {
