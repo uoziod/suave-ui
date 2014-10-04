@@ -10,19 +10,48 @@ block content
 
   div(class="su-col-4"): div(class="su-box")
     p(class="su-big") <strong>Snackbar</strong> is a colorful stripe with text that hangs on top of the page. Snackbar hangs for <strong>5 seconds</strong>, but this timeout could be changed. Snackbar will not disappear if mouse is over it.
-    p Snackbars are in Interaction Elements group, so they can apply <a href="colors.html#interaction">corresponding colors</a>.
 
     h2 Examples
 
-    div(class="su-c"): div(class="su-ib")
-      div(class="su-fl su-mr10")
-        button(class="su-positive", ng-click="notify('Positive snackbar example', {color: 'positive'})") Show positive snackbar
-      div(class="su-fl su-mr10")
-        button(class="su-negative", ng-click="notify('Negative snackbar example', {color: 'negative'})") Show positive snackbar
-      div(class="su-fl su-mr10")
-        button(class="su-black", ng-click="notify('Black snackbar example that hangs on 10 seconds', {color: 'black', timeout: 10000})") Show black snackbar
+    div(class="su-c")
+      div(class="su-fl", style="width: 33.33%")
+        button(class="su-positive", style="width: 96%", ng-click="notify('Positive snackbar example', {color: 'positive'})") Positive snackbar
+      div(class="su-fl", style="width: 33.33%")
+        button(class="su-negative", style="width: 96%", ng-click="notify('Negative snackbar example', {color: 'negative'})") Negative snackbar
+      div(class="su-fl", style="width: 33.33%")
+        button(class="su-black", style="width: 96%", ng-click="notify('Negative black example that hangs on 10 seconds', {color: 'black', timeout: 10000})") Black snackbar
+
+    div(class="su-clear")
+
+    div(class="su-c su-mt10")
+      div(class="su-fl", style="width: 33.33%")
+        button(class="su-positive", style="width: 96%", ng-click="notify('Bottom positive snackbar example', {bottom: true, color: 'positive'})") Bottom positive snackbar
+      div(class="su-fl", style="width: 33.33%")
+        button(class="su-negative", style="width: 96%", ng-click="notify('Bottom negative snackbar example', {bottom: true, color: 'negative'})") Bottom negative snackbar
+      div(class="su-fl", style="width: 33.33%")
+        button(class="su-black", style="width: 96%", ng-click="notify('Bottom black snackbar example that hangs on 10 seconds', {bottom: true, color: 'black', timeout: 10000})") Black Negative snackbar
 
     div(class="su-clear su-m20")
+
+    h3 How to use?
+    p Snackbar is a service. As a service it could be used, for example in Controller. <strong>suSnackbar</strong> have some public methods to interact with this type of elements:
+
+    h4 .push(text, [config], [callback])
+    p Method to display snackbar should contain displaying text as first argument. Second optional argument is configuration object desribed bellow. Third parameter is a callback function, that have to be called when snackbar will disappear.
+
+    table
+      tr
+        th Property
+        th Appointment
+      tr
+        td color
+        td Snackbars are in Interaction Elements group, so they can apply <a href="colors.html#interaction">corresponding colors</a>
+      tr(class="odd")
+        td timeout
+        td Time in milliseconds after which snackbar will disappear
+      tr
+        td bottom
+        td Boolean value, and if is true, snackbar will appear on the bottom part of screen
 
     p Usage example:
 

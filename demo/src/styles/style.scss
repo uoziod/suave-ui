@@ -34,12 +34,13 @@ HEADER {
 	color: #b5312c;
 
 	.logo-wrap {
+		width: 348px;
 		height: 120px;
 		position: relative;
 
 		A {
 			display: block;
-			width: 348px;
+			width: 100%;
 			height: 120px;
 			color: #b5312c;
 		}
@@ -108,8 +109,18 @@ FOOTER {
 	background: #fbfbfb;
 	border-bottom: 1px solid #ccc;
 
-	.buttons {
+	.right {
 		margin-top: 11px;
+
+		A {
+			color: lighten(#b5312c, 10%);
+			margin-left: 20px;
+
+			&:hover {
+				text-decoration: none;
+				color: #b5312c;
+			}
+		}
 	}
 }
 

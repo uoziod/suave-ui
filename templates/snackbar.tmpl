@@ -1,4 +1,10 @@
-<div class="su-snackbar {{config.color}} animated fadeInDown">
+<div class="su-snackbar {{config.color}} animated"
+     ng-class="{
+         'fadeInUp'               : !config.bottom,
+         'fadeInDown'             : config.bottom,
+         'fadeOutUp su-slide-up'  : remove && !config.bottom,
+         'fadeOutDown su-slide-up': remove && config.bottom
+     }">
 	<a class="su-close" ng-click="close()"><span class="fa fa-times-circle"></span></a>
 	{{text}}
 </div>

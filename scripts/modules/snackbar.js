@@ -5,10 +5,12 @@
 	/* ngInject */
 	function suaveSnackbarService($templateCache, $compile, $rootScope, $timeout) {
 		if (!document.getElementById('su-snackbars')) {
-			angular.element(document.getElementsByTagName('BODY')).append('<div id="su-snackbars"></div>');
+			angular.element(document.getElementsByTagName('BODY')).append('<div class="su-snackbars" id="su-snackbars"></div>');
+			angular.element(document.getElementsByTagName('BODY')).append('<div class="su-snackbars" id="su-snackbars-bottom"></div>');
 		}
 
 		var $snackbarsArea = document.getElementById('su-snackbars'),
+			$snackbarsAreaBottom = document.getElementById('su-snackbars-bottom'),
 			snackbarIndex = 0;
 
 		function push(text, config, callback) {
@@ -34,10 +36,23 @@
 			});
 
 			var item = compileLink($scope);
-			angular.element($snackbarsArea).append(item);
+
+			if (config.bottom) {
+				angular.element($snackbarsAreaBottom).prepend(item);
+			} else {
+				angular.element($snackbarsArea).append(item);
+			}
+
+			item
+				.on('mouseover', function () {
+					$timeout.cancel(timeout);
+				})
+				.on('mouseout', function () {
+					initItemRemoval();
+				});
 
 			$scope.close = function() {
-				angular.element(item).addClass('animated fadeOutUp su-slide-up');
+				$scope.remove = true;
 
 				if (typeof callback === "function") {
 					callback();
@@ -48,23 +63,11 @@
 				}, ANIMATION_SPEED);
 			};
 
-			item
-				.on('mouseover', function () {
-					$timeout.cancel(timeout);
-				})
-				.on('mouseout', function () {
-					initItemRemoval();
-				});
-
 			initItemRemoval();
 
 			function initItemRemoval() {
 				timeout = $timeout($scope.close, config.timeout || 5000);
 			}
-
-			$timeout(function () {
-				angular.element(item).removeClass('animated fadeInDown');
-			}, ANIMATION_SPEED);
 
 			snackbarIndex++;
 
