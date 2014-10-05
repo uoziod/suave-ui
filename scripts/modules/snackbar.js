@@ -16,8 +16,7 @@
 		function push(text, config, callback) {
 			var templateInstance = angular.copy($templateCache.get('snackbar.tmpl')),
 				compileLink = $compile(templateInstance),
-				$scope = $rootScope.$new(true),
-				timeout;
+				$scope = $rootScope.$new(true);
 
 			if (!config) {
 				config = {};
@@ -45,7 +44,7 @@
 
 			item
 				.on('mouseover', function () {
-					$timeout.cancel(timeout);
+					$timeout.cancel($scope.timeout);
 				})
 				.on('mouseout', function () {
 					initItemRemoval();
@@ -66,7 +65,7 @@
 			initItemRemoval();
 
 			function initItemRemoval() {
-				timeout = $timeout($scope.close, config.timeout || 5000);
+				$scope.timeout = $timeout($scope.close, config.timeout || 5000);
 			}
 
 			snackbarIndex++;
@@ -74,8 +73,16 @@
 			return $scope.id;
 		}
 
+		function clear() {
+			angular.forEach(document.getElementsByClassName('su-snackbar'), function(snackbar) {
+				$timeout.cancel(angular.element(snackbar).scope().timeout);
+				angular.element(snackbar).scope().close();
+			});
+		}
+
 		return {
-			push: push
+			push: push,
+			clear: clear
 		}
 	}
 

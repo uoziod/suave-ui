@@ -37,7 +37,7 @@ block content
     p Snackbar is a service. As a service it could be used, for example in Controller. <strong>suSnackbar</strong> have some public methods to interact with this type of elements:
 
     h4 .push(text, [config], [callback])
-    p Method to display snackbar should contain displaying text as first argument. Second optional argument is configuration object desribed bellow. Third parameter is a callback function, that have to be called when snackbar will disappear.
+    p Method for display snackbar. The first argument must contain text to display. Second optional argument is a configuration object desribed bellow. Third parameter is a callback function, that have to be called when snackbar will disappear.
 
     table
       tr
@@ -66,3 +66,10 @@ block content
       |         });
       |     });
       | });
+
+    h4 .clear()
+
+    p This method is intended to remove all displayed snackbars.
+
+    div(class="su-c")
+        button(class="su-negative su-big", ng-click="removeSnackbars()") Remove snackbars
