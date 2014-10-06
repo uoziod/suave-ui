@@ -86,6 +86,20 @@ block content
         | &nbsp;&nbsp;&nbsp;&nbsp;Popup content
         | &lt;/su-popup&gt;
 
+      p <strong>su-config</strong> is an optional attribute that must be a JSON-object which handles following parameters:
+
+      table(style="width: 100%")
+        tr
+          th Property
+          th Appointment
+        tr
+          td title
+          td Allow to set popup's title
+        tr(class="odd")
+          td noCloseButton
+          td Boolean value that removes close button from popup if is true
+
+
       su-popup(su-anchor="p1", su-config='{"title": "Popup title"}')
         p Popup content
 

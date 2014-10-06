@@ -1,6 +1,6 @@
 <div class="su-popup" ng-class="{'su-dn': !visible}">
 	<div class="su-inner">
-		<a class="su-close" ng-click="close()"><i class="fa fa-close"></i></a>
+		<a ng-if="!config.noCloseButton" class="su-close" ng-click="close()"><i class="fa fa-close"></i></a>
 		<div ng-if="config.title" class="su-title"><h2>{{config.title}}</h2></div>
 		<div class="su-container" ng-transclude></div>
 	</div>
