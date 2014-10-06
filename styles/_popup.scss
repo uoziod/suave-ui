@@ -8,6 +8,23 @@
 	background: transparentize($c0, .25);
 	overflow-y: auto;
 
+	.su-close {
+		position: absolute;
+		display: block;
+		right: 0;
+
+		font-size: 27px;
+		color: $c6;
+		text-align: center;
+
+		width: 63px;
+		line-height: 63px;
+
+		&:hover {
+			color: darken($c6, 3);
+		}
+	}
+
 	.su-inner {
 		position: relative;
 		width: 710px;

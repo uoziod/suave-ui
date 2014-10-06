@@ -171,6 +171,9 @@
 			scope: true,
 			link: function (scope, element, attrs) {
 				scope.config = attrs.suConfig ? JSON.parse(attrs.suConfig) : {};
+				scope.close = function() {
+					suLayers.popLayer();
+				};
 				suLayers.cacheElement(attrs.suAnchor, element);
 			}
 		};
