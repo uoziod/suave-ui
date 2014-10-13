@@ -94,10 +94,16 @@ block content
 					th Appointment
 				tr
 					td title
-					td Allow to set popup's title
+					td Allow to set popup's title (<a su-target="p1">demo</a>)
 				tr(class="odd")
 					td noCloseButton
-					td Boolean value that removes close button from popup if is true
+					td Boolean value. If is true removes close button from popup if is true (<a su-target="p3">demo</a>)
+				tr
+					td noPadding
+					td Boolean value. If is true removes padding in popup container (useful when is needed to display any image inside) (<a su-target="p4">demo</a>)
+				tr(class="odd")
+					td customWidth
+					td Integer value that allows to set custom popup container width (<a su-target="p4">demo</a>)
 
 
 			su-popup(su-anchor="p1", su-config='{"title": "Popup title"}')
@@ -152,3 +158,9 @@ block content
 				p Popup with scroll
 				p Popup with scroll
 				p Popup with scroll
+
+			su-popup(su-anchor="p3", su-config='{"noCloseButton": true}')
+				p This popup has no close button, but still able to close it by clicking on area ouside of popup or pressing ESC.
+
+			su-popup(su-anchor="p4", su-config='{"noPadding": true, "customWidth": 500, "noCloseButton": true}')
+				img(src="res/tuscany-farmland.jpg", width="500", height="333")

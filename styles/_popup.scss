@@ -56,7 +56,11 @@
 		}
 	}
 
-	&.no-padding .su-container {
+	&.su-no-padding .su-container {
 		padding: 0;
+	}
+
+	IMG {
+		vertical-align: middle;
 	}
 }
