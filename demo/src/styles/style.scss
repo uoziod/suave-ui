@@ -251,13 +251,13 @@ pre[class*="language-"] {
 	background: #f6f6f6;
 
 	* {
-		font-family: "Courier New", Courier, monospace;
+		font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 		line-height: 120%;
 	}
 }
 
 CODE.inline {
-	font-family: "Courier New", Courier, monospace;
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	background: #f6f6f6;
 	padding: 0 2px;
 	border: 1px solid #ddd;

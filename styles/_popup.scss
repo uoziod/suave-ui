@@ -27,6 +27,7 @@
 
 	.su-inner {
 		position: relative;
+		overflow: hidden;
 		width: 710px;
 		margin: 50px auto;
 		background: #fff;
@@ -35,14 +36,56 @@
 		text-align: left;
 	}
 
+	&.su-with-menu .su-inner {
+		width: 980px;
+	}
+
 	.su-title {
 		padding: 18px 65px 15px 30px;
 		min-height: 30px;
 		line-height: 30px;
-		border-bottom: 1px solid #e0e0e0;
+		border-bottom: 1px solid $c5;
 
 		H2 {
 			margin: 0;
+		}
+	}
+
+	.su-menu {
+		display: table-cell;
+		vertical-align: top;
+		width: 269px;
+		border-right: 1px solid $c5;
+
+		LI {
+			padding: 14px 60px 14px 30px;
+			cursor: default;
+			color: $c13;
+
+			&:not(.su-divider):hover {
+				background: $c3;
+			}
+		}
+
+		.su-hilite {
+			color: $c15;
+		}
+
+		.su-divider {
+			color: $c7;
+		}
+
+		.su-active {
+			background: $c8 !important;
+			color: $c1;
+		}
+	}
+
+	.su-section {
+		display: none;
+
+		&.su-visible {
+			display: block;
 		}
 	}
 
@@ -54,6 +97,10 @@
 		:last-child {
 			margin-bottom: 0;
 		}
+	}
+
+	&.su-with-menu .su-container {
+		display: table-cell;
 	}
 
 	&.su-no-padding .su-container {
