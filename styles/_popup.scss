@@ -99,8 +99,18 @@
 		}
 	}
 
-	&.su-with-menu .su-container {
-		display: table-cell;
+	&.su-with-menu {
+		.su-wrap {
+			display: table;
+			table-layout: fixed;
+			width: 960px;
+		}
+
+		.su-container {
+			display: table-cell;
+			width: 650px;
+			overflow: auto;
+		}
 	}
 
 	&.su-no-padding .su-container {
