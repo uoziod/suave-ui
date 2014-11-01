@@ -9,5 +9,5 @@ angular.module('demo', ['suave-ui'])
 
 		$scope.removeSnackbars = function() {
 			suSnackbar.clear();
-		}
+		};
 	});

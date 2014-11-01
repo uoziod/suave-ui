@@ -5,28 +5,28 @@ block vars
 	- pageTitle = 'Styles'
 
 block content
-	div(class="su-col-edge-1"): div(class="su-box")
+	div.su-col-edge-1: div.su-box
 		h1 Styles
 
-	div(class="su-col-4"): div(class="su-box")
-		p(class="su-big") <strong>Suave UI</strong> have a lot of predefined styles designed to help you create UI quickly and efficiently. All framework's CSS-properties have <strong>su-</strong>prefix. Hereinafter represented all these abbreviations with descriptions.
+	div.su-col-4: div.su-box
+		p.su-big <strong>Suave UI</strong> have a lot of predefined styles designed to help you create UI quickly and efficiently. All framework's CSS-properties have <strong>su-</strong>prefix. Hereinafter represented all these abbreviations with descriptions.
 
 
-	div(class="su-row")
-		div(class="su-col-edge-1"): div(class="su-box")
+	div.su-row
+		div.su-col-edge-1: div.su-box
 			h3 Font size
 
-		div(class="su-col-4"): div(class="su-box")
-			p(class="su-big") Paragraphs and lists accept <strong>su-big</strong> class to make font size bigger than regular.
-			p(class="su-small") Similar <strong>su-small</strong> class makes font size smaller.
+		div.su-col-4: div.su-box
+			p.su-big Paragraphs and lists accept <strong>su-big</strong> class to make font size bigger than regular.
+			p.su-small Similar <strong>su-small</strong> class makes font size smaller.
 
 
-	div(class="su-row")
-		div(class="su-col-edge-1"): div(class="su-box")
+	div.su-row
+		div.su-col-edge-1: div.su-box
 			h3 Lists
 
-		div(class="su-col-2"): div(class="su-box")
-			ul(class="su-dash")
+		div.su-col-2: div.su-box
+			ul.su-dash
 				li To make lists
 				li like this
 				li use class
@@ -34,56 +34,56 @@ block content
 					li <strong>su-dash</strong>
 					li for &lt;UL&gt; elements
 
-		div(class="su-col-2"): div(class="su-box")
-			pre: code(class="language-markup")
+		div.su-col-2: div.su-box
+			pre: code.language-markup
 				| &lt;ul class="su-dash"&gt;<br />
 				| &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;...&lt;/li&gt;
 				| &lt;/ul&gt;
 
 
-	div(class="su-row")
-		div(class="su-col-edge-1"): div(class="su-box")
+	div.su-row
+		div.su-col-edge-1: div.su-box
 			h3 Frames
 
-		div(class="su-col-4"): div(class="su-box")
+		div.su-col-4: div.su-box
 			p <strong>Frame</strong> is a design element. Frames accept styles of <a href="colors.html#interaction">Interaction Elements</a> to display colorful stripe.
 
-	div(class="su-row")
-		div(class="su-empty-edge-1 su-col-2"): div(class="su-box")
-			div(class="su-frame")
-				p(class="su-big") This is<br />sample frame
+	div.su-row
+		div.su-empty-edge-1.su-col-2: div.su-box
+			div.su-frame
+				p.su-big This is<br />sample frame
 
-			pre: code(class="language-markup")
+			pre: code.language-markup
 				| &lt;div class="su-frame"&gt;...&lt;/div&gt;
 
-		div(class="su-col-2"): div(class="su-box")
-			div(class="su-frame su-positive"): p(class="su-big") This is sample frame with<br /><strong>su-positive</strong> class
+		div.su-col-2: div.su-box
+			div.su-frame.su-positive: p.su-big This is sample frame with<br /><strong>su-positive</strong> class
 
-			pre: code(class="language-markup")
+			pre: code.language-markup
 				| &lt;div class="su-frame su-positive"&gt;...&lt;/div&gt;
 
 
-	div(class="su-row")
-		div(class="su-col-edge-1"): div(class="su-box")
+	div.su-row
+		div.su-col-edge-1: div.su-box
 			h3 Horizontal ruler
 
-		div(class="su-col-4"): div(class="su-box")
+		div.su-col-4: div.su-box
 			p This is how regular &lt;hr&gt; seems like:
 			hr
 
 			p Ruler can be dark:
-			hr(class="su-dark")
+			hr.su-dark
 
 			p &lt;hr&gt; accept <strong>su-big</strong> class to make ruler more expressive:
-			hr(class="su-big")
+			hr.su-big
 
 
-	div(class="su-row")
-		div(class="su-col-edge-1"): div(class="su-box")
+	div.su-row
+		div.su-col-edge-1: div.su-box
 			h3 Abbreviations
 
-		div(class="su-col-4"): div(class="su-box")
-			p(class="su-big") Basic abbreviations:
+		div.su-col-4: div.su-box
+			p.su-big Basic abbreviations:
 
 			table(style="width: 100%")
 				tr
@@ -96,7 +96,7 @@ block content
 					td float: left;
 					td: strong .su-c
 					td text-align: center;
-				tr(class="odd")
+				tr.odd
 					td: strong .su-fr
 					td float: right;
 					td: strong .su-l
@@ -106,7 +106,7 @@ block content
 					td display: none;
 					td: strong .su-r
 					td text-align: right;
-				tr(class="odd")
+				tr.odd
 					td: strong .su-clear
 					td clear: both;
 					td: strong .su-ib
@@ -125,7 +125,7 @@ block content
 					td margin-bottom: <span class="su-c11">*</span>px;
 					td: strong .su-p<span class="su-c11">*</span>
 					td padding-bottom: <span class="su-c11">*</span>px;
-				tr(class="odd")
+				tr.odd
 					td: strong .su-mt<span class="su-c11">*</span>
 					td margin-top: <span class="su-c11">*</span>px;
 					td: strong .su-pt<span class="su-c11">*</span>
@@ -135,10 +135,10 @@ block content
 					td margin-left: <span class="su-c11">*</span>px;
 					td: strong .su-pl<span class="su-c11">*</span>
 					td padding-left: <span class="su-c11">*</span>px;
-				tr(class="odd")
+				tr.odd
 					td: strong .su-mr<span class="su-c11">*</span>
 					td margin-right: <span class="su-c11">*</span>px;
 					td: strong .su-pr<span class="su-c11">*</span>
 					td padding-right: <span class="su-c11">*</span>px;
 
-			p(class="su-small") where <span class="su-c11">*</span> is 0, 5, 8, 10, 15, 18, 20, 30, 40, 50, 60, 70, 80, 90 or 100.
+			p.su-small where <span class="su-c11">*</span> is 0, 5, 8, 10, 15, 18, 20, 30, 40, 50, 60, 70, 80, 90 or 100.

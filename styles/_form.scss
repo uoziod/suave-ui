@@ -5,4 +5,73 @@ INPUT[type=password] {
 	border: none;
 	border-radius: 2px;
 	box-shadow: inset 0 0 0 1px $c6, inset 1px 2px 3px $c5;
+
+	&.su-focused,
+	&:focus {
+		box-shadow: inset 0 0 0 1px $c12, inset 1px 2px 3px $c5;
+	}
+
+	&.su-invalid {
+		box-shadow: inset 0 0 0 1px $c11, inset 1px 2px 3px $c5;
+	}
+
+	&:disabled {
+		color: $c5;
+		box-shadow: inset 0 0 0 1px $c5;
+	}
+}
+
+.su-placeholder-wrap {
+	display: inline-block;
+	position: relative;
+
+	.su-placeholder {
+		display: block;
+		position: absolute;
+		z-index: 1;
+
+		top: 0;
+
+		cursor: text;
+		color: $c7;
+		padding: 4px 6px;
+
+		&.su-left {
+			left: 0;
+		}
+
+		&.su-right {
+			right: 0;
+		}
+	}
+}
+
+.su-input-group {
+	position: relative;
+	border-radius: 0;
+	padding-left: 1px;
+
+	INPUT[type=text],
+	INPUT[type=password] {
+		margin-left: -1px;
+
+		&:focus {
+			position: relative;
+			z-index: 1;
+		}
+	}
+
+	> INPUT[type=text]:first-child,
+	> INPUT[type=password]:first-child,
+	.su-placeholder-wrap:first-child INPUT[type=text],
+	.su-placeholder-wrap:first-child INPUT[type=password] {
+		border-radius: 2px 0 0 2px;
+	}
+
+	> INPUT[type=text]:last-child,
+	> INPUT[type=password]:last-child,
+	.su-placeholder-wrap:last-child INPUT[type=text],
+	.su-placeholder-wrap:last-child INPUT[type=password] {
+		border-radius: 0 2px 2px 0;
+	}
 }

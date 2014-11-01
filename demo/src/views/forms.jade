@@ -5,7 +5,29 @@ block vars
 	- pageTitle = 'Forms'
 
 block content
-	div(class="su-row"): div(class="su-box")
+	div.su-row: div.su-box
 		h1 Forms
 
-		input(type="text")
+		form(name="sampleForm")
+			input.su-focused(type="text", placeholder="Placeholder")
+			input.su-invalid(type="text", placeholder="Invalid field")
+			input(type="text", value="Disabled", disabled)
+			input(type="text", su-placeholder="$")
+			input(type="text", su-placeholder-right="meters", style="width: 50px")
+			input(type="text", su-placeholder-right="meters", su-width="100")
+
+		div.su-clear
+		br
+
+		div.su-input-group
+			input(type="text", su-placeholder="$")
+			input(type="text", su-placeholder-right="meters", style="width: 50px")
+			input(type="text", su-placeholder-right="meters", su-width="100")
+
+		div.su-clear
+		br
+
+		div.su-input-group
+			input(type="text")
+			input(type="text")
+			input(type="text")

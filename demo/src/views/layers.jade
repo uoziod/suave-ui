@@ -5,35 +5,35 @@ block vars
 	- pageTitle = 'Layered Elements'
 
 block content
-	div(class="su-row su-box")
+	div.su-row.su-box
 		h1 Layered Elements
 
-	div(class="su-row")
-		div(class="su-col-edge-1"): div(class="su-box")
+	div.su-row
+		div.su-col-edge-1: div.su-box
 			h3 Dropdowns
 
-		div(class="su-col-4"): div(class="su-box")
-			p(class="su-big") <strong>Dropdown</strong> is container that are hidden by default and should be <em>called</em> by other element to become visible. When it's visible, it attached to element that called it.
+		div.su-col-4: div.su-box
+			p.su-big <strong>Dropdown</strong> is container that are hidden by default and should be <em>called</em> by other element to become visible. When it's visible, it attached to element that called it.
 
-			div(class="su-c"): div(class="su-ib")
-				div(class="su-fl su-mr10"): button(su-target="dd1") Open dropdown
-				div(class="su-fl su-mr10"): button(su-target="dd1") Open same dropdown
+			div.su-c: div.su-ib
+				div.su-fl.su-mr10: button(su-target="dd1") Open dropdown
+				div.su-fl.su-mr10: button(su-target="dd1") Open same dropdown
 
-			div(class="su-clear su-m20")
+			div.su-clear.su-m20
 
-			su-dropdown(su-anchor="dd1", class="su-w300")
-				p(class="su-m5") This is dropdown <strong>dd1</strong>
-				div(class="su-fl su-mr10"): button(su-target="dd2", class="su-orange") Open dropdown dd2
-			su-dropdown(su-anchor="dd2", class="su-w300")
-				p(class="su-m5") This is dropdown <strong>dd1</strong>
-				div(class="su-fl su-mr10"): button(su-target="dd3", class="su-violet") Open dropdown dd3
-			su-dropdown(su-anchor="dd3", class="su-w300")
-				p(class="su-m5") This is dropdown <strong>dd1</strong>
-				div(class="su-fl su-mr10"): button(su-target="dd4", class="su-negative") Open dropdown dd4
-			su-dropdown(su-anchor="dd4", class="su-w300")
+			su-dropdown.su-w300(su-anchor="dd1")
+				p.su-m5 This is dropdown <strong>dd1</strong>
+				div.su-fl.su-mr10: button.su-orange(su-target="dd2") Open dropdown dd2
+			su-dropdown.su-w300(su-anchor="dd2")
+				p.su-m5 This is dropdown <strong>dd1</strong>
+				div.su-fl.su-mr10: button.su-violet(su-target="dd3") Open dropdown dd3
+			su-dropdown.su-w300(su-anchor="dd3")
+				p.su-m5 This is dropdown <strong>dd1</strong>
+				div.su-fl.su-mr10: button.su-negative(su-target="dd4") Open dropdown dd4
+			su-dropdown.su-w300(su-anchor="dd4")
 				p This is dropdown <strong>dd4</strong>
 
-			pre: code(class="language-markup")
+			pre: code.language-markup
 				| &lt;input type="button" su-target="identifier" value="Open dropdown" /&gt;
 				| &lt;input type="button" su-target="identifier" value="Open same dropdown" /&gt;
 				| &nbsp;
@@ -44,7 +44,7 @@ block content
 
 			h3 Some facts about layered elements:
 
-			ul(class="su-dash")
+			ul.su-dash
 				li <strong>Layered elements</strong> (dropdowns and popups) could be nested
 				li Open nested layered elements makes tree
 				li Second click on element that opening layer closes it
@@ -56,29 +56,29 @@ block content
 
 			h3 Some more about dropdowns:
 
-			ul(class="su-dash")
+			ul.su-dash
 				li If dropdown callers width is less then 50 pixels, dropdowns arrow will be closer to edge<br /><a su-target="dd-small">Rly??</a>
 
 			su-dropdown(su-anchor="dd-small")
 				p Yes!
 
-	div(class="su-row su-box")
+	div.su-row.su-box
 		hr
 
-	div(class="su-row")
-		div(class="su-col-edge-1"): div(class="su-box")
+	div.su-row
+		div.su-col-edge-1: div.su-box
 			h3 Popups
 
-		div(class="su-col-4"): div(class="su-box")
-			p(class="su-big") <strong>Popup</strong> is container that are hidden by default and should be <em>called</em> by other element too. When it's visible, it makes basic content area unscrollable and greyscaled. Wherein popup's container is displayed at the center of the page.
+		div.su-col-4: div.su-box
+			p.su-big <strong>Popup</strong> is container that are hidden by default and should be <em>called</em> by other element too. When it's visible, it makes basic content area unscrollable and greyscaled. Wherein popup's container is displayed at the center of the page.
 
-			div(class="su-c"): div(class="su-ib")
-				div(class="su-fl su-mr10"): button(su-target="p1") Open popup
-				div(class="su-fl su-mr10"): button(su-target="p2") Open popup with scrolling
+			div.su-c: div.su-ib
+				div.su-fl.su-mr10: button(su-target="p1") Open popup
+				div.su-fl.su-mr10: button(su-target="p2") Open popup with scrolling
 
-			div(class="su-clear su-m20")
+			div.su-clear.su-m20
 
-			pre: code(class="language-markup")
+			pre: code.language-markup
 				| &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
 				| &nbsp;
 				| &lt;su-popup su-anchor="identifier"
@@ -95,13 +95,13 @@ block content
 				tr
 					td title
 					td Allow to set popup's title (<a su-target="p1">demo</a>)
-				tr(class="odd")
+				tr.odd
 					td noCloseButton
 					td Boolean value. If is true removes close button from popup if is true (<a su-target="p3">demo</a>)
 				tr
 					td noPadding
 					td Boolean value. If is true removes padding in popup container (useful when is needed to display any image inside) (<a su-target="p4">demo</a>)
-				tr(class="odd")
+				tr.odd
 					td customWidth
 					td Integer value that allows to set custom popup container width (<a su-target="p4">demo</a>)
 				tr
@@ -172,7 +172,7 @@ block content
 				su-section(su-anchor="section-1")
 					h3 How to create pupup like this
 
-					pre: code(class="language-markup")
+					pre: code.language-markup
 						| &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
 						| &nbsp;
 						| &lt;su-popup su-anchor="identifier"
