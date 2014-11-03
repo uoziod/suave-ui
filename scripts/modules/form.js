@@ -7,7 +7,8 @@
 			compile: function (tElement) {
 				tElement.replaceWith($templateCache.get('placeholder.tmpl'));
 
-				var input = tElement.clone();
+				var classes = tElement.attr('class'),
+					input = tElement.clone().removeAttr('class').removeAttr('su-placeholder').removeAttr('su-placeholder-right');
 
 				return function (scope, element, attrs) {
 					scope.position = attrs.suPlaceholderRight ? 'right' : 'left';
@@ -16,11 +17,12 @@
 					$timeout(function () {
 						var placeholder = element[0].getElementsByClassName('su-placeholder')[0],
 							placeholderWidth = placeholder.clientWidth,
-							wholeWidth = parseInt(attrs.suWidth, 10);
+							wholeWidth = parseInt(attrs.suWidth, 10),
+							cssShift = 5;
 
 						if (wholeWidth > placeholderWidth) {
 							angular.element(input).css({
-								'width': (wholeWidth - placeholderWidth) + 'px'
+								'width': (wholeWidth - placeholderWidth - cssShift) + 'px'
 							});
 						}
 
@@ -40,6 +42,8 @@
 								'padding-right': placeholderWidth + 'px'
 							});
 						}
+
+						angular.element(element).addClass(classes);
 					});
 
 					element.find('su-transclude').append(input);
