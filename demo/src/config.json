@@ -17,6 +17,10 @@
 					"title": "Layered Elements"
 				},
 				{
+					"page": "forms",
+					"title": "Forms"
+				},
+				{
 					"page": "snackbar",
 					"title": "Snackbar"
 				}
