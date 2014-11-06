@@ -1,6 +1,6 @@
 (function () {
 
-	function suavePlaceholder ($templateCache, $timeout) {
+	function suavePlaceholder ($templateCache, $timeout, $sce) {
 		return {
 			restrict: "A",
 			scope: true,
@@ -12,7 +12,7 @@
 
 				return function (scope, element, attrs) {
 					scope.position = attrs.suPlaceholderRight ? 'right' : 'left';
-					scope.placeholder = attrs.suPlaceholder || attrs.suPlaceholderRight;
+					scope.placeholder = $sce.trustAsHtml(attrs.suPlaceholder || attrs.suPlaceholderRight);
 
 					$timeout(function () {
 						var placeholder = element[0].getElementsByClassName('su-placeholder')[0],

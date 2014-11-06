@@ -5,29 +5,66 @@ block vars
 	- pageTitle = 'Forms'
 
 block content
-	div.su-row: div.su-box
+	div.su-row.su-box
 		h1 Forms
 
-		form(name="sampleForm")
-			input.su-focused.su-mr10(type="text", placeholder="Placeholder")
-			input.su-invalid.su-mr10(type="text", placeholder="Invalid field")
-			input.su-mr10(type="text", value="Disabled", disabled)
-			input.su-mr10(type="text", su-placeholder="$")
-			input.su-mr10(type="text", su-placeholder-right="meters", style="width: 50px")
-			input.su-mr10(type="text", su-placeholder-right="meters", su-width="100")
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Input styles
 
-		div.su-clear
-		br
+		div.su-col-4: div.su-box
+			input.su-mr10(type="text", placeholder="Regular input")
+			input.su-focused.su-mr10(type="text", placeholder="Focused input")
+			input.su-invalid.su-mr10(type="text", placeholder="Invalid input")
+			input.su-mr10(type="text", value="Disabled input", disabled)
 
-		div.su-input-group
-			input(type="text", su-placeholder="$", su-width="100")
-			input(type="text", su-placeholder-right="meters", style="width: 50px")
-			input(type="text", su-placeholder-right="meters", su-width="100")
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Placeholders
 
-		div.su-clear
-		br
+		div.su-col-4: div.su-box
+			p Default <code class="inline">input</code>'s width is 150 pixels. <code class="inline">su-placeholder</code> increases original element width by itself. Use <code class="inline">su-width</code> attribute to set exact width of input with placeholder.
 
-		div.su-input-group
-			input(type="text")
-			input(type="text")
-			input(type="text")
+			h4 Simple placeholder
+
+			p Default width is 150 pixels is summed with placeholder's width.
+
+			p: input(type="text", su-placeholder="$", placeholder="Sum")
+
+			pre: code.language-markup
+				| &lt;input type="text" su-placeholder="$" /&gt;
+
+			h4 Right Placeholder with inline set width
+
+			p Default width is 150 pixels is summed with placeholder's width.
+
+			p: input(type="text", su-placeholder-right="meters", style="width: 50px")
+
+			pre: code.language-markup
+				| &lt;input type="text" su-placeholder-right="meters" style="width: 50px" /&gt;
+
+			h4 Right Placeholder with su-width
+
+			p Alternative way to set with with <code class="inline">su-width</code> attribute.
+
+			p: input(type="text", su-placeholder-right="meters", su-width="100")
+
+			pre: code.language-markup
+				| &lt;input type="text" su-placeholder-right="meters" su-width="100" /&gt;
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Input Groups
+
+		div.su-col-4: div.su-box
+			p Default <code class="inline">input</code> style is defined with rounded corners. Sometimes is necessary to group some inputs in which case it would look weird. To apply better styles for group of inputs use <code class="inline">su-input-group</code> wrapper:
+
+			pre: code.language-markup
+				| &lt;div class="su-input-group"&gt;
+				|     &lt;input type="text" su-placeholder="$" su-width="60" /&gt;
+				|     &lt;input type="text" su-placeholder="&amp;cent;" su-width="60" /&gt;
+				| &lt;/div&gt;
+
+			div.su-input-group
+				input(type="text", su-placeholder="$", su-width="60")
+				input(type="text", su-placeholder="&cent;", su-width="60")
