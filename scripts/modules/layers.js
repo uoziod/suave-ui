@@ -23,7 +23,7 @@
 					!searchUpInTreeByElement(e.target) ||
 					!angular.equals(closestLayerFromElement(e.target), getTopLayer().element) ||
 					e.target.className.search('su-popup') >= 0
-					) {
+				) {
 					popLayer();
 				}
 			}
@@ -67,7 +67,7 @@
 					(!found && request.id && angular.equals(item.id, request.id)) ||
 					(!found && request.caller && angular.equals(item.caller, request.caller)) ||
 					(!found && request.element && angular.equals(item.element, request.element))
-					) {
+				) {
 					found = true;
 				}
 			});

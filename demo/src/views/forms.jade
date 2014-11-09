@@ -65,6 +65,26 @@ block content
 				|     &lt;input type="text" su-placeholder="&amp;cent;" su-width="60" /&gt;
 				| &lt;/div&gt;
 
-			div.su-input-group
+			p: div.su-input-group
 				input(type="text", su-placeholder="$", su-width="60")
 				input(type="text", su-placeholder="&cent;", su-width="60")
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Select
+
+		div.su-col-4: div.su-box
+			su-select(name="sel")
+				option(value="0") Option 1
+				option(value="1") Option 2
+				option(value="2") Option 3
+
+			su-select.su-positive(name="sel2", su-width="200")
+				option(value="0") Option 1
+				option(value="1") Option option option 2
+				option(value="2") Option option 3
+
+			su-select.su-black(name="sel3")
+				option(value="0") Option 1
+				option(value="1") Option option option 2
+				option(value="2") Option option 3

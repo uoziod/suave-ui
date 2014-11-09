@@ -16,6 +16,16 @@
 	background:         linear-gradient(top, $from 0%, $from 50%, $to 100%);
 }
 
+@mixin vendor($key, $value) {
+	-webkit-#{$key}: $value;
+	   -moz-#{$key}: $value;
+	    -ms-#{$key}: $value;
+	     -o-#{$key}: $value;
+	        #{$key}: $value;
+}
+
+// TODO: Use "vendor" everywhere
+
 @mixin transition($value) {
 	-webkit-transition: $value;
 	   -moz-transition: $value;
