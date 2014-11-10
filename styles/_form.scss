@@ -98,7 +98,6 @@ INPUT[type=password] {
 
 	.su-current {
 		position: relative;
-		z-index: 1;
 		display: inline-block;
 
 		min-width: 100%;
@@ -119,6 +118,7 @@ INPUT[type=password] {
 
 	.su-options {
 		position: absolute;
+		z-index: 1;
 		display: none;
 
 		margin-top: -1px;
@@ -130,19 +130,29 @@ INPUT[type=password] {
 		box-shadow: 0 1px 2px transparentize($c0, .9);
 
 		font-size: 14px;
-
-		&.su-visible {
-			display: block;
-		}
 	}
 
 	.su-option {
 		display: block;
 		white-space: nowrap;
-		padding: 7px 27px 7px 15px;
+		padding: 7px 25px 7px 15px;
+
+		&.su-selected {
+			background: transparentize($c3, .3);
+		}
 
 		&:hover {
 			background: $c3;
+		}
+	}
+
+	&.su-open {
+		.su-current {
+			z-index: 2;
+		}
+
+		.su-options {
+			display: block;
 		}
 	}
 }

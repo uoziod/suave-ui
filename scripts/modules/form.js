@@ -85,7 +85,13 @@
 
 					scope.options = [];
 
+					var selectedIndex = 0;
+
 					for (var i = 0, len = optionsNodes.length; i < len; i++) {
+						if (optionsNodes[i].selected) {
+							selectedIndex = i;
+						}
+
 						scope.options.push({
 							index: i,
 							value: optionsNodes[i].value,
@@ -95,7 +101,7 @@
 
 					scope.className = attrs.class;
 					scope.name = attrs.name;
-					scope.current = scope.options[0];
+					scope.current = scope.options[selectedIndex];
 					scope.width = attrs.suWidth;
 
 					scope.select = function(option) {

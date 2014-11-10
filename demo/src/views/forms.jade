@@ -71,20 +71,36 @@ block content
 
 	div.su-row
 		div.su-col-edge-1: div.su-box
-			h3 Select
+			h3 <a name="su-select"></a>Select
 
 		div.su-col-4: div.su-box
-			su-select(name="sel")
-				option(value="0") Option 1
-				option(value="1") Option 2
-				option(value="2") Option 3
+			p Instead of default <code class="inline">select</code>-elements you can use styled <code class="inline">su-select</code>. It can apply <a href="colors.html#interaction">Interaction Elements colours</a>.
+			p There is one feature you should take into account: if width is not set (it could be set with <code class="inline">su-width</code> attribute), control will take width of currently selected option.
 
-			su-select.su-positive(name="sel2", su-width="200")
-				option(value="0") Option 1
-				option(value="1") Option option option 2
-				option(value="2") Option option 3
+			h4 Simple su-select
 
-			su-select.su-black(name="sel3")
-				option(value="0") Option 1
-				option(value="1") Option option option 2
-				option(value="2") Option option 3
+			pre: code.language-markup
+				| &lt;su-select name="select"&gt;
+				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
+				|     &lt;option value="1"&gt;Option two&lt;/option&gt;
+				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
+				| &lt;/su-select&gt;
+
+			p: su-select(name="select")
+				option(value="0") Option one
+				option(value="1") Option two
+				option(value="2") Option three
+
+			h4 Su-select with set width and colour
+
+			pre: code.language-markup
+				| &lt;su-select class="su-positive" name="green-select" su-width="200"&gt;
+				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
+				|     &lt;option value="1" selected&gt;Option two&lt;/option&gt;
+				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
+				| &lt;/su-select&gt;
+
+			su-select.su-positive(name="green-select", su-width="200")
+				option(value="0") Option one
+				option(value="1", selected) Option two
+				option(value="2") Option three
