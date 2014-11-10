@@ -28,6 +28,10 @@ TR.odd {
 	background: transparentize($c5, .9);
 }
 
+TD *:last-child {
+	margin-bottom: 0 !important;
+}
+
 
 
 /**

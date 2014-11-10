@@ -16,7 +16,24 @@ $first-text: nth($state, 4);
 
 BUTTON,
 INPUT[type="button"],
-INPUT[type="submit"] {
+INPUT[type="submit"],
+.su-current {
+	@include gradient-v-half-bottom(#{$first-c1}, #{$first-c2});
+
+	margin: 0;
+	padding: 1px 15px 1px;
+
+	outline: none;
+	border: 1px solid darken($first-c2, 10%);
+	color: #{$first-text};
+
+	border-radius: 2px;
+
+	text-shadow: 0 1px 0 lighten($first-text, 100%);
+	font-size: 14px;
+
+	line-height: 29px;
+
 	.su-icon {
 		margin-right: 5px;
 	}
@@ -26,18 +43,6 @@ INPUT[type="submit"] {
 		color: $c6;
 		text-shadow: none;
 		border-color: $c6;
-	}
-
-	& {
-		margin: 0;
-		@include gradient-v-half-bottom(#{$first-c1}, #{$first-c2});
-		border: 1px solid darken($first-c2, 10%);
-		color: #{$first-text};
-		text-shadow: 0 1px 0 lighten($first-text, 100%);
-		padding: 1px 15px 1px;
-		border-radius: 2px;
-		font-size: 14px;
-		line-height: 29px;
 	}
 
 	&.su-hover, &:hover {
@@ -100,29 +105,28 @@ INPUT[type="submit"] {
 */
 
 @for $i from 2 through length($interact) {
-	$state: nth($interact, $i);
-	$this: unquote(nth($state, 1));
-	$this-c1: nth($state, 2);
-	$this-c2: nth($state, 3);
+	$state:     nth($interact, $i);
+	$this:      unquote(nth($state, 1));
+	$this-c1:   nth($state, 2);
+	$this-c2:   nth($state, 3);
 	$this-text: nth($state, 4);
 
 	BUTTON.su-#{$this},
 	INPUT[type="button"].su-#{$this},
-	INPUT[type="submit"].su-#{$this} {
+	INPUT[type="submit"].su-#{$this},
+	.su-current.su-#{$this} {
+		@include gradient-v($this-c1, $this-c2);
+		border: 1px solid darken($this-c1, 8%);
+		color: $this-text;
+		text-shadow: 0 1px 0 darken($this-text, 50%);
+		box-shadow: 0 1px 2px transparentize($c0, .7);
+
 		&.su-secondary {
 			background: $c1;
 			color: $c6;
 			text-shadow: none;
 			border-color: $c6;
 			box-shadow: none;
-		}
-
-		& {
-			@include gradient-v($this-c1, $this-c2);
-			border: 1px solid darken($this-c1, 8%);
-			color: $this-text;
-			text-shadow: 0 1px 0 darken($this-text, 50%);
-			box-shadow: 0 1px 2px transparentize($c0, .7);
 		}
 
 		&.su-hover, &:hover {

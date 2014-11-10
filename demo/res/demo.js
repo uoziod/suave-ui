@@ -6,4 +6,8 @@ angular.module('demo', ['suave-ui'])
 			});
 			console.log('-> Snackbar ' + snackbarId + ' opened');
 		};
+
+		$scope.removeSnackbars = function() {
+			suSnackbar.clear();
+		};
 	});

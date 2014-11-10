@@ -1,140 +1,242 @@
 extends ../partials/layout.jade
 
 block vars
-  - page = 'layers'
-  - pageTitle = 'Layered Elements'
+	- page = 'layers'
+	- pageTitle = 'Layered Elements'
 
 block content
-  div(class="su-row su-box")
-    h1 Layered Elements
+	div.su-row.su-box
+		h1 Layered Elements
 
-  div(class="su-row")
-    div(class="su-col-edge-1"): div(class="su-box")
-      h3 Dropdowns
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Dropdowns
 
-    div(class="su-col-4"): div(class="su-box")
-      p(class="su-big") <strong>Dropdown</strong> is container that are hidden by default and should be <em>called</em> by other element to become visible. When it's visible, it attached to element that called it.
+		div.su-col-4: div.su-box
+			p.su-big <strong>Dropdown</strong> is container that are hidden by default and should be <em>called</em> by other element to become visible. When it's visible, it attached to element that called it.
 
-      div(class="su-c"): div(class="su-ib")
-        div(class="su-fl su-mr10"): button(su-target="dd1") Open dropdown
-        div(class="su-fl su-mr10"): button(su-target="dd1") Open same dropdown
+			div.su-c: div.su-ib
+				div.su-fl.su-mr10: button(su-target="dd1") Open dropdown
+				div.su-fl.su-mr10: button(su-target="dd1") Open same dropdown
 
-      div(class="su-clear su-m20")
+			div.su-clear.su-m20
 
-      su-dropdown(su-anchor="dd1", class="su-w300")
-        p(class="su-m5") This is dropdown <strong>dd1</strong>
-        div(class="su-fl su-mr10"): button(su-target="dd2", class="su-orange") Open dropdown dd2
-      su-dropdown(su-anchor="dd2", class="su-w300")
-        p(class="su-m5") This is dropdown <strong>dd1</strong>
-        div(class="su-fl su-mr10"): button(su-target="dd3", class="su-violet") Open dropdown dd3
-      su-dropdown(su-anchor="dd3", class="su-w300")
-        p(class="su-m5") This is dropdown <strong>dd1</strong>
-        div(class="su-fl su-mr10"): button(su-target="dd4", class="su-negative") Open dropdown dd4
-      su-dropdown(su-anchor="dd4", class="su-w300")
-        p This is dropdown <strong>dd4</strong>
+			su-dropdown.su-w300(su-anchor="dd1")
+				p.su-m5 This is dropdown <strong>dd1</strong>
+				div.su-fl.su-mr10: button.su-orange(su-target="dd2") Open dropdown dd2
+			su-dropdown.su-w300(su-anchor="dd2")
+				p.su-m5 This is dropdown <strong>dd1</strong>
+				div.su-fl.su-mr10: button.su-violet(su-target="dd3") Open dropdown dd3
+			su-dropdown.su-w300(su-anchor="dd3")
+				p.su-m5 This is dropdown <strong>dd1</strong>
+				div.su-fl.su-mr10: button.su-negative(su-target="dd4") Open dropdown dd4
+			su-dropdown.su-w300(su-anchor="dd4")
+				p This is dropdown <strong>dd4</strong>
 
-      pre: code(class="language-markup")
-        | &lt;input type="button" su-target="identifier" value="Open dropdown" /&gt;
-        | &lt;input type="button" su-target="identifier" value="Open same dropdown" /&gt;
-        | &nbsp;
-        | &lt;su-dropdown su-anchor="identifier"&gt;
-        | &nbsp;&nbsp;&nbsp;&nbsp;This is dropdown dd1
-        | &nbsp;&nbsp;&nbsp;&nbsp;...
-        | &lt;/su-dropdown&gt;
+			pre: code.language-markup
+				| &lt;input type="button" su-target="identifier" value="Open dropdown" /&gt;
+				| &lt;input type="button" su-target="identifier" value="Open same dropdown" /&gt;
+				| &nbsp;
+				| &lt;su-dropdown su-anchor="identifier"&gt;
+				| &nbsp;&nbsp;&nbsp;&nbsp;This is dropdown dd1
+				| &nbsp;&nbsp;&nbsp;&nbsp;...
+				| &lt;/su-dropdown&gt;
 
-      h3 Some facts about layered elements:
+			h3 Some facts about layered elements:
 
-      ul(class="su-dash")
-        li <strong>Layered elements</strong> (dropdowns and popups) could be nested
-        li Open nested layered elements makes tree
-        li Second click on element that opening layer closes it
-        li Any click outside top opened layer (or press on ESC button) will close it
-        li Element that opening layer by click is <strong>caller</strong>
-        li Caller is any element that have <strong>su-target</strong> attribute
-        li Any layered element should have an attribute <strong>su-anchor</strong>, that tells to caller what to open
-        li Different callers can open the same layered elements, but only if they are not nested by loop
+			ul.su-dash
+				li <strong>Layered elements</strong> (dropdowns and popups) could be nested
+				li Open nested layered elements makes tree
+				li Second click on element that opening layer closes it
+				li Any click outside top opened layer (or press on ESC button) will close it
+				li Element that opening layer by click is <strong>caller</strong>
+				li Caller is any element that have <strong>su-target</strong> attribute
+				li Any layered element should have an attribute <strong>su-anchor</strong>, that tells to caller what to open
+				li Different callers can open the same layered elements, but only if they are not nested by loop
 
-      h3 Some more about dropdowns:
+			h3 Some more about dropdowns:
 
-      ul(class="su-dash")
-        li If dropdown callers width is less then 50 pixels, dropdowns arrow will be closer to edge<br /><a su-target="dd-small">Rly??</a>
+			ul.su-dash
+				li If dropdown callers width is less then 50 pixels, dropdowns arrow will be closer to edge<br /><a su-target="dd-small">Rly??</a>
 
-      su-dropdown(su-anchor="dd-small")
-        p Yes!
+			su-dropdown(su-anchor="dd-small")
+				p Yes!
 
-  div(class="su-row su-box")
-    hr
+	div.su-row.su-box
+		hr
 
-  div(class="su-row")
-    div(class="su-col-edge-1"): div(class="su-box")
-      h3 Popups
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Popups
 
-    div(class="su-col-4"): div(class="su-box")
-      p(class="su-big") <strong>Popup</strong> is container that are hidden by default and should be <em>called</em> by other element too. When it's visible, it makes basic content area unscrollable and greyscaled. Wherein popup's container is displayed at the center of the page.
+		div.su-col-4: div.su-box
+			p.su-big <strong>Popup</strong> is container that are hidden by default and should be <em>called</em> by other element too. When it's visible, it makes basic content area unscrollable and greyscaled. Wherein popup's container is displayed at the center of the page.
 
-      div(class="su-c"): div(class="su-ib")
-        div(class="su-fl su-mr10"): button(su-target="p1") Open popup
-        div(class="su-fl su-mr10"): button(su-target="p2") Open popup with scrolling
+			div.su-c: div.su-ib
+				div.su-fl.su-mr10: button(su-target="p1") Open popup
+				div.su-fl.su-mr10: button(su-target="p2") Open popup with scrolling
 
-      div(class="su-clear su-m20")
+			div.su-clear.su-m20
 
-      pre: code(class="language-markup")
-        | &lt;input type="button" su-target="identifier" value="Open popup"
-        | &nbsp;&nbsp;&nbsp;&nbsp;config='{"title": "Popup title"}' /&gt;
-        | &nbsp;
-        | &lt;su-popup su-anchor="identifier"&gt;
-        | &nbsp;&nbsp;&nbsp;&nbsp;Popup content
-        | &lt;/su-popup&gt;
+			pre: code.language-markup
+				| &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
+				| &nbsp;
+				| &lt;su-popup su-anchor="identifier"
+				| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;su-config='{"title": "Popup title"}'&gt;
+				| &nbsp;&nbsp;&nbsp;&nbsp;Popup content
+				| &lt;/su-popup&gt;
 
-      su-popup(su-anchor="p1", su-config='{"title": "Popup title"}')
-        p Popup content
+			p <strong>su-config</strong> is an optional attribute that must be a JSON-object which handles following parameters:
 
-      su-popup(su-anchor="p2")
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
-        p Popup with scroll
+			table(style="width: 100%")
+				tr
+					th Property
+					th Appointment
+				tr
+					td title
+					td Allow to set popup's title (<a su-target="p1">demo</a>)
+				tr.odd
+					td noCloseButton
+					td Boolean value. If is true removes close button from popup if is true (<a su-target="p3">demo</a>)
+				tr
+					td noPadding
+					td Boolean value. If is true removes padding in popup container (useful when is needed to display any image inside) (<a su-target="p4">demo</a>)
+				tr.odd
+					td customWidth
+					td Integer value that allows to set custom popup container width (<a su-target="p4">demo</a>)
+				tr
+					td menu
+					td Array of objects, describing sidebar menu (<a su-target="p5">demo and details</a>)
+
+
+			su-popup(su-anchor="p1", su-config='{"title": "Popup title"}')
+				p Popup content
+
+			su-popup(su-anchor="p2")
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+				p Popup with scroll
+
+			su-popup(su-anchor="p3", su-config='{"noCloseButton": true}')
+				p This popup has no close button, but still able to close it by clicking on area ouside of popup or pressing ESC.
+
+			su-popup(su-anchor="p4", su-config='{"noPadding": true, "customWidth": 500, "noCloseButton": true}')
+				img(src="res/tuscany-farmland.jpg", width="500", height="333")
+
+			su-popup(su-anchor="p5", su-config='{"title": "Popup with menu", "menu": [{"type": "hilite", "title": "Menu item #1", "target": "section-1"}, {"type": "divider", "title": "This is divider and it is a multiline menu item"}, {"title": "Menu item #2", "target": "section-2"}, {"title": "Menu item #3", "target": "section-3"}]}')
+				su-section(su-anchor="section-1")
+					h3 How to create pupup like this
+
+					pre: code.language-markup
+						| &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
+						| &nbsp;
+						| &lt;su-popup su-anchor="identifier"
+						|           su-config='{
+						|               "title": "Popup with menu",
+						|               "menu": [
+						|                   {
+						|                       "type": "hilite",
+						|                       "title": "Menu item #1",
+						|                       "target": "section-1"
+						|                   },
+						|                   {
+						|                       "type": "divider",
+						|                       "title": "This is divider and it is a multiline menu item"
+						|                   },
+						|                   {
+						|                       "title": "Menu item #2",
+						|                       "target": "section-2"
+						|                   },
+						|                   {
+						|                       "title": "Menu item #3",
+						|                       "target": "section-3"
+						|                   }
+						|               ]
+						|           }'&gt;
+						|     &lt;su-section su-anchor="section-1"&gt;
+						|         ...
+						|     &lt;/su-section&gt;
+						|     &lt;su-section su-anchor="section-2"&gt;
+						|         ...
+						|     &lt;/su-section&gt;
+						|     &lt;su-section su-anchor="section-3"&gt;
+						|         ...
+						|     &lt;/su-section&gt;
+						| &lt;/su-popup&gt;
+
+				su-section(su-anchor="section-2")
+					p Section number two
+
+				su-section(su-anchor="section-3")
+					p Third section
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll
+					p With scroll

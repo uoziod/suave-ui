@@ -23,7 +23,7 @@
 					!searchUpInTreeByElement(e.target) ||
 					!angular.equals(closestLayerFromElement(e.target), getTopLayer().element) ||
 					e.target.className.search('su-popup') >= 0
-					) {
+				) {
 					popLayer();
 				}
 			}
@@ -67,7 +67,7 @@
 					(!found && request.id && angular.equals(item.id, request.id)) ||
 					(!found && request.caller && angular.equals(item.caller, request.caller)) ||
 					(!found && request.element && angular.equals(item.element, request.element))
-					) {
+				) {
 					found = true;
 				}
 			});
@@ -113,12 +113,15 @@
 			}
 		}
 
-		function popLayer () {
+		function popLayer (skipApply) {
 			if (self._layers.length > 0) {
 				var $element = angular.element(getTopLayer().element).scope();
 
 				$element.visible = false;
-				$element.$apply();
+
+				if (!skipApply) {
+					$element.$apply();
+				}
 
 				self._layers.pop();
 
@@ -162,7 +165,7 @@
 	}
 
 	/* ngInject */
-	function suavePopup (suLayers) {
+	function suavePopup ($rootScope, suLayers) {
 		return {
 			restrict: "E",
 			templateUrl: 'popup.tmpl',
@@ -171,7 +174,36 @@
 			scope: true,
 			link: function (scope, element, attrs) {
 				scope.config = attrs.suConfig ? JSON.parse(attrs.suConfig) : {};
+
+				scope.setSection = function(section) {
+					scope.section = section;
+					$rootScope.$emit('setSection', section);
+				};
+
+				if (scope.config.menu) {
+					scope.setSection(scope.config.menu[0]['target']);
+				}
+
+				scope.close = function() {
+					suLayers.popLayer(true);
+				};
+
 				suLayers.cacheElement(attrs.suAnchor, element);
+			}
+		};
+	}
+
+	function suaveSection ($rootScope) {
+		return {
+			restrict: "E",
+			templateUrl: 'section.tmpl',
+			transclude: true,
+			replace: true,
+			scope: true,
+			link: function (scope, element, attrs) {
+				$rootScope.$on('setSection', function(event, section) {
+					scope.visible = section === attrs.suAnchor;
+				});
 			}
 		};
 	}
@@ -195,7 +227,6 @@
 						suLayers.addToLayers(attrs.suTarget, element);
 
 						if (element[0].offsetWidth < 50) {
-							// TODO: use scope property instead of "addClass"
 							angular.element(suLayers.getTopLayer().element).addClass('su-tiny-wrap');
 						}
 					}
@@ -208,6 +239,7 @@
 		.service('suLayers', suaveLayersService)
 		.directive('suDropdown', suaveDropdown)
 		.directive('suPopup', suavePopup)
+		.directive('suSection', suaveSection)
 		.directive('suTarget', suaveTarget);
 
 })();
