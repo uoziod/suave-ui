@@ -1,48 +1,49 @@
 extends ../partials/layout.jade
 
 block vars
-  - page = 'index'
+	- page = 'index'
 
 block content
-  div(class="row")
-    div(class="su-col-edge-3"): div(class="su-box")
-      h2 What is this?
-      p(class="su-big") <strong>Suave UI</strong> is designed for web-applications based on <a href="http://angularjs.org">AngularJS</a>. It consists of CSS definitions, directives and services that helps build UI quick and efficiently.
+	div.row
+		div.su-col-edge-3: div.su-box
+			h2 What is this?
+			p(class="su-big") <strong>Suave UI</strong> is designed for web-applications based on <a href="http://angularjs.org">AngularJS</a>. It consists of CSS definitions, directives and services that helps build UI quick and efficiently.
 
-    div(class="su-col-edge-3"): div(class="su-box")
-      h2 Components
-      p All these components are included in bundle-files. So you don't need to include them separately to use all them force.
-      ul(class="su-dash")
-        li <a href="http://fontawesome.io/">Font Awesome 4.2.0</a> provides icon set
-        li <a href="http://daneden.github.io/animate.css/">Animate.css 3.1.1</a> provides CSS-animations
+		div.su-col-edge-3: div.su-box
+			h2 Components
+			p All these components are included in bundle-files. So you don't need to include them separately to use all them force.
+			ul(class="su-dash")
+				li <a href="http://fontawesome.io/">Font Awesome 4.2.0</a> provides icon set
+				li <a href="http://daneden.github.io/animate.css/">Animate.css 3.1.1</a> provides CSS-animations
 
-  div(class="su-clear")
+	div.su-clear
 
-  div(class="su-row su-box")
-    h2 How to use?
-    p To begin use Suave UI you had to add CSS & JS bundle-files and include <code class="inline">suave-ui</code> angular-module into your web-app initialization via Dependency Injection or <code class="inline">angular.bootstrap</code>.
+	div.su-row.su-box
+		h2 How to use?
+		p To begin use Suave UI you had to add CSS & JS bundle-files and include <code class="inline">suave-ui</code> angular-module into your web-app initialization via Dependency Injection or <code class="inline">angular.bootstrap</code>.
 
-    pre: code(class="language-markup")
-      | &lt;link rel="stylesheet" href="suave-ui/build/styles.min.css" /&gt;
-      | &lt;script src="js/angular.min.js"&gt;&lt;/script&gt;
-      | &lt;script src="suave-ui/build/app.min.js"&gt;&lt;/script&gt;
-      | &nbsp;
-      | &lt;script&gt;
-      |     angular.element(document).ready(function() {
-      |         angular.bootstrap(document, ['my-application', 'suave-ui']);
-      |     });
-      | &lt;/script&gt;
+		pre: code.language-markup
+			| &lt;link rel="stylesheet" href="suave-ui/build/styles.min.css" /&gt;
+			| &lt;script src="js/angular.min.js"&gt;&lt;/script&gt;
+			| &lt;script src="suave-ui/build/app.min.js"&gt;&lt;/script&gt;
+			| &nbsp;
+			| &lt;script&gt;
+			|     angular.element(document).ready(function() {
+			|         angular.bootstrap(document, ['my-application', 'suave-ui']);
+			|     });
+			| &lt;/script&gt;
 
-    p Then you can use Suave directives, services and styles right in your code.
+		p Then you can use Suave directives, services and styles right in your code.
 
-  div(class="su-row su-box")
-    h2 Usage examples
+	div.su-row.su-box
+		h2 Usage examples
 
-    ul(class="tiles")
-      li: a(href="grid.html") <i class="fa fa-code"></i> Grid
-      li: a(href="layers.html") <i class="fa fa-code"></i> Layered Elements
-      li: a(href="snackbar.html") <i class="fa fa-exchange"></i> Snackbar
-      li: a(href="styles.html") <i class="fa fa-pencil-square-o"></i> Styles
-      li: a(href="colors.html") <i class="fa fa-pencil-square-o"></i> Colors
-      li: a(href="buttons.html") <i class="fa fa-pencil-square-o"></i> Buttons
+		ul.tiles
+			li: a(href="grid.html") <i class="fa fa-cubes"></i> Grid
+			li: a(href="layers.html") <i class="fa fa-cubes"></i> Layered Elements
+			li: a(href="forms.html") <i class="fa fa-cubes"></i> Forms
+			li: a(href="snackbar.html") <i class="fa fa-gears"></i> Snackbar
+			li: a(href="styles.html") <i class="fa fa-code"></i> Styles
+			li: a(href="colors.html") <i class="fa fa-code"></i> Colors
+			li: a(href="buttons.html") <i class="fa fa-code"></i> Buttons
 

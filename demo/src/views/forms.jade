@@ -1,0 +1,106 @@
+extends ../partials/layout.jade
+
+block vars
+	- page = 'forms'
+	- pageTitle = 'Forms'
+
+block content
+	div.su-row.su-box
+		h1 Forms
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Input styles
+
+		div.su-col-4: div.su-box
+			input.su-mr10(type="text", placeholder="Regular input")
+			input.su-focused.su-mr10(type="text", placeholder="Focused input")
+			input.su-invalid.su-mr10(type="text", placeholder="Invalid input")
+			input.su-mr10(type="text", value="Disabled input", disabled)
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Placeholders
+
+		div.su-col-4: div.su-box
+			p Default <code class="inline">input</code>'s width is 150 pixels. <code class="inline">su-placeholder</code> increases original element width by itself. Use <code class="inline">su-width</code> attribute to set exact width of input with placeholder.
+
+			h4 Simple placeholder
+
+			p Default width is 150 pixels is summed with placeholder's width.
+
+			p: input(type="text", su-placeholder="$", placeholder="Sum")
+
+			pre: code.language-markup
+				| &lt;input type="text" su-placeholder="$" /&gt;
+
+			h4 Right Placeholder with inline set width
+
+			p Default width is 150 pixels is summed with placeholder's width.
+
+			p: input(type="text", su-placeholder-right="meters", style="width: 50px")
+
+			pre: code.language-markup
+				| &lt;input type="text" su-placeholder-right="meters" style="width: 50px" /&gt;
+
+			h4 Right Placeholder with su-width
+
+			p Alternative way to set with with <code class="inline">su-width</code> attribute.
+
+			p: input(type="text", su-placeholder-right="meters", su-width="100")
+
+			pre: code.language-markup
+				| &lt;input type="text" su-placeholder-right="meters" su-width="100" /&gt;
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Input Groups
+
+		div.su-col-4: div.su-box
+			p Default <code class="inline">input</code> style is defined with rounded corners. Sometimes is necessary to group some inputs in which case it would look weird. To apply better styles for group of inputs use <code class="inline">su-input-group</code> wrapper:
+
+			pre: code.language-markup
+				| &lt;div class="su-input-group"&gt;
+				|     &lt;input type="text" su-placeholder="$" su-width="60" /&gt;
+				|     &lt;input type="text" su-placeholder="&amp;cent;" su-width="60" /&gt;
+				| &lt;/div&gt;
+
+			p: div.su-input-group
+				input(type="text", su-placeholder="$", su-width="60")
+				input(type="text", su-placeholder="&cent;", su-width="60")
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 <a name="su-select"></a>Select
+
+		div.su-col-4: div.su-box
+			p Instead of default <code class="inline">select</code>-elements you can use styled <code class="inline">su-select</code>. It can apply <a href="colors.html#interaction">Interaction Elements colours</a>.
+			p There is one feature you should take into account: if width is not set (it could be set with <code class="inline">su-width</code> attribute), control will take width of currently selected option.
+
+			h4 Simple su-select
+
+			pre: code.language-markup
+				| &lt;su-select name="select"&gt;
+				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
+				|     &lt;option value="1"&gt;Option two&lt;/option&gt;
+				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
+				| &lt;/su-select&gt;
+
+			p: su-select(name="select")
+				option(value="0") Option one
+				option(value="1") Option two
+				option(value="2") Option three
+
+			h4 Su-select with set width and colour
+
+			pre: code.language-markup
+				| &lt;su-select class="su-positive" name="green-select" su-width="200"&gt;
+				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
+				|     &lt;option value="1" selected&gt;Option two&lt;/option&gt;
+				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
+				| &lt;/su-select&gt;
+
+			su-select.su-positive(name="green-select", su-width="200")
+				option(value="0") Option one
+				option(value="1", selected) Option two
+				option(value="2") Option three

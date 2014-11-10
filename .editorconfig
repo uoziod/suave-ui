@@ -4,7 +4,7 @@ root = true
 [*]
 end_of_line = lf
 insert_final_newline = true
-charset = "utf-8"
+charset = utf-8
 trim_trailing_whitespace = true
 
 # Documentation
@@ -19,7 +19,7 @@ indent_size = 4
 
 # Jade
 [*.jade]
-indent_style = space
+indent_style = tab
 indent_size = 2
 
 # Styles

@@ -1,25 +1,28 @@
 div(class="su-wrapper")
-  div(class="su-box")
+	div(class="su-box")
 
-    div(class="su-fl")
-      ul(class="menu")
-        each item in menu
-          li
-            if item.page == page
-              a(href="#{item.page}.html", class="active")= item.title
-            else if item.page
-              a(href="#{item.page}.html")= item.title
-            else
-              a(class="no-link") #{item.title}
-            if item.sub
-              ul(class="sub")
-                each subItem in item.sub
-                  li
-                    if subItem.page == page
-                      a(href="#{subItem.page}.html", class="active")= subItem.title
-                    else
-                      a(href="#{subItem.page}.html")= subItem.title
+		div(class="su-fl")
+			ul(class="menu")
+				each item in menu
+					li
+						if item.page == page
+							a(href="#{item.page}.html", class="active")= item.title
+						else if item.page
+							a(href="#{item.page}.html")= item.title
+						else
+							a(class="no-link") #{item.title}
+						if item.sub
+							ul(class="sub")
+								each subItem in item.sub
+									li
+										if subItem.page == page
+											a(href="#{subItem.page}.html", class="active")= subItem.title
+										else
+											a(href="#{subItem.page}.html")= subItem.title
 
-    div(class="su-fr buttons")
-      iframe(src="http://ghbtns.com/github-btn.html?user=uoziod&repo=suave-ui&type=watch&count=true", allowtransparency="true", frameborder="0", scrolling="0", width="92", height="20")
-      iframe(src="http://ghbtns.com/github-btn.html?user=uoziod&repo=suave-ui&type=fork&count=true", allowtransparency="true", frameborder="0", scrolling="0", width="80", height="20")
+		div(class="su-fr right")
+			a(href="https://github.com/uoziod/suave-ui")
+				| <span class="fa fa-github-alt"></span> Project on Github
+			a(href="https://github.com/uoziod/suave-ui/archive/master.zip")
+				| <span class="fa fa-download"></span> Download latest version
+

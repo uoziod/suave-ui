@@ -5,17 +5,18 @@
 	/* ngInject */
 	function suaveSnackbarService($templateCache, $compile, $rootScope, $timeout) {
 		if (!document.getElementById('su-snackbars')) {
-			angular.element(document.getElementsByTagName('BODY')).append('<div id="su-snackbars"></div>');
+			angular.element(document.getElementsByTagName('BODY')).append('<div class="su-snackbars" id="su-snackbars"></div>');
+			angular.element(document.getElementsByTagName('BODY')).append('<div class="su-snackbars" id="su-snackbars-bottom"></div>');
 		}
 
 		var $snackbarsArea = document.getElementById('su-snackbars'),
+			$snackbarsAreaBottom = document.getElementById('su-snackbars-bottom'),
 			snackbarIndex = 0;
 
 		function push(text, config, callback) {
 			var templateInstance = angular.copy($templateCache.get('snackbar.tmpl')),
 				compileLink = $compile(templateInstance),
-				$scope = $rootScope.$new(true),
-				timeout;
+				$scope = $rootScope.$new(true);
 
 			if (!config) {
 				config = {};
@@ -34,43 +35,54 @@
 			});
 
 			var item = compileLink($scope);
-			angular.element($snackbarsArea).append(item);
+
+			if (config.bottom) {
+				angular.element($snackbarsAreaBottom).prepend(item);
+			} else {
+				angular.element($snackbarsArea).append(item);
+			}
 
 			item
 				.on('mouseover', function () {
-					$timeout.cancel(timeout);
+					$timeout.cancel($scope.timeout);
 				})
 				.on('mouseout', function () {
 					initItemRemoval();
 				});
 
+			$scope.close = function() {
+				$scope.remove = true;
+
+				if (typeof callback === "function") {
+					callback();
+				}
+
+				$timeout(function () {
+					angular.element(item).remove();
+				}, ANIMATION_SPEED);
+			};
+
 			initItemRemoval();
 
 			function initItemRemoval() {
-				timeout = $timeout(function () {
-					angular.element(item).addClass('animated fadeOutUp slide-up');
-
-					$timeout(function () {
-						angular.element(item).remove();
-
-						if (typeof callback === "function") {
-							callback();
-						}
-					}, ANIMATION_SPEED);
-				}, config.timeout || 5000);
+				$scope.timeout = $timeout($scope.close, config.timeout || 5000);
 			}
-
-			$timeout(function () {
-				angular.element(item).removeClass('animated fadeInDown');
-			}, ANIMATION_SPEED);
 
 			snackbarIndex++;
 
 			return $scope.id;
 		}
 
+		function clear() {
+			angular.forEach(document.getElementsByClassName('su-snackbar'), function(snackbar) {
+				$timeout.cancel(angular.element(snackbar).scope().timeout);
+				angular.element(snackbar).scope().close();
+			});
+		}
+
 		return {
-			push: push
+			push: push,
+			clear: clear
 		}
 	}
 
