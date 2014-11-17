@@ -54,7 +54,7 @@
 	}
 
 	/* ngInject */
-	function suaveSelect ($templateCache) {
+	function suaveSelect ($templateCache, $document) {
 		return {
 			restrict: "E",
 			scope: true,
@@ -66,6 +66,16 @@
 				if (!self.elements) {
 					self.elements = [];
 				}
+
+				$document.on('keydown', function (e) {
+					if (e && e.keyCode === 27) {
+						angular.forEach(self.elements, function(element) {
+							var eScope = angular.element(element).scope();
+							eScope.visible = false;
+							eScope.$apply();
+						});
+					}
+				});
 
 				if (!self.doOnce) {
 					angular.element(document).on('click', function(e) {
