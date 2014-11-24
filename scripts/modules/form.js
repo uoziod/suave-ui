@@ -93,7 +93,7 @@
 
 					var optionsNodes = tElement.children();
 
-					scope.options = [];
+					scope.optionsList = [];
 
 					var selectedIndex = 0;
 
@@ -102,25 +102,47 @@
 							selectedIndex = i;
 						}
 
-						scope.options.push({
+						scope.optionsList.push({
 							index: i,
 							value: optionsNodes[i].value,
-							body: optionsNodes[i].innerHTML
+							body: optionsNodes[i].innerHTML,
+							isSelected: optionsNodes[i].selected
 						});
 					}
 
 					scope.className = attrs.class;
 					scope.name = attrs.name;
-					scope.current = scope.options[selectedIndex];
 					scope.width = attrs.suWidth;
+					scope.minSelection = parseInt(attrs.suMin, 10);
+					scope.maxSelection = attrs.suMax;
+					scope.emptyValue = attrs.suEmptyValue;
 
-					scope.select = function(option) {
-						scope.current = option;
+					updateSelectedItems();
+
+					scope.select = function($event, option) {
+						if (!angular.isUndefined(scope.maxSelection)) {
+							$event.stopPropagation();
+						}
+
+						if (angular.isUndefined(scope.maxSelection)) {
+							angular.forEach(scope.optionsList, function(option) {
+								option.isSelected = false;
+							});
+						}
+
+						option.isSelected = !option.isSelected;
+						if (scope.selectedItems.length === scope.minSelection && !option.isSelected) {
+							option.isSelected = !option.isSelected;
+						}
+						if (!angular.isUndefined(scope.maxSelection) && parseInt(scope.maxSelection, 10) > 0 && scope.selectedItems.length === parseInt(scope.maxSelection, 10) && option.isSelected) {
+							option.isSelected = !option.isSelected;
+						}
+
+						updateSelectedItems();
 					};
 
 					angular.element(element).on('click', function(e) {
 						e.stopPropagation();
-
 						var originalVisibilityState = scope.visible;
 
 						for (var i = 0, len = self.elements.length; i < len; i++) {
@@ -132,6 +154,27 @@
 						scope.visible = !originalVisibilityState;
 						scope.$apply();
 					});
+
+					function updateSelectedItems () {
+						scope.selectedItems = [];
+						scope.selectedItemsValuesList = '';
+
+						angular.forEach(scope.optionsList, function(option) {
+							if (option.isSelected) {
+								scope.selectedItems.push(option);
+								scope.selectedItemsValuesList += option.value + ',';
+							}
+						});
+
+						if (scope.selectedItemsValuesList.length > 0) {
+							scope.selectedItemsValuesList = scope.selectedItemsValuesList.substring(0, scope.selectedItemsValuesList.length - 1)
+						}
+
+						if (angular.isUndefined(scope.maxSelection) && scope.selectedItems.length === 0) {
+							scope.optionsList[0].isSelected = true;
+							updateSelectedItems();
+						}
+					}
 				}
 			}
 		}
