@@ -1,16 +1,23 @@
 <span>
-	<span class="su-select" ng-style="{'width': width + 'px'}" ng-class="{'su-open': visible}">
-		<input type="hidden" name="{{name}}" value="{{current.value}}" />
+	<span class="su-select"
+	      ng-style="{'width': width + 'px'}"
+	      ng-class="{'su-open': visible}">
+		<input type="hidden" name="{{name}}" value="{{selectedItemsValuesList}}" />
 		<span class="su-current" ng-class="className">
 			<span class="su-inner">
-				{{current.body}} <i class="fa fa-caret-down"></i>
+				<span ng-if="selectedItems.length === 0 && !!maxSelection">{{emptyValue || 'Nothing is selected'}}</span>
+				<span ng-repeat="item in selectedItems">
+					{{item.body}}<span ng-if="$index < selectedItems.length - 1">, </span>
+				</span>
+				<i class="fa fa-caret-down"></i>
 			</span>
 		</span>
 		<span class="su-options">
 			<span class="su-option"
-			      ng-repeat="option in options"
-			      ng-class="{'su-selected': option === current}"
-			      ng-click="select(option)">
+			      ng-repeat="option in optionsList"
+			      ng-class="{'su-selected': option.isSelected}"
+			      ng-click="select($event, option)">
+				<input type="checkbox" ng-if="!!maxSelection" ng-checked="option.isSelected">
 				{{option.body}}
 			</span>
 		</span>

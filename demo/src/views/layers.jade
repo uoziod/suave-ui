@@ -240,3 +240,66 @@ block content
 					p With scroll
 					p With scroll
 					p With scroll
+
+	div.su-row.su-box
+		hr
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Loading state
+
+		div.su-col-4: div.su-box
+			p Possibly you would like to access some data when opening dropdown or popup element to generate its content. In this case it would be nice to display an animated spinner while loading.
+			p Every layered element have a <code class="inline">loading</code> variable that could be set with any funciton in your controller. When it is true, there will displayed spinner instead of element's content.
+			p So, prepare a function in scope of current view/page, and pass its name in <code class="inline">su-open</code> attribute of layered element. There's also another function name could be passed with <code class="inline">su-close</code>, so this funciton will be called when layered element became out of focus.
+			p You can use <code class="inline">su-open</code> and <code class="inline">su-close</code> with <code class="inline">su-dropdown</code>, <code class="inline">su-popup</code> and <code class="inline">su-section</code>.
+			p Lets see it in action:
+
+			pre: code.language-markup
+				| &lt;script&gt;
+				|     angular.module("app", []).controller("MainController", function($scope, $timeout) {
+				|         $scope.onOpen = function() {
+				|             $scope.loading = true;
+				| &nbsp;
+				|             $scope.timeout = $timeout(function() {
+				|                 $scope.loading = false;
+				|             }, 1000);
+				|         }
+				| &nbsp;
+				|         $scope.onClose = function() {
+				|             $timeout.cancel($scope.timeout);
+				|             $scope.loading = false;
+				|         }
+				|     });
+				| &lt;/script&gt;
+				| &nbsp;
+				| &lt;div ng-controller="MainController"&gt;
+				|     &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
+				| &nbsp;
+				|     &lt;su-dropdown su-anchor="identifier"
+				|                  su-open="onOpen"
+				|                  su-close="onClose"&gt;
+				|         Dropdown content
+				|     &lt;/su-dropdown&gt;
+				| &lt;/div&gt;
+
+			div.su-c.su-m5: div.su-ib
+				div.su-fl.su-mr10: button(su-target="p10") Open popup with spinner
+				div.su-fl.su-mr10: button(su-target="p11") Open complex popup with spinner
+
+			div.su-c: div.su-ib
+				div.su-fl.su-mr10: button(su-target="dd12") Open dropdown with spinner
+
+			su-popup(su-anchor="p10", su-open="onOpen", su-close="onClose")
+				p This popup is with spinner.
+
+			su-popup(su-anchor="p11", su-config='{"title": "Popup with menu", "menu": [{"title": "Menu item #1", "target": "section-1"}, {"title": "Menu item #2", "target": "section-2"}, {"title": "Menu item #3", "target": "section-3"}]}')
+				su-section(su-anchor="section-1")
+					p This section is without spinner.
+				su-section(su-anchor="section-2", su-open="onOpen", su-close="onClose")
+					p This section is with spinner.
+				su-section(su-anchor="section-3", su-open="onOpen", su-close="onClose")
+					p Another section with spinner.
+
+			su-dropdown.su-w300(su-anchor="dd12", su-open="onOpen", su-close="onClose")
+				p This dropdown is with spinner.

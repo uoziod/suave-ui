@@ -4,7 +4,7 @@
 	function suaveLayersService ($rootScope, $document) {
 		var self = this;
 
-		self._elements = [];
+		self._elements = {};
 		self._layers = [];
 
 		$rootScope.$on('$routeChangeStart', function() {
@@ -29,13 +29,16 @@
 			}
 		});
 
-		function cacheElement (id, element) {
-			self._elements[id] = element;
+		function cacheElement (id, element, attrs) {
+			self._elements[id] = {
+				element: element,
+				attrs: attrs
+			};
 		}
 
 		function getById (id) {
 			if (!angular.isUndefined(self._elements[id])) {
-				return self._elements[id];
+				return self._elements[id].element;
 			}
 		}
 
@@ -92,10 +95,16 @@
 		}
 
 		function addToLayers (id, caller) {
-			var element = angular.element(self._elements[id]),
-				$element = element.scope();
+			var cachedItem = self._elements[id];
 
-			if (element.length > 0) {
+			if (cachedItem) {
+				var element = angular.element(cachedItem.element),
+					$element = element.scope();
+
+				if (typeof $element[cachedItem.attrs.suOpen] === 'function') {
+					$element[cachedItem.attrs.suOpen]();
+				}
+
 				self._layers.push({
 					id: id,
 					element: element,
@@ -109,13 +118,19 @@
 
 				setScrollState();
 			} else {
-				console.warn('Layered element with id "' + id + '" not found');
+				console.warn('Layered element "' + id + '" not found');
 			}
 		}
 
 		function popLayer (skipApply) {
 			if (self._layers.length > 0) {
-				var $element = angular.element(getTopLayer().element).scope();
+				var topItem = self._layers[self._layers.length - 1],
+					cachedItem = self._elements[topItem.id],
+					$element = angular.element(getTopLayer().element).scope();
+
+				if (typeof $element[cachedItem.attrs.suClose] === 'function') {
+					$element[cachedItem.attrs.suClose]();
+				}
 
 				$element.visible = false;
 
@@ -158,8 +173,9 @@
 			transclude: true,
 			replace: true,
 			scope: true,
+			priority: 5,
 			link: function (scope, element, attrs) {
-				suLayers.cacheElement(attrs.suAnchor, element);
+				suLayers.cacheElement(attrs.suAnchor, element, attrs);
 			}
 		};
 	}
@@ -172,12 +188,16 @@
 			transclude: true,
 			replace: true,
 			scope: true,
+			priority: 5,
 			link: function (scope, element, attrs) {
 				scope.config = attrs.suConfig ? JSON.parse(attrs.suConfig) : {};
 
 				scope.setSection = function(section) {
 					scope.section = section;
-					$rootScope.$emit('setSection', section);
+					if (scope.prevSeciton !== scope.section) {
+						$rootScope.$emit('suSetSection', section);
+					}
+					scope.prevSeciton = section;
 				};
 
 				if (scope.config.menu) {
@@ -188,7 +208,7 @@
 					suLayers.popLayer(true);
 				};
 
-				suLayers.cacheElement(attrs.suAnchor, element);
+				suLayers.cacheElement(attrs.suAnchor, element, attrs);
 			}
 		};
 	}
@@ -200,9 +220,28 @@
 			transclude: true,
 			replace: true,
 			scope: true,
+			priority: 10,
 			link: function (scope, element, attrs) {
-				$rootScope.$on('setSection', function(event, section) {
+				$rootScope.$on('suSetSection', function(event, section) {
 					scope.visible = section === attrs.suAnchor;
+
+					if (scope.visible) {
+						if (typeof scope[attrs.suOpen] === 'function') {
+							scope[attrs.suOpen]();
+						}
+
+						if (
+							!angular.isUndefined($rootScope.suPreviousView) &&
+							typeof scope[$rootScope.suPreviousView.attrs.suClose] === 'function'
+						) {
+							scope[$rootScope.suPreviousView.attrs.suClose]();
+						}
+
+						$rootScope.suPreviousView = {
+							section: section,
+							attrs: attrs
+						};
+					}
 				});
 			}
 		};
@@ -213,6 +252,7 @@
 		return {
 			restrict: "A",
 			scope: true,
+			priority: 10,
 			link: function (scope, element, attrs) {
 				angular.element(element).on('click', function (e) {
 					e.stopPropagation();
