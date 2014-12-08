@@ -16,7 +16,7 @@ All these components are included in bundle-files. So you don't need to include 
 
 ## How to use?
 
-You can include Suave UI to your project with [Bower](http://bower.io) with this command:
+You can include Suave UI to your project with [Bower](http://bower.io) by this command:
 ```
 bower install suave-ui --save
 ```
