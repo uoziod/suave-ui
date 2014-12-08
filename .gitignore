@@ -1,7 +1,4 @@
-/.idea/
+.idea/
 .DS_Store
-
-# Missing Node Modules
-/node_modules/*/
-!/node_modules/animate.css/
-!/node_modules/font-awesome/
+node_modules
+bower_components

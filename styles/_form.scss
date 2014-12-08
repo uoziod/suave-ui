@@ -98,13 +98,17 @@ INPUT[type=password] {
 
 	.su-current {
 		position: relative;
+		padding: 0;
 		display: inline-block;
 
-		min-width: 100%;
-		padding: 0;
+		width: 100%;
 
 		.su-inner {
-			padding: 1px 23px 1px 15px;
+			display: block;
+			margin: 0 23px 0 15px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 
 		I {
@@ -121,7 +125,7 @@ INPUT[type=password] {
 		z-index: 1;
 		display: none;
 
-		margin-top: -1px;
+		margin-top: -4px;
 		background: $c1;
 
 		min-width: 100%;

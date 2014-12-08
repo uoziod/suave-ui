@@ -94,7 +94,7 @@ UL {
 			&:before {
 				position: absolute;
 				z-index: 0;
-				content: '—';
+				content: '\2014';
 				margin-left: -25px;
 			}
 		}

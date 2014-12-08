@@ -1,9 +1,9 @@
 <div class="su-popup"
      ng-class="{
-         'su-dn': !visible,
          'su-no-padding': config.noPadding,
          'su-with-menu': config.menu
-     }">
+     }"
+     ng-show="visible">
 	<div class="su-inner"
 	     ng-style="{
 	         'width': config.customWidth + 'px'
@@ -22,7 +22,12 @@
 					</li>
 				</ul>
 			</div>
-			<div class="su-container" ng-transclude></div>
+			<div class="su-container">
+				<div ng-if="loading" class="su-spinner">
+					<i class="fa fa-circle-o-notch fa-spin"></i>
+				</div>
+				<span ng-show="!loading" ng-transclude></span>
+			</div>
 		</div>
 		<div class="su-clear"></div>
 	</div>

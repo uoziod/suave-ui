@@ -100,7 +100,46 @@ block content
 				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
 				| &lt;/su-select&gt;
 
-			su-select.su-positive(name="green-select", su-width="200")
+			p: su-select.su-positive(name="green-select", su-width="200")
 				option(value="0") Option one
 				option(value="1", selected) Option two
 				option(value="2") Option three
+
+	div.su-row
+		div.su-col-edge-1: div.su-box
+			h3 Multiple selection with checkboxes
+
+		div.su-col-4: div.su-box
+			p There's also possible you'll need a ability to make selection of multiple items in <code class="inline">su-select</code>-elements. So, in this case just set <code class="inline">su-max</code> property in root-element. Set value <code class="inline">0</code> for unlimited number of selected elements.
+			p If <code class="inline">su-min</code> property is set and it's equal to number of checked items then it will be impossible to remove any selected item.
+
+			pre: code.language-markup
+				| &lt;su-select name="multiple-select" su-min="1" su-max="3" su-width="200"&gt;
+				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
+				|     &lt;option value="1" selected&gt;Option two&lt;/option&gt;
+				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
+				|     &lt;option value="3" selected&gt;Option four&lt;/option&gt;
+				|     &lt;option value="4"&gt;Option five&lt;/option&gt;
+				| &lt;/su-select&gt;
+
+			p: su-select(name="multiple-select", su-min="1", su-max="3", su-width="200")
+				option(value="0") Option one
+				option(value="1", selected) Option two
+				option(value="2") Option three
+				option(value="3", selected) Option four
+				option(value="4") Option five
+
+			p In case of absence of <code class="inline">su-min</code> property and zero number of selected items there would be displayed default message "Nothing is selected" that could be replaced by <code class="inline">su-empty-value</code> property.
+
+			pre: code.language-markup
+				| &lt;su-select name="another-select" su-max="0" su-empty-value="No selection" su-width="200"&gt;
+				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
+				|     &lt;option value="1"&gt;Option two&lt;/option&gt;
+				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
+				| &lt;/su-select&gt;
+
+			p: su-select(name="another-select", su-max="0", su-empty-value="No selection", su-width="200")
+				option(value="0") Option one
+				option(value="1") Option two
+				option(value="2") Option three
+
