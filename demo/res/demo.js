@@ -11,7 +11,8 @@ angular.module('demo', ['suave-ui'])
 			suSnackbar.clear();
 		};
 
-		$scope.openCallback = function () {
+		$scope.onOpen = function () {
+			console.log('onOpen');
 			$scope.loading = true;
 
 			$scope.timeout = $timeout(function () {
@@ -19,7 +20,8 @@ angular.module('demo', ['suave-ui'])
 			}, 1000);
 		};
 
-		$scope.closeCallback = function () {
+		$scope.onClose = function () {
+			console.log('onClose');
 			$timeout.cancel($scope.timeout);
 			$scope.loading = false;
 		};

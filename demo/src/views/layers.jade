@@ -249,11 +249,11 @@ block content
 			h3 Loading state
 
 		div.su-col-4: div.su-box
-			p Possible you would like to access some data when opening dropdown or popup element to generate its content. In this case would be nice to display an animated spinner whild loading.
-			p Every layered element have a <code class="inline">loading</code> variable???
-			p Prepare a function in scope of current view/page, and pass its name in <code class="inline">su-open</code> attribute of layered element.
-			p In following examples we'll use a timeout instead...
-
+			p Possibly you would like to access some data when opening dropdown or popup element to generate its content. In this case it would be nice to display an animated spinner while loading.
+			p Every layered element have a <code class="inline">loading</code> variable that could be set with any funciton in your controller. When it is true, there will displayed spinner instead of element's content.
+			p So, prepare a function in scope of current view/page, and pass its name in <code class="inline">su-open</code> attribute of layered element. There's also another function name could be passed with <code class="inline">su-close</code>, so this funciton will be called when layered element became out of focus.
+			p You can use <code class="inline">su-open</code> and <code class="inline">su-close</code> with <code class="inline">su-dropdown</code>, <code class="inline">su-popup</code> and <code class="inline">su-section</code>.
+			p Lets see it in action:
 
 			pre: code.language-markup
 				| &lt;script&gt;
@@ -290,16 +290,16 @@ block content
 			div.su-c: div.su-ib
 				div.su-fl.su-mr10: button(su-target="dd12") Open dropdown with spinner
 
-			su-popup(su-anchor="p10", su-open="openCallback", su-close="closeCallback")
+			su-popup(su-anchor="p10", su-open="onOpen", su-close="onClose")
 				p This popup is with spinner.
 
 			su-popup(su-anchor="p11", su-config='{"title": "Popup with menu", "menu": [{"title": "Menu item #1", "target": "section-1"}, {"title": "Menu item #2", "target": "section-2"}, {"title": "Menu item #3", "target": "section-3"}]}')
 				su-section(su-anchor="section-1")
 					p This section is without spinner.
-				su-section(su-anchor="section-2", su-open="openCallback", su-close="closeCallback")
+				su-section(su-anchor="section-2", su-open="onOpen", su-close="onClose")
 					p This section is with spinner.
-				su-section(su-anchor="section-3", su-open="openCallback", su-close="closeCallback")
+				su-section(su-anchor="section-3", su-open="onOpen", su-close="onClose")
 					p Another section with spinner.
 
-			su-dropdown.su-w300(su-anchor="dd12", su-open="openCallback", su-close="closeCallback")
+			su-dropdown.su-w300(su-anchor="dd12", su-open="onOpen", su-close="onClose")
 				p This dropdown is with spinner.
