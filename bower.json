@@ -21,10 +21,12 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "components",
     "demo",
     "scripts",
     "styles",
-    "templates"
+    "templates",
+    "package.json"
   ],
   "dependencies": {
     "animate.css": "~3.2.0",

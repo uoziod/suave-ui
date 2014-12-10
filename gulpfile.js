@@ -1,14 +1,20 @@
-var gulp          = require('gulp'),
-	concat        = require('gulp-concat'),
-	uglify        = require('gulp-uglify'),
-	ngAnnotate    = require('gulp-ng-annotate'),
-	templateCache = require('gulp-angular-templatecache'),
-	minifyCSS     = require('gulp-minify-css'),
-	sass          = require('gulp-sass'),
-	sourceMaps    = require('gulp-sourcemaps'),
-	notify        = require('gulp-notify'),
-	jade          = require('gulp-jade'),
-	rename        = require('gulp-rename');
+var gulp           = require('gulp'),
+	concat         = require('gulp-concat'),
+	uglify         = require('gulp-uglify'),
+	ngAnnotate     = require('gulp-ng-annotate'),
+	templateCache  = require('gulp-angular-templatecache'),
+	minifyCSS      = require('gulp-minify-css'),
+	sass           = require('gulp-sass'),
+	sourceMaps     = require('gulp-sourcemaps'),
+	notify         = require('gulp-notify'),
+	jade           = require('gulp-jade'),
+	rename         = require('gulp-rename'),
+	mainBowerFiles = require('main-bower-files');
+
+gulp.task('collect-components', function () {
+	gulp.src(mainBowerFiles(), {base: './bower_components'})
+		.pipe(gulp.dest('./components'));
+});
 
 gulp.task('styles', function () {
 	gulp.src('./styles/styles.scss')
@@ -90,4 +96,4 @@ gulp.task('watch', function () {
 	gulp.watch(['./demo/src/styles/**/*.scss'], ['demo-styles']);
 });
 
-gulp.task('default', ['styles', 'templates', 'scripts', 'demo-views', 'demo-styles', 'watch']);
+gulp.task('default', ['collect-components', 'styles', 'templates', 'scripts', 'demo-views', 'demo-styles', 'watch']);
