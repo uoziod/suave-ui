@@ -19,7 +19,8 @@
 			      ng-click="select($event, option)">
 				<input type="checkbox"
 				       ng-if="!!maxSelection"
-				       ng-model="option.isSelected">
+				       ng-model="option.isSelected"
+				       ng-change="checkboxDiversion(option)">
 				{{option.body}}
 			</span>
 		</span>
