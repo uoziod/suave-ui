@@ -1,7 +1,7 @@
-# [Suave UI 0.3.0](http://uoziod.github.io/suave-ui)
+# [Suave UI 0.3.1](http://uoziod.github.io/suave-ui)
 ### UI Framework for AngularJS
 
-Suave UI is designed for web-applications based on [AngularJS](http://angularjs.org). It consists of CSS definitions, directives and services that helps dist UI quick and efficiently.
+Suave UI is designed for web-applications based on [AngularJS](http://angularjs.org). It consists of CSS definitions, directives and services that helps build UI quick and efficiently.
 
 <div align="center"><a href="http://uoziod.github.io/suave-ui"><img src="https://api.monosnap.com/image/download?id=HMjCJgaZ5celPSjGKTCFpBoO3b4DKw" width="385" height="113" /></a></div>
 

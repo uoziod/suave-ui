@@ -1,6 +1,6 @@
 {
   "name": "Suave UI",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "authors": [
     "Semyon Vyskubov <sv@rv7.ru>"
   ],
@@ -21,10 +21,12 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "components",
     "demo",
     "scripts",
     "styles",
-    "templates"
+    "templates",
+    "package.json"
   ],
   "dependencies": {
     "animate.css": "~3.2.0",
