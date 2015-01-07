@@ -131,14 +131,23 @@
 						}
 
 						option.isSelected = !option.isSelected;
+
 						if (scope.selectedItems.length === scope.minSelection && !option.isSelected) {
 							option.isSelected = !option.isSelected;
 						}
-						if (!angular.isUndefined(scope.maxSelection) && parseInt(scope.maxSelection, 10) > 0 && scope.selectedItems.length === parseInt(scope.maxSelection, 10) && option.isSelected) {
+
+						if (
+							!angular.isUndefined(scope.maxSelection) &&
+							parseInt(scope.maxSelection, 10) > 0 && scope.selectedItems.length === parseInt(scope.maxSelection, 10) && option.isSelected
+						) {
 							option.isSelected = !option.isSelected;
 						}
 
 						updateSelectedItems();
+					};
+
+					scope.checkboxDiversion = function(option) {
+						option.isSelected = !option.isSelected;
 					};
 
 					angular.element(element).on('click', function(e) {
