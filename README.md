@@ -1,4 +1,4 @@
-# [Suave UI 0.3.1](http://uoziod.github.io/suave-ui)
+# [Suave UI 0.4.0](http://uoziod.github.io/suave-ui)
 ### UI Framework for AngularJS
 
 Suave UI is designed for web-applications based on [AngularJS](http://angularjs.org). It consists of CSS definitions, directives and services that helps build UI quick and efficiently.
@@ -10,7 +10,7 @@ Suave UI is designed for web-applications based on [AngularJS](http://angularjs.
 
 All these components are included in bundle-files. So you don't need to include them separately to use all them force.
 
-- [Font Awesome 4.2.0](http://fontawesome.io/) provides icons.
+- [Font Awesome 4.3.0](http://fontawesome.io/) provides icons.
 - [Animate.css 3.2.0](http://daneden.github.io/animate.css/) provides CSS-animations. 
 
 

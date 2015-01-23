@@ -1,6 +1,6 @@
 {
   "name": "Suave UI",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "authors": [
     "Semyon Vyskubov <sv@rv7.ru>"
   ],
@@ -30,6 +30,6 @@
   ],
   "dependencies": {
     "animate.css": "~3.2.0",
-    "fontawesome": "~4.2.0"
+    "fontawesome": "~4.3.0"
   }
 }
