@@ -24,32 +24,22 @@ gulp.task('styles', function () {
   gulp.src('./styles/styles.scss')
     .pipe(sourceMaps.init())
     .pipe(sass()).on('error', notify.onError("Error: <%= error.message %>"))
-    .pipe(sourceMaps.write('./'))
-    .pipe(gulp.dest('./dist'))
-    .pipe(connect.reload());
-
-  gulp.src('./styles/styles.scss')
-    .pipe(sass()).on('error', notify.onError("Error: <%= error.message %>"))
     .pipe(minifyCSS({
       keepSpecialComments: 0
     }))
     .pipe(rename({suffix: '.min'}))
+    .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./dist'))
     .pipe(connect.reload());
 
   gulp.src('./styles/styles-bower.scss')
     .pipe(sourceMaps.init())
     .pipe(sass()).on('error', notify.onError("Error: <%= error.message %>"))
-    .pipe(sourceMaps.write('./'))
-    .pipe(gulp.dest('./dist'))
-    .pipe(connect.reload());
-
-  gulp.src('./styles/styles-bower.scss')
-    .pipe(sass()).on('error', notify.onError("Error: <%= error.message %>"))
     .pipe(minifyCSS({
       keepSpecialComments: 0
     }))
     .pipe(rename({suffix: '.min'}))
+    .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./dist'))
     .pipe(connect.reload());
 });
@@ -68,15 +58,9 @@ gulp.task('scripts', function () {
   gulp.src(['./scripts/**/*.js'])
     .pipe(ngAnnotate()).on('error', notify.onError("Error: <%= error.message %>"))
     .pipe(sourceMaps.init())
-    .pipe(concat('app.js'))
-    .pipe(sourceMaps.write('./'))
-    .pipe(gulp.dest('./dist'))
-    .pipe(connect.reload());
-
-  gulp.src(['./scripts/**/*.js'])
-    .pipe(ngAnnotate()).on('error', notify.onError("Error: <%= error.message %>"))
     .pipe(concat('app.min.js'))
     .pipe(uglify()).on('error', notify.onError("Error: <%= error.message %>"))
+    .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./dist'))
     .pipe(connect.reload());
 });

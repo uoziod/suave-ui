@@ -6,8 +6,8 @@
   ],
   "description": "UI Framework for AngularJS",
   "main": [
-    "dist/app.js",
-    "dist/styles-bower.css"
+    "dist/app.min.js",
+    "dist/styles-bower.min.css"
   ],
   "keywords": [
     "angular",
