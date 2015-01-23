@@ -1,145 +1,145 @@
 extends ../partials/layout.jade
 
 block vars
-	- page = 'forms'
-	- pageTitle = 'Forms'
+  - page = 'forms'
+  - pageTitle = 'Forms'
 
 block content
-	div.su-row.su-box
-		h1 Forms
+  div.su-row.su-box
+    h1 Forms
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 Input styles
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 Input styles
 
-		div.su-col-4: div.su-box
-			input.su-mr10(type="text", placeholder="Regular input")
-			input.su-focused.su-mr10(type="text", placeholder="Focused input")
-			input.su-invalid.su-mr10(type="text", placeholder="Invalid input")
-			input.su-mr10(type="text", value="Disabled input", disabled)
+    div.su-col-4: div.su-box
+      input.su-mr10(type="text", placeholder="Regular input")
+      input.su-focused.su-mr10(type="text", placeholder="Focused input")
+      input.su-invalid.su-mr10(type="text", placeholder="Invalid input")
+      input.su-mr10(type="text", value="Disabled input", disabled)
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 Placeholders
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 Placeholders
 
-		div.su-col-4: div.su-box
-			p Default <code class="inline">input</code>'s width is 150 pixels. <code class="inline">su-placeholder</code> increases original element width by itself. Use <code class="inline">su-width</code> attribute to set exact width of input with placeholder.
+    div.su-col-4: div.su-box
+      p Default <code class="inline">input</code>'s width is 150 pixels. <code class="inline">su-placeholder</code> increases original element width by itself. Use <code class="inline">su-width</code> attribute to set exact width of input with placeholder.
 
-			h4 Simple placeholder
+      h4 Simple placeholder
 
-			p Default width is 150 pixels is summed with placeholder's width.
+      p Default width is 150 pixels is summed with placeholder's width.
 
-			p: input(type="text", su-placeholder="$", placeholder="Sum")
+      p: input(type="text", su-placeholder="$", placeholder="Sum")
 
-			pre: code.language-markup
-				| &lt;input type="text" su-placeholder="$" /&gt;
+      pre: code.language-markup
+        | &lt;input type="text" su-placeholder="$" /&gt;
 
-			h4 Right Placeholder with inline set width
+      h4 Right Placeholder with inline set width
 
-			p Default width is 150 pixels is summed with placeholder's width.
+      p Default width is 150 pixels is summed with placeholder's width.
 
-			p: input(type="text", su-placeholder-right="meters", style="width: 50px")
+      p: input(type="text", su-placeholder-right="meters", style="width: 50px")
 
-			pre: code.language-markup
-				| &lt;input type="text" su-placeholder-right="meters" style="width: 50px" /&gt;
+      pre: code.language-markup
+        | &lt;input type="text" su-placeholder-right="meters" style="width: 50px" /&gt;
 
-			h4 Right Placeholder with su-width
+      h4 Right Placeholder with su-width
 
-			p Alternative way to set with with <code class="inline">su-width</code> attribute.
+      p Alternative way to set with with <code class="inline">su-width</code> attribute.
 
-			p: input(type="text", su-placeholder-right="meters", su-width="100")
+      p: input(type="text", su-placeholder-right="meters", su-width="100")
 
-			pre: code.language-markup
-				| &lt;input type="text" su-placeholder-right="meters" su-width="100" /&gt;
+      pre: code.language-markup
+        | &lt;input type="text" su-placeholder-right="meters" su-width="100" /&gt;
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 Input Groups
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 Input Groups
 
-		div.su-col-4: div.su-box
-			p Default <code class="inline">input</code> style is defined with rounded corners. Sometimes is necessary to group some inputs in which case it would look weird. To apply better styles for group of inputs use <code class="inline">su-input-group</code> wrapper:
+    div.su-col-4: div.su-box
+      p Default <code class="inline">input</code> style is defined with rounded corners. Sometimes is necessary to group some inputs in which case it would look weird. To apply better styles for group of inputs use <code class="inline">su-input-group</code> wrapper:
 
-			pre: code.language-markup
-				| &lt;div class="su-input-group"&gt;
-				|     &lt;input type="text" su-placeholder="$" su-width="60" /&gt;
-				|     &lt;input type="text" su-placeholder="&amp;cent;" su-width="60" /&gt;
-				| &lt;/div&gt;
+      pre: code.language-markup
+        | &lt;div class="su-input-group"&gt;
+        |     &lt;input type="text" su-placeholder="$" su-width="60" /&gt;
+        |     &lt;input type="text" su-placeholder="&amp;cent;" su-width="60" /&gt;
+        | &lt;/div&gt;
 
-			p: div.su-input-group
-				input(type="text", su-placeholder="$", su-width="60")
-				input(type="text", su-placeholder="&cent;", su-width="60")
+      p: div.su-input-group
+        input(type="text", su-placeholder="$", su-width="60")
+        input(type="text", su-placeholder="&cent;", su-width="60")
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 <a name="su-select"></a>Select
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 <a name="su-select"></a>Select
 
-		div.su-col-4: div.su-box
-			p Instead of default <code class="inline">select</code>-elements you can use styled <code class="inline">su-select</code>. It can apply <a href="colors.html#interaction">Interaction Elements colours</a>.
-			p There is one feature you should take into account: if width is not set (it could be set with <code class="inline">su-width</code> attribute), control will take width of currently selected option.
+    div.su-col-4: div.su-box
+      p Instead of default <code class="inline">select</code>-elements you can use styled <code class="inline">su-select</code>. It can apply <a href="colors.html#interaction">Interaction Elements colours</a>.
+      p There is one feature you should take into account: if width is not set (it could be set with <code class="inline">su-width</code> attribute), control will take width of currently selected option.
 
-			h4 Simple su-select
+      h4 Simple su-select
 
-			pre: code.language-markup
-				| &lt;su-select name="select"&gt;
-				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
-				|     &lt;option value="1"&gt;Option two&lt;/option&gt;
-				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
-				| &lt;/su-select&gt;
+      pre: code.language-markup
+        | &lt;su-select name="select"&gt;
+        |     &lt;option value="0"&gt;Option one&lt;/option&gt;
+        |     &lt;option value="1"&gt;Option two&lt;/option&gt;
+        |     &lt;option value="2"&gt;Option three&lt;/option&gt;
+        | &lt;/su-select&gt;
 
-			p: su-select(name="select")
-				option(value="0") Option one
-				option(value="1") Option two
-				option(value="2") Option three
+      p: su-select(name="select")
+        option(value="0") Option one
+        option(value="1") Option two
+        option(value="2") Option three
 
-			h4 Su-select with set width and colour
+      h4 Su-select with set width and colour
 
-			pre: code.language-markup
-				| &lt;su-select class="su-positive" name="green-select" su-width="200"&gt;
-				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
-				|     &lt;option value="1" selected&gt;Option two&lt;/option&gt;
-				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
-				| &lt;/su-select&gt;
+      pre: code.language-markup
+        | &lt;su-select class="su-positive" name="green-select" su-width="200"&gt;
+        |     &lt;option value="0"&gt;Option one&lt;/option&gt;
+        |     &lt;option value="1" selected&gt;Option two&lt;/option&gt;
+        |     &lt;option value="2"&gt;Option three&lt;/option&gt;
+        | &lt;/su-select&gt;
 
-			p: su-select.su-positive(name="green-select", su-width="200")
-				option(value="0") Option one
-				option(value="1", selected) Option two
-				option(value="2") Option three
+      p: su-select.su-positive(name="green-select", su-width="200")
+        option(value="0") Option one
+        option(value="1", selected) Option two
+        option(value="2") Option three
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 Multiple selection with checkboxes
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 Multiple selection with checkboxes
 
-		div.su-col-4: div.su-box
-			p There's also possible you'll need a ability to make selection of multiple items in <code class="inline">su-select</code>-elements. So, in this case just set <code class="inline">su-max</code> property in root-element. Set value <code class="inline">0</code> for unlimited number of selected elements.
-			p If <code class="inline">su-min</code> property is set and it's equal to number of checked items then it will be impossible to remove any selected item.
+    div.su-col-4: div.su-box
+      p There's also possible you'll need a ability to make selection of multiple items in <code class="inline">su-select</code>-elements. So, in this case just set <code class="inline">su-max</code> property in root-element. Set value <code class="inline">0</code> for unlimited number of selected elements.
+      p If <code class="inline">su-min</code> property is set and it's equal to number of checked items then it will be impossible to remove any selected item.
 
-			pre: code.language-markup
-				| &lt;su-select name="multiple-select" su-min="1" su-max="3" su-width="200"&gt;
-				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
-				|     &lt;option value="1" selected&gt;Option two&lt;/option&gt;
-				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
-				|     &lt;option value="3" selected&gt;Option four&lt;/option&gt;
-				|     &lt;option value="4"&gt;Option five&lt;/option&gt;
-				| &lt;/su-select&gt;
+      pre: code.language-markup
+        | &lt;su-select name="multiple-select" su-min="1" su-max="3" su-width="200"&gt;
+        |     &lt;option value="0"&gt;Option one&lt;/option&gt;
+        |     &lt;option value="1" selected&gt;Option two&lt;/option&gt;
+        |     &lt;option value="2"&gt;Option three&lt;/option&gt;
+        |     &lt;option value="3" selected&gt;Option four&lt;/option&gt;
+        |     &lt;option value="4"&gt;Option five&lt;/option&gt;
+        | &lt;/su-select&gt;
 
-			p: su-select(name="multiple-select", su-min="1", su-max="3", su-width="200")
-				option(value="0") Option one
-				option(value="1", selected) Option two
-				option(value="2") Option three
-				option(value="3", selected) Option four
-				option(value="4") Option five
+      p: su-select(name="multiple-select", su-min="1", su-max="3", su-width="200")
+        option(value="0") Option one
+        option(value="1", selected) Option two
+        option(value="2") Option three
+        option(value="3", selected) Option four
+        option(value="4") Option five
 
-			p In case of absence of <code class="inline">su-min</code> property and zero number of selected items there would be displayed default message "Nothing is selected" that could be replaced by <code class="inline">su-empty-value</code> property.
+      p In case of absence of <code class="inline">su-min</code> property and zero number of selected items there would be displayed default message "Nothing is selected" that could be replaced by <code class="inline">su-empty-value</code> property.
 
-			pre: code.language-markup
-				| &lt;su-select name="another-select" su-max="0" su-empty-value="No selection" su-width="200"&gt;
-				|     &lt;option value="0"&gt;Option one&lt;/option&gt;
-				|     &lt;option value="1"&gt;Option two&lt;/option&gt;
-				|     &lt;option value="2"&gt;Option three&lt;/option&gt;
-				| &lt;/su-select&gt;
+      pre: code.language-markup
+        | &lt;su-select name="another-select" su-max="0" su-empty-value="No selection" su-width="200"&gt;
+        |     &lt;option value="0"&gt;Option one&lt;/option&gt;
+        |     &lt;option value="1"&gt;Option two&lt;/option&gt;
+        |     &lt;option value="2"&gt;Option three&lt;/option&gt;
+        | &lt;/su-select&gt;
 
-			p: su-select(name="another-select", su-max="0", su-empty-value="No selection", su-width="200")
-				option(value="0") Option one
-				option(value="1") Option two
-				option(value="2") Option three
+      p: su-select(name="another-select", su-max="0", su-empty-value="No selection", su-width="200")
+        option(value="0") Option one
+        option(value="1") Option two
+        option(value="2") Option three
 

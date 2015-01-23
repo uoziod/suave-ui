@@ -1,0 +1,16 @@
+{
+  "camelcase": true,
+  "indent": 2,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "quotmark": "single",
+  "trailing": true,
+  "curly": true,
+  "devel": true,
+  "browser": true,
+  "jquery": true,
+  "predef": [
+    "angular"
+  ]
+}

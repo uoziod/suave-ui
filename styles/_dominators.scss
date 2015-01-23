@@ -3,35 +3,35 @@
 */
 
 .su-fl {
-	float: left;
+  float: left;
 }
 
 .su-fr {
-	float: right;
+  float: right;
 }
 
 .su-ib {
-	display: inline-block;
+  display: inline-block;
 }
 
 .su-c {
-	text-align: center;
+  text-align: center;
 }
 
 .su-r {
-	text-align: right;
+  text-align: right;
 }
 
 .su-l {
-	text-align: left;
+  text-align: left;
 }
 
 .su-dn {
-	display: none;
+  display: none;
 }
 
 .su-clear {
-	clear: both;
+  clear: both;
 }
 
 
@@ -41,37 +41,37 @@
 */
 
 @each $space in (0, 5, 8, 10, 15, 18, 20, 30, 40, 50, 60, 70, 80, 90, 100) {
-	.su-m#{$space} {
-		margin-bottom: #{$space}px !important;
-	}
+  .su-m#{$space} {
+    margin-bottom: #{$space}px !important;
+  }
 
-	.su-mt#{$space} {
-		margin-top: #{$space}px !important;
-	}
+  .su-mt#{$space} {
+    margin-top: #{$space}px !important;
+  }
 
-	.su-ml#{$space} {
-		margin-left: #{$space}px !important;
-	}
+  .su-ml#{$space} {
+    margin-left: #{$space}px !important;
+  }
 
-	.su-mr#{$space} {
-		margin-right: #{$space}px !important;
-	}
+  .su-mr#{$space} {
+    margin-right: #{$space}px !important;
+  }
 
-	.su-p#{$space} {
-		padding-bottom: #{$space}px !important;
-	}
+  .su-p#{$space} {
+    padding-bottom: #{$space}px !important;
+  }
 
-	.su-pt#{$space} {
-		padding-top: #{$space}px !important;
-	}
+  .su-pt#{$space} {
+    padding-top: #{$space}px !important;
+  }
 
-	.su-pl#{$space} {
-		padding-left: #{$space}px !important;
-	}
+  .su-pl#{$space} {
+    padding-left: #{$space}px !important;
+  }
 
-	.su-pr#{$space} {
-		padding-right: #{$space}px !important;
-	}
+  .su-pr#{$space} {
+    padding-right: #{$space}px !important;
+  }
 }
 
 

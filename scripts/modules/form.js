@@ -1,197 +1,199 @@
 (function () {
 
-	/* ngInject */
-	function suavePlaceholder ($templateCache, $timeout, $sce) {
-		return {
-			restrict: "A",
-			scope: true,
-			compile: function (tElement) {
-				tElement.replaceWith($templateCache.get('placeholder.tmpl'));
+  'use strict';
 
-				var classes = tElement.attr('class'),
-					input = tElement.clone().removeAttr('class').removeAttr('su-placeholder').removeAttr('su-placeholder-right');
+  /* ngInject */
+  function suavePlaceholder ($templateCache, $timeout, $sce) {
+    return {
+      restrict: 'A',
+      scope: true,
+      compile: function (tElement) {
+        tElement.replaceWith($templateCache.get('placeholder.tmpl'));
 
-				return function (scope, element, attrs) {
-					scope.position = attrs.suPlaceholderRight ? 'right' : 'left';
-					scope.placeholder = $sce.trustAsHtml(attrs.suPlaceholder || attrs.suPlaceholderRight);
+        var classes = tElement.attr('class'),
+          input = tElement.clone().removeAttr('class').removeAttr('su-placeholder').removeAttr('su-placeholder-right');
 
-					$timeout(function () {
-						var placeholder = element[0].getElementsByClassName('su-placeholder')[0],
-							placeholderWidth = placeholder.clientWidth,
-							wholeWidth = parseInt(attrs.suWidth, 10),
-							cssShift = 5;
+        return function (scope, element, attrs) {
+          scope.position = attrs.suPlaceholderRight ? 'right' : 'left';
+          scope.placeholder = $sce.trustAsHtml(attrs.suPlaceholder || attrs.suPlaceholderRight);
 
-						if (wholeWidth > placeholderWidth) {
-							angular.element(input).css({
-								'width': (wholeWidth - placeholderWidth - cssShift) + 'px'
-							});
-						}
+          $timeout(function () {
+            var placeholder = element[0].getElementsByClassName('su-placeholder')[0],
+              placeholderWidth = placeholder.clientWidth,
+              wholeWidth = parseInt(attrs.suWidth, 10),
+              cssShift = 5;
 
-						angular.element(placeholder).bind('mousedown', function(e) {
-							e.preventDefault();
-							element.find('input')[0].focus();
-						});
+            if (wholeWidth > placeholderWidth) {
+              angular.element(input).css({
+                'width': (wholeWidth - placeholderWidth - cssShift) + 'px'
+              });
+            }
 
-						if (scope.position === 'left') {
-							angular.element(input).css({
-								'padding-left': placeholderWidth + 'px'
-							});
-						}
+            angular.element(placeholder).bind('mousedown', function (e) {
+              e.preventDefault();
+              element.find('input')[0].focus();
+            });
 
-						if (scope.position === 'right') {
-							angular.element(input).css({
-								'padding-right': placeholderWidth + 'px'
-							});
-						}
+            if (scope.position === 'left') {
+              angular.element(input).css({
+                'padding-left': placeholderWidth + 'px'
+              });
+            }
 
-						angular.element(element).addClass(classes);
-					});
+            if (scope.position === 'right') {
+              angular.element(input).css({
+                'padding-right': placeholderWidth + 'px'
+              });
+            }
 
-					element.find('su-transclude').append(input);
-				};
-			}
-		};
-	}
+            angular.element(element).addClass(classes);
+          });
 
-	/* ngInject */
-	function suaveSelect ($templateCache, $document) {
-		return {
-			restrict: "E",
-			scope: true,
-			compile: function (tElement) {
-				var self = this;
+          element.find('su-transclude').append(input);
+        };
+      }
+    };
+  }
 
-				tElement.replaceWith($templateCache.get('select.tmpl'));
+  /* ngInject */
+  function suaveSelect ($templateCache, $document) {
+    return {
+      restrict: 'E',
+      scope: true,
+      compile: function (tElement) {
+        var self = this;
 
-				if (!self.elements) {
-					self.elements = [];
-				}
+        tElement.replaceWith($templateCache.get('select.tmpl'));
 
-				$document.on('keydown', function (e) {
-					if (e && e.keyCode === 27) {
-						angular.forEach(self.elements, function(element) {
-							var eScope = angular.element(element).scope();
-							eScope.visible = false;
-							eScope.$apply();
-						});
-					}
-				});
+        if (!self.elements) {
+          self.elements = [];
+        }
 
-				if (!self.doOnce) {
-					angular.element(document).on('click', function(e) {
-						for (var i = 0, len = self.elements.length; i < len; i++) {
-							angular.element(self.elements[i]).scope().visible = false;
-							angular.element(self.elements[i]).scope().$apply();
-						}
-					});
+        $document.on('keydown', function (e) {
+          if (e && e.keyCode === 27) {
+            angular.forEach(self.elements, function (element) {
+              var eScope = angular.element(element).scope();
+              eScope.visible = false;
+              eScope.$apply();
+            });
+          }
+        });
 
-					self.doOnce = true;
-				}
+        if (!self.doOnce) {
+          angular.element(document).on('click', function () {
+            for (var i = 0, len = self.elements.length; i < len; i++) {
+              angular.element(self.elements[i]).scope().visible = false;
+              angular.element(self.elements[i]).scope().$apply();
+            }
+          });
 
-				return function(scope, element, attrs) {
-					self.elements.push(element[0]);
+          self.doOnce = true;
+        }
 
-					var optionsNodes = tElement.children();
+        return function (scope, element, attrs) {
+          self.elements.push(element[0]);
 
-					scope.optionsList = [];
+          var optionsNodes = tElement.children();
 
-					var selectedIndex = 0;
+          scope.optionsList = [];
 
-					for (var i = 0, len = optionsNodes.length; i < len; i++) {
-						if (optionsNodes[i].selected) {
-							selectedIndex = i;
-						}
+          var selectedIndex = 0;
 
-						scope.optionsList.push({
-							index: i,
-							value: optionsNodes[i].value,
-							body: optionsNodes[i].innerHTML,
-							isSelected: optionsNodes[i].selected
-						});
-					}
+          for (var i = 0, len = optionsNodes.length; i < len; i++) {
+            if (optionsNodes[i].selected) {
+              selectedIndex = i;
+            }
 
-					scope.className = attrs.class;
-					scope.name = attrs.name;
-					scope.width = attrs.suWidth;
-					scope.minSelection = parseInt(attrs.suMin, 10);
-					scope.maxSelection = attrs.suMax;
-					scope.emptyValue = attrs.suEmptyValue;
+            scope.optionsList.push({
+              index: i,
+              value: optionsNodes[i].value,
+              body: optionsNodes[i].innerHTML,
+              isSelected: optionsNodes[i].selected
+            });
+          }
 
-					updateSelectedItems();
+          scope.className = attrs.class;
+          scope.name = attrs.name;
+          scope.width = attrs.suWidth;
+          scope.minSelection = parseInt(attrs.suMin, 10);
+          scope.maxSelection = attrs.suMax;
+          scope.emptyValue = attrs.suEmptyValue;
 
-					scope.select = function($event, option) {
-						if (!angular.isUndefined(scope.maxSelection)) {
-							$event.stopPropagation();
-						}
+          updateSelectedItems();
 
-						if (angular.isUndefined(scope.maxSelection)) {
-							angular.forEach(scope.optionsList, function(option) {
-								option.isSelected = false;
-							});
-						}
+          scope.select = function ($event, option) {
+            if (!angular.isUndefined(scope.maxSelection)) {
+              $event.stopPropagation();
+            }
 
-						option.isSelected = !option.isSelected;
+            if (angular.isUndefined(scope.maxSelection)) {
+              angular.forEach(scope.optionsList, function (option) {
+                option.isSelected = false;
+              });
+            }
 
-						if (scope.selectedItems.length === scope.minSelection && !option.isSelected) {
-							option.isSelected = !option.isSelected;
-						}
+            option.isSelected = !option.isSelected;
 
-						if (
-							!angular.isUndefined(scope.maxSelection) &&
-							parseInt(scope.maxSelection, 10) > 0 && scope.selectedItems.length === parseInt(scope.maxSelection, 10) && option.isSelected
-						) {
-							option.isSelected = !option.isSelected;
-						}
+            if (scope.selectedItems.length === scope.minSelection && !option.isSelected) {
+              option.isSelected = !option.isSelected;
+            }
 
-						updateSelectedItems();
-					};
+            if (
+              !angular.isUndefined(scope.maxSelection) &&
+              parseInt(scope.maxSelection, 10) > 0 && scope.selectedItems.length === parseInt(scope.maxSelection, 10) && option.isSelected
+            ) {
+              option.isSelected = !option.isSelected;
+            }
 
-					scope.checkboxDiversion = function(option) {
-						option.isSelected = !option.isSelected;
-					};
+            updateSelectedItems();
+          };
 
-					angular.element(element).on('click', function(e) {
-						e.stopPropagation();
-						var originalVisibilityState = scope.visible;
+          scope.checkboxDiversion = function (option) {
+            option.isSelected = !option.isSelected;
+          };
 
-						for (var i = 0, len = self.elements.length; i < len; i++) {
-							var elScope = angular.element(self.elements[i]).scope();
-							elScope.visible = false;
-							elScope.$apply();
-						}
+          angular.element(element).on('click', function (e) {
+            e.stopPropagation();
+            var originalVisibilityState = scope.visible;
 
-						scope.visible = !originalVisibilityState;
-						scope.$apply();
-					});
+            for (var i = 0, len = self.elements.length; i < len; i++) {
+              var elScope = angular.element(self.elements[i]).scope();
+              elScope.visible = false;
+              elScope.$apply();
+            }
 
-					function updateSelectedItems () {
-						scope.selectedItems = [];
-						scope.selectedItemsValuesList = '';
+            scope.visible = !originalVisibilityState;
+            scope.$apply();
+          });
 
-						angular.forEach(scope.optionsList, function(option) {
-							if (option.isSelected) {
-								scope.selectedItems.push(option);
-								scope.selectedItemsValuesList += option.value + ',';
-							}
-						});
+          function updateSelectedItems () {
+            scope.selectedItems = [];
+            scope.selectedItemsValuesList = '';
 
-						if (scope.selectedItemsValuesList.length > 0) {
-							scope.selectedItemsValuesList = scope.selectedItemsValuesList.substring(0, scope.selectedItemsValuesList.length - 1)
-						}
+            angular.forEach(scope.optionsList, function (option) {
+              if (option.isSelected) {
+                scope.selectedItems.push(option);
+                scope.selectedItemsValuesList += option.value + ',';
+              }
+            });
 
-						if (angular.isUndefined(scope.maxSelection) && scope.selectedItems.length === 0) {
-							scope.optionsList[0].isSelected = true;
-							updateSelectedItems();
-						}
-					}
-				}
-			}
-		}
-	}
+            if (scope.selectedItemsValuesList.length > 0) {
+              scope.selectedItemsValuesList = scope.selectedItemsValuesList.substring(0, scope.selectedItemsValuesList.length - 1);
+            }
 
-	angular.module('su-form', [])
-		.directive('suPlaceholder', suavePlaceholder)
-		.directive('suPlaceholderRight', suavePlaceholder)
-		.directive('suSelect', suaveSelect);
+            if (angular.isUndefined(scope.maxSelection) && scope.selectedItems.length === 0) {
+              scope.optionsList[0].isSelected = true;
+              updateSelectedItems();
+            }
+          }
+        };
+      }
+    };
+  }
+
+  angular.module('su-form', [])
+    .directive('suPlaceholder', suavePlaceholder)
+    .directive('suPlaceholderRight', suavePlaceholder)
+    .directive('suSelect', suaveSelect);
 
 })();

@@ -32,13 +32,13 @@ $c16: #8fc232;
 $basic-colors: $c0, $c1, $c2, $c3, $c4, $c5, $c6, $c7, $c8, $c9, $c10, $c11, $c12, $c13, $c14, $c15, $c16;
 
 @for $i from 0 to length($basic-colors) {
-	.su-c#{$i} {
-		color: nth($basic-colors, $i+1);
-	}
+  .su-c#{$i} {
+    color: nth($basic-colors, $i+1);
+  }
 
-	.su-bc#{$i} {
-		background-color: nth($basic-colors, $i+1);
-	}
+  .su-bc#{$i} {
+    background-color: nth($basic-colors, $i+1);
+  }
 }
 
 
@@ -57,22 +57,22 @@ $ruler-dark: #666;
 */
 
 $interact: (
-	'default'  #fcfcfc #e7e7e7 #565f64,
-	'positive' #85d800 #6eb400 #fff,
-	'negative' #e30030 #af0021 #fff,
-	'violet'   #989dbf #747aa4 #fff,
-	'black'    #606060 #212121 #fff,
-	'orange'   #fe7700 #e86300 #fff,
+  'default'  #fcfcfc #e7e7e7 #565f64,
+  'positive' #85d800 #6eb400 #fff,
+  'negative' #e30030 #af0021 #fff,
+  'violet'   #989dbf #747aa4 #fff,
+  'black'    #606060 #212121 #fff,
+  'orange'   #fe7700 #e86300 #fff,
 );
 
 @each $item in $interact {
-	$this: unquote(nth($item, 1));
-	$this-c1: nth($item, 2);
-	$this-c2: nth($item, 3);
-	$this-text: nth($item, 4);
+  $this: unquote(nth($item, 1));
+  $this-c1: nth($item, 2);
+  $this-c2: nth($item, 3);
+  $this-text: nth($item, 4);
 
-	.su-interact-#{$this} {
-		@include gradient-v($this-c1, $this-c2);
-		color: $this-text;
-	}
+  .su-interact-#{$this} {
+    @include gradient-v($this-c1, $this-c2);
+    color: $this-text;
+  }
 }

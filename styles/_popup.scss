@@ -1,123 +1,123 @@
 .su-popup {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	background: transparentize($c0, .25);
-	overflow-y: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: transparentize($c0, .25);
+  overflow-y: auto;
 
-	.su-close {
-		position: absolute;
-		display: block;
-		right: 0;
+  .su-close {
+    position: absolute;
+    display: block;
+    right: 0;
 
-		font-size: 27px;
-		color: $c6;
-		text-align: center;
+    font-size: 27px;
+    color: $c6;
+    text-align: center;
 
-		width: 63px;
-		line-height: 63px;
+    width: 63px;
+    line-height: 63px;
 
-		&:hover {
-			color: darken($c6, 3);
-		}
-	}
+    &:hover {
+      color: darken($c6, 3);
+    }
+  }
 
-	.su-inner {
-		position: relative;
-		overflow: hidden;
-		width: 710px;
-		margin: 50px auto;
-		background: #fff;
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, .5);
-		border-radius: 5px;
-		text-align: left;
-	}
+  .su-inner {
+    position: relative;
+    overflow: hidden;
+    width: 710px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    text-align: left;
+  }
 
-	&.su-with-menu .su-inner {
-		width: 980px;
-	}
+  &.su-with-menu .su-inner {
+    width: 980px;
+  }
 
-	.su-title {
-		padding: 18px 65px 15px 30px;
-		min-height: 30px;
-		line-height: 30px;
-		border-bottom: 1px solid $c5;
+  .su-title {
+    padding: 18px 65px 15px 30px;
+    min-height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid $c5;
 
-		H2 {
-			margin: 0;
-		}
-	}
+    H2 {
+      margin: 0;
+    }
+  }
 
-	.su-menu {
-		display: table-cell;
-		vertical-align: top;
-		width: 269px;
-		border-right: 1px solid $c5;
+  .su-menu {
+    display: table-cell;
+    vertical-align: top;
+    width: 269px;
+    border-right: 1px solid $c5;
 
-		LI {
-			padding: 14px 60px 14px 30px;
-			cursor: default;
-			color: $c13;
+    LI {
+      padding: 14px 60px 14px 30px;
+      cursor: default;
+      color: $c13;
 
-			&:not(.su-divider):hover {
-				background: $c3;
-			}
-		}
+      &:not(.su-divider):hover {
+        background: $c3;
+      }
+    }
 
-		.su-hilite {
-			color: $c15;
-		}
+    .su-hilite {
+      color: $c15;
+    }
 
-		.su-divider {
-			color: $c7;
-		}
+    .su-divider {
+      color: $c7;
+    }
 
-		.su-active {
-			background: $c8 !important;
-			color: $c1;
-		}
-	}
+    .su-active {
+      background: $c8 !important;
+      color: $c1;
+    }
+  }
 
-	.su-section {
-		display: none;
+  .su-section {
+    display: none;
 
-		&.su-visible {
-			display: block;
-		}
-	}
+    &.su-visible {
+      display: block;
+    }
+  }
 
-	.su-container {
-		padding: 20px 30px;
-		border-radius: 5px;
-		background-color: $c2;
+  .su-container {
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: $c2;
 
-		:last-child {
-			margin-bottom: 0;
-		}
-	}
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
 
-	&.su-with-menu {
-		.su-wrap {
-			display: table;
-			table-layout: fixed;
-			width: 960px;
-		}
+  &.su-with-menu {
+    .su-wrap {
+      display: table;
+      table-layout: fixed;
+      width: 960px;
+    }
 
-		.su-container {
-			display: table-cell;
-			width: 650px;
-			overflow: auto;
-		}
-	}
+    .su-container {
+      display: table-cell;
+      width: 650px;
+      overflow: auto;
+    }
+  }
 
-	&.su-no-padding .su-container {
-		padding: 0;
-	}
+  &.su-no-padding .su-container {
+    padding: 0;
+  }
 
-	IMG {
-		vertical-align: middle;
-	}
+  IMG {
+    vertical-align: middle;
+  }
 }

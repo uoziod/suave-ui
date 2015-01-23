@@ -4,83 +4,83 @@
 
 INPUT[type=text],
 INPUT[type=password] {
-	margin: 0;
-	padding: 4px 6px;
-	font-size: 15px;
-	border: none;
-	border-radius: 2px;
-	box-shadow: inset 0 0 0 1px $c6, inset 1px 2px 3px $c5;
+  margin: 0;
+  padding: 4px 6px;
+  font-size: 15px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px $c6, inset 1px 2px 3px $c5;
 
-	width: 150px;
+  width: 150px;
 
-	&.su-focused,
-	&:focus {
-		box-shadow: inset 0 0 0 1px $c12, inset 1px 2px 3px $c5;
-	}
+  &.su-focused,
+  &:focus {
+    box-shadow: inset 0 0 0 1px $c12, inset 1px 2px 3px $c5;
+  }
 
-	&.su-invalid {
-		box-shadow: inset 0 0 0 1px $c11, inset 1px 2px 3px $c5;
-	}
+  &.su-invalid {
+    box-shadow: inset 0 0 0 1px $c11, inset 1px 2px 3px $c5;
+  }
 
-	&:disabled {
-		color: $c5;
-		box-shadow: inset 0 0 0 1px $c5;
-	}
+  &:disabled {
+    color: $c5;
+    box-shadow: inset 0 0 0 1px $c5;
+  }
 }
 
 .su-placeholder-wrap {
-	display: inline-block;
-	position: relative;
+  display: inline-block;
+  position: relative;
 
-	.su-placeholder {
-		display: block;
-		position: absolute;
-		z-index: 1;
+  .su-placeholder {
+    display: block;
+    position: absolute;
+    z-index: 1;
 
-		top: 0;
+    top: 0;
 
-		cursor: text;
-		color: $c7;
-		padding: 4px 6px;
+    cursor: text;
+    color: $c7;
+    padding: 4px 6px;
 
-		&.su-left {
-			left: 0;
-		}
+    &.su-left {
+      left: 0;
+    }
 
-		&.su-right {
-			right: 0;
-		}
-	}
+    &.su-right {
+      right: 0;
+    }
+  }
 }
 
 .su-input-group {
-	position: relative;
-	border-radius: 0;
-	padding-left: 1px;
+  position: relative;
+  border-radius: 0;
+  padding-left: 1px;
 
-	INPUT[type=text],
-	INPUT[type=password] {
-		margin-left: -1px;
+  INPUT[type=text],
+  INPUT[type=password] {
+    margin-left: -1px;
 
-		&:focus {
-			position: relative;
-			z-index: 1;
-		}
-	}
+    &:focus {
+      position: relative;
+      z-index: 1;
+    }
+  }
 
-	> INPUT[type=text]:first-child,
-	> INPUT[type=password]:first-child,
-	.su-placeholder-wrap:first-child INPUT[type=text],
-	.su-placeholder-wrap:first-child INPUT[type=password] {
-		border-radius: 2px 0 0 2px;
-	}
+  > INPUT[type=text]:first-child,
+  > INPUT[type=password]:first-child,
+  .su-placeholder-wrap:first-child INPUT[type=text],
+  .su-placeholder-wrap:first-child INPUT[type=password] {
+    border-radius: 2px 0 0 2px;
+  }
 
-	> INPUT[type=text]:last-child,
-	> INPUT[type=password]:last-child,
-	.su-placeholder-wrap:last-child INPUT[type=text],
-	.su-placeholder-wrap:last-child INPUT[type=password] {
-		border-radius: 0 2px 2px 0;
-	}
+  > INPUT[type=text]:last-child,
+  > INPUT[type=password]:last-child,
+  .su-placeholder-wrap:last-child INPUT[type=text],
+  .su-placeholder-wrap:last-child INPUT[type=password] {
+    border-radius: 0 2px 2px 0;
+  }
 }
 
 /**
@@ -89,74 +89,74 @@ INPUT[type=password] {
 */
 
 .su-select {
-	@include vendor('user-select', none);
+  @include vendor('user-select', none);
 
-	cursor: default;
+  cursor: default;
 
-	display: inline-block;
-	position: relative;
+  display: inline-block;
+  position: relative;
 
-	.su-current {
-		position: relative;
-		padding: 0;
-		display: inline-block;
+  .su-current {
+    position: relative;
+    padding: 0;
+    display: inline-block;
 
-		width: 100%;
+    width: 100%;
 
-		.su-inner {
-			display: block;
-			margin: 0 23px 0 15px;
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-		}
+    .su-inner {
+      display: block;
+      margin: 0 23px 0 15px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
 
-		I {
-			position: absolute;
-			top: 0;
-			right: 10px;
-			width: 8px;
-			line-height: 31px;
-		}
-	}
+    I {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      width: 8px;
+      line-height: 31px;
+    }
+  }
 
-	.su-options {
-		position: absolute;
-		z-index: 1;
-		display: none;
+  .su-options {
+    position: absolute;
+    z-index: 1;
+    display: none;
 
-		margin-top: -4px;
-		background: $c1;
+    margin-top: -4px;
+    background: $c1;
 
-		min-width: 100%;
-		border: 1px solid $c5;
-		border-radius: 0 2px 2px 2px;
-		box-shadow: 0 1px 2px transparentize($c0, .9);
+    min-width: 100%;
+    border: 1px solid $c5;
+    border-radius: 0 2px 2px 2px;
+    box-shadow: 0 1px 2px transparentize($c0, .9);
 
-		font-size: 14px;
-	}
+    font-size: 14px;
+  }
 
-	.su-option {
-		display: block;
-		white-space: nowrap;
-		padding: 7px 25px 7px 15px;
+  .su-option {
+    display: block;
+    white-space: nowrap;
+    padding: 7px 25px 7px 15px;
 
-		&.su-selected {
-			background: transparentize($c3, .3);
-		}
+    &.su-selected {
+      background: transparentize($c3, .3);
+    }
 
-		&:hover {
-			background: $c3;
-		}
-	}
+    &:hover {
+      background: $c3;
+    }
+  }
 
-	&.su-open {
-		.su-current {
-			z-index: 2;
-		}
+  &.su-open {
+    .su-current {
+      z-index: 2;
+    }
 
-		.su-options {
-			display: block;
-		}
-	}
+    .su-options {
+      display: block;
+    }
+  }
 }

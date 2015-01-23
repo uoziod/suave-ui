@@ -3,33 +3,33 @@
 */
 
 TABLE, TH, TD {
-	padding: 0;
+  padding: 0;
 }
 
 TABLE {
-	border-spacing: 0;
-	border: 1px solid $c5;
-	border-right: 0;
-	border-bottom: 0;
+  border-spacing: 0;
+  border: 1px solid $c5;
+  border-right: 0;
+  border-bottom: 0;
 }
 
 TH, TD {
-	border: 1px solid $c5;
-	border-left: 0;
-	border-top: 0;
-	padding: 3px 8px;
+  border: 1px solid $c5;
+  border-left: 0;
+  border-top: 0;
+  padding: 3px 8px;
 }
 
 TH {
-	background: transparentize($c5, .7);
+  background: transparentize($c5, .7);
 }
 
 TR.odd {
-	background: transparentize($c5, .9);
+  background: transparentize($c5, .9);
 }
 
 TD *:last-child {
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 
@@ -39,21 +39,21 @@ TD *:last-child {
 */
 
 P.small {
-	font-size: 14px;
-	line-height: 20px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .code {
-	white-space: nowrap;
-	background: transparentize($c5, .7);
-	padding: 15px;
-	border: 1px dotted $c6;
-	border-left: none;
-	border-right: none;
-	overflow-x: auto;
-	font: 15px "Courier New" monospace;
+  white-space: nowrap;
+  background: transparentize($c5, .7);
+  padding: 15px;
+  border: 1px dotted $c6;
+  border-left: none;
+  border-right: none;
+  overflow-x: auto;
+  font: 15px "Courier New" monospace;
 
-	strong {
-		font: bold 15px "Courier New" monospace;
-	}
+  strong {
+    font: bold 15px "Courier New" monospace;
+  }
 }

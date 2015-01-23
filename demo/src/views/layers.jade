@@ -1,305 +1,305 @@
 extends ../partials/layout.jade
 
 block vars
-	- page = 'layers'
-	- pageTitle = 'Layered Elements'
+  - page = 'layers'
+  - pageTitle = 'Layered Elements'
 
 block content
-	div.su-row.su-box
-		h1 Layered Elements
+  div.su-row.su-box
+    h1 Layered Elements
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 Dropdowns
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 Dropdowns
 
-		div.su-col-4: div.su-box
-			p.su-big <strong>Dropdown</strong> is container that are hidden by default and should be <em>called</em> by other element to become visible. When it's visible, it attached to element that called it.
+    div.su-col-4: div.su-box
+      p.su-big <strong>Dropdown</strong> is container that are hidden by default and should be <em>called</em> by other element to become visible. When it's visible, it attached to element that called it.
 
-			div.su-c: div.su-ib
-				div.su-fl.su-mr10: button(su-target="dd1") Open dropdown
-				div.su-fl.su-mr10: button(su-target="dd1") Open same dropdown
+      div.su-c: div.su-ib
+        div.su-fl.su-mr10: button(su-target="dd1") Open dropdown
+        div.su-fl.su-mr10: button(su-target="dd1") Open same dropdown
 
-			div.su-clear.su-m20
+      div.su-clear.su-m20
 
-			su-dropdown.su-w300(su-anchor="dd1")
-				p.su-m5 This is dropdown <strong>dd1</strong>
-				div.su-fl.su-mr10: button.su-orange(su-target="dd2") Open dropdown dd2
-			su-dropdown.su-w300(su-anchor="dd2")
-				p.su-m5 This is dropdown <strong>dd1</strong>
-				div.su-fl.su-mr10: button.su-violet(su-target="dd3") Open dropdown dd3
-			su-dropdown.su-w300(su-anchor="dd3")
-				p.su-m5 This is dropdown <strong>dd1</strong>
-				div.su-fl.su-mr10: button.su-negative(su-target="dd4") Open dropdown dd4
-			su-dropdown.su-w300(su-anchor="dd4")
-				p This is dropdown <strong>dd4</strong>
+      su-dropdown.su-w300(su-anchor="dd1")
+        p.su-m5 This is dropdown <strong>dd1</strong>
+        div.su-fl.su-mr10: button.su-orange(su-target="dd2") Open dropdown dd2
+      su-dropdown.su-w300(su-anchor="dd2")
+        p.su-m5 This is dropdown <strong>dd1</strong>
+        div.su-fl.su-mr10: button.su-violet(su-target="dd3") Open dropdown dd3
+      su-dropdown.su-w300(su-anchor="dd3")
+        p.su-m5 This is dropdown <strong>dd1</strong>
+        div.su-fl.su-mr10: button.su-negative(su-target="dd4") Open dropdown dd4
+      su-dropdown.su-w300(su-anchor="dd4")
+        p This is dropdown <strong>dd4</strong>
 
-			pre: code.language-markup
-				| &lt;input type="button" su-target="identifier" value="Open dropdown" /&gt;
-				| &lt;input type="button" su-target="identifier" value="Open same dropdown" /&gt;
-				| &nbsp;
-				| &lt;su-dropdown su-anchor="identifier"&gt;
-				| &nbsp;&nbsp;&nbsp;&nbsp;This is dropdown dd1
-				| &nbsp;&nbsp;&nbsp;&nbsp;...
-				| &lt;/su-dropdown&gt;
+      pre: code.language-markup
+        | &lt;input type="button" su-target="identifier" value="Open dropdown" /&gt;
+        | &lt;input type="button" su-target="identifier" value="Open same dropdown" /&gt;
+        | &nbsp;
+        | &lt;su-dropdown su-anchor="identifier"&gt;
+        | &nbsp;&nbsp;&nbsp;&nbsp;This is dropdown dd1
+        | &nbsp;&nbsp;&nbsp;&nbsp;...
+        | &lt;/su-dropdown&gt;
 
-			h3 Some facts about layered elements:
+      h3 Some facts about layered elements:
 
-			ul.su-dash
-				li <strong>Layered elements</strong> (dropdowns and popups) could be nested
-				li Open nested layered elements makes tree
-				li Second click on element that opening layer closes it
-				li Any click outside top opened layer (or press on ESC button) will close it
-				li Element that opening layer by click is <strong>caller</strong>
-				li Caller is any element that have <strong>su-target</strong> attribute
-				li Any layered element should have an attribute <strong>su-anchor</strong>, that tells to caller what to open
-				li Different callers can open the same layered elements, but only if they are not nested by loop
+      ul.su-dash
+        li <strong>Layered elements</strong> (dropdowns and popups) could be nested
+        li Open nested layered elements makes tree
+        li Second click on element that opening layer closes it
+        li Any click outside top opened layer (or press on ESC button) will close it
+        li Element that opening layer by click is <strong>caller</strong>
+        li Caller is any element that have <strong>su-target</strong> attribute
+        li Any layered element should have an attribute <strong>su-anchor</strong>, that tells to caller what to open
+        li Different callers can open the same layered elements, but only if they are not nested by loop
 
-			h3 Some more about dropdowns:
+      h3 Some more about dropdowns:
 
-			ul.su-dash
-				li If dropdown callers width is less then 50 pixels, dropdowns arrow will be closer to edge<br /><a su-target="dd-small">Rly??</a>
+      ul.su-dash
+        li If dropdown callers width is less then 50 pixels, dropdowns arrow will be closer to edge<br /><a su-target="dd-small">Rly??</a>
 
-			su-dropdown(su-anchor="dd-small")
-				p Yes!
+      su-dropdown(su-anchor="dd-small")
+        p Yes!
 
-	div.su-row.su-box
-		hr
+  div.su-row.su-box
+    hr
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 Popups
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 Popups
 
-		div.su-col-4: div.su-box
-			p.su-big <strong>Popup</strong> is container that are hidden by default and should be <em>called</em> by other element too. When it's visible, it makes basic content area unscrollable and greyscaled. Wherein popup's container is displayed at the center of the page.
+    div.su-col-4: div.su-box
+      p.su-big <strong>Popup</strong> is container that are hidden by default and should be <em>called</em> by other element too. When it's visible, it makes basic content area unscrollable and greyscaled. Wherein popup's container is displayed at the center of the page.
 
-			div.su-c: div.su-ib
-				div.su-fl.su-mr10: button(su-target="p1") Open popup
-				div.su-fl.su-mr10: button(su-target="p2") Open popup with scrolling
+      div.su-c: div.su-ib
+        div.su-fl.su-mr10: button(su-target="p1") Open popup
+        div.su-fl.su-mr10: button(su-target="p2") Open popup with scrolling
 
-			div.su-clear.su-m20
+      div.su-clear.su-m20
 
-			pre: code.language-markup
-				| &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
-				| &nbsp;
-				| &lt;su-popup su-anchor="identifier"
-				| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;su-config='{"title": "Popup title"}'&gt;
-				| &nbsp;&nbsp;&nbsp;&nbsp;Popup content
-				| &lt;/su-popup&gt;
+      pre: code.language-markup
+        | &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
+        | &nbsp;
+        | &lt;su-popup su-anchor="identifier"
+        | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;su-config='{"title": "Popup title"}'&gt;
+        | &nbsp;&nbsp;&nbsp;&nbsp;Popup content
+        | &lt;/su-popup&gt;
 
-			p <strong>su-config</strong> is an optional attribute that must be a JSON-object which handles following parameters:
+      p <strong>su-config</strong> is an optional attribute that must be a JSON-object which handles following parameters:
 
-			table(style="width: 100%")
-				tr
-					th Property
-					th Appointment
-				tr
-					td title
-					td Allow to set popup's title (<a su-target="p1">demo</a>)
-				tr.odd
-					td noCloseButton
-					td Boolean value. If is true removes close button from popup if is true (<a su-target="p3">demo</a>)
-				tr
-					td noPadding
-					td Boolean value. If is true removes padding in popup container (useful when is needed to display any image inside) (<a su-target="p4">demo</a>)
-				tr.odd
-					td customWidth
-					td Integer value that allows to set custom popup container width (<a su-target="p4">demo</a>)
-				tr
-					td menu
-					td Array of objects, describing sidebar menu (<a su-target="p5">demo and details</a>)
+      table(style="width: 100%")
+        tr
+          th Property
+          th Appointment
+        tr
+          td title
+          td Allow to set popup's title (<a su-target="p1">demo</a>)
+        tr.odd
+          td noCloseButton
+          td Boolean value. If is true removes close button from popup if is true (<a su-target="p3">demo</a>)
+        tr
+          td noPadding
+          td Boolean value. If is true removes padding in popup container (useful when is needed to display any image inside) (<a su-target="p4">demo</a>)
+        tr.odd
+          td customWidth
+          td Integer value that allows to set custom popup container width (<a su-target="p4">demo</a>)
+        tr
+          td menu
+          td Array of objects, describing sidebar menu (<a su-target="p5">demo and details</a>)
 
 
-			su-popup(su-anchor="p1", su-config='{"title": "Popup title"}')
-				p Popup content
+      su-popup(su-anchor="p1", su-config='{"title": "Popup title"}')
+        p Popup content
 
-			su-popup(su-anchor="p2")
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
-				p Popup with scroll
+      su-popup(su-anchor="p2")
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
+        p Popup with scroll
 
-			su-popup(su-anchor="p3", su-config='{"noCloseButton": true}')
-				p This popup has no close button, but still able to close it by clicking on area ouside of popup or pressing ESC.
+      su-popup(su-anchor="p3", su-config='{"noCloseButton": true}')
+        p This popup has no close button, but still able to close it by clicking on area ouside of popup or pressing ESC.
 
-			su-popup(su-anchor="p4", su-config='{"noPadding": true, "customWidth": 500, "noCloseButton": true}')
-				img(src="res/tuscany-farmland.jpg", width="500", height="333")
+      su-popup(su-anchor="p4", su-config='{"noPadding": true, "customWidth": 500, "noCloseButton": true}')
+        img(src="res/tuscany-farmland.jpg", width="500", height="333")
 
-			su-popup(su-anchor="p5", su-config='{"title": "Popup with menu", "menu": [{"type": "hilite", "title": "Menu item #1", "target": "section-1"}, {"type": "divider", "title": "This is divider and it is a multiline menu item"}, {"title": "Menu item #2", "target": "section-2"}, {"title": "Menu item #3", "target": "section-3"}]}')
-				su-section(su-anchor="section-1")
-					h3 How to create pupup like this
+      su-popup(su-anchor="p5", su-config='{"title": "Popup with menu", "menu": [{"type": "hilite", "title": "Menu item #1", "target": "section-1"}, {"type": "divider", "title": "This is divider and it is a multiline menu item"}, {"title": "Menu item #2", "target": "section-2"}, {"title": "Menu item #3", "target": "section-3"}]}')
+        su-section(su-anchor="section-1")
+          h3 How to create pupup like this
 
-					pre: code.language-markup
-						| &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
-						| &nbsp;
-						| &lt;su-popup su-anchor="identifier"
-						|           su-config='{
-						|               "title": "Popup with menu",
-						|               "menu": [
-						|                   {
-						|                       "type": "hilite",
-						|                       "title": "Menu item #1",
-						|                       "target": "section-1"
-						|                   },
-						|                   {
-						|                       "type": "divider",
-						|                       "title": "This is divider and it is a multiline menu item"
-						|                   },
-						|                   {
-						|                       "title": "Menu item #2",
-						|                       "target": "section-2"
-						|                   },
-						|                   {
-						|                       "title": "Menu item #3",
-						|                       "target": "section-3"
-						|                   }
-						|               ]
-						|           }'&gt;
-						|     &lt;su-section su-anchor="section-1"&gt;
-						|         ...
-						|     &lt;/su-section&gt;
-						|     &lt;su-section su-anchor="section-2"&gt;
-						|         ...
-						|     &lt;/su-section&gt;
-						|     &lt;su-section su-anchor="section-3"&gt;
-						|         ...
-						|     &lt;/su-section&gt;
-						| &lt;/su-popup&gt;
+          pre: code.language-markup
+            | &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
+            | &nbsp;
+            | &lt;su-popup su-anchor="identifier"
+            |           su-config='{
+            |               "title": "Popup with menu",
+            |               "menu": [
+            |                   {
+            |                       "type": "hilite",
+            |                       "title": "Menu item #1",
+            |                       "target": "section-1"
+            |                   },
+            |                   {
+            |                       "type": "divider",
+            |                       "title": "This is divider and it is a multiline menu item"
+            |                   },
+            |                   {
+            |                       "title": "Menu item #2",
+            |                       "target": "section-2"
+            |                   },
+            |                   {
+            |                       "title": "Menu item #3",
+            |                       "target": "section-3"
+            |                   }
+            |               ]
+            |           }'&gt;
+            |     &lt;su-section su-anchor="section-1"&gt;
+            |         ...
+            |     &lt;/su-section&gt;
+            |     &lt;su-section su-anchor="section-2"&gt;
+            |         ...
+            |     &lt;/su-section&gt;
+            |     &lt;su-section su-anchor="section-3"&gt;
+            |         ...
+            |     &lt;/su-section&gt;
+            | &lt;/su-popup&gt;
 
-				su-section(su-anchor="section-2")
-					p Section number two
+        su-section(su-anchor="section-2")
+          p Section number two
 
-				su-section(su-anchor="section-3")
-					p Third section
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
-					p With scroll
+        su-section(su-anchor="section-3")
+          p Third section
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
+          p With scroll
 
-	div.su-row.su-box
-		hr
+  div.su-row.su-box
+    hr
 
-	div.su-row
-		div.su-col-edge-1: div.su-box
-			h3 Loading state
+  div.su-row
+    div.su-col-edge-1: div.su-box
+      h3 Loading state
 
-		div.su-col-4: div.su-box
-			p Possibly you would like to access some data when opening dropdown or popup element to generate its content. In this case it would be nice to display an animated spinner while loading.
-			p Every layered element have a <code class="inline">loading</code> variable that could be set with any funciton in your controller. When it is true, there will displayed spinner instead of element's content.
-			p So, prepare a function in scope of current view/page, and pass its name in <code class="inline">su-open</code> attribute of layered element. There's also another function name could be passed with <code class="inline">su-close</code>, so this funciton will be called when layered element became out of focus.
-			p You can use <code class="inline">su-open</code> and <code class="inline">su-close</code> with <code class="inline">su-dropdown</code>, <code class="inline">su-popup</code> and <code class="inline">su-section</code>.
-			p Lets see it in action:
+    div.su-col-4: div.su-box
+      p Possibly you would like to access some data when opening dropdown or popup element to generate its content. In this case it would be nice to display an animated spinner while loading.
+      p Every layered element have a <code class="inline">loading</code> variable that could be set with any funciton in your controller. When it is true, there will displayed spinner instead of element's content.
+      p So, prepare a function in scope of current view/page, and pass its name in <code class="inline">su-open</code> attribute of layered element. There's also another function name could be passed with <code class="inline">su-close</code>, so this funciton will be called when layered element became out of focus.
+      p You can use <code class="inline">su-open</code> and <code class="inline">su-close</code> with <code class="inline">su-dropdown</code>, <code class="inline">su-popup</code> and <code class="inline">su-section</code>.
+      p Lets see it in action:
 
-			pre: code.language-markup
-				| &lt;script&gt;
-				|     angular.module("app", []).controller("MainController", function($scope, $timeout) {
-				|         $scope.onOpen = function() {
-				|             $scope.loading = true;
-				| &nbsp;
-				|             $scope.timeout = $timeout(function() {
-				|                 $scope.loading = false;
-				|             }, 1000);
-				|         }
-				| &nbsp;
-				|         $scope.onClose = function() {
-				|             $timeout.cancel($scope.timeout);
-				|             $scope.loading = false;
-				|         }
-				|     });
-				| &lt;/script&gt;
-				| &nbsp;
-				| &lt;div ng-controller="MainController"&gt;
-				|     &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
-				| &nbsp;
-				|     &lt;su-dropdown su-anchor="identifier"
-				|                  su-open="onOpen"
-				|                  su-close="onClose"&gt;
-				|         Dropdown content
-				|     &lt;/su-dropdown&gt;
-				| &lt;/div&gt;
+      pre: code.language-markup
+        | &lt;script&gt;
+        |     angular.module("app", []).controller("MainController", function($scope, $timeout) {
+        |         $scope.onOpen = function() {
+        |             $scope.loading = true;
+        | &nbsp;
+        |             $scope.timeout = $timeout(function() {
+        |                 $scope.loading = false;
+        |             }, 1000);
+        |         }
+        | &nbsp;
+        |         $scope.onClose = function() {
+        |             $timeout.cancel($scope.timeout);
+        |             $scope.loading = false;
+        |         }
+        |     });
+        | &lt;/script&gt;
+        | &nbsp;
+        | &lt;div ng-controller="MainController"&gt;
+        |     &lt;input type="button" su-target="identifier" value="Open popup" /&gt;
+        | &nbsp;
+        |     &lt;su-dropdown su-anchor="identifier"
+        |                  su-open="onOpen"
+        |                  su-close="onClose"&gt;
+        |         Dropdown content
+        |     &lt;/su-dropdown&gt;
+        | &lt;/div&gt;
 
-			div.su-c.su-m5: div.su-ib
-				div.su-fl.su-mr10: button(su-target="p10") Open popup with spinner
-				div.su-fl.su-mr10: button(su-target="p11") Open complex popup with spinner
+      div.su-c.su-m5: div.su-ib
+        div.su-fl.su-mr10: button(su-target="p10") Open popup with spinner
+        div.su-fl.su-mr10: button(su-target="p11") Open complex popup with spinner
 
-			div.su-c: div.su-ib
-				div.su-fl.su-mr10: button(su-target="dd12") Open dropdown with spinner
+      div.su-c: div.su-ib
+        div.su-fl.su-mr10: button(su-target="dd12") Open dropdown with spinner
 
-			su-popup(su-anchor="p10", su-open="onOpen", su-close="onClose")
-				p This popup is with spinner.
+      su-popup(su-anchor="p10", su-open="onOpen", su-close="onClose")
+        p This popup is with spinner.
 
-			su-popup(su-anchor="p11", su-config='{"title": "Popup with menu", "menu": [{"title": "Menu item #1", "target": "section-1"}, {"title": "Menu item #2", "target": "section-2"}, {"title": "Menu item #3", "target": "section-3"}]}')
-				su-section(su-anchor="section-1")
-					p This section is without spinner.
-				su-section(su-anchor="section-2", su-open="onOpen", su-close="onClose")
-					p This section is with spinner.
-				su-section(su-anchor="section-3", su-open="onOpen", su-close="onClose")
-					p Another section with spinner.
+      su-popup(su-anchor="p11", su-config='{"title": "Popup with menu", "menu": [{"title": "Menu item #1", "target": "section-1"}, {"title": "Menu item #2", "target": "section-2"}, {"title": "Menu item #3", "target": "section-3"}]}')
+        su-section(su-anchor="section-1")
+          p This section is without spinner.
+        su-section(su-anchor="section-2", su-open="onOpen", su-close="onClose")
+          p This section is with spinner.
+        su-section(su-anchor="section-3", su-open="onOpen", su-close="onClose")
+          p Another section with spinner.
 
-			su-dropdown.su-w300(su-anchor="dd12", su-open="onOpen", su-close="onClose")
-				p This dropdown is with spinner.
+      su-dropdown.su-w300(su-anchor="dd12", su-open="onOpen", su-close="onClose")
+        p This dropdown is with spinner.

@@ -14,27 +14,27 @@ trim_trailing_whitespace = false
 
 # HTML
 [*.html]
-indent_style = tab
+indent_style = space
 indent_size = 2
 
 # Templates
 [*.tmpl]
-indent_style = tab
+indent_style = space
 indent_size = 2
 
 # Jade
 [*.jade]
-indent_style = tab
+indent_style = space
 indent_size = 2
 
 # Styles
 [*.scss]
-indent_style = tab
+indent_style = space
 indent_size = 2
 
 # JavaScript
 [*.js]
-indent_style = tab
+indent_style = space
 indent_size = 2
 
 # package.json

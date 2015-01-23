@@ -1,75 +1,75 @@
 extends ../partials/layout.jade
 
 block vars
-	- page = 'snackbar'
-	- pageTitle = 'Snackbar'
+  - page = 'snackbar'
+  - pageTitle = 'Snackbar'
 
 block content
-	div.su-col-edge-1: div.su-box
-		h1 Snackbar
+  div.su-col-edge-1: div.su-box
+    h1 Snackbar
 
-	div.su-col-4: div.su-box
-		p.su-big <strong>Snackbar</strong> is a colorful stripe with text that hangs on top of the page. Snackbar hangs for <strong>5 seconds</strong>, but this timeout could be changed. Snackbar will not disappear if mouse is over it.
+  div.su-col-4: div.su-box
+    p.su-big <strong>Snackbar</strong> is a colorful stripe with text that hangs on top of the page. Snackbar hangs for <strong>5 seconds</strong>, but this timeout could be changed. Snackbar will not disappear if mouse is over it.
 
-		h2 Examples
+    h2 Examples
 
-		div.su-c
-			div.su-fl(style="width: 33.33%")
-				button.su-positive(style="width: 96%", ng-click="notify('Positive snackbar example', {color: 'positive'})") Positive snackbar
-			div.su-fl(style="width: 33.33%")
-				button.su-negative(style="width: 96%", ng-click="notify('Negative snackbar example', {color: 'negative'})") Negative snackbar
-			div.su-fl(style="width: 33.33%")
-				button.su-black(style="width: 96%", ng-click="notify('Negative black example that hangs on 10 seconds', {color: 'black', timeout: 10000})") Black snackbar
+    div.su-c
+      div.su-fl(style="width: 33.33%")
+        button.su-positive(style="width: 96%", ng-click="notify('Positive snackbar example', {color: 'positive'})") Positive snackbar
+      div.su-fl(style="width: 33.33%")
+        button.su-negative(style="width: 96%", ng-click="notify('Negative snackbar example', {color: 'negative'})") Negative snackbar
+      div.su-fl(style="width: 33.33%")
+        button.su-black(style="width: 96%", ng-click="notify('Negative black example that hangs on 10 seconds', {color: 'black', timeout: 10000})") Black snackbar
 
-		div.su-clear
+    div.su-clear
 
-		div.su-c.su-mt10
-			div.su-fl(style="width: 33.33%")
-				button.su-positive(style="width: 96%", ng-click="notify('Bottom positive snackbar example', {bottom: true, color: 'positive'})") Bottom positive snackbar
-			div.su-fl(style="width: 33.33%")
-				button.su-negative(style="width: 96%", ng-click="notify('Bottom negative snackbar example', {bottom: true, color: 'negative'})") Bottom negative snackbar
-			div.su-fl(style="width: 33.33%")
-				button.su-black(style="width: 96%", ng-click="notify('Bottom black snackbar example that hangs on 10 seconds', {bottom: true, color: 'black', timeout: 10000})") Black Negative snackbar
+    div.su-c.su-mt10
+      div.su-fl(style="width: 33.33%")
+        button.su-positive(style="width: 96%", ng-click="notify('Bottom positive snackbar example', {bottom: true, color: 'positive'})") Bottom positive snackbar
+      div.su-fl(style="width: 33.33%")
+        button.su-negative(style="width: 96%", ng-click="notify('Bottom negative snackbar example', {bottom: true, color: 'negative'})") Bottom negative snackbar
+      div.su-fl(style="width: 33.33%")
+        button.su-black(style="width: 96%", ng-click="notify('Bottom black snackbar example that hangs on 10 seconds', {bottom: true, color: 'black', timeout: 10000})") Black Negative snackbar
 
-		div.su-clear.su-m20
+    div.su-clear.su-m20
 
-		h3 How to use?
-		p Snackbar is a service. As a service it could be used, for example in Controller. <strong>suSnackbar</strong> have some public methods to interact with this type of elements:
+    h3 How to use?
+    p Snackbar is a service. As a service it could be used, for example in Controller. <strong>suSnackbar</strong> have some public methods to interact with this type of elements:
 
-		h4 .push(text, [config], [callback])
-		p Method for display snackbar. The first argument must contain text to display. Second optional argument is a configuration object desribed bellow. Third parameter is a callback function, that have to be called when snackbar will disappear.
+    h4 .push(text, [config], [callback])
+    p Method for display snackbar. The first argument must contain text to display. Second optional argument is a configuration object desribed bellow. Third parameter is a callback function, that have to be called when snackbar will disappear.
 
-		table(style="width: 100%")
-			tr
-				th Property
-				th Appointment
-			tr
-				td color
-				td Snackbars are in Interaction Elements group, so they can apply <a href="colors.html#interaction">corresponding colors</a>
-			tr.odd
-				td timeout
-				td Time in milliseconds after which snackbar will disappear
-			tr
-				td bottom
-				td Boolean value, and if is true, snackbar will appear on the bottom part of screen
+    table(style="width: 100%")
+      tr
+        th Property
+        th Appointment
+      tr
+        td color
+        td Snackbars are in Interaction Elements group, so they can apply <a href="colors.html#interaction">corresponding colors</a>
+      tr.odd
+        td timeout
+        td Time in milliseconds after which snackbar will disappear
+      tr
+        td bottom
+        td Boolean value, and if is true, snackbar will appear on the bottom part of screen
 
-		p Usage example:
+    p Usage example:
 
-		pre: code.language-javascript
-			| yourApp.controller('YourController', function($scope, <strong>suSnackbar</strong>) {
-			|     $scope.$on('someEvent', function() {
-			|         suSnackbar.push('Positive snackbar sample', {
-			|             color: "positive",
-			|             timeout: 10000
-			|         }, function() {
-			|             console.log('Do this when snackbar disappears');
-			|         });
-			|     });
-			| });
+    pre: code.language-javascript
+      | yourApp.controller('YourController', function($scope, <strong>suSnackbar</strong>) {
+      |     $scope.$on('someEvent', function() {
+      |         suSnackbar.push('Positive snackbar sample', {
+      |             color: "positive",
+      |             timeout: 10000
+      |         }, function() {
+      |             console.log('Do this when snackbar disappears');
+      |         });
+      |     });
+      | });
 
-		h4 .clear()
+    h4 .clear()
 
-		p This method is intended to remove all displayed snackbars.
+    p This method is intended to remove all displayed snackbars.
 
-		div.su-c
-				button.su-negative.su-big(ng-click="removeSnackbars()") Remove snackbars
+    div.su-c
+        button.su-negative.su-big(ng-click="removeSnackbars()") Remove snackbars

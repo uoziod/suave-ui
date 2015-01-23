@@ -3,58 +3,58 @@
 */
 
 BODY {
-	font: 16px sans-serif;
-	background: $body-back;
-	color: $text-def;
-	margin: 0;
-	padding: 0;
-	padding-top: 18px;
+  font: 16px sans-serif;
+  background: $body-back;
+  color: $text-def;
+  margin: 0;
+  padding: 0;
+  padding-top: 18px;
 
-	&.no-scroll {
-		overflow: hidden;
-	}
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 A {
-	color: $c12;
-	text-decoration: none;
-	cursor: pointer;
+  color: $c12;
+  text-decoration: none;
+  cursor: pointer;
 
-	&:hover {
-		text-decoration: underline;
-	}
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 H1, H2, H3, H4, H5, STRONG {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 H1, H2, H3, H4, H5, P, TABLE, PRE {
-	margin: 0 0 18px;
+  margin: 0 0 18px;
 }
 
 H1 {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 H2 {
-	font-size: 22px;
+  font-size: 22px;
 }
 
 H3 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 H4 {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 &.su-big {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 &.su-small {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 
@@ -64,39 +64,39 @@ H4 {
 */
 
 HR {
-	clear: both;
-	border: none;
-	border-top: 1px solid $ruler-def;
-	margin: 25px 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid $ruler-def;
+  margin: 25px 0;
 
-	&.su-big {
-		border-top: 4px solid;
-	}
+  &.su-big {
+    border-top: 4px solid;
+  }
 
-	&.su-dark {
-		border-color: $ruler-dark;
-	}
+  &.su-dark {
+    border-color: $ruler-dark;
+  }
 }
 
 UL {
-	&.su-dash {
-		list-style: none;
-		margin: 0 0 18px;
-		padding: 0;
+  &.su-dash {
+    list-style: none;
+    margin: 0 0 18px;
+    padding: 0;
 
-		UL {
-			margin-left: 25px;
-		}
+    UL {
+      margin-left: 25px;
+    }
 
-		LI {
-			margin-left: 25px;
+    LI {
+      margin-left: 25px;
 
-			&:before {
-				position: absolute;
-				z-index: 0;
-				content: '\2014';
-				margin-left: -25px;
-			}
-		}
-	}
+      &:before {
+        position: absolute;
+        z-index: 0;
+        content: '\2014';
+        margin-left: -25px;
+      }
+    }
+  }
 }

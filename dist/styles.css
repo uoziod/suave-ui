@@ -1141,42 +1141,39 @@ INPUT[type=text], INPUT[type=password] {
     margin-bottom: -0.75px;
     left: 20px;
     content: '';
-    border: 10px solid;
-    border-bottom-color: #fff;
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent; }
-  /* line 32, /Users/semyon/Projects/suave-ui/styles/dropdown */
+    border: transparent 10px solid;
+    border-bottom-color: #fff; }
+  /* line 29, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown:before {
     z-index: 1;
     margin-bottom: 0;
     border-bottom-color: #ccc; }
-  /* line 38, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 35, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown :last-child {
     margin-bottom: 0; }
-  /* line 44, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 41, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown.su-tiny-wrap:before, .su-dropdown.su-tiny-wrap:after {
     left: 8px; }
-  /* line 50, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 47, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown.su-w200 {
     min-width: 200px; }
-  /* line 50, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 47, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown.su-w300 {
     min-width: 300px; }
-  /* line 50, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 47, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown.su-w400 {
     min-width: 400px; }
-  /* line 50, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 47, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown.su-w500 {
     min-width: 500px; }
-  /* line 50, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 47, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-dropdown.su-w600 {
     min-width: 600px; }
 
-/* line 56, /Users/semyon/Projects/suave-ui/styles/dropdown */
+/* line 53, /Users/semyon/Projects/suave-ui/styles/dropdown */
 .su-spinner {
   text-align: center; }
-  /* line 59, /Users/semyon/Projects/suave-ui/styles/dropdown */
+  /* line 56, /Users/semyon/Projects/suave-ui/styles/dropdown */
   .su-spinner I {
     font-size: 20px;
     color: #666; }
